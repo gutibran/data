@@ -1,4 +1,3 @@
-
 1. B. File encryption meets all of the needs described. Full- disk encryption is easier to deploy and manage but does not protect individual files in motion and does not effectively support multiuser scenarios. Partition- level encryption has the same challenges, albeit at a partition rather than full- disk level. Record- level encryption is typically used in databases to protect individual records or entries.
 2. D. Wildcard certificates are used to handle multiple subdomains with a single certificate.  A self- signed certificate will not be recognized by browsers and other services, creating confu-sion for customers. Root of trust certificates and CRL certificates are not types of certificates.
 3. A. Gap analysis considers control objectives and the controls that are intended to meet the objectives.
