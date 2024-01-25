@@ -1,1066 +1,227 @@
-1. C. This description does not include any risk to availability since there is no information 
-about systems or services being down or offline. This scenario would likely result in reputa-
-tional, financial, and data loss impacts for Scott’s company.
-2. D. KRIs, or key risk indicators, need to be actionable so that the organization can use them 
-to control or manage risk, they need to be measurable so that they can be assessed, and they 
-must be relevant to the risks that they measure. They don’t necessarily have to be inexpen-
-sive, as organizations may make choices about costs based on their risks and business models.
-3. A. A recovery time objective (RTO) is set by organizations to describe how long restoring 
-systems or services to normal function after a disruption can take. Mean time to repair 
-(MTTR) is the average time it takes to repair a system or device. A recovery point objective 
-(RPO) describes how much data can be lost in the event of an outage or issue, and the mean 
-time between failures (MTBF) is a measure of the reliability of a system. It is the expected 
-amount of time that will elapse between system failures.
-4. B. Acceptable use policies (AUPs) describe how and what users can use organizational 
-resources, systems, and services for. Business continuity policies describe how an organization 
-approaches business continuity, and incident response policies focus on how organizations 
-respond to incidents. A standard acts as the rules to achieve an intent, while policies describe 
-the organization’s intent. This policy describes intent, not specific implementations.
-5. D. Angie has conducted passive reconnaissance. She did not perform a scan or otherwise take 
-direct active action to gather her information. Instead, she used the existing Shodan engine 
-to gather information. While Shodan is a commercial product and does gather information 
-using scans, databases like Shodan are considered passive reconnaissance, and the Security+ 
-exam objectives recognize two types of reconnaissance: active and passive.
-6. C. Data processors do just that— they process the data on behalf of a data controller, who 
-determines how data is processed and what purposes it is used for. They do not own the 
-data, and they are typically contracted to process the data rather than contracting with third 
-parties themselves.
-7. D. Ginger is a data subject, a person who can be identified by her personally identifiable 
-information (PII). Data owners are responsible for protection, usage, and quality  310 Appendix ■ Answers to Review Questions
-of datasets. Data controllers determine how data will be used, and processors do the actual 
-data processing.
-8. C. Qualitative risk assessment uses knowledge and expertise to assess risk rather than assign-
-ing numeric values and calculations like a quantitative assessment process would. Ad hoc risk 
-assessment is done when risks need to be assessed for a specific, immediate need unlike the 
-planned, regular risk assessments described. Continuous risk assessment is ongoing, whereas 
-this is conducted regularly.
-9. A. Qualitative risk assessments measure likelihood on a descriptive scale like high, medium, 
-or low. Quantitative assessments measure likelihood on a numeric scale using known event 
-occurrence rates where possible.
-10. A. Boards often include external members who may have industry or other experience and 
-expertise that will benefit the organization, and they are sometimes, but not always, paid 
-as part of their work on the board. Committees are frequently composed of internal staff; 
-government- based governance occurs through laws or as part of public service. Market- based 
-is not a type of governance outlined by the Security+ exam objectives.
-11. A. Risk transfer options move the costs of risks to another organization such as through 
-insurance. Acceptance involves management acknowledging that the risk and its impacts may 
-occur, and that the organization will move forward despite that chance. Avoidance seeks to 
-prevent the risk from occurring. Mitigation works to limit the impact of a risk.
-12. C. Boards provide strategic oversight and direction for organizations. Boards may form sub-
-committees to accomplish specific tasks or to provide oversight over specific areas. Regula-
-tors oversee an industry based on law. Activist investor’s groups are not covered by the exam, 
-but typically they own stock in an organization and seek to direct the organization through 
-their activism and stock ownership.
-13. C. This governance approach is a decentralized approach with each unit or area providing 
-their own governance. While flexible, this can be problematic because of a lack of consistency 
-and overhead due to unique circumstances and requirements. Centralized designs do not 
-delegate authority and instead place authority in a central place, organization, or individual. 
-There is no mention of a board or committee.
-14. B. A one- time risk assessment that addresses the acquisition will best meet Sharon’s needs. 
-Ad hoc assessments are less formal, and they are often used to quickly assess a system or 
-other potential risk. There is no requirement listed for third- party assessment, and they can 
-be both expensive and time-consuming. Continuous risk assessment efforts are typically built 
-into ongoing processes and are not suited to this type of one- time review.
-15. C. Data processors process data on behalf of controllers. Data subjects are the individuals or 
-organizations that data describes. Data owners create and are responsible for data, and data 
-administrator is not a broadly or consistently used term in this context.
-16. D. Right- to- audit clauses provide customers with the right to have an audit of their vendor 
-like an SOC 2, Type 1 assessment performed. SOC 2, Type 1 reports are not penetration test-
-ing reports, vulnerability scan reports, or risk assessment reports.Chapter 5: Domain 5.0: Security Program Management and Oversight  311
-17. A. Data owners are responsible for data, including classifying it, protecting it, overseeing the 
-use of it, and ensuring the quality of the overall data. They are not, however, responsible for 
-directly processing the data.
-18. B. Risk exceptions are granted when a risk is accepted by the organization, despite not fol-
-lowing typical organizational policies or processes. This is not a transfer or mitigation, and 
-simply documenting the risk does not cause it to be accepted.
-19. C. Data owners classify, protect, oversee the use of, and ensure the quality of data. Control-
-lers are responsible for the procedures and purposes of data use, often described as the why 
-and how. Custodians are the staff and teams who handle data, and processors work with 
-data on behalf of a controller.
-20. C. There are four commonly used business impact analysis (BIA) measures that are part of 
-the Security+ exam objectives: recovery time objectives (RTOs), recovery point objectives 
-(RPOs), mean time to repair (MTTR), and mean time between failures (MTBF). ARO, or 
-annual rate of occurrence, is associated with risk assessment, not BIA.
-21. B. Data processors process data for data controllers. In this scenario, Julie or a member 
-of her staff is the data controller and the third- party organization is a processor. They 
-do not own the data, and they are not custodians who are responsible for the data on an 
-ongoing basis.
-22. D. Service level agreements (SLAs) set forth the expected service level as well as penalties 
-for nonperformance. A master services agreement (MSA) is a broad agreement that addi-
-tional work may be performed under. An NDA, or nondisclosure agreement, sets forth 
-what information may and may not be shared or disclosed. The mean time between failures 
-(MTBF) is a measure of the reliability of a system. It is the expected amount of time that will 
-elapse between system failures.
-23. D. Data controllers determine the purpose and methods of data processing. They may be 
-individuals, groups, or organizations. This is defined by the General Data Protection Regula-
-tion (GDPR). That may involve how data flows, and the formats or other details of data, but 
-the best— and legally defined— role of a controller is the one set by the GDPR.
-24. B. Augie is a data custodian. In this role he is responsible for data’s use in the business, 
-including storing and properly handling data. Data owners are responsible and accountable 
-for data as well as ensuring that custodians and others are handling the data appropriately. 
-Data processors do actual data processing, and may be an individual, organization, or group. 
-Data subjects are the people who the data describes or is about.
-25. C. Sanctions are typically applied to countries rather than companies or individuals. Fines 
-and loss of license are typically aimed at companies and individuals, and mandatory report-
-ing is not a penalty included in the Security+ exam.
-26. A. Terms used for risk appetite in the Security+ exam objectives include conservative, 
-neutral, and expansionary. Intentional is not a term used for risk appetite.312 Appendix ■ Answers to Review Questions
-27. B. Data stewards are responsible for the data in their charge. That means they carry out data 
-usage and security policies and ensure that data is handled appropriately. Creating data is 
-typically done by data owners, who also explain and set data security policies. Multiple roles 
-oversee data throughout its life cycle, not just a data steward.
-28. A. Data controllers determine what data is used and how it is processed. Supervisory author -
-ities are public authorities in the European Union (EU) that monitor for compliance with the 
-General Data Protection Regulation (GDPR). Data protection officers are required by the 
-GDPR and oversee data protection strategies and their implementation. Data processors do 
-just that— they process the data on behalf of a data controller who determines how data is 
-processed and what purposes it is used for. They do not own the data, and are typically con-
-tracted to process the data rather than contracting with third parties themselves.
-29. C. Avoidance seeks to prevent the risk from occurring. In this case, the WAF is a method of 
-preventing the attack, thus avoiding the risk. Risk transfer options move the costs of risks to 
-another organization such as through insurance. Acceptance involves management acknowl-
-edging that the risk and its impacts may occur and that the organization will move forward 
-despite that chance. Mitigation works to limit the impact of a risk.
-30. B. HTTPS using TLS is a form of encryption for data in motion. Encryption standards often 
-require specific ways to use encryption, encryption algorithms, settings or configurations for 
-encryption, or times and places where encryption must be used. Access control standards 
-focus on how access is controlled, by whom, and who is impacted. Password standards define 
-settings and requirements related to passwords, and physical security standards address 
-physical security requirements.
-31. A. Cloud vendors rarely agree to right- to- audit clauses, instead choosing to provide their 
-own third- party audit results. This reduces the chances of an audit or assessment causing 
-issues with their other customers. Third- party audit costs covered by right- to- audit clauses 
-are often borne by the customers, not the vendor. Not passing an audit is unlikely for major 
-vendors, regulatory requirements are more likely to require audits, and regulations rarely 
-limit auditability.
-32. A. Access control standards often define how and when users can access or use systems and 
-services. Defining user access to only be allowed during working hours is an example of an 
-access control standard. Encryption standards often require specific ways to use encryption, 
-encryption algorithms, settings or configurations for encryption, or times and places where 
-encryption must be used. Password standards define settings and requirements related to 
-passwords, and physical security standards address physical security requirements.
-33. C. The Advanced Encryption Standard (AES) is the most commonly accepted and used 
-encryption standard as of this writing. Selecting a longer key length like 256 over a 128- bit 
-option provides greater resistance to brute- force attacks. SHA- 1 and SHA- 2 are hashing algo-
-rithms, not encryption algorithms.
-34. D. Agile, along with continuous integration/continuous delivery (CI/CD) pipelines, describes 
-a software development life cycle. Business continuity, disaster recovery, and incident 
-response policies may mention the Agile process and impacts on the CI/CD pipeline, but it is 
-not the primary focus of those types of policies.Chapter 5: Domain 5.0: Security Program Management and Oversight  313
-35. C. Change management practices often include options for preapproved changes, emergency 
-changes, and standard changes. Changes required by legislation or other external factors are 
-not typically built into most change management processes.
-36. B. A business impact analysis (BIA) is a formal process used to identify mission- critical 
-functions and to ensure that critical systems that support those functions are identified and 
-assessed. Risk assessment seeks to identify risks and their probability and impact, and a pen-
-etration test attempts to emulate how attackers might gain access to or otherwise impact sys-
-tems and services.
-37. C. Policies are a statement of organizational intent. Standards are defined to help organiza-
-tion achieve that intent through the use of rules. Policies are typically defined by an organiza-
-tion, and standards may be adopted from third parties or created by the organization itself. 
-Policies might be defined by law but are not required to be defined that way.
-38. A. Service level agreements set forth the expected service level as well as penalties for non-
-performance. That means that Sophie needs to determine whether her vendor is meeting their 
-promised delivery levels or availability levels and to claim appropriate penalties as defined 
-in the contract if they are not met. KPIs may be involved but would be measured against her 
-vendor’s performance, not her team’s performance. Security levels and supply chain avail-
-ability levels are not the only potential items covered by an SLA.
-39. C. Probability and impact are used to describe risk. ALE is the annual loss expectancy, 
-or how much risks will likely cost an organization per year, and SLE is the single loss 
-expectancy, or how much a single risk will cost if it occurs. Acceptance is a risk- handling pro-
-cess, not a way of describing risks.
-40. B. The only active reconnaissance task listed here is the nmap scan. Looking up information 
-in Shodan, querying local DNS, and using public records are all examples of passive 
-information gathering that does not actively probe the organization.
-41. B. Data owners are responsible for categorizing, overseeing the usage of, and protecting data, 
-but are typically not directly responsible for processing it.
-42. B. Knowledge- based authentication information is often easily available via social media 
-or searches. Thus, using it as part of password recovery processes is problematic for orga-
-nizations. Users will typically remember answers to knowledge- based authentication ques-
-tions. While knowledge- based authentication isn’t typically used for multifactor, something 
-you know is a legitimate option, and knowledge- based authentication information could be 
-recovered from compromised organizations, but this is not a common threat model.
-43. D. Mitigation works to limit the impact of a risk, such as by taking action like segmenting 
-the network to prevent further malware spread. Avoidance seeks to prevent the risk from 
-occurring. Risk transfer options move the costs of risks to another organization such as 
-through insurance. Acceptance involves management acknowledging that the risk and its 
-impacts may occur, and that the organization will move forward despite that chance.
-44. A. Password standards typically include elements like the NIST 800- 63B recommenda-
-tions, not using password hints, not expiring passwords, storing passwords in a secure way, 314 Appendix ■ Answers to Review Questions
-and establishing a minimum password length of at least 8 characters for user- generated 
-passwords.
-45. B. Organizations that focus on reducing risk and that have significant compliance require-
-ments are likely to adopt a conservative risk appetite. Expansionary risk appetite is rare 
-when compliance and risk reduction are primary goals of the organization. Authoritarian and 
-legislative are not typically used terms to describe risk appetite.
-46. C. Detailed guides to organization practices for security events are called playbooks. In this 
-case, Jack received the organization’s ransomware playbook. A policy would include high- 
-level statements of intent, cookbooks are not a typical term used for documents like these, 
-and this situation involves ransomware, not a disaster recovery scenario.
-47. D. Regulations most commonly have fines and sanctions as their primary punishments levied 
-against noncompliant organizations. Data breaches and reputational damage may occur, but 
-are they are not enforced by regulation. Contractual impacts may occur, but again are not 
-directly enforced by regulations.
-48. A. Playbooks are detailed documents describing how to respond to a type of incident or 
-event. An example is the CISA’s Cybersecurity Incident and Vulnerability Response playbook, 
-which includes steps like identifying anomalous activity, identifying root cause, and analyzing 
-for common adversary TTPs (www.cisa.gov/sites/default/files/publications/  
-Federal_Government_Cybersecurity_Incident_and_Vulnerability_  
-Response_Playbooks_508C.pdf). They are not legal documents, are detailed instead of 
-high-level like a policy, and are more detailed than a general IR process document.
-49. B. Nondisclosure agreements (NDAs) are used to protect sensitive data. Service level 
-agreements (SLAs) determine service levels and penalties if they are not met. Master service 
-agreements (MSAs) are foundational documents determining how organizations will work 
-together as a foundation for specific work covered in SOWs (statements of work). BPAs 
-(business partners agreements) are used when two organizations want to do business as a 
-partnership.
-50. C. Onboarding processes commonly include things like new employee orientation, creation 
-of user accounts and provisioning of rights for the employee’s account, and ensuring the 
-employee has completed security training. Identity proofing may be part of that process, but 
-was not mentioned here. Mandatory access control is an access control model, and biometric 
-enrollment involves capturing information about an individual’s biometric markers or profile.
-51. A. The GDPR provides the right to be forgotten, which allows individuals to request that 
-their data be deleted. The rights to deletion, privacy, and ownership were made up for this 
-question.
-52. B. Acceptance involves management acknowledging that the risk and its impacts may occur, 
-and that the organization will move forward despite that chance. Risk transfer options move 
-the costs of risks to another organization such as through insurance. Avoidance seeks to pre-
-vent the risk from occurring. Mitigation works to limit the impact of a risk, such as by taking 
-action to prevent further malware spread.Chapter 5: Domain 5.0: Security Program Management and Oversight  315
-53. B. Sending organizational data with a departing employee is not a common practice. In 
-fact, organizations often ask employees to certify that they have returned all organiza-
-tional devices and data. Returning company equipment, disabling the departing employee’s 
-accounts or removing them, and changing any passwords on shared accounts are all common 
-offboarding practices.
-54. D. Neutral risk appetites balance organizational goals against risk. Conservative risk appe-
-tites seek to reduce risks over addressing other goals, and expansionary risk appetites will 
-accept risk to achieve goals. Reactionary is not a typical description of risk appetite.
-55. C. Known environment tests provide full information to testers, allowing them to use 
-information about the environment without having to discover it. Partially known envi-
-ronment tests provide some, but not all information about the environment for testers. 
-Unknown environment tests simulate what an attacker would encounter and do not pro-
-vide information; instead, the testers have to discover it themselves. Third- party tests are 
-conducted by external groups or individuals and may be known, unknown, or partial 
-knowledge tests.
-56. D. BPAs, or business partners agreements, are used when two organizations want to do 
-business as a partnership. SLAs, or service level agreements, determine service levels and pen-
-alties if they are not met. Nondisclosure agreements, or NDAs, are used to protect sensitive 
-data. Master service agreements, or MSAs, are foundational documents determining how 
-organizations will work together as a foundation for specific work covered in SOWs, or 
-statements of work.
-57. B. Unknown environment tests simulate what an attacker would encounter and do not pro-
-vide information; instead, the testers have to discover it themselves. Known environment tests 
-provide full information to testers, allowing them to use information about the environment 
-without having to discover it. Partially known environment tests provide some, but not all 
-information about the environment for testers. Third- party tests are conducted by external 
-groups or individuals and may be known, unknown, or partial knowledge tests.
-58. B. Likelihood describes the possibility of a risk occurring. Impact describes what will happen 
-if it does, potential is not a term used in this space, and rate of occurrence is how often a risk 
-occurs on an annual basis.
-59. C. Known environment tests provide full information to testers, allowing them to use 
-information about the environment without having to discover it. This means that the test-
-ing will be more efficient and will provide more information in most cases. Partially known 
-environment tests provide some, but not all information about the environment for testers. 
-Unknown environment tests simulate what an attacker would encounter and do not pro-
-vide information; instead, the testers have to discover it themselves. Third- party tests are 
-conducted by external groups or individuals and may be known, unknown, or partial 
-knowledge tests.
-60. B. Risk exception recognizes risk areas where an organization may not be in compliance 
-with policies or regulations, and may be acknowledged because they cannot be addressed in a 
-timely manner or are required for the organization to conduct business. Risk transfer options 
-move the costs of risks to another organization such as through insurance. Risk avoidance 316 Appendix ■ Answers to Review Questions
-involves preventing the risk from occurring. Mitigation works to limit the impact of a risk, 
-such as by taking action to prevent further malware spread.
-61. C. Regulatory compliance typically requires risk assessment on a regular basis, often once a 
-year. Ad hoc, one- time, and continuous risk assessments are used for other purposes to serve 
-the organization but are not as common for regulatory compliance.
-62. A. Partially known environment tests provide some, but not all information about the 
-environment for testers. In this case, knowledge of the systems, IPs, and services is an 
-example of partial knowledge. Known environment tests provide full information to testers, 
-allowing them to use information about the environment without having to discover it. 
-Unknown environment tests simulate what an attacker would encounter and do not pro-
-vide information; instead, the testers have to discover it themselves. Third- party tests are 
-conducted by external groups or individuals and may be known, unknown, or partial 
-knowledge tests.
-63. B. An organization willing to accept significant risk has adopted an expansionary risk appe-
-tite. Neutral risk appetites balance risk and other factors, conservative appetites seek to limit 
-risk rather than prioritize other goals or objectives, and limited is not a term used on the 
-Security+ exam objectives in this area.
-64. A. Information gathering and scanning together are common elements of reconnaissance. 
-Since this involves both scanning and OSINT gathering, this is reconnaissance instead of 
-passive information gathering via OSINT. Known environment tests provide full information 
-to testers, allowing them to use information about the environment without having to dis-
-cover it. Unknown environment tests simulate what an attacker would encounter and do not 
-provide information; instead, the testers have to discover it themselves.
-65. A. Individuals who use the GDPR’s right to be forgotten are data subjects, a person who can 
-be identified by their personally identifiable information. Data controllers determine how 
-data will be used, and processors do the actual data processing. Data owners are responsible 
-for protection, usage, and quality of datasets.
-66. C. Exposure factors are the percentage of value of an asset that would be lost due to an inci-
-dent. ALE is the annual loss expectancy, and the ARO is the annual rate of occurrence. SLE is 
-the single loss expectancy. Calculating these gives the cost of an incident, but EF is the impact 
-of the risk and is not calculated using these, nor does it involve the likelihood of the risk.
-67. C. Physical security testing involves testing an organization’s physical security defenses and 
-practices, including guards, locks and doors, and other physical security components. Offen-
-sive penetration testing involves acting like attackers, while defensive penetration testing 
-seeks to learn as defenders. Integrated penetration testing combines both.
-68. D. Integrated penetration testing combines both offensive and defensive penetration testing, 
-and testing guards as well as attempting to make it through access controls is an example of 
-an integrated test. Physical security testing involves testing an organization’s physical secu-
-rity defenses and practices, including guards, locks and doors, and other physical security 
-components like access control vestibules. Offensive penetration testing involves acting like 
-attackers, while defensive penetration testing seeks to learn as defenders.Chapter 5: Domain 5.0: Security Program Management and Oversight  317
-69. B. Offensive penetration testing involves acting like attackers, including nation- state actors 
-with advanced capabilities like those described in this question. Physical security testing 
-involves testing an organization’s physical security defenses and practices, including guards, 
-locks and doors, and other physical security components like access control vestibules. 
-Defensive penetration testing seeks to learn as defenders. Integrated penetration testing com-
-bines both.
-70. B. The GDPR is a regulation, making this a regulatory assessment or audit. There is no pene-
-tration testing mentioned, the auditors are not described as internal or external, and no attes-
-tation is mentioned.
-71. A. Secure, ransomware resistant backups can mitigate the impact of ransomware but cannot 
-stop it from impacting systems like an endpoint detection and response (EDR) tool can. Since 
-Alexandria’s focus is on immediate mitigation, her best answer is EDR. Cybersecurity insur -
-ance is a means of transferring risk, and simply operating as usual is an acceptance strategy.
-72. B. Shane’s organization has determined their risk appetite. They are willing to accept some 
-risk, but may also choose to mitigate, transfer, or otherwise deal with their risk to match their 
-appetite. Ad hoc describes risk assessment, not risk appetite or thresholds, and there is no 
-way to determine if this is a conservative, neutral, or expansionary risk appetite.
-73. C. Defensive penetration testing seeks to allow the organization to learn as defenders. Offen-
-sive penetration testing involves acting like attackers, including nation- state actors with 
-advanced capabilities like those described in this question. Physical security testing involves 
-testing an organization’s physical security defenses and practices, including guards, locks and 
-doors, and other physical security components like access control vestibules. Integrated pene-
-tration testing combines both.
-74. D. Integrated penetration testing combines both offensive and defensive techniques and is 
-often woven into an organization’s practices on an ongoing basis. Offensive penetration test-
-ing involves acting like attackers, including nation- state actors with advanced capabilities like 
-those described in this question. Defensive penetration testing seeks to allow the organiza-
-tion to learn as defenders. Physical security testing involves testing an organization’s physical 
-security defenses and practices, including guards, locks and doors, and other physical security 
-components like access control vestibules.
-75. D. Auditors provide a statement about an organization’s posture as part of an attestation 
-process. This provides assurance that the auditors have reviewed the organization’s practices 
-and have found them suitable or that deficiencies have been identified. Penetration testing 
-is the process of testing the security of an organization and is not an audit. Audit sign- off 
-occurs when management signs an audit to acknowledge their awareness of its results. 
-Regulatory defense was made up for this question.
-76. A. Without more information about the specific audits that Joe conducts, all we know is that 
-he is an internal auditor. As an employee of the company that he is working for, he is con-
-sidered an internal auditor. External audits are conducted by third parties. Regulatory audits 
-assess compliance with laws, whereas compliance audits may look at laws or other compli-
-ance targets.318 Appendix ■ Answers to Review Questions
-77. D. The Payment Card Industry Data Security Standard (PCI DSS) is an industry standard, 
-not a law, so this is a compliance audit, not a regulatory audit. Third- party auditors make it 
-an external rather than an internal audit.
-78. B. Filling out forms attesting to your own organization’s compliance status is an example 
-of a self- assessment. This is not an audit activity, PCI DSS is not a regulation, and no third 
-parties were involved to make it external or independent and third party.
-79. C. Audit committees are typically part of the organization’s board of directors, and they 
-oversee financial reporting–related activities. Audit committees are required for US- traded 
-companies that are listed on stock exchanges. Shareholders, third- party assessors, and the 
-security office are not typical places to find an audit committee.
-80. D. Continuous integration/continuous delivery (CI/CD) pipelines deploy software on an 
-ongoing basis, making them a good fit for continuous risk assessment techniques. Ad hoc, 
-one- time, and third- party assessments are not suited to the ongoing, rapid assessment pace 
-needed for a CI/CD model.
-81. B. External audits like a SOC 2, Type 2 audit should be conducted by an independent 
-third party to be considered valid. An internal audit, no matter who signs off on it, is not 
-used for this purpose, nor are self- assessments. Penetration tests do not generate an SOC 2 
-audit report.
-82. D. An organization’s risk threshold is the level where they will switch from accepting a 
-risk to seeking to handle the risk. In this case, the risk has surpassed the organization’s risk 
-threshold, resulting in a plan to avoid the risk. The risk did not drop below the threshold, the 
-risk assessment was successful in helping the organization identify a concern, and no con-
-trols failed.
-83. A. The Health Insurance Portability and Accountability Act (HIPAA) is a regulation, and 
-organizations that must comply with laws need to conduct regulatory assessments. Offensive 
-testing is a penetration testing model that mirrors actual attackers. Known environment test-
-ing leverages full knowledge of an organization as part of a penetration test. Physical testing 
-validates physical security controls.
-84. A. Policies are high- level descriptions of an organization’s intent and understanding of their 
-topic. Procedures will have descriptions of how a change is made in detailed form, while 
-standards will describe how changes are created, made, and approved. Regulatory require-
-ments are most likely to be part of standards or procedures.
-85. C. Marek should follow his organization’s change management process to document the 
-change required and to ensure that it is regularly reviewed. This may not require a risk 
-assessment since it may be a simple requirement or may have already been assessed. The type 
-of security variance needed is not described, so it is not clear if removing the system from the 
-network is necessary.
-86. A. Business continuity plans address how the organization will respond, including 
-referencing runbooks that may detail how to handle restoration or other efforts on a step- by- 
-step basis, but doesn’t itself include that level of detail. Business continuity policies describe 
-the organization’s intent at a high level and are likely to reference the business continuity 
-plan. They are not the same, as the policy is a higher- level document than the plan is.Chapter 5: Domain 5.0: Security Program Management and Oversight  319
-87. C. Policies are distinct from procedures and standards because they include high- level state-
-ments of intent rather than specific practices. Procedures document the practices an organi-
-zation will use, whereas standards set expectations or specific configurations or details about 
-how something is done or set up.
-88. C. The EU’s GDPR provides the right to be forgotten, which allows Terry to request that 
-organizations remove all of his data from their systems. HIPAA is a US regulation; data stew-
-ardship is an organizational role, not a right; and personal data ownership is not a right.
-89. B. Risk exposure is calculated by multiplying probability and impact. Cost is measured in 
-currency, time, or other cost metrics; vulnerability is often measured using CVSS scores; and 
-audit findings may have criticality ratings.
-90. B. Qualitative risk assessment relies on expertise and staff members who have relevant 
-knowledge to provide a rating based on their experience, skills, and knowledge. A common 
-rating for probability in a qualitative risk assessment might be low, medium, or high, rather 
-than a 0–100 rating based on statistics or large datasets.
-91. B. Rules of engagement determine how a penetration tester will conduct an engagement. 
-Passwords may be part of the information provided before the test for a full knowledge or 
-partial knowledge test but are not part of the rules of engagement.
-92. D. Rules of engagement are created for penetration testing efforts that include a wide variety 
-of information, including scope, schedules, what to do if a preexisting compromise is dis-
-covered, requirements for how to handle third- party- hosted tools and environments, how 
-sensitive data and data related to the penetration test will be handled, and who to contact 
-in emergencies. A right- to- audit clause is included in contracts, allowing audits to occur as 
-part of the contract. SLAs are used to set service levels and penalties if they are not met, and 
-MOUs document organizations’ interest and willingness to work together.
-93. A. An organization’s risk threshold is the level where they will switch from accepting a risk 
-to seeking to handle the risk. Their risk appetite is the amount of risk an organization is wil-
-ling to accept to achieve its goals. Ad hoc risk level and third- party risk level were made up 
-for this question.
-94. D. AUPs, or acceptable use policies, describe how organizational resources, systems, and ser -
-vices can and should be used.
-95. C. Large breaches, particularly when the organization has been negligent, can have large 
-impacts on the organization’s reputation, resulting in long- term damage. Fines and contrac-
-tual impacts may be impactful but are often resolved relatively quickly. Due diligence was not 
-shown but is not an impact— rather, it is part of an organization’s responsibilities.
-96. B. A statement of work (SOW) or work order (WO) is created to list the tasks and deliver -
-ables that will be performed under the blanket master services agreement (MSA). An MOU, 
-or memorandum of understanding, declares how two organizations want to work together; a 
-business partners agreement (BPA) establishes a partnership between two organizations; and 
-punch lists are not covered under the Security+ exam outline but are a list of tasks that must 
-be accomplished for a contractor to be paid.320 Appendix ■ Answers to Review Questions
-97. D. Jack should use the manufacturer’s published mean time between failures (MTBF), 
-which is a measure of the reliability of a system. It is the expected amount of time that will 
-elapse between system failures. While organizations typically replace devices well before 
-their MTBF ratings, knowing how long the devices should last on average can be useful in 
-long- lived applications and for budgetary planning. A recovery time objective, or RTO, is 
-set by organizations to describe how long restoring systems or services to normal function 
-after a disruption can take. Mean time to repair, or MTTR, is the average time it takes to 
-repair a system or device. A recovery point objective, or RPO, describes how much data can 
-be lost in the event of an outage or issue.
-98. D. Mean time between failures (MTBF) is a measure of the reliability of a system. It is 
-the expected amount of time that will elapse between system failures, but it is merely an 
-average. Jason should expect that drives will fail, and that their average service life will be 
-300,000 hours. That means that half of the drives are likely to fail before 300,000 hours, 
-and half will fail after that number.
-99. C. A recovery point objective, or RPO, describes how much data can be lost in the event 
-of an outage or issue. A recovery time objective, or RTO, is set by organizations to describe 
-how long restoring systems or services to normal function after a disruption can take. Mean 
-time to repair, or MTTR, is the average time it takes to repair a system or device. The mean 
-time between failures (MTBF) is a measure of the reliability of a system. It is the expected 
-amount of time that will elapse between system failures.
-100. A. The Security+ exam objectives list three categorizations you need to be familiar with for 
-anomalous behavior: risky, unexpected, and unintentional. The other terms listed are not 
-ways that the exam categorizes anomalous behavior.
-101. A. Greg has conducted an ad hoc assessment by quickly pulling together a team without 
-a formal process or procedure. Instead, he is seeking to quickly assess risk and take action. 
-A one- time assessment typically follows an established methodology but is only con-
-ducted once. Third- party risk assessment uses external teams or staff, and continuous risk 
-assessment is done on an ongoing basis.
-102. B. Mean time to repair, or MTTR, is the average time it takes to repair a system or device, 
-and Olivia needs to know that to determine what she can promise in her service level 
-agreements that rely on server repair timelines. A recovery time objective, or RTO, is set by 
-organizations to describe how long restoring systems or services to normal function after 
-a disruption can take; it doesn’t determine how fast the server can be fixed but sets a goal 
-that needs to take things like repair and recovery time into account as it is determined. A 
-recovery point objective, or RPO, describes how much data can be lost in the event of an 
-outage or issue, and the mean time between failures (MTBF) is a measure of the reliability 
-of a system. It is the expected amount of time that will elapse between system failures.
-103. C. The underlying agreement between two organizations that determines how the organi-
-zations will work together is a master services agreement (MSA). A MOU, or memorandum 
-of understanding, declares how two organizations want to work together; a business part-
-ners agreement (BPA) establishes a partnership between two organizations; SLAs (service 
-level agreements) set service level expectations and penalties if they are not met; and a 
-business partners agreement (BPA) establishes two organizations as partners rather than 
-establishing a working relationship for services as set forth in SOWs.Chapter 5: Domain 5.0: Security Program Management and Oversight  321
-104. C. A recovery point objective, or RPO, describes how much data can be lost in the event 
-of an outage or issue, and journaling allows recovery of database transactions by replay-
-ing them against the database once it is restored. Journaling may slow down recovery time 
-objectives as the actions are replayed. A recovery time objective, or RTO, is set by organi-
-zations to describe how long restoring systems or services to normal function after a dis-
-ruption can take. Mean time to repair, or MTTR, is the average time it takes to repair a 
-system or device. The mean time between failures (MTBF) is a measure of the reliability of 
-a system. It is the expected amount of time that will elapse between system failures.
-105. B. A recovery time objective, or RTO, is set by organizations to describe how long restoring 
-systems or services to normal function after a disruption can take. A 12- hour RTO means 
-that recovery from outages should take less than 12 hours. Failing over to a warm site will 
-typically take a while, meaning that starting to fail over after 12 hours will miss the RTO, 
-and MTBF is the mean time between failures, not a recovery timeframe. Failing every 12 
-hours on average would be unacceptable for almost any technical service or system!
-106. B. Valerie should immediately begin a move to the warm site. She knows that moving to 
-her warm site takes half the average time to repair for her datacenter’s power infrastruc-
-ture. That means that in most cases, moving will result in at least a 12- hour shorter out-
-age. If the time to repair proves to be shorter than 12 hours, she can simply stop the move. 
-Waiting does not restore her to operation sooner than 24 hours in the average case, and 
-waiting to make the decision reduces the amount of advantage she gets from moving to the 
-warm site.
-107. A. Quantitative risk assessments assign numeric values and calculations to determine 
-relative risk. Qualitative risk assessment uses knowledge and expertise to assess risk. Cal-
-culated risk is not a term that is commonly used to describe assessment processes like these, 
-and risk registers list risks that an organization has identified but that don’t necessarily 
-involve calculations.
-108. B. Risk registers list organizations risks and their ratings, along with additional 
-information that the organization uses to track or describe risks. Risk appetite plans, 
-quantitative registers, and qualitative assessment reports were made up for this question.
-109. C. Qualitative risk assessment uses knowledge and expertise to assess risk and are thus 
-typically faster and more likely to be completed than a quantitative risk assessment. 
-Quantitative risk assessments assign numeric values and calculations to determine relative 
-risk. Choosing internal or external risk assessments is not a primary driver of speed com-
-pared to choosing quantitative over qualitative risk assessments.
-110. D. SLE, or single loss expectancy, uses the asset value (AV) and exposure factor (EF) to 
-determine the SLE. Purchase date, which department manages the server, and its operating 
-system are not part of the calculation.
-111. B. Undertaking reasonable steps to meet legal requirements like compliance with regu-
-lations is known as due diligence. Data stewardship may be part of those actions, but it 
-focuses on oversight of data and data governance and may not be specifically regulatory 
-focused.322 Appendix ■ Answers to Review Questions
-112. B. Single loss expectancy, or SLE, is calculated by multiplying the asset value (AV) by the 
-exposure factor (EF). In this case, that means that the potential loss during a loss event 
-would be $125,000.
-113. A. Annualized loss expectancy (ALE) is calculated by multiplying the annual rate of 
-occurrence (ARO) by the single loss expectancy (SLE). If a single loss expectancy for a 
-$1,000,000 asset is $100,000 and the annual rate of occurrence is .5— in other words, it 
-happens every two years on average— then the ALE is $50,000.
-114. D. Waylon is a risk owner. He is responsible for ensuring that the risks related to data and 
-the application are managed appropriately. Board members have overall responsibility for 
-an organization. Data processors have a data role, not a risk ownership role, and auditors 
-assess organizations against standards and practices rather than owning risk.
-115. B. Without a license to operate, Nathaniel’s organization will be unable to conduct 
-business. Reputational damage, fines, and contractual impacts can all be navigated if the 
-organization can continue to do business.
-116. C. Susan can calculate the single loss expectancy (SLE) by multiplying the asset value (AV) 
-by the exposure factor (EF), resulting in $25,000. If this loss occurs twice a year, then the 
-annualized loss expectancy (ALE) is $50,000.
-117. A. Annual rate of occurrence is calculated by determining how many times in a year the 
-event happens, on average. If it happens less than once a year, the rate is a fraction based 
-on that rate. Here the event happens once every four years, or .25 of the time during a 
-given year.
-118. D. Annualized loss expectancy is calculated by multiplying the annualized rate of occur -
-rence (ARO) and the single loss expectancy (SLE). Total cost of ownership (TCO) and 
-recovery point objectives (RPO) are not part of this type of risk calculation.
-119. B. Passive reconnaissance is any reconnaissance that is done without actually connecting 
-to the target. In this case, John is conducting a form of OSINT, or open source intelligence, 
-by using commonly available third- party information sources to gather information about 
-his target. Active reconnaissance involves communicating with the target network, such 
-as doing a port scan. The initial exploitation is not information gathering; it is actually 
-breaking into the target network. A pivot is when you have breached one system and use 
-that to move to another system.
-120. C. Using default settings is a form of weak configuration and indicates that the organiza-
-tion is not using baselines effectively and may not have appropriate processes and standards 
-in place. Many vulnerability scanners and attack tools have default settings built- in to test 
-with, and default settings are easily obtained for most devices with a quick search of the 
-Internet. Configuring the accounts is not the issue; using default credentials and settings is. 
-Although training users is important, that’s not the issue in this scenario. Patching systems 
-is important, but that won’t change default settings.
-121. D. Active reconnaissance connects to the network using techniques such as port scanning. 
-Both active and passive reconnaissance can be done manually or with tools. Unknown and 
-known environment tests refer to the amount of information the tester is given. Attackers 
-and testers use both types of reconnaissance.Chapter 5: Domain 5.0: Security Program Management and Oversight  323
-122. B. The rules of engagement for a penetration test typically include the type and scope of 
-testing, client contact information and requirements for when the team should be notified, 
-sensitive data handling requirements, and details of regular status meetings and reports. The 
-remaining options were made up for this question.
-123. B. Unlike a disaster recovery plan that is written to help an organization recovery from 
-a person- made or natural disaster, a business continuity plan focuses on how to keep the 
-business running when it is disrupted. Thus, Charlene’s BC plan would detail how to keep 
-the organization running when a system outage occurs.
-124. C. Many cloud service providers do not allow customer- driven audits, either by the cus-
-tomer or a third party. They also commonly prohibit vulnerability scans of their production 
-environment to avoid service outages. Instead, many provide third- party audit results in the 
-form of a service organization controls (SOC) report or similar audit artifact.
-125. D. A disaster recovery plan addresses what to do during a person- made or natural disaster. 
-A flood that completely fills a datacenter would require significant efforts to recover from, 
-and Gurvinder will need a solid disaster recovery plan— and perhaps a new datacenter 
-location as soon as possible! A COOP, or continuity of operations plan, is needed for 
-U.S. government agencies but is not required for businesses. A business continuity plan 
-would cover how to keep the business running, but it does not cover all the requirements 
-in a natural disaster of this scale, and a flood insurance plan is not a term used in the 
-Security+ exam objectives.
-126. C. Right- to- audit clauses are commonly accepted as part of service and leasing contracts 
-regardless of location for datacenter co- location and facility rental contracts. Cloud service 
-providers, however, are less likely to sign a right- to- audit contract. Instead, they may pro-
-vide third- party audit data to customers or even to potential customers.
-127. A. Playbooks list the actions that an organization will take as part of a response process. A 
-runbook lists the steps required to perform an action like notification, removing malware, 
-or similar tasks. Playbooks tend to be used to document processes, whereas runbooks tend 
-to be used for specific actions. A disaster recovery (DR) plan is used to recover from disas-
-ters, and a business continuity (BC) plan is used to ensure that the organization continues 
-to function.
-128. A. Caroline should select ISO 27002. ISO 27002 is an international standard for imple-
-menting and maintaining information security systems. ISO 27701 is an international 
-standard security technique for privacy information management systems; NIST 800- 12 
-is a general security standard and it is a US standard, not an international one; and 
-NIST 800- 53 is a collection of security and privacy controls for information systems and 
-organizations.
-129. C. Change management is the process of documenting all changes made to a company’s 
-network and computers. Avoiding making changes at the same time makes tracking any 
-problems that can occur much simpler. Due diligence is the process of investigation and ver -
-ification of the accuracy of a particular act. Acceptable use policies state what actions and 
-practices are allowed in an organization while using technology. Due care is the effort made 
-by a reasonable party to avoid harm to another. It is the level of judgment, care, determina-
-tion, and activity a person would reasonably expect to do under certain conditions.324 Appendix ■ Answers to Review Questions
-130. A. An acceptable use policy (AUP) is a document stating what a user may or may not 
-have access to on a company’s network or the Internet. A clean desk policy ensures that all 
-sensitive/confidential documents are removed from an end- user workstation and locked 
-up when the documents are not in use. Mandatory vacation policy is used by companies 
-to detect fraud by having a second person, familiar with the duties, help discover any illicit 
-activities. Job rotation is a policy that describes the practice of moving employees between 
-different tasks. Job rotation can help detect fraud because employees cannot perform the 
-same actions for long periods of time.
-131. C. The PCI DSS, or Payment Card Industry Data Security Standard, is a security standard 
-that is mandated by credit card vendors. The Payment Card Industry Security Standards 
-Council is responsible for updates and changes to the standard. GDPR, or the General Data 
-Protection Regulation, is a standard for data privacy and security in the European Union 
-(EU). COPPA is the Children’s Online Privacy Protection Act, a U.S. federal law. CIS is the 
-Center for Internet Security and is not a law or a regulation.
-132. D. Quantitative risk assessment is the process of assigning numerical values to the proba-
-bility an event will occur and what the impact of the event will have. Change management 
-is the process of managing configuration changes made to a network. Vulnerability 
-assessment attempts to identify, quantify, and rank the weaknesses in a system. Qualitative 
-risk assessment is the process of ranking which risk poses the most danger using ratings like 
-low, medium, and high.
-133. D. A memorandum of understanding (MOU) is a type of agreement that is usually not 
-legally binding. This agreement is intended to be mutually beneficial without involving 
-courts or money. An SLA (service level agreement) defines the level of service the customer 
-expects from the service provider. The level of service definitions should be specific and 
-measurable in each area. A BPA (business partner agreement) is a legal agreement between 
-partners. It establishes the terms, conditions, and expectations of the relationship between 
-the partners. An ISA (interconnection security agreement) is an agreement that specifies the 
-technical and security requirements of the interconnection between organizations.
-134. A. The single loss expectancy (SLE) is the product of the asset value ($16,000) and the 
-exposure factor (.35), or $5,600.
-135. A. Risk acceptance is a strategy of recognizing, identifying, and accepting a risk that is suf-
-ficiently unlikely or that has such limited impact that a corrective control is not warranted. 
-Risk transfer is the act of moving the risk to hosted providers who assume the responsi-
-bility for recovery and restoration or by acquiring insurance to cover the costs emerging 
-from a risk. Risk avoidance is the removal of the vulnerability that can increase a particular 
-risk so that it is avoided altogether. Risk mitigation is when a company implements con-
-trols to reduce vulnerabilities or weaknesses in a system. It can also reduce the impact of 
-a threat.
-136. D. A parking policy generally outlines parking provisions for employees and visitors. This 
-includes the criteria and procedures for allocating parking spaces for employees and is not 
-a part of organizational security policy. Instead, it is an operational or business policy. An 
-acceptable use policy (AUP) describes the limits and guidelines for users to make use of an Chapter 5: Domain 5.0: Security Program Management and Oversight  325
-organization’s physical and intellectual resources. This includes allowing or limiting the use 
-of personal email during work hours. Business continuity policies describe how the organi-
-zation approaches business continuity efforts, and incident response (IR) policies document 
-the organization’s IR intentions and high- level goals.
-137. A. Quantitative risk assessment is the process of assigning numerical values like cost 
-and frequency of occurrence to the probability an event will occur and what impact the 
-event will have, and thus directly evaluates the cost of a risk occurring. Qualitative risk 
-assessment is the process of ranking which risk poses the most danger such as low, medium, 
-and high. A business impact analysis (BIA) is used to evaluate the possible effect a business 
-can suffer should an interruption to critical system operations occur. This interruption 
-could be as a result of an accident, emergency, or disaster. Threat assessment is the process 
-of identifying and categorizing different threats such as environmental and person- made.  
-It also attempts to identify the potential impact from the threats.
-138. D. A nondisclosure agreement (NDA) protects sensitive and intellectual data from getting 
-into the wrong hands. An NDA is a legal contract between the company and a third- party 
-vendor to not disclose information per the agreement. Encrypted data that is sent can still 
-be decrypted by the third- party vendor if they have the appropriate certificate or the key 
-but does not restrict access to the data. Violating an NDA would constitute unauthorized 
-data sharing, and a violation of privileged user role- based awareness training has nothing 
-to do with sharing proprietary information.
-139. C. Sharing of profits and losses and the addition or removal of a partner, as well as 
-the responsibilities of each partner, are typically included in a BPA (business partner 
-agreement). Expectations between parties such as a company and an Internet service pro-
-vider are typically found in a service level agreement (SLA). Expectations include the level 
-of performance given during the contractual service. An SLA will provide a clear means 
-of determining whether a specific function or service has been provided according to the 
-agreed- on level of performance. Security requirements associated with interconnecting IT 
-systems are typically found in an interconnection security agreement, or ISA.
-140. D. Systems should be restored within four hours with a minimum loss of one day’s worth 
-of data. The RTO (recovery time objective) is the amount of time within which a pro-
-cess or service must be restored after a disaster to meet business continuity. It defines how 
-much time it takes to recover after notification of process disruption. The recovery point 
-objective, or RPO, specifies the amount of time that can pass before the amount of data lost 
-may exceed the organization’s maximum tolerance for data loss.
-141. A. A data retention policy defines how long an organization will keep data. Removing 
-sensitive documents not in use is a clean desk policy. A formal process for managing config-
-uration changes is change management, and a memorandum of understanding consists of 
-legal documents that describe mutual agreement between two parties.
-142. B. ALE (annual loss expectancy) is the product of the ARO (annual rate of occurrence) 
-and the SLE (single loss expectancy) and is mathematically expressed as ALE = ARO × 
-SLE. Single loss expectancy is the cost of any single loss, and it is mathematically expressed 
-as SLE = AV (asset value) × EF (exposure factor).326 Appendix ■ Answers to Review Questions
-143. C. Risk transfer is the act of moving the risk to hosted providers who assume the respon-
-sibility for recovery and restoration or by acquiring insurance to cover the costs emerging 
-from a risk. Risk acceptance is a strategy of recognizing, identifying, and accepting a risk 
-that is sufficiently unlikely or that has such limited impact that a corrective control is not 
-warranted. Risk mitigation is when a company implements controls to reduce vulnerabil-
-ities or weaknesses in a system. It can also reduce the impact of a threat. Risk avoidance 
-is the removal of the vulnerability that can increase a particular risk so that it is avoided 
-altogether.
-144. C. The mean time between failures (MTBF) is a measure of the reliability of a system or 
-component. It is the expected amount of time that will elapse between system or device 
-failures. MTTR (mean time to repair) is the average time it takes for a failed device or 
-component to be repaired or replaced. An RPO (recovery point objective) is the period of 
-time a company can tolerate lost data being unrecoverable between backups. ALE (annual 
-loss expectancy) is the product of the annual rate of occurrence (ARO) and the single loss 
-expectancy (SLE).
-145. A. Quantitative risk analysis requires complex calculations and is more time- consuming 
-because it requires detailed financial data and calculations. Quantitative risk assessment 
-is often subjective and requires expertise on systems and infrastructure, and both types of 
-assessment can provide clear answers on risk- based questions.
-146. B. Risk acceptance is a strategy of recognizing, identifying, and accepting a risk that is suf-
-ficiently unlikely or that has such limited impact that a corrective control is not warranted. 
-Risk mitigation is when a company implements controls to reduce vulnerabilities or weak-
-nesses in a system. It can also reduce the impact of a threat. Risk avoidance is the removal 
-of the vulnerability that can increase a particular risk so that it is avoided altogether. 
-Risk transfer is the act of moving the risk to other organizations like insurance providers 
-or hosting companies who assume the responsibility for recovery and restoration or by 
-acquiring insurance to cover the costs emerging from a risk.
-147. A. Data owners assign labels such as top secret to data. Custodians assign security controls 
-to data. A privacy officer ensures that companies comply with privacy laws and regulations. 
-System administrators are responsible for the overall functioning of IT systems.
-148. B. ALE (annual loss expectancy) = SLE (single loss expectancy) × ARO (annualized rate 
-of occurrence). SLE equals $750,000 (2,500 records × $300), and ARO equals 5%, so 
-$750,000 times 5% equals $37,500.
-149. C. RPO (recovery point objective) specifies the allowable data loss. It is the amount of time 
-that can pass during an interruption before the quantity of data lost during that period sur -
-passes business continuity planning’s maximum acceptable threshold. MTBF (mean time 
-between failures) is the rating on a device or component that predicts the expected time 
-between failures. MTTR (mean time to repair) is the average time it takes for a failed device 
-or component to be repaired or replaced. ARO (annual rate of occurrence) is the ratio of an 
-estimated possibility that a threat will take place within a one- year time frame.
-150. C. Onboarding is the process of adding an employee to a company’s identity and access 
-management system. Offboarding is the process of removing an employee from the Chapter 5: Domain 5.0: Security Program Management and Oversight  327
-company’s identity and access management system. A system owner is an individual who 
-is in charge of managing one or more systems and can include patching and updating 
-operating systems. An executive user was made up for this question.
-151. D. This is a procedure, which documents what you should do in general terms. A policy 
-lays out an organization’s intent, and this is more specific than that. A playbook has 
-specific, detailed action, and this procedure does not include that level of detail. Checklists 
-are a step- by- step guide to accomplishing a task, and this document outlines required steps, 
-not step- by- step detail.
-152. B. Organizational policy frameworks typically contain policies, standards and procedures 
-that support and expand on the policy, and guidelines. Risk registers, audit reports, vul-
-nerability scans, and pentest reports are all artifacts organizations generate in support 
-of information security practices. Laws are not part of a policy framework but may 
-influence it.
-153. C. The mean time to repair (MTTR) for a system or devices is the average time that it will 
-take to repair it if it fails. The MTTR is used as part of business continuity planning to 
-determine if a system needs additional redundancy or other options put in place if a failure 
-and repair would exceed the maximum tolerable outage. It is calculated by dividing the 
-total maintenance time by the total number of repairs. MTBF is the mean time between fail-
-ures, MTTF the mean time to failure, and MITM is an on- path attack.
-154. A. Helen has created a disaster recovery plan (DRP). RPOs, or recovery point objectives, 
-are set to determine how much data may be lost if an event or incident occurs; incident 
-response plans focus on incidents, not outages or disasters; and MTBF, or mean time bet-
-ween failures, is not a type of plan.
-155. B. Personal health information (PHI) may be covered by state, local, or federal law, and 
-Greg’s organization should ensure that they understand any applicable laws before storing, 
-processing, or handling health information.
-156. D. An individual is most likely to face identity theft issues if their personally identifiable 
-information (PII) is stolen or breached.
-157. C. It is common practice to prohibit interactive logins to a GUI or shell for service 
-accounts. Use of a service account for interactive logins or attempting to log in as one 
-should be immediately flagged and alerted on as an indicator of compromise (IoC).
-158. D. Emma should categorize this as a supply chain risk. When organizations cannot get the 
-systems, equipment, and supplies they need to operate, it can have a significant impact on 
-their ability to conduct business. That could create financial risk, but financial risk is not 
-the direct risk here. There is no indication that the vendor will not support the systems, nor 
-is there any information about whether there is an integration issue in the description.
-159. B. Patching is a form of avoidance because it works to remove a risk from the environment. 
-Acceptance of flaws that need patching would involve leaving the software unpatched; 
-mitigation strategies might include firewalls, intrusion prevention systems (IPSs), or web 
-application firewall (WAF) devices; and transference options include third- party hosting or 
-services.328 Appendix ■ Answers to Review Questions
-160. A. The fines that can result from violation or infringement of regulations like the General 
-Data Protection Regulation (GDPR) can have a significant impact on an organization, or 
-could even potentially put it out of business. Due to this, organizations will track compli-
-ance with regulations as part of their risk posture.
-161. D. Disaster recovery requires forethought and preparation, response to issues to minimize 
-impact during a disaster, and response activities after a disaster. Thus, a complete disaster 
-recovery plan should include actions that may or will occur before, during, and after a 
-disaster, and not just the recovery process after the fact.
-162. B. Although data breaches could result in termination of a card processing agreement, 
-the fact that her organization is noncompliant is most likely to result in a fine. PCI DSS, 
-or Payment Card Industry Data Security Standard, is a vendor standard, not a law, and 
-criminal charges would not typically be filed in a situation like this.
-163. D. The General Data Protection Regulation, or GDPR, requires a data protection officer 
-(DPO). They oversee the organization’s data protection strategy and implementation, and 
-make sure that the organization complies with the GDPR.
-164. B. An SLA (service level agreement) defines the level of service the customer expects from 
-the service provider. The level of service definitions should be specific and measurable in 
-each area. An MOU (memorandum of understanding) is a legal document that describes 
-a mutual agreement between parties. An ISA (interconnection security agreement) is an 
-agreement that specifies the technical and security requirements of the interconnection 
-between organizations. A BPA (business partners agreement) is a legal agreement between 
-partners. It establishes the terms, conditions, and expectations of the relationship between 
-the partners.
-165. C. The likelihood of occurrence, or probability, is multiplied by the impact to determine a 
-risk’s severity.
-166. D. Organizations can determine how they want to determine asset value, but consistency is 
-important in many cases. Thus, the original cost, the replacement cost, or a depreciated cost 
-may be used.
-167. A. A business impact analysis (BIA) helps to identify critical systems by determining which 
-systems will create the largest impact if they are not available. MTBF is the mean time 
-between failures, an RTO is a recovery time objective, and an ICD was made up for this 
-question.
-168. D. The most common means of transferring breach risk is to purchase cybersecurity insur -
-ance. Accepting breaches is rarely considered a valid risk process, blaming breaches on 
-competitors does not actually transfer risk, and selling data to another organization is not a 
-risk handling process but may be a business process.
-169. C. The cost of a breach is an example of the impact of a breach. Probability is how likely 
-the risk is to occur, and risk severity is calculated by multiplying probability and impact.Chapter 5: Domain 5.0: Security Program Management and Oversight  329
-170. C. Gathering vulnerability information for a system that isn’t scannable from the Internet 
-will require active reconnaissance as part of the penetration testing effort. OSINT and 
-passive reconnaissance do not involve active scans, and known environments provide full 
-knowledge of the environment.
-171. B. Olivia should establish a service level agreement (SLA) with her provider to ensure that 
-they meet the expected level of service. If they don’t, financial or other penalties are typ-
-ically included. Olivia should ensure that those penalties are meaningful to her vendor 
-to make sure they are motivated to meet the SLA. An MOU is a memorandum of under -
-standing and explains the relationship between two organizations; an MSA is a master 
-services agreement, which establishes a business relationship under which additional 
-work orders or other documentation describe the actual work that is done; and a BPA is a 
-business partners agreement, which is used when companies wish to partner on efforts and 
-may outline division of profits or responsibilities in the partnership.
-172. A. The single loss expectancy (SLE) describes what a single risk event is likely to cost. It is 
-calculated using the asset value (AV) times the exposure factor (EF), which is an estimated 
-percentage of the cost that will occur in damage if the loss occurs. MTTR is the mean time 
-to repair, ARO is the annual rate of occurrence, and RTO is the recovery time objective. 
-These are not part of the SLE equation.
-173. B. Annual rate of occurrence (ARO) is expressed as the number of times an event will 
-occur in a year. Wayne has estimated that the risk event that is being assessed will happen 
-three times a year.
-174. D. Data processors are service providers that process data for data controllers. A data 
-controller or data owner is the organization or individual who collects and controls data. 
-A data steward carries out the intent of the data controller and is delegated responsibility 
-for the data. Data custodians are those who are entrusted with the data to store, manage, or 
-secure the data.
-175. C. Nicole is a data controller, sometimes called a data owner. She determines the reasons 
-for processing personal information and how it is processed. A data steward carries out the 
-intents of the data controller, data custodians are charged with safeguarding information, 
-and data consumer is not a common data privacy role.
-176. D. Kirk has mitigated the risk to his organization by increasing the resources targeted by 
-the DoS attack in an attempt to ensure that the attack will not be successful. Acceptance 
-would involve simply letting the attacks occur knowing they are likely to stop, avoidance 
-might involve finding a way to ensure the attacks cannot occur, and transfer could leverage 
-a third- party mirror or anti- DoS hosting service.
-177. C. Offboarding processes are conducted to ensure that accounts and access are removed 
-and that materials, computers, and data are all recovered from the staff member when a 
-member of an organization leaves. Exit interviews are an HR process, job rotation helps to 
-prevent an individual from conducting fraudulent activities over time, and governance helps 
-to manage and maintain data by establishing high- level control over the processes, proce-
-dures, and classification of the data an organization uses.330 Appendix ■ Answers to Review Questions
-178. B. Playbooks provide detailed, step- by- step instructions for how to address specific topics 
-like denial- of- service attacks. Standards describe the settings or requirements that the orga-
-nization wishes to use. Regulations are law and are not set by the organization, and guide-
-lines provide advice to organizations seeking to comply with the policy and standards.
-179. C. Risk trend analysis shows the change in risks over time, allowing senior leadership 
-to quickly and easily understand where risks are being addressed and where they may 
-be increasing or not getting the attention they need. Ad hoc reports are used when risk 
-information is needed in specific areas, typically in response to specific needs. Risk regis-
-ters list an organization’s risks in detail and are not a quick, visual tool. Risk event reports 
-detail specific events related to risks.
-180. B. Third- party assessments of an organization’s efforts to meet ISO standards is an example 
-of vendor assessment. Internal audit would leverage internal staff to perform an audit, vul-
-nerability scans use technical tools to identify vulnerabilities, and data inventories identify 
-data and its locations and uses.
-181. B. Vendors often ask that customers work with them to preschedule the testing so that 
-they are aware of it. They typically do not place limitations on whether customers or third 
-parties conduct the testing, and after- the- fact notification instead of prior notification is not 
-a typical requirement.
-182. B. The IP address of the recipient is not a common way of identifying phishing emails. 
-The source system, domain, or IP may indicate a malicious sender, however! Phishing often 
-focuses on creating a false sense of urgency, uses encrypted and password- protected files to 
-bypass filters, and may claim there is a problem with your password.
-183. D. Operational security is the practice of educating users on the importance of protecting 
-sensitive information, including security practices, configurations, and other details. Aware-
-ness training is a broad term describing all elements of security awareness. Social engi-
-neering is used by attackers to leverage human behaviors and practices for their own gain. 
-Insider threats are threats created by those inside the organization.
-184. D. An organization operating in the European Union (EU) and selling in multiple coun-
-tries means that the company needs to assess legal implications on local, national, and 
-global levels.
-185. C. Conflicts of interest occur when an organization has a competing interest that could 
-influence their behavior in a way that is not aligned with the best interest of a customer. 
-Insider threats occur because an insider creates a problem or threat, either on purpose or 
-inadvertently. MOU and SOW violations are both contractual violations and could be con-
-flicts of interest but are not limited to that.
-186. D. Decentralized governance allows individual business units to manage themselves rather 
-than central organizations doing so. There is no board or committee described in the 
-question.Chapter 5: Domain 5.0: Security Program Management and Oversight  331
-187. A. The Treasury Department is a government entity, making this governance government 
-entity–based. Shareholders and boards may play a role, but not via the Treasury 
-Department. Centralized governance occurs inside the organization, not from an 
-external entity.
-188. C. Requesting evidence of internal audits and then assessing that evidence is the best option 
-Sandra has. While a right- to- audit clause can be important in contracts, it would only be 
-useful after the contract is signed, not prior to engagement. Supply chain analysis can be 
-useful in specific circumstances, but nothing in the question indicates specific supply chain 
-requirements or concerns. Due diligence is performed, not stated.
-189. B. Policy handbooks are used to provide information about high- level security practices 
-and goals. Audit reports may not be broadly available in an organization, runbooks are 
-detailed how- to guides for processes or tasks, and user awareness training focuses on secu-
-rity awareness rather than high- level goals and policies.
-190. B. Awareness training remains the best protection against social engineering aimed at 
-individual staff members. While awareness won’t stop all attacks, protecting individuals 
-requires them to be trained on a regular basis. Endpoint detection and response (EDR) and 
-next- generation firewall (NGFW) are both technical tools that cannot stop social engi-
-neering directly, and security policies help the organization establish their approach to secu-
-rity but won’t stop individual responses to social engineering directly.
-191. A. Examinations are simpler, typically smaller in scope, and less costly than an audit. Both 
-help provide assurance, but the standards applied are different.
-192. D. The first step in developing security training programs is to determine what risks and 
-threats the organization faces. Once those are understood, an appropriate program can 
-be created, including obtaining a budget, determining how training will be presented, and 
-ensuring that regulatory requirements, if any, are met.
-193. B. Internal governance committees do not typically include external entities like regulators. 
-Subject matter experts (SMEs), management, and counsel are all commonly members of 
-security governance committees.
-194. D. Global, national, and local regulations may impact Dana’s security policy, but corpo-
-rations do not set regulations. Instead, they will influence the policy through contractual 
-obligations.
-195. C. Feedback on policies from staff, integrating new and changed regulations, and vali-
-dating reports from security tools are all common elements used to update security policies. 
-Nondisclosure agreements (NDAs) seek to keep data secure through contractual obligations 
-and are not a typical element in policy updates.
-196. C. A MOA, or memorandum of agreement, is a formal document that outlines the terms 
-and details of an agreement between two organizations, including the roles and responsibil-
-ities each will have. A SOW, or statement of work, describes the specific work that will be 
-under a master services agreement for an engagement. Service level agreements (SLAs) are 332 Appendix ■ Answers to Review Questions
-written contracts that specify the conditions of service that will be provided by the vendor 
-and the remedies available to the customer if the vendor fails to meet the SLA. Business 
-partners agreements (BPAs) are used when organizations agree to do business with each 
-other in a partnership.
-197. B. Companies commonly send questionnaires to potential vendors to gather information 
-about security practices prior to acquiring their products or engaging their services. This is 
-a simpler method than requiring audits or penetration tests, and OSINT will not provide 
-organizational answers about practices in most cases.
-198. A. External reporting for compliance is most often driven by the need to meet regulations 
-or contractual obligations. Audit assesses compliance rather than driving reporting, board 
-reporting is considered internal, and KPIs are typically internal measures.
-199. B. Automated compliance monitoring is a key tool when organizations want to ensure 
-they are consistently meeting compliance targets. Annual audits do not ensure compliance 
-during the year, whether they are internal or external. Compliance KPIs give organizations 
-compliance targets and measures, but without underlying tools they are simply a way to 
-know the state of compliance when they are checked or updated.
-200. C. Mistakes like this are classified as unintentional anomalous behavior. Risky and unex-
-pected behaviors are the other two classifications that are part of the Security+ exam out-
-line. Insider attacks or threats are intentional or unintentional malicious activity, which 
-mistyping a password is not an example of.
-201. D. NIST no longer recommends requiring password changes on a regular basis, and instead 
-suggests that passwords only be changed when necessary. This helps to prevent password 
-reuse and avoids influencing users to slightly modify passwords. Disabling MFA, reusing 
-passwords, and using passwords hints are all practices that should be avoided.
-202. B. Organizations often use multiple formats for awareness training to address learning 
-preferences and styles. Compliance requirements typically do not specify how awareness 
-is accomplished, just that it has occurred and can be validated. Multiple modes of training 
-tend to increase costs rather than decreasing them, and KPIs for security awareness look at 
-impact, not modes.
-203. D. Organizations typically establish KPIs (key performance indicators), which may be 
-described in MSAs (master service agreements), SLAs (service level agreements), or SOWs 
-(statements of work). These help to measure and monitor the vendor’s performance. 
-MOUs are used to document how organizations want to work together, not to establish 
-performance measures. Compliance audits and regulatory requirements are only part of 
-performance management.
-204. B. Staff should be trained to maintain situational awareness by keeping an eye on their 
-environment and the behaviors of individuals around them. Insider threats are internal 
-actors who undertake malicious actions. Social engineering uses human behaviors to con-
-duct malicious activities, and unintentionally risky behavior is typically accidental threats 
-caused by users.Chapter 5: Domain 5.0: Security Program Management and Oversight  333
-205. C. Data owners are typically the most senior data–related role in an organization and bear 
-broad responsibility for the data, including oversight roles over stewards, controllers, and 
-processors.
-206. D. Deploying security cameras is not a common hybrid work environment option. Use of 
-VPNs, secure Wi- Fi, and appropriate physical security are all common options.
-207. C. Contracts, regulations, and licensing all drive external compliance reporting. Reputa-
-tions may be damaged if organizations are not compliant, but it does not drive reporting.
-208. A. Work orders (WO) and statements of work (SOWs) are used to document the specific 
-tasks and deliverables that are performed under an MSA. SLAs, MOUs, and MOAs are not 
-used for this purpose.
-209. D. MTBF, or mean time between failure, describes the average time before a device will fail, 
-or the average amount of time between failures of a system. A recovery time objective, or 
-RTO, is set by organizations to describe how long restoring systems or services to normal 
-function after a disruption can take. Mean time to repair, or MTTR, is the average time it 
-takes to repair a system or device. A recovery point objective, or RPO, describes how much 
-data can be lost in the event of an outage or issue.
-210. C. ISO 27002 describes controls and helps select and implement controls while also 
-providing guidance on developing information security management guidelines. ISO 27001 
-establishes control objectives for 14 different categories, including things like HR security, 
-asset management, and operations security. ISO 27701 focuses on managing privacy con-
-trols, and ISO 31000 provides guidelines for risk management.
-211. A. Physical security standards set requirements for physical security controls like fences, 
-locks, doors, and cameras. Access control policies may be logical or physical control–based, 
-but fence height is not an access control. Business continuity and onboarding don’t impact 
-fence height, nor do they rely on it.
-212. C. Boards are typically elected by shareholders. Employees, the CEO, and non- shareholders 
-typically do not have the ability to elect or name members of the board.
-213. B. Until he knows more details, Greg should classify this behavior as unexpected. Sending 
-large volumes of data may be intentional, could be legitimate and thus not risky, and if it is 
-intentional and part of business needs, would not be an insider threat.
-214. C. Using existing tools to monitor for changes that would move the organization out of 
-compliance is a common practice to help ensure ongoing compliance. Quarterly audits are 
-point- in- time checks and won’t ensure ongoing compliance. Training helps to keep staff 
-aware, but additional actions are required to ensure compliance, and attestation does not 
-provide ongoing compliance, only a statement at a point in time.
-215. C. After audits are acknowledged by management, the auditors will attest that the audit 
-is complete and accurate based on their work and knowledge. Compliance and regulatory 
-reporting may or may not happen depending on the reasons for the audit and the organiza-
-tion’s needs. Once an audit is complete, further scans and other work may be conducted by 
-the company but are not guaranteed.334 Appendix ■ Answers to Review Questions
-216. B. The employee at Latisha’s company can be considered an insider threat because they 
-have provided access to a third party. Most organizations will terminate employees who do 
-this due to violations of their acceptable use policy (AUP). The behavior is anomalous, but 
-an insider threat is a better description. No social engineering is evident, nor is a nation- 
-state actor described.
-217. B. Using threat feeds to block phishing campaign URLs as they enter the feed is a proactive 
-way to quickly respond. Web application firewalls (WAFs) are used to protect applications 
-rather than as border devices to block outbound traffic. Manual blocks are commonly used 
-but are slower to implement than threat feed–based responses. Conducting user awareness 
-training is a best practice but doesn’t directly respond to campaigns.
-218. B. Amanda has discovered an insider threat. Insider threats can be difficult to discover, as a 
-malicious administrator or other privileged user will often have the ability to conceal their 
-actions or may actually be the person tasked with hunting for threats like this! This is not a 
-zero- day— no vulnerability was mentioned, there was no misconfiguration since this was an 
-intentional action, and encryption is not mentioned or discussed.
-219. A. Behavior like this would be considered risky, as clicking on unknown, unexpected links 
-is a common way to succumb to a phishing attack. Unexpected typically describes behavior 
-that isn’t typical for the user, and we do now know if this user typically behaves this way. 
-The Security+ exam outline doesn’t use irresponsible as a category, and the click was 
-intentional.
-220. B. Establishing a baseline for security awareness is important so that Ben can determine 
-what, if any, impact a program is having. This will drive KPIs as well as influence which 
-actions and steps are taken to evolve the program. Implementing a security program is 
-recommended by many standards, but they don’t determine initial awareness state. Penetra-
-tion tests can provide information about where issues lie but don’t provide a broad baseline 
-assessment either.
-221. B. Malicious tools like BadUSB can make a USB cable or drive look like a keyboard when 
-they are plugged in. Malicious thumb drives have been used by penetration testers simply 
-by dropping them in a parking lot near their intended target. A Trojan or a worm is a pos-
-sibility, but the clue involving the keyboard would point to a USB device as the first place 
-Naomi should look.
-222. B. A common practice is to report suspicious messages to an internal security team so that 
-they can take action on phishing and other potential security issues. Reporting to third 
-parties will not provide the same visibility, nor will deleting the messages. Asking users to 
-click on messages works against security best practices!
-223. A. Establishing security awareness KPIs, including incident rates, training uptake, responses 
-to security awareness surveys, and other measurable indicators, is both the broadest and 
-most useful option listed. Third- party awareness audits are not a typical method for doing 
-this, and conducting surveys and tracking incident rates are both actions that will be part of 
-common awareness KPIs.Chapter 5: Domain 5.0: Security Program Management and Oversight  335
-224. B. Myles should be concerned about contractual impacts as part of his customer relation-
-ships. Noncompliance with regulations is likely to make him unable to fulfill contracts or 
-to be in violation of contractual terms that require his company to be in compliance. Fines, 
-loss of license, and sanctions may also occur, but they are less directly impactful to cus-
-tomers and are not guaranteed.
-225. D. An enterprise password manager can help to make it easier to use appropriate pass-
-words without requiring users to memorize them. This results in less reuse, stronger pass-
-words, and the ability to manage them, including preventing password reuse. Biometrics, 
-training, and adopting NIST password complexity and length standards will not have the 
-same broad impact.
-226. A. Risk matrices are often used to summarize risk registers for senior management. SLE 
-and ALE reports are not common documents, although ALE and SLE reports are com-
-monly used as part of quantitative risk assessment and reporting. Risk KPIs are used to 
-track progress on risk management, not to provide a summary of a risk register.
-227. B. Guidelines provide advice to organizations seeking to comply with policies and stan-
-dards. Policies outline the principles and rules that guide the execution of security efforts 
-throughout the enterprise. Standards provide mandatory requirements describing how an 
-organization will carry out its information security policies.
+1. C. This description does not include any risk to availability since there is no information about systems or services being down or offline. This scenario would likely result in reputa-tional, financial, and data loss impacts for Scott’s company.
+2. D. KRIs, or key risk indicators, need to be actionable so that the organization can use them to control or manage risk, they need to be measurable so that they can be assessed, and they must be relevant to the risks that they measure. They don’t necessarily have to be inexpen-sive, as organizations may make choices about costs based on their risks and business models.
+3. A. A recovery time objective (RTO) is set by organizations to describe how long restoring systems or services to normal function after a disruption can take. Mean time to repair (MTTR) is the average time it takes to repair a system or device. A recovery point objective (RPO) describes how much data can be lost in the event of an outage or issue, and the mean time between failures (MTBF) is a measure of the reliability of a system. It is the expected amount of time that will elapse between system failures.
+4. B. Acceptable use policies (AUPs) describe how and what users can use organizational resources, systems, and services for. Business continuity policies describe how an organization approaches business continuity, and incident response policies focus on how organizations respond to incidents. A standard acts as the rules to achieve an intent, while policies describe the organization’s intent. This policy describes intent, not specific implementations.
+5. D. Angie has conducted passive reconnaissance. She did not perform a scan or otherwise take direct active action to gather her information. Instead, she used the existing Shodan engine to gather information. While Shodan is a commercial product and does gather information using scans, databases like Shodan are considered passive reconnaissance, and the Security+ exam objectives recognize two types of reconnaissance: active and passive.
+6. C. Data processors do just that— they process the data on behalf of a data controller, who determines how data is processed and what purposes it is used for. They do not own the data, and they are typically contracted to process the data rather than contracting with third parties themselves.
+7. D. Ginger is a data subject, a person who can be identified by her personally identifiable information (PII). Data owners are responsible for protection, usage, and qualityof datasets. Data controllers determine how data will be used, and processors do the actual data processing.
+8. C. Qualitative risk assessment uses knowledge and expertise to assess risk rather than assign-ing numeric values and calculations like a quantitative assessment process would. Ad hoc risk assessment is done when risks need to be assessed for a specific, immediate need unlike the planned, regular risk assessments described. Continuous risk assessment is ongoing, whereas this is conducted regularly.
+9. A. Qualitative risk assessments measure likelihood on a descriptive scale like high, medium, or low. Quantitative assessments measure likelihood on a numeric scale using known event occurrence rates where possible.
+10. A. Boards often include external members who may have industry or other experience and expertise that will benefit the organization, and they are sometimes, but not always, paid as part of their work on the board. Committees are frequently composed of internal staff; government- based governance occurs through laws or as part of public service. Market- based is not a type of governance outlined by the Security+ exam objectives.
+11. A. Risk transfer options move the costs of risks to another organization such as through insurance. Acceptance involves management acknowledging that the risk and its impacts may occur, and that the organization will move forward despite that chance. Avoidance seeks to prevent the risk from occurring. Mitigation works to limit the impact of a risk.
+12. C. Boards provide strategic oversight and direction for organizations. Boards may form sub-committees to accomplish specific tasks or to provide oversight over specific areas. Regula-tors oversee an industry based on law. Activist investor’s groups are not covered by the exam, but typically they own stock in an organization and seek to direct the organization through their activism and stock ownership.
+13. C. This governance approach is a decentralized approach with each unit or area providing their own governance. While flexible, this can be problematic because of a lack of consistency and overhead due to unique circumstances and requirements. Centralized designs do not delegate authority and instead place authority in a central place, organization, or individual. There is no mention of a board or committee.
+14. B. A one- time risk assessment that addresses the acquisition will best meet Sharon’s needs. Ad hoc assessments are less formal, and they are often used to quickly assess a system or other potential risk. There is no requirement listed for third- party assessment, and they can be both expensive and time-consuming. Continuous risk assessment efforts are typically built into ongoing processes and are not suited to this type of one- time review.
+15. C. Data processors process data on behalf of controllers. Data subjects are the individuals or organizations that data describes. Data owners create and are responsible for data, and data administrator is not a broadly or consistently used term in this context.
+16. D. Right- to- audit clauses provide customers with the right to have an audit of their vendor like an SOC 2, Type 1 assessment performed. SOC 2, Type 1 reports are not penetration test-ing reports, vulnerability scan reports, or risk assessment reports.
+17. A. Data owners are responsible for data, including classifying it, protecting it, overseeing the use of it, and ensuring the quality of the overall data. They are not, however, responsible for directly processing the data.
+18. B. Risk exceptions are granted when a risk is accepted by the organization, despite not fol-lowing typical organizational policies or processes. This is not a transfer or mitigation, and simply documenting the risk does not cause it to be accepted.
+19. C. Data owners classify, protect, oversee the use of, and ensure the quality of data. Control-lers are responsible for the procedures and purposes of data use, often described as the why and how. Custodians are the staff and teams who handle data, and processors work with data on behalf of a controller.
+20. C. There are four commonly used business impact analysis (BIA) measures that are part of the Security+ exam objectives: recovery time objectives (RTOs), recovery point objectives (RPOs), mean time to repair (MTTR), and mean time between failures (MTBF). ARO, or annual rate of occurrence, is associated with risk assessment, not BIA.
+21. B. Data processors process data for data controllers. In this scenario, Julie or a member of her staff is the data controller and the third- party organization is a processor. They do not own the data, and they are not custodians who are responsible for the data on an ongoing basis.
+22. D. Service level agreements (SLAs) set forth the expected service level as well as penalties for nonperformance. A master services agreement (MSA) is a broad agreement that addi-tional work may be performed under. An NDA, or nondisclosure agreement, sets forth what information may and may not be shared or disclosed. The mean time between failures (MTBF) is a measure of the reliability of a system. It is the expected amount of time that will elapse between system failures.
+23. D. Data controllers determine the purpose and methods of data processing. They may be individuals, groups, or organizations. This is defined by the General Data Protection Regula-tion (GDPR). That may involve how data flows, and the formats or other details of data, but the best— and legally defined— role of a controller is the one set by the GDPR.
+24. B. Augie is a data custodian. In this role he is responsible for data’s use in the business, including storing and properly handling data. Data owners are responsible and accountable for data as well as ensuring that custodians and others are handling the data appropriately. Data processors do actual data processing, and may be an individual, organization, or group. Data subjects are the people who the data describes or is about.
+25. C. Sanctions are typically applied to countries rather than companies or individuals. Fines and loss of license are typically aimed at companies and individuals, and mandatory report-ing is not a penalty included in the Security+ exam.
+26. A. Terms used for risk appetite in the Security+ exam objectives include conservative, neutral, and expansionary. Intentional is not a term used for risk appetite.
+27. B. Data stewards are responsible for the data in their charge. That means they carry out data usage and security policies and ensure that data is handled appropriately. Creating data is typically done by data owners, who also explain and set data security policies. Multiple roles oversee data throughout its life cycle, not just a data steward.
+28. A. Data controllers determine what data is used and how it is processed. Supervisory author -ities are public authorities in the European Union (EU) that monitor for compliance with the General Data Protection Regulation (GDPR). Data protection officers are required by the GDPR and oversee data protection strategies and their implementation. Data processors do just that— they process the data on behalf of a data controller who determines how data is processed and what purposes it is used for. They do not own the data, and are typically con-tracted to process the data rather than contracting with third parties themselves.
+29. C. Avoidance seeks to prevent the risk from occurring. In this case, the WAF is a method of preventing the attack, thus avoiding the risk. Risk transfer options move the costs of risks to another organization such as through insurance. Acceptance involves management acknowl-edging that the risk and its impacts may occur and that the organization will move forward despite that chance. Mitigation works to limit the impact of a risk.
+30. B. HTTPS using TLS is a form of encryption for data in motion. Encryption standards often require specific ways to use encryption, encryption algorithms, settings or configurations for encryption, or times and places where encryption must be used. Access control standards focus on how access is controlled, by whom, and who is impacted. Password standards define settings and requirements related to passwords, and physical security standards address physical security requirements.
+31. A. Cloud vendors rarely agree to right- to- audit clauses, instead choosing to provide their own third- party audit results. This reduces the chances of an audit or assessment causing issues with their other customers. Third- party audit costs covered by right- to- audit clauses are often borne by the customers, not the vendor. Not passing an audit is unlikely for major vendors, regulatory requirements are more likely to require audits, and regulations rarely limit auditability.
+32. A. Access control standards often define how and when users can access or use systems and services. Defining user access to only be allowed during working hours is an example of an access control standard. Encryption standards often require specific ways to use encryption, encryption algorithms, settings or configurations for encryption, or times and places where encryption must be used. Password standards define settings and requirements related to passwords, and physical security standards address physical security requirements.
+33. C. The Advanced Encryption Standard (AES) is the most commonly accepted and used encryption standard as of this writing. Selecting a longer key length like 256 over a 128- bit option provides greater resistance to brute- force attacks. SHA- 1 and SHA- 2 are hashing algo-rithms, not encryption algorithms.
+34. D. Agile, along with continuous integration/continuous delivery (CI/CD) pipelines, describes a software development life cycle. Business continuity, disaster recovery, and incident response policies may mention the Agile process and impacts on the CI/CD pipeline, but it is not the primary focus of those types of policies.
+35. C. Change management practices often include options for preapproved changes, emergency changes, and standard changes. Changes required by legislation or other external factors are not typically built into most change management processes.
+36. B. A business impact analysis (BIA) is a formal process used to identify mission- critical functions and to ensure that critical systems that support those functions are identified and assessed. Risk assessment seeks to identify risks and their probability and impact, and a pen-etration test attempts to emulate how attackers might gain access to or otherwise impact sys-tems and services.
+37. C. Policies are a statement of organizational intent. Standards are defined to help organiza-tion achieve that intent through the use of rules. Policies are typically defined by an organiza-tion, and standards may be adopted from third parties or created by the organization itself. Policies might be defined by law but are not required to be defined that way.
+38. A. Service level agreements set forth the expected service level as well as penalties for non-performance. That means that Sophie needs to determine whether her vendor is meeting their promised delivery levels or availability levels and to claim appropriate penalties as defined in the contract if they are not met. KPIs may be involved but would be measured against her vendor’s performance, not her team’s performance. Security levels and supply chain avail-ability levels are not the only potential items covered by an SLA.
+39. C. Probability and impact are used to describe risk. ALE is the annual loss expectancy, or how much risks will likely cost an organization per year, and SLE is the single loss expectancy, or how much a single risk will cost if it occurs. Acceptance is a risk- handling pro-cess, not a way of describing risks.
+40. B. The only active reconnaissance task listed here is the nmap scan. Looking up information in Shodan, querying local DNS, and using public records are all examples of passive information gathering that does not actively probe the organization.
+41. B. Data owners are responsible for categorizing, overseeing the usage of, and protecting data, but are typically not directly responsible for processing it.
+42. B. Knowledge- based authentication information is often easily available via social media or searches. Thus, using it as part of password recovery processes is problematic for orga-nizations. Users will typically remember answers to knowledge- based authentication ques-tions. While knowledge- based authentication isn’t typically used for multifactor, something you know is a legitimate option, and knowledge- based authentication information could be recovered from compromised organizations, but this is not a common threat model.
+43. D. Mitigation works to limit the impact of a risk, such as by taking action like segmenting the network to prevent further malware spread. Avoidance seeks to prevent the risk from occurring. Risk transfer options move the costs of risks to another organization such as through insurance. Acceptance involves management acknowledging that the risk and its impacts may occur, and that the organization will move forward despite that chance.
+44. A. Password standards typically include elements like the NIST 800- 63B recommenda-tions, not using password hints, not expiring passwords, storing passwords in a secure way,and establishing a minimum password length of at least 8 characters for user- generated passwords.
+45. B. Organizations that focus on reducing risk and that have significant compliance require-ments are likely to adopt a conservative risk appetite. Expansionary risk appetite is rare when compliance and risk reduction are primary goals of the organization. Authoritarian and legislative are not typically used terms to describe risk appetite.
+46. C. Detailed guides to organization practices for security events are called playbooks. In this case, Jack received the organization’s ransomware playbook. A policy would include high- level statements of intent, cookbooks are not a typical term used for documents like these, and this situation involves ransomware, not a disaster recovery scenario.
+47. D. Regulations most commonly have fines and sanctions as their primary punishments levied against noncompliant organizations. Data breaches and reputational damage may occur, but are they are not enforced by regulation. Contractual impacts may occur, but again are not directly enforced by regulations.
+48. A. Playbooks are detailed documents describing how to respond to a type of incident or event. An example is the CISA’s Cybersecurity Incident and Vulnerability Response playbook, which includes steps like identifying anomalous activity, identifying root cause, and analyzing for common adversary TTPs (www.cisa.gov/sites/default/files/publications/  Federal_Government_Cybersecurity_Incident_and_Vulnerability_  Response_Playbooks_508C.pdf). They are not legal documents, are detailed instead of high-level like a policy, and are more detailed than a general IR process document.
+49. B. Nondisclosure agreements (NDAs) are used to protect sensitive data. Service level agreements (SLAs) determine service levels and penalties if they are not met. Master service agreements (MSAs) are foundational documents determining how organizations will work together as a foundation for specific work covered in SOWs (statements of work). BPAs (business partners agreements) are used when two organizations want to do business as a partnership.
+50. C. Onboarding processes commonly include things like new employee orientation, creation of user accounts and provisioning of rights for the employee’s account, and ensuring the employee has completed security training. Identity proofing may be part of that process, but was not mentioned here. Mandatory access control is an access control model, and biometric enrollment involves capturing information about an individual’s biometric markers or profile.
+51. A. The GDPR provides the right to be forgotten, which allows individuals to request that their data be deleted. The rights to deletion, privacy, and ownership were made up for this question.
+52. B. Acceptance involves management acknowledging that the risk and its impacts may occur, and that the organization will move forward despite that chance. Risk transfer options move the costs of risks to another organization such as through insurance. Avoidance seeks to pre-vent the risk from occurring. Mitigation works to limit the impact of a risk, such as by taking action to prevent further malware spread.
+53. B. Sending organizational data with a departing employee is not a common practice. In fact, organizations often ask employees to certify that they have returned all organiza-tional devices and data. Returning company equipment, disabling the departing employee’s accounts or removing them, and changing any passwords on shared accounts are all common offboarding practices.
+54. D. Neutral risk appetites balance organizational goals against risk. Conservative risk appe-tites seek to reduce risks over addressing other goals, and expansionary risk appetites will accept risk to achieve goals. Reactionary is not a typical description of risk appetite.
+55. C. Known environment tests provide full information to testers, allowing them to use information about the environment without having to discover it. Partially known envi-ronment tests provide some, but not all information about the environment for testers. Unknown environment tests simulate what an attacker would encounter and do not pro-vide information; instead, the testers have to discover it themselves. Third- party tests are conducted by external groups or individuals and may be known, unknown, or partial knowledge tests.
+56. D. BPAs, or business partners agreements, are used when two organizations want to do business as a partnership. SLAs, or service level agreements, determine service levels and pen-alties if they are not met. Nondisclosure agreements, or NDAs, are used to protect sensitive data. Master service agreements, or MSAs, are foundational documents determining how organizations will work together as a foundation for specific work covered in SOWs, or statements of work.
+57. B. Unknown environment tests simulate what an attacker would encounter and do not pro-vide information; instead, the testers have to discover it themselves. Known environment tests provide full information to testers, allowing them to use information about the environment without having to discover it. Partially known environment tests provide some, but not all information about the environment for testers. Third- party tests are conducted by external groups or individuals and may be known, unknown, or partial knowledge tests.
+58. B. Likelihood describes the possibility of a risk occurring. Impact describes what will happen if it does, potential is not a term used in this space, and rate of occurrence is how often a risk occurs on an annual basis.
+59. C. Known environment tests provide full information to testers, allowing them to use information about the environment without having to discover it. This means that the test-ing will be more efficient and will provide more information in most cases. Partially known environment tests provide some, but not all information about the environment for testers. Unknown environment tests simulate what an attacker would encounter and do not pro-vide information; instead, the testers have to discover it themselves. Third- party tests are conducted by external groups or individuals and may be known, unknown, or partial knowledge tests.
+60. B. Risk exception recognizes risk areas where an organization may not be in compliance with policies or regulations, and may be acknowledged because they cannot be addressed in a timely manner or are required for the organization to conduct business. Risk transfer options move the costs of risks to another organization such as through insurance. Risk avoidanceinvolves preventing the risk from occurring. Mitigation works to limit the impact of a risk, such as by taking action to prevent further malware spread.
+61. C. Regulatory compliance typically requires risk assessment on a regular basis, often once a year. Ad hoc, one- time, and continuous risk assessments are used for other purposes to serve the organization but are not as common for regulatory compliance.
+62. A. Partially known environment tests provide some, but not all information about the environment for testers. In this case, knowledge of the systems, IPs, and services is an example of partial knowledge. Known environment tests provide full information to testers, allowing them to use information about the environment without having to discover it. Unknown environment tests simulate what an attacker would encounter and do not pro-vide information; instead, the testers have to discover it themselves. Third- party tests are conducted by external groups or individuals and may be known, unknown, or partial knowledge tests.
+63. B. An organization willing to accept significant risk has adopted an expansionary risk appe-tite. Neutral risk appetites balance risk and other factors, conservative appetites seek to limit risk rather than prioritize other goals or objectives, and limited is not a term used on the Security+ exam objectives in this area.
+64. A. Information gathering and scanning together are common elements of reconnaissance. Since this involves both scanning and OSINT gathering, this is reconnaissance instead of passive information gathering via OSINT. Known environment tests provide full information to testers, allowing them to use information about the environment without having to dis-cover it. Unknown environment tests simulate what an attacker would encounter and do not provide information; instead, the testers have to discover it themselves.
+65. A. Individuals who use the GDPR’s right to be forgotten are data subjects, a person who can be identified by their personally identifiable information. Data controllers determine how data will be used, and processors do the actual data processing. Data owners are responsible for protection, usage, and quality of datasets.
+66. C. Exposure factors are the percentage of value of an asset that would be lost due to an inci-dent. ALE is the annual loss expectancy, and the ARO is the annual rate of occurrence. SLE is the single loss expectancy. Calculating these gives the cost of an incident, but EF is the impact of the risk and is not calculated using these, nor does it involve the likelihood of the risk.
+67. C. Physical security testing involves testing an organization’s physical security defenses and practices, including guards, locks and doors, and other physical security components. Offen-sive penetration testing involves acting like attackers, while defensive penetration testing seeks to learn as defenders. Integrated penetration testing combines both.
+68. D. Integrated penetration testing combines both offensive and defensive penetration testing, and testing guards as well as attempting to make it through access controls is an example of an integrated test. Physical security testing involves testing an organization’s physical secu-rity defenses and practices, including guards, locks and doors, and other physical security components like access control vestibules. Offensive penetration testing involves acting like attackers, while defensive penetration testing seeks to learn as defenders.
+69. B. Offensive penetration testing involves acting like attackers, including nation- state actors with advanced capabilities like those described in this question. Physical security testing involves testing an organization’s physical security defenses and practices, including guards, locks and doors, and other physical security components like access control vestibules. Defensive penetration testing seeks to learn as defenders. Integrated penetration testing com-bines both.
+70. B. The GDPR is a regulation, making this a regulatory assessment or audit. There is no pene-tration testing mentioned, the auditors are not described as internal or external, and no attes-tation is mentioned.
+71. A. Secure, ransomware resistant backups can mitigate the impact of ransomware but cannot stop it from impacting systems like an endpoint detection and response (EDR) tool can. Since Alexandria’s focus is on immediate mitigation, her best answer is EDR. Cybersecurity insur -ance is a means of transferring risk, and simply operating as usual is an acceptance strategy.
+72. B. Shane’s organization has determined their risk appetite. They are willing to accept some risk, but may also choose to mitigate, transfer, or otherwise deal with their risk to match their appetite. Ad hoc describes risk assessment, not risk appetite or thresholds, and there is no way to determine if this is a conservative, neutral, or expansionary risk appetite.
+73. C. Defensive penetration testing seeks to allow the organization to learn as defenders. Offen-sive penetration testing involves acting like attackers, including nation- state actors with advanced capabilities like those described in this question. Physical security testing involves testing an organization’s physical security defenses and practices, including guards, locks and doors, and other physical security components like access control vestibules. Integrated pene-tration testing combines both.
+74. D. Integrated penetration testing combines both offensive and defensive techniques and is often woven into an organization’s practices on an ongoing basis. Offensive penetration test-ing involves acting like attackers, including nation- state actors with advanced capabilities like those described in this question. Defensive penetration testing seeks to allow the organiza-tion to learn as defenders. Physical security testing involves testing an organization’s physical security defenses and practices, including guards, locks and doors, and other physical security components like access control vestibules.
+75. D. Auditors provide a statement about an organization’s posture as part of an attestation process. This provides assurance that the auditors have reviewed the organization’s practices and have found them suitable or that deficiencies have been identified. Penetration testing is the process of testing the security of an organization and is not an audit. Audit sign- off occurs when management signs an audit to acknowledge their awareness of its results. Regulatory defense was made up for this question.
+76. A. Without more information about the specific audits that Joe conducts, all we know is that he is an internal auditor. As an employee of the company that he is working for, he is con-sidered an internal auditor. External audits are conducted by third parties. Regulatory audits assess compliance with laws, whereas compliance audits may look at laws or other compli-ance targets.
+77. D. The Payment Card Industry Data Security Standard (PCI DSS) is an industry standard, not a law, so this is a compliance audit, not a regulatory audit. Third- party auditors make it an external rather than an internal audit.
+78. B. Filling out forms attesting to your own organization’s compliance status is an example of a self- assessment. This is not an audit activity, PCI DSS is not a regulation, and no third parties were involved to make it external or independent and third party.
+79. C. Audit committees are typically part of the organization’s board of directors, and they oversee financial reporting–related activities. Audit committees are required for US- traded companies that are listed on stock exchanges. Shareholders, third- party assessors, and the security office are not typical places to find an audit committee.
+80. D. Continuous integration/continuous delivery (CI/CD) pipelines deploy software on an ongoing basis, making them a good fit for continuous risk assessment techniques. Ad hoc, one- time, and third- party assessments are not suited to the ongoing, rapid assessment pace needed for a CI/CD model.
+81. B. External audits like a SOC 2, Type 2 audit should be conducted by an independent third party to be considered valid. An internal audit, no matter who signs off on it, is not used for this purpose, nor are self- assessments. Penetration tests do not generate an SOC 2 audit report.
+82. D. An organization’s risk threshold is the level where they will switch from accepting a risk to seeking to handle the risk. In this case, the risk has surpassed the organization’s risk threshold, resulting in a plan to avoid the risk. The risk did not drop below the threshold, the risk assessment was successful in helping the organization identify a concern, and no con-trols failed.
+83. A. The Health Insurance Portability and Accountability Act (HIPAA) is a regulation, and organizations that must comply with laws need to conduct regulatory assessments. Offensive testing is a penetration testing model that mirrors actual attackers. Known environment test-ing leverages full knowledge of an organization as part of a penetration test. Physical testing validates physical security controls.
+84. A. Policies are high- level descriptions of an organization’s intent and understanding of their topic. Procedures will have descriptions of how a change is made in detailed form, while standards will describe how changes are created, made, and approved. Regulatory require-ments are most likely to be part of standards or procedures.
+85. C. Marek should follow his organization’s change management process to document the change required and to ensure that it is regularly reviewed. This may not require a risk assessment since it may be a simple requirement or may have already been assessed. The type of security variance needed is not described, so it is not clear if removing the system from the network is necessary.
+86. A. Business continuity plans address how the organization will respond, including referencing runbooks that may detail how to handle restoration or other efforts on a step- by- step basis, but doesn’t itself include that level of detail. Business continuity policies describe the organization’s intent at a high level and are likely to reference the business continuity plan. They are not the same, as the policy is a higher- level document than the plan is.
+87. C. Policies are distinct from procedures and standards because they include high- level state-ments of intent rather than specific practices. Procedures document the practices an organi-zation will use, whereas standards set expectations or specific configurations or details about how something is done or set up.
+88. C. The EU’s GDPR provides the right to be forgotten, which allows Terry to request that organizations remove all of his data from their systems. HIPAA is a US regulation; data stew-ardship is an organizational role, not a right; and personal data ownership is not a right.
+89. B. Risk exposure is calculated by multiplying probability and impact. Cost is measured in currency, time, or other cost metrics; vulnerability is often measured using CVSS scores; and audit findings may have criticality ratings.
+90. B. Qualitative risk assessment relies on expertise and staff members who have relevant knowledge to provide a rating based on their experience, skills, and knowledge. A common rating for probability in a qualitative risk assessment might be low, medium, or high, rather than a 0–100 rating based on statistics or large datasets.
+91. B. Rules of engagement determine how a penetration tester will conduct an engagement. Passwords may be part of the information provided before the test for a full knowledge or partial knowledge test but are not part of the rules of engagement.
+92. D. Rules of engagement are created for penetration testing efforts that include a wide variety of information, including scope, schedules, what to do if a preexisting compromise is dis-covered, requirements for how to handle third- party- hosted tools and environments, how sensitive data and data related to the penetration test will be handled, and who to contact in emergencies. A right- to- audit clause is included in contracts, allowing audits to occur as part of the contract. SLAs are used to set service levels and penalties if they are not met, and MOUs document organizations’ interest and willingness to work together.
+93. A. An organization’s risk threshold is the level where they will switch from accepting a risk to seeking to handle the risk. Their risk appetite is the amount of risk an organization is wil-ling to accept to achieve its goals. Ad hoc risk level and third- party risk level were made up for this question.
+94. D. AUPs, or acceptable use policies, describe how organizational resources, systems, and ser -vices can and should be used.
+95. C. Large breaches, particularly when the organization has been negligent, can have large impacts on the organization’s reputation, resulting in long- term damage. Fines and contrac-tual impacts may be impactful but are often resolved relatively quickly. Due diligence was not shown but is not an impact— rather, it is part of an organization’s responsibilities.
+96. B. A statement of work (SOW) or work order (WO) is created to list the tasks and deliver -ables that will be performed under the blanket master services agreement (MSA). An MOU, or memorandum of understanding, declares how two organizations want to work together; a business partners agreement (BPA) establishes a partnership between two organizations; and punch lists are not covered under the Security+ exam outline but are a list of tasks that must be accomplished for a contractor to be paid.
+97. D. Jack should use the manufacturer’s published mean time between failures (MTBF), which is a measure of the reliability of a system. It is the expected amount of time that will elapse between system failures. While organizations typically replace devices well before their MTBF ratings, knowing how long the devices should last on average can be useful in long- lived applications and for budgetary planning. A recovery time objective, or RTO, is set by organizations to describe how long restoring systems or services to normal function after a disruption can take. Mean time to repair, or MTTR, is the average time it takes to repair a system or device. A recovery point objective, or RPO, describes how much data can be lost in the event of an outage or issue.
+98. D. Mean time between failures (MTBF) is a measure of the reliability of a system. It is the expected amount of time that will elapse between system failures, but it is merely an average. Jason should expect that drives will fail, and that their average service life will be 300,000 hours. That means that half of the drives are likely to fail before 300,000 hours, and half will fail after that number.
+99. C. A recovery point objective, or RPO, describes how much data can be lost in the event of an outage or issue. A recovery time objective, or RTO, is set by organizations to describe how long restoring systems or services to normal function after a disruption can take. Mean time to repair, or MTTR, is the average time it takes to repair a system or device. The mean time between failures (MTBF) is a measure of the reliability of a system. It is the expected amount of time that will elapse between system failures.
+100. A. The Security+ exam objectives list three categorizations you need to be familiar with for anomalous behavior: risky, unexpected, and unintentional. The other terms listed are not ways that the exam categorizes anomalous behavior.
+101. A. Greg has conducted an ad hoc assessment by quickly pulling together a team without a formal process or procedure. Instead, he is seeking to quickly assess risk and take action. A one- time assessment typically follows an established methodology but is only con-ducted once. Third- party risk assessment uses external teams or staff, and continuous risk assessment is done on an ongoing basis.
+102. B. Mean time to repair, or MTTR, is the average time it takes to repair a system or device, and Olivia needs to know that to determine what she can promise in her service level agreements that rely on server repair timelines. A recovery time objective, or RTO, is set by organizations to describe how long restoring systems or services to normal function after a disruption can take; it doesn’t determine how fast the server can be fixed but sets a goal that needs to take things like repair and recovery time into account as it is determined. A recovery point objective, or RPO, describes how much data can be lost in the event of an outage or issue, and the mean time between failures (MTBF) is a measure of the reliability of a system. It is the expected amount of time that will elapse between system failures.
+103. C. The underlying agreement between two organizations that determines how the organi-zations will work together is a master services agreement (MSA). A MOU, or memorandum of understanding, declares how two organizations want to work together; a business part-ners agreement (BPA) establishes a partnership between two organizations; SLAs (service level agreements) set service level expectations and penalties if they are not met; and a business partners agreement (BPA) establishes two organizations as partners rather than establishing a working relationship for services as set forth in SOWs.
+104. C. A recovery point objective, or RPO, describes how much data can be lost in the event of an outage or issue, and journaling allows recovery of database transactions by replay-ing them against the database once it is restored. Journaling may slow down recovery time objectives as the actions are replayed. A recovery time objective, or RTO, is set by organi-zations to describe how long restoring systems or services to normal function after a dis-ruption can take. Mean time to repair, or MTTR, is the average time it takes to repair a system or device. The mean time between failures (MTBF) is a measure of the reliability of a system. It is the expected amount of time that will elapse between system failures.
+105. B. A recovery time objective, or RTO, is set by organizations to describe how long restoring systems or services to normal function after a disruption can take. A 12- hour RTO means that recovery from outages should take less than 12 hours. Failing over to a warm site will typically take a while, meaning that starting to fail over after 12 hours will miss the RTO, and MTBF is the mean time between failures, not a recovery timeframe. Failing every 12 hours on average would be unacceptable for almost any technical service or system!
+106. B. Valerie should immediately begin a move to the warm site. She knows that moving to her warm site takes half the average time to repair for her datacenter’s power infrastruc-ture. That means that in most cases, moving will result in at least a 12- hour shorter out-age. If the time to repair proves to be shorter than 12 hours, she can simply stop the move. Waiting does not restore her to operation sooner than 24 hours in the average case, and waiting to make the decision reduces the amount of advantage she gets from moving to the warm site.
+107. A. Quantitative risk assessments assign numeric values and calculations to determine relative risk. Qualitative risk assessment uses knowledge and expertise to assess risk. Cal-culated risk is not a term that is commonly used to describe assessment processes like these, and risk registers list risks that an organization has identified but that don’t necessarily involve calculations.
+108. B. Risk registers list organizations risks and their ratings, along with additional information that the organization uses to track or describe risks. Risk appetite plans, quantitative registers, and qualitative assessment reports were made up for this question.
+109. C. Qualitative risk assessment uses knowledge and expertise to assess risk and are thus typically faster and more likely to be completed than a quantitative risk assessment. Quantitative risk assessments assign numeric values and calculations to determine relative risk. Choosing internal or external risk assessments is not a primary driver of speed com-pared to choosing quantitative over qualitative risk assessments.
+110. D. SLE, or single loss expectancy, uses the asset value (AV) and exposure factor (EF) to determine the SLE. Purchase date, which department manages the server, and its operating system are not part of the calculation.
+111. B. Undertaking reasonable steps to meet legal requirements like compliance with regu-lations is known as due diligence. Data stewardship may be part of those actions, but it focuses on oversight of data and data governance and may not be specifically regulatory focused.
+112. B. Single loss expectancy, or SLE, is calculated by multiplying the asset value (AV) by the exposure factor (EF). In this case, that means that the potential loss during a loss event would be $125,000.
+113. A. Annualized loss expectancy (ALE) is calculated by multiplying the annual rate of occurrence (ARO) by the single loss expectancy (SLE). If a single loss expectancy for a $1,000,000 asset is $100,000 and the annual rate of occurrence is .5— in other words, it happens every two years on average— then the ALE is $50,000.
+114. D. Waylon is a risk owner. He is responsible for ensuring that the risks related to data and the application are managed appropriately. Board members have overall responsibility for an organization. Data processors have a data role, not a risk ownership role, and auditors assess organizations against standards and practices rather than owning risk.
+115. B. Without a license to operate, Nathaniel’s organization will be unable to conduct business. Reputational damage, fines, and contractual impacts can all be navigated if the organization can continue to do business.
+116. C. Susan can calculate the single loss expectancy (SLE) by multiplying the asset value (AV) by the exposure factor (EF), resulting in $25,000. If this loss occurs twice a year, then the annualized loss expectancy (ALE) is $50,000.
+117. A. Annual rate of occurrence is calculated by determining how many times in a year the event happens, on average. If it happens less than once a year, the rate is a fraction based on that rate. Here the event happens once every four years, or .25 of the time during a given year.
+118. D. Annualized loss expectancy is calculated by multiplying the annualized rate of occur -rence (ARO) and the single loss expectancy (SLE). Total cost of ownership (TCO) and recovery point objectives (RPO) are not part of this type of risk calculation.
+119. B. Passive reconnaissance is any reconnaissance that is done without actually connecting to the target. In this case, John is conducting a form of OSINT, or open source intelligence, by using commonly available third- party information sources to gather information about his target. Active reconnaissance involves communicating with the target network, such as doing a port scan. The initial exploitation is not information gathering; it is actually breaking into the target network. A pivot is when you have breached one system and use that to move to another system.
+120. C. Using default settings is a form of weak configuration and indicates that the organiza-tion is not using baselines effectively and may not have appropriate processes and standards in place. Many vulnerability scanners and attack tools have default settings built- in to test with, and default settings are easily obtained for most devices with a quick search of the Internet. Configuring the accounts is not the issue; using default credentials and settings is. Although training users is important, that’s not the issue in this scenario. Patching systems is important, but that won’t change default settings.
+121. D. Active reconnaissance connects to the network using techniques such as port scanning. Both active and passive reconnaissance can be done manually or with tools. Unknown and known environment tests refer to the amount of information the tester is given. Attackers and testers use both types of reconnaissance.
+122. B. The rules of engagement for a penetration test typically include the type and scope of testing, client contact information and requirements for when the team should be notified, sensitive data handling requirements, and details of regular status meetings and reports. The remaining options were made up for this question.
+123. B. Unlike a disaster recovery plan that is written to help an organization recovery from a person- made or natural disaster, a business continuity plan focuses on how to keep the business running when it is disrupted. Thus, Charlene’s BC plan would detail how to keep the organization running when a system outage occurs.
+124. C. Many cloud service providers do not allow customer- driven audits, either by the cus-tomer or a third party. They also commonly prohibit vulnerability scans of their production environment to avoid service outages. Instead, many provide third- party audit results in the form of a service organization controls (SOC) report or similar audit artifact.
+125. D. A disaster recovery plan addresses what to do during a person- made or natural disaster. A flood that completely fills a datacenter would require significant efforts to recover from, and Gurvinder will need a solid disaster recovery plan— and perhaps a new datacenter location as soon as possible! A COOP, or continuity of operations plan, is needed for U.S. government agencies but is not required for businesses. A business continuity plan would cover how to keep the business running, but it does not cover all the requirements in a natural disaster of this scale, and a flood insurance plan is not a term used in the Security+ exam objectives.
+126. C. Right- to- audit clauses are commonly accepted as part of service and leasing contracts regardless of location for datacenter co- location and facility rental contracts. Cloud service providers, however, are less likely to sign a right- to- audit contract. Instead, they may pro-vide third- party audit data to customers or even to potential customers.
+127. A. Playbooks list the actions that an organization will take as part of a response process. A runbook lists the steps required to perform an action like notification, removing malware, or similar tasks. Playbooks tend to be used to document processes, whereas runbooks tend to be used for specific actions. A disaster recovery (DR) plan is used to recover from disas-ters, and a business continuity (BC) plan is used to ensure that the organization continues to function.
+128. A. Caroline should select ISO 27002. ISO 27002 is an international standard for imple-menting and maintaining information security systems. ISO 27701 is an international standard security technique for privacy information management systems; NIST 800- 12 is a general security standard and it is a US standard, not an international one; and NIST 800- 53 is a collection of security and privacy controls for information systems and organizations.
+129. C. Change management is the process of documenting all changes made to a company’s network and computers. Avoiding making changes at the same time makes tracking any problems that can occur much simpler. Due diligence is the process of investigation and ver -ification of the accuracy of a particular act. Acceptable use policies state what actions and practices are allowed in an organization while using technology. Due care is the effort made by a reasonable party to avoid harm to another. It is the level of judgment, care, determina-tion, and activity a person would reasonably expect to do under certain conditions.
+130. A. An acceptable use policy (AUP) is a document stating what a user may or may not have access to on a company’s network or the Internet. A clean desk policy ensures that all sensitive/confidential documents are removed from an end- user workstation and locked up when the documents are not in use. Mandatory vacation policy is used by companies to detect fraud by having a second person, familiar with the duties, help discover any illicit activities. Job rotation is a policy that describes the practice of moving employees between different tasks. Job rotation can help detect fraud because employees cannot perform the same actions for long periods of time.
+131. C. The PCI DSS, or Payment Card Industry Data Security Standard, is a security standard that is mandated by credit card vendors. The Payment Card Industry Security Standards Council is responsible for updates and changes to the standard. GDPR, or the General Data Protection Regulation, is a standard for data privacy and security in the European Union (EU). COPPA is the Children’s Online Privacy Protection Act, a U.S. federal law. CIS is the Center for Internet Security and is not a law or a regulation.
+132. D. Quantitative risk assessment is the process of assigning numerical values to the proba-bility an event will occur and what the impact of the event will have. Change management is the process of managing configuration changes made to a network. Vulnerability assessment attempts to identify, quantify, and rank the weaknesses in a system. Qualitative risk assessment is the process of ranking which risk poses the most danger using ratings like low, medium, and high.
+133. D. A memorandum of understanding (MOU) is a type of agreement that is usually not legally binding. This agreement is intended to be mutually beneficial without involving courts or money. An SLA (service level agreement) defines the level of service the customer expects from the service provider. The level of service definitions should be specific and measurable in each area. A BPA (business partner agreement) is a legal agreement between partners. It establishes the terms, conditions, and expectations of the relationship between the partners. An ISA (interconnection security agreement) is an agreement that specifies the technical and security requirements of the interconnection between organizations.
+134. A. The single loss expectancy (SLE) is the product of the asset value ($16,000) and the exposure factor (.35), or $5,600.
+135. A. Risk acceptance is a strategy of recognizing, identifying, and accepting a risk that is suf-ficiently unlikely or that has such limited impact that a corrective control is not warranted. Risk transfer is the act of moving the risk to hosted providers who assume the responsi-bility for recovery and restoration or by acquiring insurance to cover the costs emerging from a risk. Risk avoidance is the removal of the vulnerability that can increase a particular risk so that it is avoided altogether. Risk mitigation is when a company implements con-trols to reduce vulnerabilities or weaknesses in a system. It can also reduce the impact of a threat.
+136. D. A parking policy generally outlines parking provisions for employees and visitors. This includes the criteria and procedures for allocating parking spaces for employees and is not a part of organizational security policy. Instead, it is an operational or business policy. An acceptable use policy (AUP) describes the limits and guidelines for users to make use of anorganization’s physical and intellectual resources. This includes allowing or limiting the use of personal email during work hours. Business continuity policies describe how the organi-zation approaches business continuity efforts, and incident response (IR) policies document the organization’s IR intentions and high- level goals.
+137. A. Quantitative risk assessment is the process of assigning numerical values like cost and frequency of occurrence to the probability an event will occur and what impact the event will have, and thus directly evaluates the cost of a risk occurring. Qualitative risk assessment is the process of ranking which risk poses the most danger such as low, medium, and high. A business impact analysis (BIA) is used to evaluate the possible effect a business can suffer should an interruption to critical system operations occur. This interruption could be as a result of an accident, emergency, or disaster. Threat assessment is the process of identifying and categorizing different threats such as environmental and person- made.  It also attempts to identify the potential impact from the threats.
+138. D. A nondisclosure agreement (NDA) protects sensitive and intellectual data from getting into the wrong hands. An NDA is a legal contract between the company and a third- party vendor to not disclose information per the agreement. Encrypted data that is sent can still be decrypted by the third- party vendor if they have the appropriate certificate or the key but does not restrict access to the data. Violating an NDA would constitute unauthorized data sharing, and a violation of privileged user role- based awareness training has nothing to do with sharing proprietary information.
+139. C. Sharing of profits and losses and the addition or removal of a partner, as well as the responsibilities of each partner, are typically included in a BPA (business partner agreement). Expectations between parties such as a company and an Internet service pro-vider are typically found in a service level agreement (SLA). Expectations include the level of performance given during the contractual service. An SLA will provide a clear means of determining whether a specific function or service has been provided according to the agreed- on level of performance. Security requirements associated with interconnecting IT systems are typically found in an interconnection security agreement, or ISA.
+140. D. Systems should be restored within four hours with a minimum loss of one day’s worth of data. The RTO (recovery time objective) is the amount of time within which a pro-cess or service must be restored after a disaster to meet business continuity. It defines how much time it takes to recover after notification of process disruption. The recovery point objective, or RPO, specifies the amount of time that can pass before the amount of data lost may exceed the organization’s maximum tolerance for data loss.
+141. A. A data retention policy defines how long an organization will keep data. Removing sensitive documents not in use is a clean desk policy. A formal process for managing config-uration changes is change management, and a memorandum of understanding consists of legal documents that describe mutual agreement between two parties.
+142. B. ALE (annual loss expectancy) is the product of the ARO (annual rate of occurrence) and the SLE (single loss expectancy) and is mathematically expressed as ALE = ARO × SLE. Single loss expectancy is the cost of any single loss, and it is mathematically expressed as SLE = AV (asset value) × EF (exposure factor).
+143. C. Risk transfer is the act of moving the risk to hosted providers who assume the respon-sibility for recovery and restoration or by acquiring insurance to cover the costs emerging from a risk. Risk acceptance is a strategy of recognizing, identifying, and accepting a risk that is sufficiently unlikely or that has such limited impact that a corrective control is not warranted. Risk mitigation is when a company implements controls to reduce vulnerabil-ities or weaknesses in a system. It can also reduce the impact of a threat. Risk avoidance is the removal of the vulnerability that can increase a particular risk so that it is avoided altogether.
+144. C. The mean time between failures (MTBF) is a measure of the reliability of a system or component. It is the expected amount of time that will elapse between system or device failures. MTTR (mean time to repair) is the average time it takes for a failed device or component to be repaired or replaced. An RPO (recovery point objective) is the period of time a company can tolerate lost data being unrecoverable between backups. ALE (annual loss expectancy) is the product of the annual rate of occurrence (ARO) and the single loss expectancy (SLE).
+145. A. Quantitative risk analysis requires complex calculations and is more time- consuming because it requires detailed financial data and calculations. Quantitative risk assessment is often subjective and requires expertise on systems and infrastructure, and both types of assessment can provide clear answers on risk- based questions.
+146. B. Risk acceptance is a strategy of recognizing, identifying, and accepting a risk that is suf-ficiently unlikely or that has such limited impact that a corrective control is not warranted. Risk mitigation is when a company implements controls to reduce vulnerabilities or weak-nesses in a system. It can also reduce the impact of a threat. Risk avoidance is the removal of the vulnerability that can increase a particular risk so that it is avoided altogether. Risk transfer is the act of moving the risk to other organizations like insurance providers or hosting companies who assume the responsibility for recovery and restoration or by acquiring insurance to cover the costs emerging from a risk.
+147. A. Data owners assign labels such as top secret to data. Custodians assign security controls to data. A privacy officer ensures that companies comply with privacy laws and regulations. System administrators are responsible for the overall functioning of IT systems.
+148. B. ALE (annual loss expectancy) = SLE (single loss expectancy) × ARO (annualized rate of occurrence). SLE equals $750,000 (2,500 records × $300), and ARO equals 5%, so $750,000 times 5% equals $37,500.
+149. C. RPO (recovery point objective) specifies the allowable data loss. It is the amount of time that can pass during an interruption before the quantity of data lost during that period sur -passes business continuity planning’s maximum acceptable threshold. MTBF (mean time between failures) is the rating on a device or component that predicts the expected time between failures. MTTR (mean time to repair) is the average time it takes for a failed device or component to be repaired or replaced. ARO (annual rate of occurrence) is the ratio of an estimated possibility that a threat will take place within a one- year time frame.
+150. C. Onboarding is the process of adding an employee to a company’s identity and access management system. Offboarding is the process of removing an employee from thecompany’s identity and access management system. A system owner is an individual who is in charge of managing one or more systems and can include patching and updating operating systems. An executive user was made up for this question.
+151. D. This is a procedure, which documents what you should do in general terms. A policy lays out an organization’s intent, and this is more specific than that. A playbook has specific, detailed action, and this procedure does not include that level of detail. Checklists are a step- by- step guide to accomplishing a task, and this document outlines required steps, not step- by- step detail.
+152. B. Organizational policy frameworks typically contain policies, standards and procedures that support and expand on the policy, and guidelines. Risk registers, audit reports, vul-nerability scans, and pentest reports are all artifacts organizations generate in support of information security practices. Laws are not part of a policy framework but may influence it.
+153. C. The mean time to repair (MTTR) for a system or devices is the average time that it will take to repair it if it fails. The MTTR is used as part of business continuity planning to determine if a system needs additional redundancy or other options put in place if a failure and repair would exceed the maximum tolerable outage. It is calculated by dividing the total maintenance time by the total number of repairs. MTBF is the mean time between fail-ures, MTTF the mean time to failure, and MITM is an on- path attack.
+154. A. Helen has created a disaster recovery plan (DRP). RPOs, or recovery point objectives, are set to determine how much data may be lost if an event or incident occurs; incident response plans focus on incidents, not outages or disasters; and MTBF, or mean time bet-ween failures, is not a type of plan.
+155. B. Personal health information (PHI) may be covered by state, local, or federal law, and Greg’s organization should ensure that they understand any applicable laws before storing, processing, or handling health information.
+156. D. An individual is most likely to face identity theft issues if their personally identifiable information (PII) is stolen or breached.
+157. C. It is common practice to prohibit interactive logins to a GUI or shell for service accounts. Use of a service account for interactive logins or attempting to log in as one should be immediately flagged and alerted on as an indicator of compromise (IoC).
+158. D. Emma should categorize this as a supply chain risk. When organizations cannot get the systems, equipment, and supplies they need to operate, it can have a significant impact on their ability to conduct business. That could create financial risk, but financial risk is not the direct risk here. There is no indication that the vendor will not support the systems, nor is there any information about whether there is an integration issue in the description.
+159. B. Patching is a form of avoidance because it works to remove a risk from the environment. Acceptance of flaws that need patching would involve leaving the software unpatched; mitigation strategies might include firewalls, intrusion prevention systems (IPSs), or web application firewall (WAF) devices; and transference options include third- party hosting or services.
+160. A. The fines that can result from violation or infringement of regulations like the General Data Protection Regulation (GDPR) can have a significant impact on an organization, or could even potentially put it out of business. Due to this, organizations will track compli-ance with regulations as part of their risk posture.
+161. D. Disaster recovery requires forethought and preparation, response to issues to minimize impact during a disaster, and response activities after a disaster. Thus, a complete disaster recovery plan should include actions that may or will occur before, during, and after a disaster, and not just the recovery process after the fact.
+162. B. Although data breaches could result in termination of a card processing agreement, the fact that her organization is noncompliant is most likely to result in a fine. PCI DSS, or Payment Card Industry Data Security Standard, is a vendor standard, not a law, and criminal charges would not typically be filed in a situation like this.
+163. D. The General Data Protection Regulation, or GDPR, requires a data protection officer (DPO). They oversee the organization’s data protection strategy and implementation, and make sure that the organization complies with the GDPR.
+164. B. An SLA (service level agreement) defines the level of service the customer expects from the service provider. The level of service definitions should be specific and measurable in each area. An MOU (memorandum of understanding) is a legal document that describes a mutual agreement between parties. An ISA (interconnection security agreement) is an agreement that specifies the technical and security requirements of the interconnection between organizations. A BPA (business partners agreement) is a legal agreement between partners. It establishes the terms, conditions, and expectations of the relationship between the partners.
+165. C. The likelihood of occurrence, or probability, is multiplied by the impact to determine a risk’s severity.
+166. D. Organizations can determine how they want to determine asset value, but consistency is important in many cases. Thus, the original cost, the replacement cost, or a depreciated cost may be used.
+167. A. A business impact analysis (BIA) helps to identify critical systems by determining which systems will create the largest impact if they are not available. MTBF is the mean time between failures, an RTO is a recovery time objective, and an ICD was made up for this question.
+168. D. The most common means of transferring breach risk is to purchase cybersecurity insur -ance. Accepting breaches is rarely considered a valid risk process, blaming breaches on competitors does not actually transfer risk, and selling data to another organization is not a risk handling process but may be a business process.
+169. C. The cost of a breach is an example of the impact of a breach. Probability is how likely the risk is to occur, and risk severity is calculated by multiplying probability and impact.
+170. C. Gathering vulnerability information for a system that isn’t scannable from the Internet will require active reconnaissance as part of the penetration testing effort. OSINT and passive reconnaissance do not involve active scans, and known environments provide full knowledge of the environment.
+171. B. Olivia should establish a service level agreement (SLA) with her provider to ensure that they meet the expected level of service. If they don’t, financial or other penalties are typ-ically included. Olivia should ensure that those penalties are meaningful to her vendor to make sure they are motivated to meet the SLA. An MOU is a memorandum of under -standing and explains the relationship between two organizations; an MSA is a master services agreement, which establishes a business relationship under which additional work orders or other documentation describe the actual work that is done; and a BPA is a business partners agreement, which is used when companies wish to partner on efforts and may outline division of profits or responsibilities in the partnership.
+172. A. The single loss expectancy (SLE) describes what a single risk event is likely to cost. It is calculated using the asset value (AV) times the exposure factor (EF), which is an estimated percentage of the cost that will occur in damage if the loss occurs. MTTR is the mean time to repair, ARO is the annual rate of occurrence, and RTO is the recovery time objective. These are not part of the SLE equation.
+173. B. Annual rate of occurrence (ARO) is expressed as the number of times an event will occur in a year. Wayne has estimated that the risk event that is being assessed will happen three times a year.
+174. D. Data processors are service providers that process data for data controllers. A data controller or data owner is the organization or individual who collects and controls data. A data steward carries out the intent of the data controller and is delegated responsibility for the data. Data custodians are those who are entrusted with the data to store, manage, or secure the data.
+175. C. Nicole is a data controller, sometimes called a data owner. She determines the reasons for processing personal information and how it is processed. A data steward carries out the intents of the data controller, data custodians are charged with safeguarding information, and data consumer is not a common data privacy role.
+176. D. Kirk has mitigated the risk to his organization by increasing the resources targeted by the DoS attack in an attempt to ensure that the attack will not be successful. Acceptance would involve simply letting the attacks occur knowing they are likely to stop, avoidance might involve finding a way to ensure the attacks cannot occur, and transfer could leverage a third- party mirror or anti- DoS hosting service.
+177. C. Offboarding processes are conducted to ensure that accounts and access are removed and that materials, computers, and data are all recovered from the staff member when a member of an organization leaves. Exit interviews are an HR process, job rotation helps to prevent an individual from conducting fraudulent activities over time, and governance helps to manage and maintain data by establishing high- level control over the processes, proce-dures, and classification of the data an organization uses.
+178. B. Playbooks provide detailed, step- by- step instructions for how to address specific topics like denial- of- service attacks. Standards describe the settings or requirements that the orga-nization wishes to use. Regulations are law and are not set by the organization, and guide-lines provide advice to organizations seeking to comply with the policy and standards.
+179. C. Risk trend analysis shows the change in risks over time, allowing senior leadership to quickly and easily understand where risks are being addressed and where they may be increasing or not getting the attention they need. Ad hoc reports are used when risk information is needed in specific areas, typically in response to specific needs. Risk regis-ters list an organization’s risks in detail and are not a quick, visual tool. Risk event reports detail specific events related to risks.
+180. B. Third- party assessments of an organization’s efforts to meet ISO standards is an example of vendor assessment. Internal audit would leverage internal staff to perform an audit, vul-nerability scans use technical tools to identify vulnerabilities, and data inventories identify data and its locations and uses.
+181. B. Vendors often ask that customers work with them to preschedule the testing so that they are aware of it. They typically do not place limitations on whether customers or third parties conduct the testing, and after- the- fact notification instead of prior notification is not a typical requirement.
+182. B. The IP address of the recipient is not a common way of identifying phishing emails. The source system, domain, or IP may indicate a malicious sender, however! Phishing often focuses on creating a false sense of urgency, uses encrypted and password- protected files to bypass filters, and may claim there is a problem with your password.
+183. D. Operational security is the practice of educating users on the importance of protecting sensitive information, including security practices, configurations, and other details. Aware-ness training is a broad term describing all elements of security awareness. Social engi-neering is used by attackers to leverage human behaviors and practices for their own gain. Insider threats are threats created by those inside the organization.
+184. D. An organization operating in the European Union (EU) and selling in multiple coun-tries means that the company needs to assess legal implications on local, national, and global levels.
+185. C. Conflicts of interest occur when an organization has a competing interest that could influence their behavior in a way that is not aligned with the best interest of a customer. Insider threats occur because an insider creates a problem or threat, either on purpose or inadvertently. MOU and SOW violations are both contractual violations and could be con-flicts of interest but are not limited to that.
+186. D. Decentralized governance allows individual business units to manage themselves rather than central organizations doing so. There is no board or committee described in the question.
+187. A. The Treasury Department is a government entity, making this governance government entity–based. Shareholders and boards may play a role, but not via the Treasury Department. Centralized governance occurs inside the organization, not from an external entity.
+188. C. Requesting evidence of internal audits and then assessing that evidence is the best option Sandra has. While a right- to- audit clause can be important in contracts, it would only be useful after the contract is signed, not prior to engagement. Supply chain analysis can be useful in specific circumstances, but nothing in the question indicates specific supply chain requirements or concerns. Due diligence is performed, not stated.
+189. B. Policy handbooks are used to provide information about high- level security practices and goals. Audit reports may not be broadly available in an organization, runbooks are detailed how- to guides for processes or tasks, and user awareness training focuses on secu-rity awareness rather than high- level goals and policies.
+190. B. Awareness training remains the best protection against social engineering aimed at individual staff members. While awareness won’t stop all attacks, protecting individuals requires them to be trained on a regular basis. Endpoint detection and response (EDR) and next- generation firewall (NGFW) are both technical tools that cannot stop social engi-neering directly, and security policies help the organization establish their approach to secu-rity but won’t stop individual responses to social engineering directly.
+191. A. Examinations are simpler, typically smaller in scope, and less costly than an audit. Both help provide assurance, but the standards applied are different.
+192. D. The first step in developing security training programs is to determine what risks and threats the organization faces. Once those are understood, an appropriate program can be created, including obtaining a budget, determining how training will be presented, and ensuring that regulatory requirements, if any, are met.
+193. B. Internal governance committees do not typically include external entities like regulators. Subject matter experts (SMEs), management, and counsel are all commonly members of security governance committees.
+194. D. Global, national, and local regulations may impact Dana’s security policy, but corpo-rations do not set regulations. Instead, they will influence the policy through contractual obligations.
+195. C. Feedback on policies from staff, integrating new and changed regulations, and vali-dating reports from security tools are all common elements used to update security policies. Nondisclosure agreements (NDAs) seek to keep data secure through contractual obligations and are not a typical element in policy updates.
+196. C. A MOA, or memorandum of agreement, is a formal document that outlines the terms and details of an agreement between two organizations, including the roles and responsibil-ities each will have. A SOW, or statement of work, describes the specific work that will be under a master services agreement for an engagement. Service level agreements (SLAs) arewritten contracts that specify the conditions of service that will be provided by the vendor and the remedies available to the customer if the vendor fails to meet the SLA. Business partners agreements (BPAs) are used when organizations agree to do business with each other in a partnership.
+197. B. Companies commonly send questionnaires to potential vendors to gather information about security practices prior to acquiring their products or engaging their services. This is a simpler method than requiring audits or penetration tests, and OSINT will not provide organizational answers about practices in most cases.
+198. A. External reporting for compliance is most often driven by the need to meet regulations or contractual obligations. Audit assesses compliance rather than driving reporting, board reporting is considered internal, and KPIs are typically internal measures.
+199. B. Automated compliance monitoring is a key tool when organizations want to ensure they are consistently meeting compliance targets. Annual audits do not ensure compliance during the year, whether they are internal or external. Compliance KPIs give organizations compliance targets and measures, but without underlying tools they are simply a way to know the state of compliance when they are checked or updated.
+200. C. Mistakes like this are classified as unintentional anomalous behavior. Risky and unex-pected behaviors are the other two classifications that are part of the Security+ exam out-line. Insider attacks or threats are intentional or unintentional malicious activity, which mistyping a password is not an example of.
+201. D. NIST no longer recommends requiring password changes on a regular basis, and instead suggests that passwords only be changed when necessary. This helps to prevent password reuse and avoids influencing users to slightly modify passwords. Disabling MFA, reusing passwords, and using passwords hints are all practices that should be avoided.
+202. B. Organizations often use multiple formats for awareness training to address learning preferences and styles. Compliance requirements typically do not specify how awareness is accomplished, just that it has occurred and can be validated. Multiple modes of training tend to increase costs rather than decreasing them, and KPIs for security awareness look at impact, not modes.
+203. D. Organizations typically establish KPIs (key performance indicators), which may be described in MSAs (master service agreements), SLAs (service level agreements), or SOWs (statements of work). These help to measure and monitor the vendor’s performance. MOUs are used to document how organizations want to work together, not to establish performance measures. Compliance audits and regulatory requirements are only part of performance management.
+204. B. Staff should be trained to maintain situational awareness by keeping an eye on their environment and the behaviors of individuals around them. Insider threats are internal actors who undertake malicious actions. Social engineering uses human behaviors to con-duct malicious activities, and unintentionally risky behavior is typically accidental threats caused by users.
+205. C. Data owners are typically the most senior data–related role in an organization and bear broad responsibility for the data, including oversight roles over stewards, controllers, and processors.
+206. D. Deploying security cameras is not a common hybrid work environment option. Use of VPNs, secure Wi- Fi, and appropriate physical security are all common options.
+207. C. Contracts, regulations, and licensing all drive external compliance reporting. Reputa-tions may be damaged if organizations are not compliant, but it does not drive reporting.
+208. A. Work orders (WO) and statements of work (SOWs) are used to document the specific tasks and deliverables that are performed under an MSA. SLAs, MOUs, and MOAs are not used for this purpose.
+209. D. MTBF, or mean time between failure, describes the average time before a device will fail, or the average amount of time between failures of a system. A recovery time objective, or RTO, is set by organizations to describe how long restoring systems or services to normal function after a disruption can take. Mean time to repair, or MTTR, is the average time it takes to repair a system or device. A recovery point objective, or RPO, describes how much data can be lost in the event of an outage or issue.
+210. C. ISO 27002 describes controls and helps select and implement controls while also providing guidance on developing information security management guidelines. ISO 27001 establishes control objectives for 14 different categories, including things like HR security, asset management, and operations security. ISO 27701 focuses on managing privacy con-trols, and ISO 31000 provides guidelines for risk management.
+211. A. Physical security standards set requirements for physical security controls like fences, locks, doors, and cameras. Access control policies may be logical or physical control–based, but fence height is not an access control. Business continuity and onboarding don’t impact fence height, nor do they rely on it.
+212. C. Boards are typically elected by shareholders. Employees, the CEO, and non- shareholders typically do not have the ability to elect or name members of the board.
+213. B. Until he knows more details, Greg should classify this behavior as unexpected. Sending large volumes of data may be intentional, could be legitimate and thus not risky, and if it is intentional and part of business needs, would not be an insider threat.
+214. C. Using existing tools to monitor for changes that would move the organization out of compliance is a common practice to help ensure ongoing compliance. Quarterly audits are point- in- time checks and won’t ensure ongoing compliance. Training helps to keep staff aware, but additional actions are required to ensure compliance, and attestation does not provide ongoing compliance, only a statement at a point in time.
+215. C. After audits are acknowledged by management, the auditors will attest that the audit is complete and accurate based on their work and knowledge. Compliance and regulatory reporting may or may not happen depending on the reasons for the audit and the organiza-tion’s needs. Once an audit is complete, further scans and other work may be conducted by the company but are not guaranteed.
+216. B. The employee at Latisha’s company can be considered an insider threat because they have provided access to a third party. Most organizations will terminate employees who do this due to violations of their acceptable use policy (AUP). The behavior is anomalous, but an insider threat is a better description. No social engineering is evident, nor is a nation- state actor described.
+217. B. Using threat feeds to block phishing campaign URLs as they enter the feed is a proactive way to quickly respond. Web application firewalls (WAFs) are used to protect applications rather than as border devices to block outbound traffic. Manual blocks are commonly used but are slower to implement than threat feed–based responses. Conducting user awareness training is a best practice but doesn’t directly respond to campaigns.
+218. B. Amanda has discovered an insider threat. Insider threats can be difficult to discover, as a malicious administrator or other privileged user will often have the ability to conceal their actions or may actually be the person tasked with hunting for threats like this! This is not a zero- day— no vulnerability was mentioned, there was no misconfiguration since this was an intentional action, and encryption is not mentioned or discussed.
+219. A. Behavior like this would be considered risky, as clicking on unknown, unexpected links is a common way to succumb to a phishing attack. Unexpected typically describes behavior that isn’t typical for the user, and we do now know if this user typically behaves this way. The Security+ exam outline doesn’t use irresponsible as a category, and the click was intentional.
+220. B. Establishing a baseline for security awareness is important so that Ben can determine what, if any, impact a program is having. This will drive KPIs as well as influence which actions and steps are taken to evolve the program. Implementing a security program is recommended by many standards, but they don’t determine initial awareness state. Penetra-tion tests can provide information about where issues lie but don’t provide a broad baseline assessment either.
+221. B. Malicious tools like BadUSB can make a USB cable or drive look like a keyboard when they are plugged in. Malicious thumb drives have been used by penetration testers simply by dropping them in a parking lot near their intended target. A Trojan or a worm is a pos-sibility, but the clue involving the keyboard would point to a USB device as the first place Naomi should look.
+222. B. A common practice is to report suspicious messages to an internal security team so that they can take action on phishing and other potential security issues. Reporting to third parties will not provide the same visibility, nor will deleting the messages. Asking users to click on messages works against security best practices!
+223. A. Establishing security awareness KPIs, including incident rates, training uptake, responses to security awareness surveys, and other measurable indicators, is both the broadest and most useful option listed. Third- party awareness audits are not a typical method for doing this, and conducting surveys and tracking incident rates are both actions that will be part of common awareness KPIs.
+224. B. Myles should be concerned about contractual impacts as part of his customer relation-ships. Noncompliance with regulations is likely to make him unable to fulfill contracts or to be in violation of contractual terms that require his company to be in compliance. Fines, loss of license, and sanctions may also occur, but they are less directly impactful to cus-tomers and are not guaranteed.
+225. D. An enterprise password manager can help to make it easier to use appropriate pass-words without requiring users to memorize them. This results in less reuse, stronger pass-words, and the ability to manage them, including preventing password reuse. Biometrics, training, and adopting NIST password complexity and length standards will not have the same broad impact.
+226. A. Risk matrices are often used to summarize risk registers for senior management. SLE and ALE reports are not common documents, although ALE and SLE reports are com-monly used as part of quantitative risk assessment and reporting. Risk KPIs are used to track progress on risk management, not to provide a summary of a risk register.
+227. B. Guidelines provide advice to organizations seeking to comply with policies and stan-dards. Policies outline the principles and rules that guide the execution of security efforts throughout the enterprise. Standards provide mandatory requirements describing how an organization will carry out its information security policies.
