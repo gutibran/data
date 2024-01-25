@@ -1,0 +1,1472 @@
+1. The company that Scott works for has experienced a data breach, and the personal 
+information of thousands of customers has been exposed. Which of the following impact cat-
+egories is not a concern as described in this scenario?
+A. Reputation
+B. Financial
+C. Availability loss
+D. Data loss
+2. Sameer wants to assess whether the key risk indicators (KRIs) his team have suggested are 
+appropriate for his organization. Which of the following is not a common characteristic of a 
+useful KRI?
+A. Actionable
+B. Measurable
+C. Relevant
+D. Inexpensive
+3. Jill’s organization wants to ensure that services and systems are back online and functioning 
+normally within 4 hours of an event or incident. What term best describes this goal?
+A. An RTO
+B. An MTTR
+C. An RPO
+D. An MTBF
+4. Eric’s organization has created a policy document that describes how users can and cannot 
+use the organization’s network, systems, and services. What type of policy has he created?
+A. Business continuity policy.
+B. An acceptable use policy.
+C. An incident response policy.
+D. This is a standard, not a policy.
+5. Angie is performing a penetration test and has gathered information using the Shodan search 
+engine about her target. What type of reconnaissance has she performed?
+A. Active
+B. Commercial
+C. Scanner- based
+D. Passive
+6. What role do data processors have in an organization?
+A. They determine how data is processed.
+B. They own the data.
+C. They process data on behalf of a controller.
+D. They contract with third parties to use the data.Chapter 5 ■ Domain 5.0: Security Program Management and Oversight  177
+7. Ginger’s personal data is used by an organization, including identifiable information like her 
+name, address, and Social Security number. What term best describes Ginger?
+A. Data owner
+B. Data controller
+C. Data processor
+D. Data subject
+8. Hong’s company conducts regular risk assessments. As part of their assessment process, 
+they gather a team of experts who assess risks on a scale from low to high based on their 
+knowledge and experience. What type of risk assessment is Hong’s company conducting?
+A. Ad hoc
+B. Quantitative
+C. Qualitative
+D. Continuous
+9. How is likelihood measured in qualitative risk assessments?
+A. A scale like high, medium, low
+B. A numeric scale from 0 to 1
+C. By calculating loss events per year
+D. A numeric scale from 1 to 100
+10. Grace wants to establish a governance structure that will leverage third- party experts who 
+are paid by her organization. What governance structure should she select?
+A. Board- based
+B. Committee- based
+C. Government- based
+D. Market- based
+11. Carmen’s organization wants to purchase cybersecurity insurance to offset the cost of poten-
+tial breaches. What risk management strategy has her organization adopted?
+A. Transfer
+B. Accept
+C. Avoid
+D. Mitigate
+12. Marissa has been recruited to a group that provides oversight for an organization but that 
+doesn’t engage in the day- to- day operations of the organization. The group focuses on 
+strategy and direction for the organization and meets a few times a year. What type of gover -
+nance group is Marissa part of?
+A. An activist investor’s group
+B. A committee
+C. A board
+D. A regulator178 Chapter 5 ■ Domain 5.0: Security Program Management and Oversight
+13. Governance at Selah’s organization is delegated to business units. This allows the units to 
+determine how to balance their operational needs against their governance processes. What 
+type of governance is this?
+A. Centralized
+B. Board- based
+C. Decentralized
+D. Committee-based
+14. Sharon’s organization wants to understand the risks that it will experience due to acquiring a 
+new subsidiary, but it needs to conduct the assessment quickly while leveraging their industry 
+expertise. Which of the following risk assessment options should Sharon recommend to 
+address this need?
+A. Conduct an ad hoc risk assessment.
+B. Conduct a one- time risk assessment.
+C. Conduct a third- party risk assessment.
+D. Build a continuous risk assessment process.
+15. What term describes a third party that takes actions on behalf of a data controller?
+A. Data subject
+B. Data owner
+C. Data processor
+D. Data administrator
+16. Which of the following will provide a customer the opportunity to engage a third party to 
+deliver an SOC 2, Type 1 report created by third- party assessors?
+A. A penetration testing agreement
+B. A risk assessment agreement
+C. A vulnerability scan clause
+D. A right- to- audit clause
+1 7. Isaac has been asked to be his organization’s data owner for customer data. Which of the fol-
+lowing is not a typical part of that role?
+A. Processing the data
+B. Classifying data
+C. Protecting data
+D. Ensuring the quality of the data
+18. Pedro’s organization uses industrial machinery, which runs an RTOS that is no longer sup-
+ported. His organization’s policies require systems to be removed from service if they cannot 
+be patched for security issues, and the RTOS has a known vulnerability. The machines are Chapter 5 ■ Domain 5.0: Security Program Management and Oversight  179
+very expensive and are a core part of the organization’s industrial processes. What risk  
+process would Pedro follow if he wanted to retain the devices, despite the risk?
+A. Transfer the risk.
+B. Seek an exception.
+C. Document the risk.
+D. Mitigate the risk.
+19. Jake’s team has begun handling new data related to customers, including their personally 
+identifiable information. Jake takes on a new role that has responsibilities including classi-
+fying each data element gathered about customers. What is Jake’s role in the data handling 
+process?
+A. Controller
+B. Custodian
+C. Owner
+D. Processor
+20. Which of the following measures is not commonly used as part of a business impact analysis?
+A. RTO
+B. MTTR
+C. ARO
+D. MTBF
+21. As part of her organization’s marketing efforts, Julie’s team gathers information about cus-
+tomers and others who visit their website. Julie has engaged an analytics company that uses 
+the data gathered to identify trends and potential new market opportunities. What data role 
+does this third- party company play?
+A. Data owner
+B. Data processor
+C. Data controller
+D. Data custodian
+22. Neil’s organization has signed a contract that includes guarantees of 99.9 percent uptime. 
+What type of agreement has Neil’s organization created?
+A. An MSA
+B. An NDA
+C. A MTBF
+D. An SLA
+23. Which of the following best describes a data controller?
+A. Manages the flow of data between custodians
+B. Creates and formats data when it is collected or created
+C. Any system that handles data
+D. Determines the purpose and methods of processing data180 Chapter 5 ■ Domain 5.0: Security Program Management and Oversight
+24. As part of his role, Augie is responsible for implementation of business rules related to data, 
+as well as for storage, and use of data and datasets. What data- related role does Augie hold?
+A. Data owner
+B. Data custodian
+C. Data processor
+D. Data subject
+25. Which of the following penalties is most typically imposed on a country rather than on a 
+company?
+A. Fines
+B. Loss of license
+C. Sanctions
+D. Mandatory reporting
+26. Which of the following is not a commonly used term to describe risk appetite?
+A. Intentional
+B. Neutral
+C. Expansionary
+D. Conservative
+2 7. What does a data steward do?
+A. Create data.
+B. Carry out data use and security policies.
+C. Explain compliance requirements for data.
+D. Oversee data throughout its life cycle.
+28. Marcus determines what organizationally owned data is used for a given purpose and how it 
+is processed. What data role does he have in his organization?
+A. He is a data controller.
+B. He is a supervisory authority.
+C. He is a data protection officer.
+D. He is a data processor.
+29. Colleen’s organization has deployed web application firewalls (WAFs) to protect their web 
+services from being impacted by a known SQL injection attack. What risk management 
+strategy has the organization adopted?
+A. Transfer
+B. Accept
+C. Avoid
+D. MitigateChapter 5 ■ Domain 5.0: Security Program Management and Oversight  181
+30. Requiring all web traffic to be sent via HTTPS is an example of what type of standard?
+A. Access control
+B. Encryption
+C. Password
+D. Physical security
+31. Why are cloud IaaS vendors unlikely to agree to including a right- to- audit clause in their 
+contracts?
+A. The risk to their other customers is too great.
+B. The cost of the assessment is too high.
+C. They may not pass the audit.
+D. They have competing regulatory requirements.
+32. Chuck’s organization requires that user accounts only be able to log in during the staff mem-
+ber’s working hours. What type of standard would drive a setting like this?
+A. Access control
+B. Encryption
+C. Password
+D. Physical security
+33. Frankie wants to establish her organization’s encryption standard. Which of the following 
+should she recommend for a default encryption algorithm for general use if cryptographic 
+strength is a critical feature?
+A. AES- 128
+B. SHA- 1
+C. AES- 256
+D. SHA- 2
+34. Jill’s organization has selected Agile with a CI/CD process for their organization. What type 
+of policy would document this selection?
+A. Business continuity
+B. Disaster recovery
+C. Incident response
+D. Software development life cycle
+35. Megan’s organization wants to create a change management policy. Which of the following is 
+not a typical change type found in a change policy?
+A. Preauthorized changes
+B. Emergency changes
+C. Legislated changes
+D. Standard changes182 Chapter 5 ■ Domain 5.0: Security Program Management and Oversight
+36. Liz wants to assess the critical functions of her business and ensure that the systems that are 
+part of those functions are assessed to determine how often they are likely to fail, how long 
+it would take to restore them, and what recovery objectives will be. What process should she 
+engage in?
+A. A quantitative risk assessment
+B. A business impact analysis
+C. A qualitative risk assessment
+D. A penetration test
+3 7. What describes the key difference between policies and standards?
+A. Policies are defined by third parties; standards are defined by organizations.
+B. Policies are defined by organizations; standards are defined by third parties.
+C. Policies are a statement of intent; standards define how rules help enforce policy.
+D. Policies are legally enforceable; standards are optional.
+38. Sophie wants to ensure that her vendor meets their SLA. What does Sophie need to do?
+A. Ensure performance targets are defined in the contract with appropriate penalties.
+B. Establish key performance indicators (KPIs) for her team and assess them regularly.
+C. Ensure that security levels are not reduced when performing maintenance.
+D. Determine if supply chain levels are met in order to meet demand.
+39. Tuan is assessing risk and knows that he needs to be able to explain risk to his management. 
+What two factors are combined to describe risk?
+A. Impact and acceptance
+B. Likelihood and ALE
+C. Probability and impact
+D. Probability and SLE
+40. Marco wants to conduct active reconnaissance of a target for a penetration test. Which of the 
+following is an appropriate action based on this desire?
+A. Looking up information in Shodan
+B. Conducting a nmap scan
+C. Querying local DNS for the organization
+D. Using public records to gather information
+41. Beth is a data owner in her company. Which of the following is not a typical part of the role 
+of data owner?
+A. They categorize data.
+B. They are responsible for processing data.
+C. They are responsible for protecting data.
+D. They are responsible for data quality.Chapter 5 ■ Domain 5.0: Security Program Management and Oversight  183
+42. NIST SP 800- 63B, Digital Identity Guidelines, provides advice on passwords and pass-
+word standards. Why does the guide recommend that knowledge- based authentication like 
+“What was your mother’s maiden name?” not be used for processes like password reset and 
+recovery?
+A. Users may not remember the answer.
+B. Knowledge- based authentication information is often easily discovered through searches 
+and social media.
+C. Knowledge- based authentication information is not a valid factor for MFA.
+D. Attackers can easily recover knowledge- based information from compromised authenti-
+cation stores.
+43. The company that Leon works for has experienced a significant malware infection and 
+has segmented their network to prevent further spread. What risk mitigation strategy have 
+they chosen?
+A. Avoid
+B. Transfer
+C. Accept
+D. Mitigate
+44. Not using hints, preventing password expiration, storing passwords only in a hashed and 
+salted form, and using minimum password length settings are all examples of what?
+A. Password standards
+B. Multifactor authentication
+C. Establishing knowledge- based passwords
+D. Biometrics
+45. Anastasia works for a government entity that requires very strong risk controls and that has 
+significant regulatory requirements it must meet. What risk appetite model should she expect 
+her organization to adopt?
+A. Expansionary
+B. Conservative
+C. Authoritarian
+D. Legislative
+46. Jack recently joined his organization’s security team. A system was identified as likely being 
+impacted by ransomware, and Jack was given a document that described the organization’s 
+ransomware handling practices. What common security document has he been given?
+A. The IR policy
+B. A ransomware cookbook
+C. A ransomware playbook
+D. A disaster recovery handbook184 Chapter 5 ■ Domain 5.0: Security Program Management and Oversight
+4 7. Connie wants to explain the consequences of noncompliance with data regulations to 
+her organization’s management. Which of the following is the most common statutory 
+consequence of noncompliance with regulations?
+A. Data breaches
+B. Reputational damage
+C. Contractual impacts
+D. Fines
+48. Hank wants to create a playbook for his incident response process. What will he create?
+A. A detailed process for incident response
+B. A legal document describing incident response
+C. A high- level statement of purpose for incident response
+D. A document describing the general incident response (IR) process
+49. What type of agreement is used by organizations that want to protect their proprietary data 
+while working with third parties or individuals who will have access to the data?
+A. SLAs
+B. NDAs
+C. MSAs
+D. BPAs
+50. Oliver has joined an organization and has completed employee orientation, has received his 
+username and password, and has reviewed the new employee security training. What process 
+has he participated in?
+A. Identity proofing
+B. Mandatory access control
+C. Onboarding
+D. Biometric enrollment
+51. What GDPR provision allows individuals to ask organization to delete their personal data?
+A. The right to be forgotten
+B. The right to deletion
+C. The right to privacy
+D. The right to ownership
+52. Damian has provided a comprehensive risk register to his management, including a risk of 
+employees violating policy by taking pictures of sensitive information displayed on their 
+screens using their cell phones. Damian’s recommendation was to ban employees from 
+carrying personal cell phones inside the office, but management has overruled that recom-
+mendation and will allow phones. What risk management strategy has his organization’s 
+leadership chosen?
+A. Transfer
+B. Accept
+C. Avoid
+D. MitigateChapter 5 ■ Domain 5.0: Security Program Management and Oversight  185
+53. Which of the following is not a typical part of an offboarding process?
+A. Returning company equipment
+B. Copying files to a USB drive for the departing employee
+C. Disabling or removing accounts
+D. Changing passwords on shared accounts
+54. Daryl wants to ensure that his organization balances risks and its goals. What risk appetite 
+model should he suggest the organization adopts?
+A. Conservative
+B. Expansionary
+C. Reactionary
+D. Neutral
+55. Charlene is preparing to conduct a penetration test and has been provided with access to all 
+of her organization’s information about the systems, services, and configurations involved. 
+What type of penetration test is she conducting?
+A. A partially known environment test
+B. An unknown environment test
+C. A known environment test
+D. A third- party test
+56. The company that Omar works for wants to co- develop a mobile application with a third- 
+party company. What type of agreement should they both sign as part of this?
+A. An SLA
+B. An NDA
+C. An MSA
+D. A BPA
+5 7. Alex wants to hire a penetration tester who will simulate an attacker’s potential attacks 
+against his environment. What type of test best fits this model?
+A. A partially known environment test
+B. An unknown environment test
+C. A known environment test
+D. A third- party test
+58. What term describes the possibility of a risk occurring?
+A. Impact
+B. Likelihood
+C. Potential
+D. Rate of occurrence186 Chapter 5 ■ Domain 5.0: Security Program Management and Oversight
+59. Killian’s organization wants to perform a penetration test that will provide the maximum 
+amount of information about his organization and that will optimize penetration testers’ 
+time. What type of test should he have conducted?
+A. A partially known environment test
+B. An unknown environment test
+C. A known environment test
+D. A third- party test
+60. Justin’s organization has recently undergone a third- party audit that determined that their 
+data- handling processes don’t comply with the GDPR. Changes to become compliant will 
+take almost a year due to existing systems and software. What risk management strategy is 
+Justin’s organization choosing if they continue to operate knowing they are noncompliant?
+A. Transfer
+B. Exception
+C. Avoidance
+D. Mitigate
+61. Risk assessments required for regulatory compliance are most frequently conducted in which 
+of the following modes?
+A. As ad hoc risk assessments
+B. As one- time risk assessments
+C. As recurring risk assessments
+D. As continuous risk assessments
+62. Jack’s organization has engaged penetration testers for their annual penetration test. As 
+part of the contract, the testers are provided with a list of target systems, operating systems, 
+and software that they will be testing. What type of penetration test is Jack’s organization 
+conducting?
+A. A partially known environment test
+B. An unknown environment test
+C. A known environment test
+D. A third- party test
+63. The company that Jim works for is willing to accept significant risk in order to expand. How 
+should Jim describe the organization’s risk appetite?
+A. Conservative
+B. Expansionary
+C. Limited
+D. NeutralChapter 5 ■ Domain 5.0: Security Program Management and Oversight  187
+64. As part of the early stages of a penetration test, Hui has researched her target organization’s 
+domain names and IP addresses, and has conducted a port scan. What type of activity is Hui 
+engaging in?
+A. Reconnaissance
+B. An unknown environment test
+C. A known environment test
+D. OSINT gathering
+65. What role does a person who has exercised the GDPR’s right to be forgotten hold?
+A. Data subject
+B. Data controller
+C. Data processor
+D. Data owner
+66. How is exposure factor (EF) expressed for risk calculations?
+A. As a calculation of the ALE multiplied by the ARO
+B. As the likelihood of loss
+C. As a potential percentage of loss
+D. As a calculation of the SLE multiplied by the ARO
+6 7. As part of his penetration testing process Nick intends to follow an employee of his target 
+company into a secured area. What type of penetration testing is Nick engaged in?
+A. Defensive
+B. Offensive
+C. Physical
+D. Integrated
+68. Valerie’s organization wants to ensure that their access control vestibule, ID card system, and 
+guards are effective in stopping unwanted entrance. What type of penetration test should she 
+use to validate this?
+A. Physical
+B. Offensive
+C. Defensive
+D. Integrated
+69. Jason’s organization has engaged a penetration testing firm that specializes in using tech-
+niques commonly employed by nation- state actors, including using social engineering 
+techniques, advanced tools, and methods that will provide significant footholds within his 
+infrastructure. What type of penetration test best describes this?
+A. Physical
+B. Offensive
+C. Defensive
+D. Integrated188 Chapter 5 ■ Domain 5.0: Security Program Management and Oversight
+70. Joshua’s organization is required to comply with the EU’s GDPR. As part of their annual 
+assessments, they conduct a GDPR compliance review and receive a report from their audi-
+tors. What type of assessment is this?
+A. A penetration test
+B. A regulatory assessment
+C. An internal audit
+D. An attestation- based assessment
+71. Alexandria wants to mitigate the risk of ransomware during its initial infection stages. Which 
+of the following strategies should she employ?
+A. Deploy an EDR tool.
+B. Purchase cybersecurity insurance.
+C. Use secure, ransomware- resistant backups.
+D. Continue to operate as usual.
+72. Shane’s organization has determined that they can accept up to $10,000,000 a year in risk- 
+related loss in support of their strategic plans. What term best describes this?
+A. Risk acceptance
+B. Risk appetite
+C. Ad hoc risk
+D. A conservative risk tolerance
+73. Eric manages his organization’s internal security team and wants to leverage a penetration 
+test as part of his team’s testing that allows them to respond to simulated attacks. What type 
+of model best describes this?
+A. Physical
+B. Offensive
+C. Defensive
+D. Integrated
+74. Henry’s organization leverages penetration testing as part of its ongoing security practices, 
+using attacker techniques as well as blue teaming to improve security constantly. What type 
+of penetration testing methodology is Henry’s organization using?
+A. Physical
+B. Offensive
+C. Defensive
+D. Integrated
+75. Jackie is an auditor and has completed an SOC 2, Type 2 audit. Her firm then provides a 
+statement about the organization’s audit results and posture. What is this process known as?
+A. Penetration testing
+B. Audit sign- off
+C. Regulatory defense
+D. AttestationChapter 5 ■ Domain 5.0: Security Program Management and Oversight  189
+76. Joe is an auditor who is on the staff of an organization that employs him to audit their own 
+practices. What type of audit does Joe perform?
+A. Internal
+B. Regulatory
+C. External
+D. Compliance
+7 7. Irene’s organization needs to follow PCI DSS standards. If she engages a third party to assess 
+this, what type of audit is she having performed?
+A. An internal regulatory audit
+B. An external regulatory audit
+C. An internal compliance audit
+D. An external compliance audit
+78. Anton’s organization processes credit cards but is a small organization. As part of their 
+annual requirements related to PCI DSS, Anton fills out a form about their PCI DSS compli-
+ance and submits it to their acquiring bank. What type of assessment has his organization 
+conducted?
+A. An internal regulatory audit
+B. A self- assessment
+C. An independent, third- party audit
+D. An external compliance audit
+79. What organization typically includes an audit committee for a company?
+A. The security office
+B. The shareholders
+C. The board of directors
+D. The third- party assessors
+80. What type of risk assessment process is most commonly associated with a CI/CD 
+pipeline model?
+A. Ad hoc risk assessments
+B. One- time risk assessments
+C. Third- party risk assessments
+D. Continuous risk assessments
+81. Cristobal wants to ensure that a vendor his company is considering hiring has conducted an 
+SOC 2, Type 2 audit that is reliable and that will reveal any critical issues. What should he 
+ensure was done?
+A. An internal audit with attestation by the CEO
+B. An independent, third- party audit
+C. A self- assessment
+D. A third- party penetration test with attestation190 Chapter 5 ■ Domain 5.0: Security Program Management and Oversight
+82. Kim’s organization has assessed the risk of floods that may impact their datacenter and has 
+determined that the likely rate of occurrence and its cost if it does occur are not acceptable. 
+Given this, the organization has opted to move their datacenter in the next year. What has 
+occurred?
+A. The risk dropped below their risk threshold.
+B. The risk assessment failed.
+C. A control failure occurred.
+D. The risk passed their risk threshold.
+83. Vanessa’s organization is a US- based health- care organization that is required to be com-
+pliant with HIPAA. What type of external assessment should they conduct?
+A. Regulatory
+B. Offensive
+C. Known environment
+D. Physical
+84. Jaime wants to establish her organization’s change management policy. What should the 
+policy include?
+A. High- level descriptions of how the organization will review, approve, and implement 
+proposed changes
+B. A detailed process for review and approval of changes
+C. Descriptions of how a change request should be created, formatted, reviewed, and 
+approved
+D. An outline of the regulatory requirements for changes
+85. Marek’s organization has a system that needs to receive a deviation from a defined security 
+process. What best practice should he follow to ensure that this is done correctly?
+A. He should conduct a risk assessment and document the results.
+B. He should remove the system from the network segment to protect it.
+C. He should ensure the deviation is approved through change management processes.
+D. All of the above.
+86. What is the key difference between a business continuity plan and a business conti-
+nuity policy?
+A. The plan describes how an organization will respond, whereas the policy outlines the 
+high- level intent of the organization’s business continuity efforts.
+B. The plan includes detailed steps for each part of the response, including how to restore 
+systems and investigate issues, whereas the policy outlines the high- level intent of the 
+organization’s business continuity efforts.
+C. The plan describes the high- level intent of the organization’s business continuity efforts, 
+whereas the incident response policy describes how the organization will respond.
+D. They are the same; the terms are interchangeable.Chapter 5 ■ Domain 5.0: Security Program Management and Oversight  191
+8 7. Christina has prepared a document that includes high- level statements about how her orga-
+nization will handle major incidents and what its overall stance on incidents is. What has she 
+created?
+A. An incident response process
+B. A runbook
+C. An incident response policy
+D. An incident response standard
+88. Terry wants to have all of his account data removed from organizations he has interacted 
+with. What GDPR right can he leverage if he is an EU citizen?
+A. Data stewardship
+B. Personal data ownership
+C. The right to be forgotten
+D. His HIPAA rights
+89. Probability and impact are used to rate what key security item?
+A. Cost
+B. Risk
+C. Vulnerability
+D. Audit findings
+90. Gary wants to determine the probability of a risk occurring. What should he base his 
+assessment on if he is performing a qualitative risk assessment?
+A. A calculated rate of occurrence using industry statistical data
+B. A rating from an experienced team of staff
+C. The number of times it has happened to their competitors in a year
+D. Actuarial tables provided by his insurance broker
+91. Which of the following is not a common element for a penetration test’s rules of engagement?
+A. Handling of sensitive and pentest- related data
+B. A list of passwords
+C. A list of in- scope IPs or domains
+D. A list of emergency contacts
+92. Maeve is preparing to sign a penetration testing contract with a third- party security service 
+provider. The security service provider provides a questionnaire that asks the scope of sys-
+tems that can and cannot be tested, the schedule and times that penetration testing can and 
+cannot occur, and what to do if a preexisting compromise is discovered. What document is 
+the third- party service provider assembling?
+A. A right- to- audit clause
+B. A service- level agreement
+C. A memorandum of understanding
+D. Rules of engagement192 Chapter 5 ■ Domain 5.0: Security Program Management and Oversight
+93. Alaina wants to describe the level of impact and probability where her organization will 
+either accept or attempt to mitigate or otherwise handle a risk at. What term describes this?
+A. Risk threshold
+B. Ad hoc risk level
+C. Third- party risk level
+D. Risk appetite
+94. Alaina has been asked to create an AUP for her organization. Which of the following should 
+she include?
+A. An access and usage policy that lists times and roles allowed to access specific resources
+B. A document that describes how the organization intends to approach change and related 
+functions
+C. An antivirus (AV) update policy that describes when and how AV updates are deployed
+D. A description of acceptable use by organizational users
+95. Kyle’s organization is a very well- known, multinational organization. A recent data breach 
+has exposed data for millions of customers, including all of their account information. As 
+part of the breach, Kyle’s company was discovered to have not followed common security 
+practices, and in fact was operating in intentionally careless ways. Which of the following 
+consequences should he highlight as most critical to the organization’s ongoing operations 
+when he considers their customer base?
+A. Fines
+B. Due diligence
+C. Reputational damage
+D. Contractual impacts
+96. What type of agreement do organizations create after signing an MSA that describes the 
+specific tasks or deliverables that will be created or performed?
+A. A MOU
+B. A SOW
+C. A punch list
+D. A BPA
+9 7. Jack’s organization recently received a shipment of SSDs and has begun to deploy them. 
+What information would best help Jack assess the useful life of the devices?
+A. An RTO
+B. An MTTR
+C. An RPO
+D. An MTBFChapter 5 ■ Domain 5.0: Security Program Management and Oversight  193
+98. The hard drives that Jason’s organization recently purchased have an MTBF of 300,000 
+hours. When can Jason expect the first drive to fail?
+A. At 150,000 hours
+B. At 300,000 hours
+C. At 450,000 hours
+D. None of the above
+99. Melissa’s organization wants to establish a metric that defines how much data could be lost if 
+an issue occurs. What should they set?
+A. An RTO
+B. An MTTR
+C. An RPO
+D. An MTBF
+100. What common terms are used to categorize anomalous behavior?
+A. Risky, unexpected, and unintentional
+B. Recurring, occasional, and unique
+C. Unintentional, insider, and accidental
+D. Active, passive, and integrated
+101. Greg is reviewing a server and notices that it is both running outdated software and that the 
+organization heavily relies on the services that it provides. He pulls together a team to deter -
+mine what the risk of operating the server is and what issues would occur if it were removed 
+from service that day. What type of assessment has he conducted?
+A. An ad hoc risk assessment
+B. A one- time risk assessment
+C. A third- party risk assessment
+D. A continuous risk assessment
+102. Olivia’s organization operates servers in a datacenter that support customers across the 
+country. As Olivia is determining her service level agreements, what information is most 
+important in determining how quickly a server can be restored to operation if its mother -
+board fails?
+A. An RTO
+B. An MTTR
+C. An RPO
+D. An MTBF
+103. Irina’s organization wants to work with one of their vendors and wishes to establish an 
+ongoing relationship with them. What type of agreement should they create between the 194 Chapter 5 ■ Domain 5.0: Security Program Management and Oversight
+organizations so that they can create SOWs as they determine what services they need from 
+their service provider’s organization?
+A. An MOU
+B. An SLA
+C. An MSA
+D. A BPA
+104. Dani’s organization relies on journaling to help protect transactions that occur through its 
+database. Which of the following does journaling impact the most?
+A. An RTO
+B. An MTTR
+C. An RPO
+D. An MTBF
+105. Henry’s organization has set their RTO to 12 hours. What does this mean?
+A. Outages must be less than 6 hours long.
+B. Recovery from outages should take less than 12 hours.
+C. Outages longer than 12 hours will require fail over to a warm site.
+D. SLAs for third- party services should specify a 12 hour MTBF.
+106. Valerie knows that her organization’s datacenter power infrastructure has an MTTR of 24 
+hours. What should she do if there is a critical component failure in her power infrastruc-
+ture, and the organization has a warm site with an activation of 12 hours and needs to be 
+back online as soon as possible?
+A. Wait to see if the recovery can be done in less than 24 hours.
+B. Immediately begin a move to the warm site.
+C. Wait to see if the recovery can be done in less than12 hours.
+D. Wait for 12 hours, then begin the move to the warm site.
+10 7. Peter’s risk assessment process includes calculations of single loss expectancy, the annualized 
+rate of occurrence of risks, and the annualized loss expectancy. What type of risk assessment 
+is Peter conducting?
+A. Quantitative
+B. Calculated
+C. Qualitative
+D. Registered
+108. What organizational document is used to enumerate and rate an organization’s risks?
+A. A risk appetite plan
+B. A risk register
+C. A quantitative register
+D. A qualitative assessment reportChapter 5 ■ Domain 5.0: Security Program Management and Oversight  195
+109. Amanda’s organization wants to conduct a risk assessment and needs to prioritize a timely 
+completion of the process over rigorous detail. What type of assessment should she advise 
+her organization to select?
+A. Internal
+B. External
+C. Qualitative
+D. Quantitative
+110. Chuck wants to conduct a quantitative risk assessment. Which of the following will he need 
+to be able to determine the single loss expectancy for a server?
+A. Its purchase date
+B. Which department manages the server
+C. The operating system the server uses
+D. The cost of the server
+111. Shawna’s organization has undertaken reasonable steps to meet their compliance require-
+ments for data handling. What is this process or effort called?
+A. Data stewardship
+B. Due diligence
+C. Attestation
+D. Data sanctioning
+112. Jeremy knows that his customer data is worth $500,000, and that the value of the data 
+would be reduced by 25 percent if it was exposed. What is the SLE for this data?
+A. $25,000
+B. $125,000
+C. $250,000
+D. $375,000
+113. Ian wants to calculate the annualized loss expectancy for an asset. What two values does he 
+need to know?
+A. SLE and ARO
+B. ARO and MTBF
+C. SLE and RPO
+D. MTBF and RTO
+114. Waylon is charged with ensuring that risks related to customer data used as part of his orga-
+nization’s primary application are managed appropriately. What is his role?
+A. Board member
+B. Data processor
+C. Auditor
+D. Risk owner196 Chapter 5 ■ Domain 5.0: Security Program Management and Oversight
+115. Nathaniel’s organization is reviewing potential issues that may result from noncompliance 
+with regulations that apply to his company. Which of the following would create the most 
+significant operational harm?
+A. Reputational damage
+B. Loss of license
+C. Fines
+D. Contractual impacts
+116. Susan wants to calculate the annualized loss expectancy for an asset that has a value of 
+$50,000, an exposure factor of 50 percent, and an annual rate of occurrence of 2. What is 
+the annualized loss expectancy for the asset?
+A. $5,000
+B. $25,000
+C. $50,000
+D. $100,000
+11 7. Tim’s organization knows that a major breach occurs once every four years, resulting in 
+a loss of $250,000 for his organization. What is the annual rate of occurrence that Tim 
+should use in his risk calculations?
+A. .25
+B. $75,000
+C. .75
+D. $50,000
+118. Charlene wants to calculate the annualized loss expectancy for a risk event. What two 
+factors does she need to know to calculate the ALE for a risk?
+A. ARO and TCO
+B. SLE and RPO
+C. TCO and RPO
+D. ARO and SLE
+119. John is conducting a penetration test of a client’s network. He is currently gathering 
+information from sources such as archive.org, netcraft.com, social media, and 
+information websites. What best describes this stage?
+A. Active reconnaissance
+B. Passive reconnaissance
+C. Initial exploitation
+D. Pivot
+120. Juan is responsible for incident response at a large financial institution. He discovers that 
+the company Wi- Fi has been breached. The attacker used the same login credentials that 
+ship with the wireless access point (WAP). The attacker was able to use those credentials Chapter 5 ■ Domain 5.0: Security Program Management and Oversight  197
+to access the WAP administrative console and make changes. Which of the following best 
+describes the lack of standards or procedures that caused this vulnerability to exist?
+A. Improperly configured accounts
+B. Untrained users
+C. Using default settings
+D. Failure to patch systems
+121. What is the primary difference between active and passive reconnaissance?
+A. Active will be done manually, passive with tools.
+B. Active is done with unknown environment tests and passive with known environ-
+ment tests.
+C. Active is usually done by attackers and passive by testers.
+D. Active will actually connect to the network and could be detected; passive won’t.
+122. The type and scope of testing, client contact details, how sensitive data will be handled, and 
+the type and frequency of status meetings and reports are all common elements of what arti-
+fact of a penetration test?
+A. The unknown environment (black- box) outline
+B. The rules of engagement
+C. The known environment (white- box) outline
+D. The close- out report
+123. Charlene has been asked to write a business continuity (BC) plan for her organization. 
+Which of the following will a BC plan best handle?
+A. How to respond during a person- made disaster
+B. How to keep the organization running during a system outage
+C. How to respond during a natural disaster
+D. All of the above
+124. Alaina’s company is considering signing a contract with a cloud service provider and wants 
+to determine how secure their services are. Which of the following is a method she is likely 
+to be able to use to assess it?
+A. Ask for permission to vulnerability scan the vendor’s production service.
+B. Conduct an audit of the organization.
+C. Review an existing SOC audit.
+D. Hire a third party to audit the organization.
+125. Gurvinder’s corporate datacenter is located in an area that FEMA has identified as being 
+part of a 100- year flood plain. He knows that there is a chance in any given year that his 
+datacenter could be completely flooded and underwater, and he wants to ensure that his 
+organization knows what to do if that happens. What type of plan should he write?
+A. A continuity of operations plan
+B. A business continuity plan
+C. A flood insurance plan
+D. A disaster recovery plan198 Chapter 5 ■ Domain 5.0: Security Program Management and Oversight
+126. Which of the following environments is least likely to allow a right- to- audit clause in a 
+contract?
+A. A datacenter co- location facility in your state
+B. A rented facility for a corporate headquarters
+C. A cloud server provider
+D. A datacenter co- location facility in the same country but not the same state
+127 . Ben writes down the checklist of steps that his organization will perform in the event of a 
+cryptographic malware infection. What type of response document has he created?
+A. A playbook
+B. A DR plan
+C. A BC plan
+D. A runbook
+128. Caroline has been asked to find an international standard to guide her company’s choices in 
+implementing information security management systems. Which of the following would be 
+the best choice for her?
+A. ISO 27002
+B. ISO 27701
+C. NIST 800- 12
+D. NIST 800- 53
+129. Which of the following principles stipulates that multiple changes to a computer system 
+should not be made at the same time?
+A. Due diligence
+B. Acceptable use
+C. Change management
+D. Due care
+130. You are a security engineer and discovered an employee using the company’s computer 
+systems to operate their small business. The employee installed their personal software on 
+the company’s computer and is using the computer hardware, such as the USB port. What 
+policy would you recommend the company implement to prevent any risk of the company’s 
+data and network being compromised?
+A. Acceptable use policy
+B. Clean desk policy
+C. Mandatory vacation policy
+D. Job rotation policy
+131. What standard is used for credit card security?
+A. GDPR
+B. COPPA
+C. PCI DSS
+D. CISChapter 5 ■ Domain 5.0: Security Program Management and Oversight  199
+132. Which of the following techniques attempts to predict the likelihood a threat will occur and 
+assigns monetary values should a loss occur?
+A. Change management
+B. Vulnerability assessment
+C. Qualitative risk assessment
+D. Quantitative risk assessment
+133. Which of the following agreements is less formal than a traditional contract but still has a 
+certain level of importance to all parties involved?
+A. SLA
+B. BPA
+C. ISA
+D. MOU
+134. You have an asset that is valued at $16,000, the exposure factor of a risk affecting that asset 
+is 35 percent, and the annualized rate of occurrence is 75 percent. What is the SLE?
+A. $5,600
+B. $5,000
+C. $4,200
+D. $3,000
+135. You are a security administrator for your company and you identify a security risk. You 
+decide to continue with the current security plan. However, you develop a contingency plan 
+in case the security risk occurs. Which of the following type of risk response technique are 
+you demonstrating?
+A. Accept
+B. Transfer
+C. Avoid
+D. Mitigate
+136. Which of the following is not a common security policy type?
+A. Acceptable use policy
+B. Business continuity
+C. Incident response
+D. Parking policy
+137 . Your security manager wants to decide which risks to mitigate based on cost. What is this 
+an example of?
+A. Quantitative risk assessment
+B. Qualitative risk assessment
+C. Business impact analysis
+D. Threat assessment200 Chapter 5 ■ Domain 5.0: Security Program Management and Oversight
+138. Your company has outsourced its proprietary processes to Acme Corporation. Due to 
+technical issues, Acme wants to include a third- party vendor to help resolve the technical 
+issues. Which of the following must Acme consider before sending data to the third party?
+A. This data should be encrypted before it is sent to the third- party vendor.
+B. This may constitute unauthorized data sharing.
+C. This may violate the privileged user role- based awareness training.
+D. This may violate a nondisclosure agreement.
+139. Which of the following is typically included in a BPA?
+A. Clear statements detailing the expectation between a customer and a service provider
+B. The agreement that a specific function or service will be delivered at the agreed- on 
+level of performance
+C. Sharing of profits and losses and the addition or removal of a partner
+D. Security requirements associated with interconnecting IT systems
+140. A security administrator is reviewing the company’s continuity plan, and it specifies an RTO 
+of four hours and an RPO of one day. Which of the following is the plan describing?
+A. Systems should be restored within one day and should remain operational for at least 
+four hours.
+B. Systems should be restored within four hours and no later than one day after the 
+incident.
+C. Systems should be restored within one day and lose, at most, four hours’ worth 
+of data.
+D. Systems should be restored within four hours with a loss of one day’s worth of data 
+at most.
+141. Which of the following statements is true regarding a data retention policy?
+A. Regulations require financial transactions to be stored for seven years.
+B. Employees must remove and lock up all sensitive and confidential documents when 
+not in use.
+C. It describes a formal process of managing configuration changes made to a network.
+D. It is a legal document that describes a mutual agreement between parties.
+142. How do you calculate the annual loss expectancy (ALE) that may occur due to a threat?
+A. Exposure factor (EF) / single loss expectancy (SLE)
+B. Single loss expectancy (SLE) × annual rate of occurrence (ARO)
+C. Asset value (AV) × exposure factor (EF)
+D. Single loss expectancy (SLE) / exposure factor (EF)
+143. You are a security administrator for your company and you identify a security risk that  
+you do not have in- house skills to address. You decide to acquire contract resources.  Chapter 5 ■ Domain 5.0: Security Program Management and Oversight  201
+The contractor will be responsible for handling and managing this security risk. Which of 
+the following type of risk response techniques are you demonstrating?
+A. Accept
+B. Mitigate
+C. Transfer
+D. Avoid
+144. You are a server administrator for your company’s private cloud. To provide service to 
+employees, you are instructed to use reliable hard disks in the server to host a virtual envi-
+ronment. Which of the following best describes the reliability of hard drives?
+A. MTTR
+B. RPO
+C. MTBF
+D. ALE
+145. Which of the following best describes a key challenge of quantitative risk analysis compared 
+to qualitative risk analysis?
+A. Quantitative risk analysis requires detailed financial data.
+B. Quantitative risk analysis is sometimes subjective.
+C. Quantitative risk analysis requires expertise on systems and infrastructure.
+D. Quantitative risk provides clear answers to risk- based questions.
+146. Categorizing residual risk is most important to which of the following risk response 
+techniques?
+A. Risk mitigation
+B. Risk acceptance
+C. Risk avoidance
+D. Risk transfer
+147 . You are the IT manager and one of your employees asks who assigns data labels. Which of 
+the following assigns data labels?
+A. Owner
+B. Custodian
+C. Privacy officer
+D. System administrator
+148. A security analyst is analyzing the cost the company could incur if the customer database 
+was breached. The database contains 2,500 records with personally identifiable information 
+(PII). Studies show the cost per record would be $300. The likelihood that the database 
+would be breached in the next year is only 5 percent. Which of the following would be the 
+ALE for a security breach?
+A. $15,000
+B. $37,500
+C. $150,000
+D. $750,000202 Chapter 5 ■ Domain 5.0: Security Program Management and Oversight
+149. Which of the following concepts defines a company goal for system restoration and accept-
+able data loss?
+A. MTBF
+B. MTTR
+C. RPO
+D. ARO
+150. You are a network administrator and have been given the duty of creating user accounts for 
+new employees the company has hired. These employees are added to the identity and access 
+management (IAM) system and assigned mobile devices. What process are you performing?
+A. Offboarding
+B. System owner
+C. Onboarding
+D. Executive user
+151. Visa’s published documentation for “What to Do if Compromised” includes requirements to 
+notify Visa within 3 days of an incident, to provide notice to other relevant parties, and to 
+conduct forensic investigations while preserving evidence. What type of document is this?
+A. A policy
+B. A playbook
+C. A checklist
+D. A procedure
+152. An organization’s information security policy framework typically contains what four types 
+of documents?
+A. A risk register, an audit report, a vulnerability scan, and a pentest report
+B. Policies, standards, procedures, and guidelines
+C. Laws, policies, standards, and practices
+D. Policies, practices, procedures, and playbooks
+153. Which of the following terms is used to measure how maintainable a system or device is?
+A. MTBF
+B. MTTF
+C. MTTR
+D. MITM
+154. Helen’s organization provides telephone support for their entire customer base as a criti-
+cal business function. She has created a plan that will ensure that her organization’s Voice 
+over IP (VoIP) phones will be restored in the event of a tornado. What type of plan has she 
+created?
+A. A disaster recovery plan
+B. An RPO plan
+C. An incident response plan
+D. An MTBF planChapter 5 ■ Domain 5.0: Security Program Management and Oversight  203
+155. Greg has data that is classified as health information that his organization uses as part of 
+their company’s HR data. Which of the following statements is true for his company’s secu-
+rity policy?
+A. The health information must be encrypted.
+B. Greg should review relevant law to ensure the health information is handled properly.
+C. Companies are prohibited from storing health information and must outsource to 
+third parties.
+D. All of the above.
+156. What type of impact is an individual most likely to experience if a data breach that includes 
+PII occurs?
+A. IP theft
+B. Reputation damage
+C. Fines
+D. Identity theft
+157 . Isaac has been asked to write his organization’s access control standards. What policy is 
+commonly put in place for service accounts?
+A. They must be issued only to system administrators.
+B. They must use multifactor authentication.
+C. They cannot use interactive logins.
+D. All of the above.
+158. Emma is reviewing third- party risks to her organization, and Nate, her organization’s 
+procurement officer, notes that purchases of some laptops from the company’s hardware 
+vendor have been delayed due to lack of availability of SSDs (solid- state drives) and specific 
+CPUs (central processing units) for specific configurations. What type of risk should Emma 
+describe this as?
+A. Financial risk
+B. A lack of vendor support
+C. System integration
+D. Supply chain
+159. Patching systems immediately after patches are released is an example of what risk 
+management strategy?
+A. Acceptance
+B. Avoidance
+C. Mitigation
+D. Transference204 Chapter 5 ■ Domain 5.0: Security Program Management and Oversight
+160. What key element of regulations, like the European Union’s GDPR, drive organizations to 
+include them in their overall assessment of risk posture?
+A. Potential fines
+B. Their annual loss expectancy (ALE)
+C. Their recovery time objective (RTO)
+D. The likelihood of occurrence
+161. What phases of handling a disaster are covered by a disaster recovery plan?
+A. What to do before the disaster
+B. What to do during the disaster
+C. What to do after the disaster
+D. All of the above
+162. Naomi’s organization has recently experienced a breach of credit card information. After 
+investigation, it is discovered that her organization was inadvertently not fully compliant 
+with PCI DSS and is not currently fully compliant. Which of the following penalties is her 
+organization most likely to incur?
+A. Criminal charges
+B. Fines
+C. Termination of the credit card processing agreement
+D. All of the above
+163. What law or regulation requires a DPO in organizations?
+A. FISMA
+B. COPPA
+C. PCI DSS
+D. GDPR
+164. Your company is considering moving its mail server to a hosting company. This will help 
+reduce hardware and server administrator costs at the local site. Which of the following 
+documents would formally state the reliability and recourse if the reliability is not met?
+A. MOU
+B. SLA
+C. ISA
+D. BPA
+165. Risk severity is calculated using the equation shown here. What information should be sub-
+stituted for X?
+ Risk severity = X * Impact
+A. Inherent risk
+B. MTTR (mean time to repair)
+C. Likelihood of occurrence
+D. RTO (recovery time objective)Chapter 5 ■ Domain 5.0: Security Program Management and Oversight  205
+166. How is asset value determined?
+A. The original cost of the item
+B. The depreciated cost of the item
+C. The cost to replace the item
+D. Any of the above based on organizational preference
+167 . What process is used to help identify critical systems?
+A. A BIA
+B. An MTBF
+C. An RTO
+D. An ICD
+168. Zarmeena wants to transfer the risk for breaches to another organization. Which of the fol-
+lowing options should she use to transfer the risk?
+A. Explain to her management that breaches will occur.
+B. Blame future breaches on competitors.
+C. Sell her organization’s data to another organization.
+D. Purchase cybersecurity insurance.
+169. The financial cost of a breach is an example of what component of risk calculations?
+A. Probability
+B. Risk severity
+C. Impact
+D. All of the above
+170. Joanna’s penetration test target is an unknown environment that is isolated from the Inter -
+net and requires VPN access. What type of testing will she need to do to gather vulnerability 
+information from systems?
+A. Passive reconnaissance
+B. OSINT reconnaissance
+C. Active reconnaissance
+D. Known environment reconnaissance
+171. Olivia’s cloud service provider claims to provide zero data loss from storage, and Olivia’s 
+company wants to take advantage of that service because loss of data would be extremely 
+costly for the business. What business agreement can Oliva put in place to help ensure that 
+the reliability that the vendor advertises is maintained?
+A. An MOU
+B. An SLA
+C. An MSA
+D. A BPA206 Chapter 5 ■ Domain 5.0: Security Program Management and Oversight
+172. How is SLE calculated?
+A. AV * EF
+B. RTO * AV
+C. MTTR * EF
+D. AV * ARO
+173. Wayne has estimated the ARO for a risk in his organization to be 3. How often does Wayne 
+think the event will happen?
+A. Once every 3 months
+B. Three times a year
+C. Once every three years
+D. Once a year for three years
+174. Elle works for a credit card company that handles credit card transactions for businesses 
+around the world. What data privacy role does her company play?
+A. A data controller
+B. A data steward
+C. A data custodian
+D. A data processor
+175. Nicole determines how her organization processes data that it collects about its customers 
+and also decides how and why personal information should be processed. What role does 
+Nicole play in her organization?
+A. Data steward
+B. Data custodian
+C. Data controller
+D. Data consumer
+176. Kirk’s organization has been experiencing large- scale denial- of- service (DoS) attacks against 
+their primary website. Kirk contracts with his Internet service provider to increase the orga-
+nization’s bandwidth and expands the server pool for the website to handle significantly 
+more traffic than any of the previous DoS attacks. What type of risk management strategy 
+has he employed?
+A. Acceptance
+B. Avoidance
+C. Transfer
+D. Mitigation
+1 7 7. After Angela left her last organization, she discovered that she still had access to her shared 
+drives and could log in to her email account. What critical process was likely forgotten 
+when she left?
+A. An exit interview
+B. Job rotation
+C. Offboarding
+D. GovernanceChapter 5 ■ Domain 5.0: Security Program Management and Oversight  207
+178. Kelly’s organization has created an incident response policy that outlines the high- level 
+goals of the IR process. Next, she wants to create detailed documents that describe the 
+steps to handle specific incident types like denial- of- service attacks. What document should 
+she create?
+A. Standards
+B. Playbooks
+C. Regulations
+D. Guidelines
+179. Mohammed wants to show his organization’s senior leadership the impact of their risk 
+management process over time. What risk reporting method effectively conveys this in an 
+easily digestible visual format for senior leadership?
+A. Ad hoc reports
+B. Risk registers
+C. Risk trend analysis
+D. Risk event reports
+180. Presenting certification that a third- party organization has validated a vendor’s practices 
+against ISO 27001 is an example of what practice?
+A. Internal audit
+B. Vendor assessment
+C. Vulnerability scanning
+D. Data inventory
+181. What common limitation do IaaS vendors place on penetration testing by their customers?
+A. It can only be done by third parties.
+B. It must be prescheduled.
+C. It can only be done by the customers themselves.
+D. Notification must be sent immediately after it occurs.
+182. Chandra is providing guidance on recognizing phishing campaigns. Which of these is not a 
+common way to recognize phishing emails?
+A. It creates a false sense of urgency.
+B. The IP address of the recipient.
+C. The attachment is encrypted and password protected.
+D. The email claims that there is a problem with your password.
+183. Juan’s company trains users to be cautious about revealing information about security con-
+trols, practices, configurations, and even the tools and software the company deploys. What 
+is this practice known as?
+A. Awareness training
+B. Social engineering
+C. An insider threat
+D. Operational security208 Chapter 5 ■ Domain 5.0: Security Program Management and Oversight
+184. Mark’s organization operates in the EU and sells products in multiple countries. It wants to 
+determine its compliance requirements based on regulations that will impact it. Which of 
+the following regions should it focus its review of legal implication on?
+A. Local
+B. National
+C. Global
+D. All of the above
+185. What occurs when a vendor has a competing interest that could influence their behavior in 
+a way that is not aligned with the best interests of one of their customers?
+A. An insider threat
+B. A MOU violation
+C. A conflict of interest
+D. A SOW violation
+186. Selma’s organization allows individual business units to manage their cybersecurity needs 
+and practices as they see fit. What type of governance structure have they adopted?
+A. Centralized
+B. Board- based
+C. Committee- based
+D. Decentralized
+1 8 7. The US Treasury Department regulates banks and their behaviors, including security- related 
+regulations. What term best describes this type of governance structure?
+A. Government entity–based
+B. Shareholder driven
+C. Board- based
+D. Centralized
+188. The company that Sandra wants to work with does not provide third- party audit state-
+ments. If Sandra wants to engage with them, what should she request as part of her 
+vendor assessment process prior to signing a contract in order to have the most useful data 
+available?
+A. A right- to- audit clause
+B. A supply chain analysis
+C. Evidence of internal audits
+D. A due diligence statement
+189. Leigh wants to provide new users with information about her organization’s security goals 
+and high- level practices. What do organizations typically provide to accomplish this?
+A. Audit reports
+B. Policy handbooks
+C. Runbooks
+D. User awareness trainingChapter 5 ■ Domain 5.0: Security Program Management and Oversight  209
+190. Jodi wants to prepare her staff to defend against social engineering. What should she invest 
+in to help her staff address this threat?
+A. EDR tools
+B. Awareness training
+C. A NGFW
+D. Security policies
+191. How do audits and examinations differ?
+A. An examination is simpler and less costly.
+B. Audits are external and examinations are internal.
+C. Audits are internal and examinations are external.
+D. An audit is simpler and less costly.
+192. Evangeline wants to develop a security training program. What should she do first?
+A. Determine how the training will be presented.
+B. Establish a budget.
+C. Review regulatory requirements for training.
+D. Assess the threats and risks the organization faces.
+193. Angelo is designing his organization’s security governance groups and has created a 
+committee. Which of the following is not a typical member of internal security governance 
+committees?
+A. Subject matter experts
+B. Regulators
+C. Management
+D. Internal legal counsel
+194. Dana wants to assess regulatory impacts on her organization’s security policy. Which of the 
+following is not a typical regulatory impact she will need to assess?
+A. Global
+B. National
+C. Local
+D. Corporate
+195. Marty wants to ensure that his security policies are up-to-date and effective. Which of the 
+following data sources is least likely to be useful as he reviews his organization’s security 
+policies?
+A. Security system logs and reports
+B. Staff feedback
+C. NDAs
+D. Review of regulations210 Chapter 5 ■ Domain 5.0: Security Program Management and Oversight
+196. What term describes a formal document that outlines the terms and details of an agreement 
+between two organizations, including the roles and responsibilities each will have?
+A. A statement of work
+B. A business partners agreement
+C. A memorandum of agreement
+D. A service level agreement
+1 9 7. Victoria wants to understand a potential vendor’s security practices. Which of the following 
+is the simplest way for her to gather that information from multiple potential vendors?
+A. Third- party audits
+B. Questionnaires
+C. Penetration testing
+D. OSINT
+198. What two things most frequently drive external compliance reporting?
+A. Regulatory bodies and contractual obligations
+B. Internal and external audit
+C. Contractual requirements and board reporting
+D. Regulatory bodies and KPIs
+199. Blaine wants to ensure that his organization consistently meets PCI DSS requirements. What 
+should he implement to meet this goal?
+A. Annual PCI DSS internal audits
+B. Automated compliance monitoring
+C. Annual PCI DSS external audits
+D. Compliance KPIs
+200. Ujama is reviewing logs and notices that one of his users has repeatedly failed their login 
+process. After calling the user, he discovers that the user had mistyped their password mul-
+tiple times. What type of anomalous behavior should he classify this as?
+A. Insider
+B. Risky
+C. Unintentional
+D. Unexpected
+201. Common password management practices include which of the following?
+A. Disabling MFA
+B. Reusing passwords across multiple sites
+C. Enabling password hints
+D. Changing passwords only when necessaryChapter 5 ■ Domain 5.0: Security Program Management and Oversight  211
+202. Mark is responsible for the execution of his organization’s security awareness program. 
+Why might he deploy multiple training methods like workshops, online training, and simu-
+lations as part of the training?
+A. To meet compliance requirements
+B. To address learning preferences
+C. To decrease costs for training
+D. To meet KPIs
+203. Natasha wants to establish a vendor monitoring practice for her organization. What should 
+she establish to ensure that her vendor is performing as expected?
+A. A MOU
+B. Ongoing compliance audits
+C. Regulatory requirements
+D. KPIs
+204. Mikayla is working remotely in a public space and has been trained to make sure that 
+others cannot see her screen or keyboard. What term is used to describe this?
+A. Insider threats
+B. Situational awareness
+C. Social engineering
+D. Unintentional risky behavior
+205. What data role is typically the most senior in an organization?
+A. Data processor
+B. Data controller
+C. Data owner
+D. Data steward
+206. Which of the following is not a common hybrid work environment security practice?
+A. Use of VPNs
+B. Use of secure Wi- Fi networks
+C. Ensuring physical security
+D. Deploying security cameras
+207 . Which of the following is not a common driver of external compliance reporting?
+A. Contracts
+B. Regulation
+C. Reputation
+D. Licensing212 Chapter 5 ■ Domain 5.0: Security Program Management and Oversight
+208. Justin wants to have work done by a contractor with whom his organization has a master 
+services agreement. What should he prepare to fully document the required work?
+A. A work order
+B. A service level agreement
+C. A memorandum of understanding
+D. A memorandum of agreement
+209. What measure is used to describe the average functional lifespan of a device in use?
+A. An RTO
+B. An MTTR
+C. An RPO
+D. An MTBF
+210. Jackie wants to use an ISO standard to help her select and implement information security 
+controls and to develop information security management guidelines. Which ISO standard 
+should she use?
+A. ISO 27001
+B. ISO 27701
+C. ISO 27002
+D. ISO 31000
+211. Establishing requirements like the height of fences is part of what standard for most 
+organizations?
+A. Physical security
+B. Access control
+C. Business continuity
+D. Onboarding
+212. What organization typically elects an organization’s board of directors in a public company?
+A. The employees
+B. The CEO
+C. Shareholders
+D. All relevant stakeholders
+213. Greg wants to classify anomalous behavior he has observed. The behavior involves a user’s 
+workstation sending large volumes of data to an off- site web server. How should he classify 
+this behavior?
+A. Risky
+B. Unexpected
+C. Unintentional
+D. An insider threatChapter 5 ■ Domain 5.0: Security Program Management and Oversight  213
+214. Amber is responsible for compliance with PCI DSS in her organization and wants to ensure 
+that she meets ongoing compliance monitoring requirements. Which of the following 
+options will best help her achieve ongoing compliance?
+A. Conduct quarterly audits.
+B. Use compliance monitoring capabilities in scanning and management tools.
+C. Conduct regular training on compliance requirements.
+D. Require an auditor’s attestation of compliance.
+215. The third- party auditors that Dion hired for his organization have completed their audit. 
+What action does the audit firm take after management acknowledgment is received from 
+Dion’s company?
+A. Compliance reports are sent to third parties.
+B. Regulatory statements are sent to customers.
+C. Attestation is provided by the auditor.
+D. Follow- up vulnerability scans will validate findings.
+216. Latisha is conducting a security review and notices that one of her users consistently uses 
+her organization’s VPN from Chile while the employee is based in the United States. After 
+reviewing logs, she notes that the user is sometimes logged in from both the US and the 
+remote location in Chile, and believes that the user may be allowing a third party to access 
+their VPN account to perform some or all of their job tasks. What type of threat most accu-
+rately describes this?
+A. Anomalous
+B. Insider
+C. Social engineering
+D. Nation- state
+2 1 7. Marzita wants to respond to a phishing campaign that is sending links to malware to orga-
+nizations. What effective tactic can she use to react to these campaigns quickly?
+A. Deploy a WAF to block suspicious links.
+B. Subscribe to a threat feed and automatically block phishing campaign URLs.
+C. Manually block phishing URLs as they are reported by users.
+D. Implement user awareness training.
+218. Amanda discovers that a member of her organization’s staff has installed a remote access 
+Trojan on their accounting software server and has been accessing it remotely. What type of 
+threat has she discovered?
+A. Zero- day
+B. Insider threat
+C. Misconfiguration
+D. Weak encryption214 Chapter 5 ■ Domain 5.0: Security Program Management and Oversight
+219. Phil recently received an email claiming to be from HR with a link to a list of every employ-
+ee’s compensation attached. Phil clicks on it without checking the URL because he is curious 
+about the pay that others in his department receive. How would this behavior be classified?
+A. Risky
+B. Irresponsible
+C. Unexpected
+D. Unintentional
+220. What should Ben do if he wants to assess the initial state of his information security 
+awareness?
+A. Implement security awareness based on a standard like ISO 27001.
+B. Conduct a baseline analysis to determine his starting state.
+C. Implement security awareness based on NIST standards.
+D. Conduct a penetration test to determine how staff respond to security issues.
+221. During an incident investigation, Naomi notices that a second keyboard was plugged into a 
+system in a public area of her company’s building. Shortly after that event, the system was 
+infected with malware, resulting in a data breach. What should Naomi look for in her in- 
+person investigation?
+A. A Trojan horse download
+B. A malicious USB cable or drive
+C. A worm
+D. None of the above
+222. Jill wants to train her users to appropriately respond to suspicious email messages. Which of 
+the following will provide her organization with the most useful input from users?
+A. Ask users to report the email to the email provider using a reporting button.
+B. Ask users to report the email to an internal security team.
+C. Ask users to delete the email to avoid further issues.
+D. Ask users to click on the message and links to explore the potential security issue.
+223. Marcia wants to assess the effectiveness of her security awareness program. What 
+should she do?
+A. Establish and monitor awareness KPIs.
+B. Require a third- party awareness audit.
+C. Conduct regular surveys about security awareness.
+D. Track incident rates versus training participation.
+224. Myles wants to describe the impact of noncompliance with regulations on his organization’s 
+business. If his organization is not compliant, what impact is most likely to occur related to 
+his customers?
+A. Fines
+B. Contractual impacts
+C. Loss of license
+D. SanctionsChapter 5 ■ Domain 5.0: Security Program Management and Oversight  215
+225. Sabrina wants to train her users on password management best practices. Which of the fol-
+lowing options will have the largest impact on her organization’s password security?
+A. Implementing biometrics authentication factors
+B. Conducting annual training on password best practices
+C. Adopting NIST password length and complexity standards
+D. Requiring staff to use an enterprise password manager
+226. Jill wants to explain her organization’s risks to senior management, but she knows that the 
+risk register is lengthy and detailed. What type of document is commonly used to convey the 
+most important high- level information found in a risk register to senior leaders?
+A. A risk matrix
+B. An SLE report
+C. An ALE report
+D. A risk KPI list
+227 . Which of the following best describes guidelines?
+A. They outline the principles and rules that guide the execution of security efforts 
+throughout the enterprise.
+B. They provide advice to organizations seeking to comply with the policies and 
+standards.
+C. They provide mandatory requirements describing how an organization will carry out 
+its information security policies.
+D. They are detailed, step- by- step processes that individuals and organizations must 
+follow in specific circumstances.

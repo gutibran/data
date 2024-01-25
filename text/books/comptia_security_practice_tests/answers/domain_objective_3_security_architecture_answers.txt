@@ -1,0 +1,1135 @@
+1. A. Organizations set recovery point objectives (RPOs) which describe how much data is 
+acceptable to lose in a data loss event, and recovery time objectives (RTOs), which describe 
+the maximum amount of time that it should take to recover data. Together these two objec-
+tives help guide backup strategy and infrastructure design and implementation. MTBF (mean 
+time before failure) describes the mean time before a device like a hard drive, power supply, 
+or network switch will fail, typically described in hours of powered- on operation. RFBT was 
+made up for this question.
+2. A. When an intrusion detection system (IDS) or antivirus/antimalware mistakes legitimate 
+traffic for an attack, this is called a false positive. A false negative is when the IDS mistakes 
+an attack for legitimate traffic. It is the opposite of a false positive. Options C and D are both 
+incorrect. Although these may be grammatically correct, these are not the terms used in the 
+industry. In military operations, false flag operations attempt to transfer blame to another 
+organization or adversary, thus a “false flag.”
+3. B. Air gapping refers to the server not being on a network. This means literally that there is 
+“air” between the server and the network. This prevents malware from infecting the backup 
+server. A separate virtual local area network (VLAN) or physical network segment can 256 Appendix ■ Answers to Review Questions
+enhance security but is not as effective as air gapping. A honeynet is used to detect attacks 
+against a network, but it doesn’t provide effective defense against malware in this scenario.
+4. C. SCADA, or supervisory control and data acquisition systems, are commonly used to man-
+age facilities like power plants. The remaining options were made up.
+5. C. Geoff is looking for a warm site, which has some or all of the infrastructure and systems 
+he needs but does not have data. If a disaster occurs, Geoff can bring any equipment that he 
+needs or wants to the site along with his organization’s data to resume operations. A hot site 
+is a fully functional environment with all the hardware, software, and data needed to operate 
+an organization. They are expensive to maintain and run but are used by organizations that 
+cannot take the risk of downtime. A cold site is a location that can be brought online but 
+does not have systems; cold sites typically have access to power and bandwidth but need to 
+be fully equipped to operate after a disaster since they are just rented space. An RTO is a 
+recovery time objective, and it measures how long it should take to resume operations; it is 
+not a type of disaster recovery site.
+6. B. If Olivia wants to ensure that third parties will be unable to modify the operating system 
+for Internet of Things (IoT) devices, requiring signed and encrypted firmware for operating 
+system updates is an effective means of stopping all but the most advanced threats. Setting a 
+default password means that a common password will be known. Checking the MD5sum for 
+new firmware versions will help administrators validate that the firmware is legitimate, but 
+signed and encrypted firmware is a much stronger control. Finally, regular patching may help 
+secure the devices but won’t prevent OS modifications.
+7. B. Maria should implement ongoing auditing of the account usage on the SCADA system. 
+This will provide a warning that someone’s account is being used when they are not actually 
+using it. Host- based antivirus/antimalware is almost never a bad idea, but this scenario did 
+not indicate that the compromise was due to malware, so antimalware may not address the 
+threat. Since the engineer has access to the SCADA system, a network intrusion prevention 
+system (NIPS) is unlikely to block them from accessing the system, and full- disk encryption 
+(FDE) will not mitigate this threat because the system is live and running, meaning that the 
+disk will be decrypted in use.
+8. C. A snapshot is an image of the virtual machine (VM) at some point in time. It is standard 
+practice to periodically take a snapshot of a virtual system so that you can return that system 
+to a last known good state. Sandboxing is the process of isolating a system or software. 
+The hypervisor is the mechanism through which the virtual environment interacts with the 
+hardware, and elasticity is the ability for the system to scale.
+9. D. Serverless architectures do not require a system administrator because the provider man-
+ages the underlying function- as- a- service (FaaS) capability. It can also scale up or scale down 
+as needed, allowing it to be very flexible. Serverless architectures are typically not ideal for 
+complex applications and instead tend to work better for microservices.
+10. B. Software- defined networking (SDN) makes the network very scalable. It is relatively easy 
+to add on new resources or remove unneeded resources, and it helps with high availability 
+efforts. SDN does not stop malware, detect intrusions, or prevent session hijacking.Chapter 3: Domain 3.0: Security Architecture  257
+11. A. A microservice architecture builds applications as a set of loosely coupled services that 
+provide specific functions using lightweight protocols. It doesn’t specifically define the size  
+of the systems, but it is not a tightly coupled environment. Protocol choice is often open  
+standards–based, but the emphasis is on lightweight protocols. There is not a requirement 
+that services be in- house or third party exclusively.
+12. C. The correct answer is to implement IaC. Infrastructure as code (IaC) is the process of 
+managing and provisioning computer datacenters through machine- readable definition files, 
+rather than physical hardware configuration or interactive configuration tools. Whether the 
+datacenter(s) use physical machines or virtual machines, this is an effective way to manage 
+the datacenters. Although datacenter managers may be needed, that won’t necessarily provide 
+consistent management across the enterprise. Software- defined networking (SDN) will not 
+fix this problem, but it would help if Abigail needed to configure and manage her network 
+based on usage and performance. Finally, this issue is not just about provisioning; it is about 
+management.
+13. C. Using secure firmware, as well as using an RTOS with time and space partitioning, are 
+both common methods to help ensure RTOS security. Unlike traditional operating systems, 
+real- time operating systems are used in applications where they need to deal with inputs 
+immediately. That means that adding additional load like firewalls and antimalware is not a 
+typical component in RTOS applications. For similar reasons, you’re unlikely to find a web 
+browser on most devices running an RTOS.
+14. D. Embedded systems can bring a broad range of security implications, many of which are 
+driven by the limited capabilities of the processors and hardware they are frequently built 
+with. Low- power consumption designs may lack computational power and thus have chal-
+lenges implementing strong cryptography, network connectivity, and other similar problems. 
+Patching embedded systems can be challenging both because of where they are deployed and 
+because of a lack of connectivity for them— in fact, in many environments, you may not want 
+the devices to be connected to your network. Since many don’t have a screen, keyboard, or a 
+network connection, authentication is also a problem. Few embedded devices, however, need 
+bulk storage, making the lack of bulk storage a problem that typically isn’t a major concern.
+15. D. Differential backups back up all of the changes since the last full backup. An incremental 
+backup backs up all changes since the last incremental backup. A snapshot captures machine 
+state and the full drive at a bitwise level, and full backups are a complete copy of a system 
+but typically do not include the memory state.
+16. B. Elasticity is a cloud computing concept that matches resources to demand to ensure that 
+an infrastructure closely matches the needs of the environment. Scalability is the ability to 
+grow or shrink as needed but does not directly include the concept of matching to workload. 
+Normalization is a code development concept used to ensure that data is in a consistent form.
+17. A. An uninterruptable power supply (UPS) should be Nathaniel’s first priority. Ensuring 
+that power is not disrupted during an outage and can be maintained for a short period until 
+alternate power like a generator can come online is critical, and a UPS can provide that capa-
+bility. A generator alone will take longer to come online, resulting in an outage. Dual power 
+supplies can help to build resilience by allowing multiple power sources and avoiding issues 258 Appendix ■ Answers to Review Questions
+if a power supply does fail, but that is not the focus of the question. A managed power distri-
+bution unit (PDU) provides remote management and power monitoring but will not prevent 
+power loss in an outage.
+18. C. Separating the SCADA (supervisory control and data acquisition) system from the main 
+network makes it less likely that the SCADA system can be affected from the main network. 
+This includes malware as well as human action. Software- defined networking (SDN) would 
+make isolating the SCADA system easier but would not actually isolate it. Patch management 
+is always important, but in this case, it would not have prevented the issue. Encrypted data 
+transmissions, such as TLS, would have no effect on this situation.
+19. D. Transport Layer Security (TLS) provides a reliable method of encrypting web traffic. It 
+supports mutual authentication and is considered secure. Although Secure Sockets Layer 
+(SSL) can encrypt web traffic, TLS was created in 1999 as its successor. Although many net-
+work administrators still use the term SSL, in most cases today what you are using is actually 
+TLS, not the outdated SSL. Point- to- point Tunneling Protocol (PPTP) and Internet Protocol 
+Security (IPSec) are protocols for establishing a VPN, not for encrypting web traffic.
+20. B. Nora has established a cold site. A cold site is a location that can be brought online but 
+does not have systems; cold sites typically have access to power and bandwidth, but they 
+need to be fully equipped to operate after a disaster since they are just rented space. Warm 
+sites have some or all of the infrastructure and systems Nora needs but does not have data.  
+A hot site is a fully functional environment with all of the hardware, software, and data 
+needed to operate an organization. They are expensive to maintain and run but are used by 
+organizations that cannot take the risk of downtime. A MOU is a memorandum of under -
+standing and is not a type of disaster recovery site.
+21. C. Data sovereignty refers to the concept that data that is collected and stored in a country is 
+subject to that country’s laws. This can be a complex issue with multinational cloud services 
+and providers that may store data in multiple countries as part of their normal architecture. 
+It may also create compliance and other challenges based on differences in national laws 
+regarding data, data privacy, and similar issues.
+22. A. Low- power devices typically have limited processor speed, memory, and storage, meaning 
+that encryption can be a challenge. Fortunately, solutions exist that implement low- power 
+cryptographic processing capabilities, and continued advances in processor design continue 
+to make lower- power processors faster and more efficient. Legal limitations do not typically 
+take into account whether a device is a low- power device, and public key encryption can be 
+implemented on a wide range of CPUs and embedded systems, so factoring prime numbers is 
+unlikely to be an issue.
+23. B. A generator is the most appropriate answer to a multi- hour outage. Although a hot site 
+would allow her organization to stay online, the cost of a hot site is much higher than that of 
+a generator. A PDU, or power distribution unit, is used to manage and distribute power, not 
+to handle power outages. Finally, UPS systems are not typically designed to handle long out-
+ages. Instead, they condition power and ensure that systems remain online long enough for a 
+generator to take over providing power.Chapter 3: Domain 3.0: Security Architecture  259
+24. D. Network load balancers distribute traffic among systems, allowing systems to be added 
+or removed, and making patching and upgrades easier by draining connections from systems 
+and removing them from the pool when work needs to be done on them. They can also help 
+monitor systems for performance, report on issues, and ensure that loads match the capabil-
+ities of the systems that they are in front of. Firewalls are used for security, switches are a net-
+work device used to transfer traffic to the correct system, and a horizontal scaler was made 
+up for this question.
+25. B. Nathaniel has created an air gap, a physical separation that will require manual trans-
+port of files, patches, and other data between the two environments. This helps to ensure 
+that attackers cannot access critical systems and that insiders cannot export data from the 
+environment easily. A screened subnet, also known as a demilitarized zone (DMZ), is a sepa-
+rate network segment or zone that is exposed to the outside world or other lower trust area. 
+A vault is a secured space or room. Hot and cold isles are equipment arrangements used in 
+server rooms or datacenters to efficiently circulate air and keep server racks and other equip-
+ment cool.
+26. B. The option that best meets the needs described is PEAP, the Protected Extensible Authenti-
+cation Protocol. PEAP relies on server- side certificates and on tunneling to ensure communi-
+cations security. EAP- MD5 is not recommended for wireless networks and does not support 
+mutual authentication of the wireless client and network. LEAP, the Lightweight Extensible 
+Authentication Protocol, uses WEP keys for its encryption and is not recommended due to 
+security issues. Finally, EAP- TLS, or EAP Transport Layer Security, requires certificates on 
+both the client and server, consuming more management overhead.
+27. C. Olivia should make her organization aware that a failure in one of the active nodes would 
+result in less maximum throughput and a potential for service degradation. Since services are 
+rarely run at maximum capacity, and many can have maintenance windows scheduled, this 
+does not mean that the load balancers cannot be patched. There is nothing in this design that 
+makes the load balancers more vulnerable to denial- of- service than they would be under any 
+other design. Having two active nodes will typically increase throughput over a single node.
+28. C. Least connection–based load balancing takes load into consideration and sends the next 
+request to the server with the least number of active sessions. Round- robin simply distrib-
+utes requests to each server in order, whereas weighted time uses health checks to determine 
+which server responds the most quickly on an ongoing basis and then sends the traffic to that 
+server. Finally, source IP hashing uses the source and destination IP addresses to generate a 
+hash key and then uses that key to track sessions, allowing interrupted sessions to be reallo-
+cated to the same server, and thus allowing the sessions to continue.
+29. D. The safest and most secure answer is that Ramon should simply implement TLS for the 
+entire site. Although TLS does introduce some overhead, modern systems can handle large 
+numbers of simultaneous TLS connections, making a secure website an easy answer in almost 
+all cases.
+30. D. A firewall has two types of rules. One type is to allow specific traffic on a given port. The 
+other type of rule is to deny traffic. What is shown here is a typical firewall rule. Options A, 
+B, and C are incorrect. The rule shown is clearly a firewall rule.260 Appendix ■ Answers to Review Questions
+31. D. Unlike IPSec’s tunnel mode, IPSec transport mode allows different policies per port. The 
+IP addresses in the outer header for transport mode packets are used to determine the policy 
+applied to the packet. IPSec doesn’t have a PSK mode, but WPA2 does. IKE is used to set up 
+security associations in IPSec but doesn’t allow this type of mode setting.
+32. C. Global Positioning System (GPS) data and data about local Wi- Fi networks are the two 
+most commonly used protocols to help geofencing applications determine where they are. 
+When a known Wi- Fi signal is gained or lost, the geofencing application knows it is within 
+range of that network. GPS data is even more useful because it can work in most locations 
+and provide accurate location data. Although Bluetooth is sometimes used for geofencing, 
+its limited range means that it is a third choice. Cellular information would require accurate 
+tower- based triangulation, which means it is not typically used for geofencing applications, 
+and of course USB is a wired protocol.
+33. A. A Transport Layer Security (TLS) VPN is frequently chosen when ease of use is important, 
+and web applications are the primary usage mode. RDP is a remote access tool, not a VPN 
+tool, and ICMP is used for things like ping, not for VPN. IPSec VPNs are used for site- to- site 
+VPNs and for purposes where other protocols may be needed, because they make the end-
+point system appear to be on the remote network.
+34. A. Binary data is a form of non- human- readable data. Encrypted data may be in binary 
+format, but not all binary data is encrypted. Binary data is not human- readable, nor is it 
+masked, which hides elements of data to allow for it to be used without exposing the under -
+lying data.
+35. D. Load balancers provide a virtual IP, or VIP. Traffic sent to the VIP is directed to servers 
+in the pool based on the load- balancing scheme that that pool is using— often a round- robin 
+scheme, but other versions that include priority order and capacity tracking or ratings are 
+also common. The load balancer’s IP address is normally used to administer the system, and 
+individual IP addresses for the clustered hosts are shielded by the load balancer to prevent 
+traffic from consistently going to those hosts, thus creating a failure or load point.
+36. A. Port security filters by MAC address, permitting allow listed MAC addresses to connect 
+to the port and blocking block listed MAC addresses. Port security can be static, using a pre-
+determined list or dynamically allowing a specific number of addresses to connect, or it can 
+be run in a combination mode of both static and dynamic modes.
+37. C. Authentication headers (AHs) provide complete packet integrity, authenticating the packet 
+and the header. Authentication headers do not provide any encryption at all, and authentica-
+tion headers authenticate the entire packet, not just the header.
+38. A. Network taps copy all traffic to another destination, allowing traffic visibility without 
+a device inline. They are completely passive methods of getting network traffic to a central 
+location. Port mirroring would get all the traffic to the network- based intrusion prevention 
+system (NIPS) but is not completely passive. It requires the use of resources on switches to 
+route a copy of the traffic. Incorrect switch configurations can cause looping. Configuring 
+loop detection can prevent looped ports. Putting a network NIPS on every segment can be 
+very expensive and require extensive configuration work. Setting up a NIPS on each segment 
+would also dramatically increase administrative efforts.Chapter 3: Domain 3.0: Security Architecture  261
+39. B.  Internet key exchange (IKE) is used to set up security associations (SAs) on each end 
+of the tunnel. The security associations have all the settings (i.e., cryptographic algorithms, 
+hashes) for the tunnel. IKE is not directly involved in encrypting or authenticating. IKE itself 
+does not establish the tunnel— it establishes the SAs.
+40. A. The NIPS is not seeing the traffic on that network segment. By implementing port mirror -
+ing, the traffic from that segment can be copied to the segment where the NIPS is installed. 
+Installing a network IPS on the segment would require additional resources. This would work 
+but is not the most efficient approach. Nothing in this scenario suggests that the NIPS is 
+inadequate. It just is not seeing all the traffic. Finally, isolating the segment to its own VLAN 
+would isolate that network segment but would still not allow the NIPS to analyze the traffic 
+from that segment.
+41. D. Load- balancing the cluster will prevent any single server from being overloaded. And if 
+a given server is offline, other servers can take on its workload. A VPN concentrator, as the 
+name suggests, is used to initiate virtual private networks (VPNs). Aggregate switching can 
+shunt more bandwidth to the servers but won’t mitigate the threat of one or more servers 
+being offline. SSL accelerators are a method of offloading processor- intensive public key 
+encryption for Transport Layer Security (TLS) and Secure Sockets Layer (SSL) to a hardware 
+accelerator.
+42. B. The correct answer is to encrypt all the web traffic to this application using Transport 
+Layer Security (TLS). This is one of the most fundamental security steps to take with any 
+website. A web application firewall (WAF) is probably a good idea, but it is not the most 
+important thing for Ryan to implement. While a network- based intrusion prevention system 
+(NIPS) or network- based intrusion detection system (NIDS) may be a good idea, those should 
+be considered after TLS is configured.
+43. C. Claire’s best option is to deploy a detection and fix via her web application firewall 
+(WAF) that will detect the SQL injection (SQLi) attempt and prevent it. An intrusion detec-
+tion system (IDS) only detects attacks and cannot stop them. Manually updating the appli-
+cation code after reverse- engineering it will take time, and she may not even have the source 
+code or the ability to modify it. Finally, vendor patches for zero days typically take some time 
+to come out even in the best of circumstances, meaning that Claire could be waiting on a 
+patch for quite a while if that is the option she chooses.
+44. A. Session persistence makes sure that all of a client’s traffic for a transaction or session goes 
+to the same server or service. The remaining options do not properly describe how session 
+persistence works.
+45. D. Although next- generation firewalls (NGFWs) provide may defensive capabilities, SQL 
+injection (SQLi) is an attack instead of a defense. In addition to geolocation, intrusion detec-
+tion system (IDS) and intrusion prevention system (IPS), and sandboxing capabilities, many 
+next- generation firewalls include web application firewalls, load balancing, IP reputation and 
+URL filtering, and antimalware and antivirus features.
+46. C. UTM, or unified threat management, devices commonly serve as firewalls, intrusion 
+detection system (IDS)/intrusion prevention system (IPS), antivirus/antimalware, web prox-
+ies, web application and deep packet inspection, secure email gateways, data loss prevention 262 Appendix ■ Answers to Review Questions
+(DLP), security information and event management (SIEM), and even virtual private net-
+working (VPN) devices. They aren’t mobile device management (MDM) or universal end-
+point management devices, however, since their primary focus is on network security, not 
+systems or device management.
+47. A. IDSs, or intrusion detection systems, can only detect unwanted and malicious traffic based 
+on the detection rules and signatures that they have. They cannot stop traffic or modify it. An 
+IPS, or intrusion prevention system, that is placed in line with network traffic can take action 
+on that traffic. Thus, IDSs are often used when it is not acceptable to block network traffic, 
+or when a tap or other network device is used to clone traffic for inspection.
+48. C. Although insider threats are a concern, they’re not any different for containers than any 
+other system. Ensuring container host security, securing the management stack, and making 
+sure that network traffic to and from containers is secure are all common container security 
+concerns.
+49. A. This is an example of using geographic restrictions to protect data. Fred has rules that 
+require additional authentication for those who are off-site and also those who may be 
+performing impossible travel. Time is not part of both rules, there’s no role description, and 
+supervisory control is not a term used for this.
+50. D. 802.1X is the IEEE standard for port- based network access control. This protocol is fre-
+quently used to authenticate devices. Challenge Handshake Authentication Protocol (CHAP) 
+is an authentication protocol but not the best choice for device authentication. Kerberos is an 
+authentication protocol but not the best choice for device authentication. 802.11i is the Wi- Fi 
+security standard and is fully implemented in WPA2 and WPA3. It is not a device authentica-
+tion procedure.
+51. D. Anomaly- based detection systems build a behavioral baseline for networks and then 
+assess differences from those baselines. They may use heuristic capabilities on top of those, 
+but the question specifically asks about baselined operations pointing to an anomaly- based 
+system. Heuristic- based detections look for behaviors that are typically malicious, and 
+signature- based or hash- based detections look for known malicious tools or files.
+52. A. Mila should select a hash because a hash is designed to be unique to each possible input. 
+That means that multiple files could have the same checksum value, whereas a hashing 
+algorithm will be unique for each file that it is run against.
+53. A. Tabletop exercises are used to talk through a process. Unlike walk- throughs, which focus 
+on a step- by- step review of an incident, Mila will focus more on how her team responds and 
+on learning from those answers. A tabletop exercise can involve gaming out a situation. A 
+simulation actually emulates an event or incident, either on a small or a large scale. Drills are 
+not defined as part of the Security+ exam outline.
+54. D. High- availability designs are less expensive because they attempt to minimize service 
+interruptions, whereas fault- tolerant designs seek to avoid service interruptions almost 
+entirely, and thus cost significantly more. Both focus on service availability and typically use 
+both hardware and software tools to meet their goals.Chapter 3: Domain 3.0: Security Architecture  263
+55. D. Geographic dispersion is intended to help with availability by ensuring that a single 
+disaster does not take multiple datacenters or other facilities offline. It does not directly 
+impact confidentiality or integrity, and assurance is not part of the CIA triad.
+56. A. Masking replaces some characters with an alternate character, allowing tasks like vali-
+dating credit card numbers without exposing all of a data field. Tokenization replaces values 
+with a replacement value allowing data to be accessed without exposing the actual value. 
+Steganography hides data in images and is not a useful solution in this scenario. Hashing is 
+a mathematical technique that analyzes a file and computes a unique fingerprint, known as a 
+message digest or hash, for that file.
+57. C. Datacenters should have a fail over process that can be manually executed in case of 
+emergency. Mateo should use that process to fail over to his organization’s fail over site. 
+Turning off every system in a datacenter is not recommended as this may lead to other unex-
+pected failures. Simulation is not a fail over test, and creating an outage of a critical system 
+typically will not cause an entire datacenter to fail over.
+58. A. Trade secrets are intellectual property that is commercially valuable and is limited to a 
+small group of individuals. Regulated information is controlled by law or has legal require-
+ments around it. Financial information involves things related to monetary transactions 
+or accounts. Public information is not controlled and is available to the public or could be 
+without causing harm or concern.
+59. B. Implementing Transport Layer Security (TLS) to encapsulate Simple Mail Transfer Pro-
+tocol (SMTP) would allow the traffic to be encrypted in transit, protecting it from being read. 
+Sender Policy Framework (SPF) and DomainKeys Identified Mail (DKIM) are both used to 
+prevent spoofing, and Exchangeable Image File Format (EXIF) is information found in an 
+image file.
+60. B. Jump servers are used to access secured zones and are typically carefully controlled and 
+monitored because they are the single point of entry from untrusted environments. A Unified 
+Threat Management (UTM) is a security device that combines firewall features with a variety 
+of other security functions. ICS stands for Industrial Control System. This is not an ICS, 
+although the IoT devices it allows connections to may be a form of ICS. VPNs, or virtual 
+private networks, encapsulate and protect network traffic as it moves through untrusted 
+networks.
+61. C. IPSec virtual private networks are commonly established to tunnel through public or 
+untrusted networks. A RTOS, or real- time operating system, is used for embedded systems. 
+SHA- 1 is a hashing algorithm, and RSA is an encryption algorithm that is used for IPSec as 
+part of its authentication process. IPSec tunnels themselves commonly use AES, but may use 
+other algorithms as well.
+62. B. Intellectual property that would have value to competitors and that is kept confidential to 
+preserve it for competitive advantage is a trade secret. Legal information is typically related 
+to contracts, regulations, or similar matters. Regulated data is covered by law, and classified 
+data is used by governments.264 Appendix ■ Answers to Review Questions
+63. A. A unified threat management (UTM) device combines multiple security services including 
+firewall, IDS or IPS, antivirus/antimalware, email filtering, WAF, and similar services into 
+a single solution. An FWSM, or firewall service module, is an older Cisco chassis- based 
+firewall; a WAF is a web application firewall; and an ELB is Elastic Load Balancer, a load- 
+balancing service available via AWS.
+64. A. Tabletop exercises do not involve an actual technical system and instead are gamed 
+out in a room. This means they’re least likely to cause disruptions. Fail over and parallel 
+processing exercises can have actual impact to live systems, and simulation exercises require 
+care because simulated calls and actions may inadvertently become real if staff are not fully 
+aware of the scenario being an exercise or accidentally execute a command that can cause 
+actual impact.
+65. B. Data sovereignty is a new concern for organizations that host services and data outside 
+of their local area, including across state or national boundaries. Recovery point objectives 
+(RPOs), recovery time objectives (RTOs), and power resilience are all common concerns for 
+on- premises datacenters.
+66. D. Disk encryption is used to protect data at rest, not data in use or data in transit. TLS, 
+VPNs, and file encryption can all be used to protect files that are sent via a network.
+67. B. A TLS- enabled proxy between the devices and server doesn’t require anything else to be 
+installed on the devices, which is typically impossible with SCADA devices. That means the 
+VPN connection and the X.509 certificates are unlikely to work. SD- WAN helps to manage 
+external connectivity, not to directly protect traffic in this scenario.
+68. C. Simulations try to avoid causing potential outages and work to simulate a scenario. They 
+may validate that notification processes communication systems and procedures all work.
+69. C. Geolocation is used to control where data can be accessed from but does not protect data 
+in transit. Encrypting data, encapsulating via TLS, or use of a VPN are all common methods 
+to protect data in transit.
+70. B. Next- generation firewalls (NGFWs) typically provide the ability to inspect traffic at both 
+the transport layer (layer 4) and the application layer (layer 7). This means an NGFW will 
+best fit the need. Web application firewalls also work at this level, but only focus on web 
+applications, which does not fully meet the broad application inspection requirement in the 
+question. Stateful firewalls and packet filters both operate at layer 4 only.
+71. C. A load balancer can help handle individual web server failures gracefully by moving load 
+to the functioning web servers in a cluster. In scalable environments, this can also result in 
+more servers being instantiated. Platform diversity helps to protect against failures or vul-
+nerabilities in a single vendor, platform, or system. Multi-cloud systems could help in this 
+case but are much more complex than required by the relatively simple need to handle an 
+individual web server’s failure. A warm site would be suited to a datacenter failure, not a 
+single web server failing.
+72. A. In- line network taps are typically configured to fail- open since they are used to create 
+a copy of the network traffic. Devices that provide in- line security like IPS systems may be Chapter 3: Domain 3.0: Security Architecture  265
+configured to fail-closed because their failure removes critical security functionality. Fail over 
+describes the ability to fail to another device, which is not a common function for an in- line 
+tap. Fail- reset was made up for this question.
+73. D. Software- defined wide area networks (SD- WANs) are the core component of secure 
+access, secure edge technology. Additional tools like zero trust functionality, cloud access 
+security brokers, and firewalls are all combined to build a complete SASE implementation.
+74. A. Network access control (NAC) has the ability to both profile device security and validate 
+that a given user is authorized to plug a device into a specific Ethernet jack makes this the 
+best solution for Mikayla’s use case. Port security’s list of recognized MAC addresses is both 
+potentially vulnerable to MAC spoofing and does not meet the device security check require-
+ments described. An IPS can help prevent network attacks but does not control port- level 
+access, and jump servers are used to allow access to secured network segments, not to protect 
+individual network jacks.
+75. C. Version control will allow staff from Mark’s organization to identify a bad version and 
+revert to a previous known- good version if needed. Threat modeling, least privilege, and arti-
+fact signing are all common best practices for IaC, but don’t directly impact version changes.
+76. A. PaaS vendors are responsible for the underlying service and platform, including the net-
+works, systems, and infrastructure that it runs on, including their security. Customers are 
+responsible for their use of the platform, including endpoints, users, and applications built on 
+the platform, again including their security.
+77. B. The biggest issue for resilience is that placing backups in the same facility as the devices 
+or systems they are backing up means that a single disaster could destroy both. Nick should 
+consider off-site backup storage. Tape recovery can be slow, but this is a restoration time-
+frame issue, not a resilience issue. Tape lifetime is typically quite long, and backups are usu-
+ally rolled over in time periods shorter than a year for most organizations. Finally, validation 
+of backups can be a concern, but there is no description in the question that would lead to 
+conclusions about testing.
+78. B. AES- 256 is the current mainstream standard for encryption. AES 128 and 192 are both 
+less secure, and AES- 512 is not an implemented or commonly used standard.
+79. C. While RTOS issues with vulnerabilities, the inability to install security tools. and a lack of 
+patches for RTOS- based devices are all common security concerns, they are not as frequently 
+targeted by malware infections.
+80. B. Tokens should not be easily reversible. Instead, they should require access to the original 
+tokenization function or a mapping to the original data. Tokens should not have intrinsic 
+meaning or value, and frequently rely on hash functions as part of their generation process to 
+ensure this.
+81. B. Replication is typically the fastest means to recovery since the replica system is running 
+and ready to take over. Snapshot recovery is normally the next fastest, followed by restora-
+tion from other storage. Journaling can introduce additional slowdowns depending on how 266 Appendix ■ Answers to Review Questions
+long it has been since the last backup, as the journal is replayed from the time that occurred 
+to the time of failure.
+82. D. The Security+ exam outline recognizes three data states: data at rest, data in transit, and 
+data in use. When Henry accesses the data and it is transferred via the network, it is data in 
+transit. When he is working with the data, including modifying or otherwise using it, it is 
+data in use. When it resides on the drives the database is stored in, it is data at rest. Data on 
+the wire is not a common term for this— data in motion and data in transit are both common 
+in industry usage, and the Security+ exam outline uses data in transit.
+83. C. Data sovereignty means that governments have the ability to control data within their 
+borders via law and regulations. Theresa’s organization will need to comply with the laws of 
+each country they operate in. Obfuscation refers to making something difficult to understand 
+or read. Legal holds are used to require preservation of data when legal action is occurring 
+or pending. Geographic restriction is used to limit where data can be accessed from and is a 
+technical control used by organizations as part of data security efforts.
+84. A. Hrant’s use of an IPS means he wants to be in- line to allow him to block traffic. Since 
+he prefers that a failure remain secure rather than potentially allowing attacks through, he 
+should select a fail- closed implementation.
+85. C. Physical isolation requires the creation of an air gap. This means unplugging the device 
+from the network. A secure VLAN won’t accomplish this, nor will 802.1X. Unplugging the 
+device from power isn’t required for physical isolation.
+86. A. Path diversity ensures that the connectivity to the facility does not take the same path. 
+This helps to prevent the moment network managers dread when a single accident— or 
+construction equipment in the wrong place— tears up multiple fiber or copper paths, taking 
+organizations offline. Diversity of the cabling type is not a requirement or need, SD- WAN 
+does not directly address physical disasters, and geographic dispersion is not possible at a 
+single site.
+87. D. Carlos is using a jump server that is used to connect from an untrusted or lower trust 
+zone from outside of a firewall. A network tap is used to provide copies of network traffic 
+for analysis. SASE combines SD- WAN and other security technologies to provide network 
+security services regardless of where systems are for enterprises. SD- WAN (software- defined 
+wide area networking) is used to manage network connectivity through commodity Internet 
+providers and other services.
+88. B. Capacity planning for disaster operations needs to take the impact on staff themselves 
+into account. While modern operations can frequently be conducted remotely, reducing the 
+number of staff required to be physically able to reach the site, staff members may not have 
+power, Internet access, or even housing in disaster scenarios. The remote site’s ability to 
+operate is not directly a staff capacity planning issue, nor is how generators will be fueled.
+89. A. Typical exercise types for most organizations include simulations that emulate an actual 
+incident response process, walk- throughs that guide staff through an event, and tabletop 
+exercises that are gamed out without taking actual action. Drills are classified as more 
+focused on specific actions or functions, and they are less common because they can result in 
+inadvertent action or mistakes and do not cover the breadth of an incident.Chapter 3: Domain 3.0: Security Architecture  267
+90. D. Comparing hashes is an effective way of determining if a file is different from the 
+original. While file length may be the same and metadata can be modified, hashes will still 
+show changes. Encrypting the files does not compare them, and should not be used for this 
+purpose.
+91. B. Off-site backup locations are typically chosen so that they will not be impacted by the 
+same disaster. That means that recovery may be slow if the backups either need to be phys-
+ically retrieved or must be downloaded via an Internet connection. Backup integrity is typi-
+cally verified as part of the backup process, and this can be checked easily. Off-site backups 
+are typically updated as part of the backup process, and this should not be an issue.
+92. B. Load balancers are commonly used to help provide resilience by allowing applications 
+and servers to be clustered. Cross- training staff is a people-  or staff- based capacity planning 
+solution. Both geographically diverse datacenters and UPS are examples of infrastructure 
+resilience options.
+93. C. The European Union’s (EU) General Data Protection Regulation (GDPR) is a privacy 
+regulation, and thus, data covered by the GDPR is regulated data. The GDPR does include 
+language that addresses not adversely impacting the rights of others, including intellectual 
+property rights, particularly in terms of software, but the best answer remains that this is reg-
+ulated data. Trade secrets and legal information are not broad enough to describe this data.
+94. B. Journaling replays transactions, which can take an extended period of time if the time 
+between the last backup and the data loss event was longer and there was a high volume of 
+transactions. Journals typically minimize the amount of transaction data that is lost; they can 
+be encrypted, although care must be taken to ensure that they can be recovered; and journal-
+ing is used with live databases to ensure transactions are recoverable to as close to the point 
+in time of a data loss event as possible.
+95. C. Using UPS with generators will allow systems to remain online during a power out-
+age even if the power outage extends for some time. Generators alone will not spin up fast 
+enough to avoid an outage, and UPS systems will run out of battery power in extended out-
+ages. A warm site requires setup time to bring it online, resulting in an outage.
+96. A. Masking may be conducted in client- side code, resulting in potential exposures of data. 
+Secure designs require masking to occur in server- side code rather than in the client- side web 
+application. Tokenization typically relies on a separate database or field, making it less likely 
+to be a problem. Encryption and hashing are both unlikely to have problems with client- side 
+tampering, making them less secure.
+97. C. Top Secret and Secret are examples of government classifications. Businesses typically use 
+classifications like sensitive, confidential, and public.
+98. D. Compute is rarely a significant concern for embedded systems. They’re designed to 
+function for long periods of time performing a specific function and do not have addi-
+tional software or functions added. How easy they are to deploy, if they can be patched and 
+updated, and the support lifespan as guaranteed or promised by the vendor, and risk trans-
+ference by engaging third- party vendors are all likely concerns for a major industrial control 
+system (ICS) deployment that Malia can control through the selection process.268 Appendix ■ Answers to Review Questions
+99. B. Layer 7 is the application layer. In order the layers are: 1 – physical, 2 – data link, 3 – 
+network, 4 – transport, 5 – session, 6 – presentation, and 7 – application. The Security+ 
+exam outline only focuses on Layer 4 and Layer 7 in the context of network security 
+devices that can operate at those layers.
+100. C. These are all examples of embedded systems, computers built into devices to allow them 
+to function. Other examples include computers built into cars, digital cameras, and ther -
+mostats. They often receive fewer (or no) updates, and are required to function for long 
+periods of time as part of other devices or systems.
+101. D. Microservices are loosely coupled and fine- grained, and they are intended to be easy to 
+deploy without significant overhead or dependencies. They rely on lightweight protocols 
+like HTTP to make them easier to deploy in common infrastructures. Containers are used 
+to allow applications to be easily deployed without moving a complete operating system 
+but with the required libraries and components to function. The Internet of Things (IoT) 
+describes Internet- enabled devices of all sorts, including embedded systems. Software- 
+defined infrastructure is commonly used for cloud services.
+102. A. Incremental backups only include the data that has changed since the last full 
+backup. To restore a backup using incremental backups, the full backup is restored, then 
+incremental backups are applied in order from oldest to most recent. Partial backups 
+describe a backup of only certain data or parts of a system. Daily backups are just that— 
+daily— and may be full or incremental. Snapshots are point- in- time images of a system’s or 
+a device’s data and memory.
+103. C. Sharon is most likely part of a simulation exercise, where organizations test how they 
+would respond to a scenario without taking actual actions. This is safer than a fail over or 
+parallel processing test but is closer to a real event than a tabletop exercise.
+104. A. Generators are used by organizations that need to handle extended power outages. They 
+are commonly paired with UPS systems that handle the immediate power outage, allow-
+ing the generator to start and stabilize. Solar power alone is not a good solution without 
+a significant battery system, and datacenter- scale battery systems paired with solar are not 
+yet common. PDUs (power distribution units) are used to distribute and control power in a 
+datacenter but do not provide power generation or backup capabilities.
+105. C. Physically isolating the network for the SCADA and ICS systems can prevent attacks 
+from outside of the network. In critical infrastructure like power generation stations, this 
+is a common technique to ensure that external attacks cannot cause outages to critical 
+physical infrastructure. Separate VLANs is a common logical control, but attacks against 
+the network or using VLAN hopping techniques can allow attackers to bypass the sep-
+aration. TLS is useful for protecting traffic but does not meet the security requirement 
+described, and SDN is useful for managing networks but again does not meet the enhanced 
+security requirements in the question.
+106. D. Hardware addresses, known as MAC addresses, are used for port security to determine 
+which systems can connect to a port. Their IP address, the network card manufacturer, and 
+the user’s password are not used by port security.Chapter 3: Domain 3.0: Security Architecture  269
+107. C. Generators are typically sized to the datacenter they support, so capacity is rarely a pri-
+mary concern. Fuel availability, maintenance and maintenance cycles for extended runs, and 
+ensuring physical redundancy so that a secondary generator can take over during mainte-
+nance cycles for long outages are all common concerns.
+108. B. Geographic restrictions are rarely helpful for insider threats because insiders are likely 
+to already be in the same location as authorized users in most organizations. Encryption, 
+tokenization, and permission restrictions can all be used to ensure that only authorized 
+users gain access to the data.
+109. C. Use of encryption through secure enclaves and restricted processing environments, 
+controlling access to the data, and limiting where data is processed are all useful controls. 
+Hashing the data does not leave it in a usable form since hashes transform the data, and 
+thus is not a useful solution.
+110. B. UPS systems are perfectly suited to handling short power outages and temporary under -
+voltage events. They sit between systems and grid power, ensuring clean, reliable power is 
+available. Generators take time to start, meaning that a UPS + generator solution is used for 
+longer outages. PDUs (power distribution units) are used to distribute and manage power in 
+datacenters. Solar power is increasingly used by datacenters to help offset their power con-
+sumption but is not a solution during nighttime hours.
+111. A. Containers do not include an operating system, but do contain applications, libraries, 
+and configuration files.
+112. C. SD- WAN, or software- defined wide area network, is a virtual wide area network 
+architecture that relies on a software- based controller to manage multiple connections and 
+connection types. MPLS, LTE, and broadband are commonly managed using SD- WAN 
+technology. SASE, or Secure Access Service Edge, is used to provide end- to- end security 
+in modern environments with systems and users spread throughout many locations and 
+networks. SDN, or software- defined networking, is a code- based network management 
+scheme. However, SD- WAN is the correct answer for wide area networks that rely on 
+things like MPLS and broadband rather than on- premises networks. VSAN, or virtual SAN, 
+is a virtual storage area network.
+113. C. An IPS, or intrusion prevention system, can stop attacks based on behaviors and threat 
+feed data. An IDS can detect attacks using the same information but cannot stop them. 
+Proxy servers are used to filter content but do not meet this requirement, and jump servers 
+are used for secure access into higher trust environments.
+114. A. Contracts, nondisclosure agreements (NDAs), and statements of work (SOWs) are all 
+examples of legal information. They may include trade secrets or financial information but 
+do not have to. Regulated data is regulated by law and is not the same as legal information.
+115. A. Using threat feeds allows administrators to have rules that automatically block new 
+threats using IP reputation and other services. Those detections may rely on application 
+awareness or deep packet inspection, but without the feed information new rules will have 
+to be crafted to address specific new threats. High throughput allows NGFW devices to 
+deal with significant load as well as the demands of deep packet inspection and application 
+awareness.270 Appendix ■ Answers to Review Questions
+116. C. IPSec VPNs provide encryption, which allows for confidentiality and integrity through 
+hashing. They also provide authentication because both ends authenticate as part of the 
+VPN connection process. Availability is not a feature of an IPSec connection, and it must 
+be designed and built into the hardware and network infrastructure that the IPSec VPN 
+relies on.
+117. B. GPS and Wi- Fi are commonly used to enforce geofencing by determining where 
+individual devices are. Bluetooth may be used in some cases as well, but Wi- Fi and GPS are 
+the dominant options. DNS is not used as part of geographic restrictions, nor is encryption.
+118. D. Infrastructure- as- a- service (IaaS) providers are responsible for the underlying infrastruc-
+ture, including datacenters, networks, and physical hosts. In some cases, they may also be 
+responsible for some operating systems, network controls, applications, and Identity and 
+Access Management (IAM) infrastructure. Customers are always responsible for data and 
+accounts, but may be responsible for applications, network controls, and operating systems 
+as well.
+119. C. Ensuring that third- party vendors are held to appropriate standards is best accom-
+plished through contracts with direct suppliers. Since the third- party vendors sign contracts 
+with Kirk’s cloud provider, not with Kirk’s organization, the only way to have influence 
+over them is through the cloud service provider. Audits and vulnerability scans will typically 
+not be allowed by organizations that do not have a contract with a vendor.
+120. C. VPNs, or virtual private networks, are commonly established between two locations to 
+provide a secure connection that can make the networks appear to be on the same network 
+segment. A VLAN may then be used if desired, but a VLAN alone does not provide encryp-
+tion and cannot be set up across a public connection. TLS encapsulating each service would 
+provide security, but that would not make the two sites appear to be on the same network 
+segment. Reclassifying the data does not secure the data or make the networks appear to be 
+on the same segment, either.
+121. B. Replication can be synchronous or asynchronous but focuses on keeping an up- do- date 
+copy of live data. It does not require high- speed media but does require storage media that 
+is fast enough to keep up with the speed of change from the production environment. Rep-
+lication does not rely on journaling or snapshots.
+122. B. NGFW devices are typically deployed where throughput and advanced security features 
+are both needed. UTM devices are more common in small to mid- sized organizations where 
+they can be set up and will often require less management and configuration. A WAF is 
+appropriate for web services, but does not provide enough protection for an entire organi-
+zation’s Internet connectivity. A proxy server is useful for filtering traffic but has the same 
+issues with limited functionality.
+123. B. Barb needs to back up her data at least once every 6 hours to meet a 6- hour RPO, and 
+Barb might even choose to run her backups slightly more often to ensure the RPO can be 
+met. Running backups every hour significantly exceeds that target, and may have other 
+implications on performance time to recover, so a more aggressive timeframe would need 
+to be carefully reviewed. Every 12 or 24 hours would not meet the RPO set by Barb’s 
+company.Chapter 3: Domain 3.0: Security Architecture  271
+124. A. Since the data is not actively being moved between systems or via a network, and it is 
+not being processed, it is data at rest. If the database was being actively accessed, the data 
+might be in transit when it was sent to an application server and in use as the server pro-
+cessed it. Data sovereignty is the concept that countries can regulate data within their own 
+borders.
+125. D. Masking replaces some characters with an alternate character, allowing tasks like val-
+idating credit card numbers without exposing all of a data field. Encryption and hashing 
+would transform the data, not replace it with an alternate character. Data classification is 
+involved, but it’s not a data obfuscation technique.
+126. D. COOP plans address loss of access to some or all of a facility, personnel, or services. 
+Other items may cause those losses, but the focus is on continued operations addressing the 
+key components of an organization’s business or purpose— facilities, staff, and services.
+127. C. Switch Port Analyzer (SPAN) ports, also known as mirrored ports, configured on a net-
+work switch or router are active because the device is powered and are a monitor because 
+they simply copy traffic rather than being inline.
+128. B. A major advantage of WAFs is the ability to use thread and rule feeds from vendors 
+that quickly respond to new threats and attacks. At the same time, Renee can also build 
+WAF rules faster than it would take to deploy code fixes in many cases. Penetration test-
+ing and static code review are both slow processes and are not suited to the rapid respond 
+described. SASE is used to protect diverse endpoints in many locations, not to counter SQL 
+injection (SQLi) against a web service.
+129. D. Many vendors offer a managed service that provides rules that stop trending and new 
+attacks. Maria can subscribe to the service, but needs to be aware that sometimes rules 
+may cause outages or issues if they block legitimate traffic accidentally. Manually deploy-
+ing rules is slow and requires careful crafting. The Open Worldwide Application Security 
+Project (OWASP) Top 10 is a short list and it is not updated quickly. Threat feeds are useful 
+as a way to write rules but will be less effective than a managed service in most cases due to 
+the variety of attacks and new threats.
+130. B. Each network segment should be considered a separate security zone that can be 
+managed and secured appropriately for its ongoing use. Networks are not typically consid-
+ered fail-open or fail-closed— devices are. Data classification is used to label data.
+131. D. Load balancers can help with availability by automatically removing failed notes from 
+a load balanced group. They can help with responsiveness by distributing load to the least 
+loaded systems in a load balanced pool, and they can help with scalability by allowing sys-
+tems to transparently be added or removed from the pool. They don’t directly help with 
+risk transference since risk transference usually requires a contract or insurance.
+132. D. When Angie logs in, her authentication data is processed, making it data in use. Data at 
+rest is data that is stored and not in active use or processing. Data in storage and data in 
+validation were made up for this question and are not typically considered data states.272 Appendix ■ Answers to Review Questions
+133. B. A TLS- based VPN (often called an SSL- based VPN, despite SSL being outmoded) pro-
+vides the easiest way for users to use VPN since it does not require a client. SSL VPNs also 
+work only for specific applications rather than making a system appear as though it is 
+fully on a remote network. HTML5 is not a VPN technology, but some VPN portals may 
+be built using HTML5. Security Assertion Markup Language (SAML) is not a VPN tech-
+nology. IPSec VPNs require a client or configuration and are thus harder for end users to 
+use in most cases.
+134. C. Device placement can matter due to physical risks or because of concerns about latency, 
+access to services, or other considerations. Connectivity concerns focus on whether an 
+organization can obtain a network connection and whether it meets the organization’s 
+needs, including throughput and reliability. Geographic dispersion refers to the distance 
+between locations that helps to ensure that a single disaster does not take an organization 
+offline. Attack surface is the set of services, ports, and physical access that an attacker could 
+leverage.
+135. B. Decentralized approaches can provide increased resilience since a failure or compromise 
+of the management plane or services in a single location will not disrupt other locations. 
+Unfortunately, this normally comes with increased cost and complexity. Increased com-
+plexity is not an advantage.
+136. C. In an infrastructure as code (IaC) environment, updating the code that defines what 
+a fully patched server is, then replacing servers in a cluster one at a time will be the least 
+disruptive option while also ensuring that future instances will have the patches installed. 
+Rebuilding a base image each time a patch comes out is not efficient, and manually patch-
+ing is not a best practice in IaC environments and may lead to human error.
+137. A. The data should not be released or exposed and could cause harm. This means that con-
+fidential best describes this data from the list of available terms. Restricted data is typically 
+limited to a subset of staff, but that is not reflected in the question. The data is also not 
+described as being critical to the operations of the organization; instead the emphasis is on 
+confidentiality. Since this data must remain confidential, it is not public data.
+138. A. Legacy devices typically cannot be purchased, so their cost becomes irrelevant. Whether 
+they can be recovered, if patches are available, and the issues that lack of patching may 
+cause are all common issues for legacy devices.
+139. B. UTM devices commonly provide firewall, IPS, antivirus/antimalware, and a variety of 
+other services. They are also commonly part of SD- WAN architectures, but do not them-
+selves provide the SD- WAN service.
+140. A. TLS VPNs are typically easier to set up and don’t require clients to be installed, unlike 
+an IPSec VPN. SD- WAN is used to manage external connectivity, and software- defined net-
+working (SDN) is used to manage networks and their performance, not to allow remote 
+access by users.
+141. B. Moving devices to an isolated network segment that has appropriate controls in place to 
+protect devices that may not be able to be secured or that may not receive regular patches is 
+the best option available. Baselines, patching, and even scanning and remediation only help Chapter 3: Domain 3.0: Security Architecture  273
+if the devices can be secured, patched, and otherwise protected. IoT devices are often not 
+able to be secured this way, particularly as they age and both lighting and thermostats have 
+relatively long useful lifespans.
+142. B. Secure access service edge (SASE) deployments combine SD- WAN with a variety of 
+cloud- hosted security services, including zero trust and CASB tools to replace VPNs. This 
+provides an edge device–oriented security architecture with end- to- end security. SaaS is 
+involved but is not a specific enough answer. SONET is a communication protocol used for 
+fiber networks. Supply chain management (SCM) is not a term used in this context.
+143. A. Fail over testing goes beyond parallel processing and completely takes over running 
+services. This is the most complex and risky testing mode, but also the only one that com-
+pletely tests failure scenarios in a real- world exercise. Simulations and tabletops are more 
+abstract and would not test the site, instead focusing on practices and behaviors.
+144. C. Cold sites are spaces that are ready to be used in a disaster but without equipment 
+or other necessary items in place to quickly take over production if needed. A warm site 
+would have some hardware ready to be used, but the hardware would not be configured 
+or otherwise ready for immediate resumption of service. A hot site is prepared to take over 
+processing for an organization immediately, and infrastructure is running in parallel with 
+your production site. Geographic dispersion is used to ensure that a single disaster does not 
+impact multiple sites.
+145. C. Tabletop exercises are not simulations and typically do not involve simulated calls to 
+resources. Simulations are a different type of exercise and have the potential for disruptions 
+if staff are not aware of the exercise being conducted.
+146. B. This type of architecture leverages the idea of platform diversity. Having multiple ven-
+dors and platforms helps to ensure that a single vendor’s failure or vulnerability does 
+not prevent an organization from continuing to function. Platform agnostic is not on the 
+Security+ exam but typically means that organizations don’t have a vested interest in which 
+platform is selected or used. Multi-cloud environments run in multiple cloud vendors’ tools, 
+but this question involves physical router hardware. Parallel processing is a failure testing 
+mode where two or more sites run at the same time during a test.
+147. C. Kaito is using a weighted least connection load balancing approach, which distributes 
+traffic based on both a server weight and connection number count. Source IP hashing uses 
+a hash of the source and destination IP addresses to determine which server receives the 
+connection. This also allows for interrupted sessions to go to the same server. Resource- 
+based load balancing takes into account the availability of resources like CPU, memory, and 
+network bandwidth for a server. Round- robin load balancing simply distributes connections 
+as they come in by moving through a list of servers.
+148. A. Attack surfaces are the potential points for an attack to occur. For devices, this is often 
+the open services. For organizations, attack surfaces can include open ports and services, 
+physical security concerns, and human vectors. Security zones are a way for organizations 
+to categorize and manage different devices and systems based on security classification. 
+Scalability describes whether a service or system can grow or shrink to handle demand or 
+load. Resilience describes if a system or service can tolerate issues that might otherwise 
+result in outages.274 Appendix ■ Answers to Review Questions
+149. C. An infrastructure- as- a- service (IaaS) cloud- hosted model where a third- party provider 
+focuses on scalability and administration of a containerization service will meet Geoff’s 
+needs. When scaling from low to very large load is a common event, the ability to grow or 
+shrink in a cloud environment can also provide significant cost savings over paying for an 
+on- premises option that can handle the full scaling event. Software as a service (SaaS) and 
+platform as a service (PaaS) provide full applications or platforms, not containerization 
+environments.
+150. B. Financial data includes transactions, accounts, and many other types of information 
+related to finances. Intellectual property is a broad category of data created by humans. 
+Public information is information that is available to the public, and trade secrets are kept 
+private to a limited number of individuals in a company for competitive advantage or other 
+purposes.
+151. B. Clustering involves using two or more systems to provide a service as though they’re a 
+single server. Load balancing spreads workloads across multiple independent systems while 
+front- ending them with a load balancer device or service to distribute load. Fail-open means 
+that if a network device fails, traffic continues to pass through it. Fail- closed devices stop 
+traffic if they fail. Decisions about fail-open and fail-closed are made based on security in 
+most cases, with fail-closed being more secure if the organization relies on the device for 
+security.
+152. C. PCI DSS is a credit card data security standard, meaning that Alaina is most likely 
+dealing with financial information. PCI DSS does not directly address intellectual property 
+or trade secrets, and it’s not a regulation.
+153. B. Snapshots are used to copy both the data and machine state for virtual machines. Journ-
+aling is used for databases and similar uses where replaying actions can be useful to recover 
+if an issue occurs. Replication copies the data synchronously or asynchronously, allowing 
+for a separate copy to be available at all times. Grandfather/Father/Son is a backup cycle 
+commonly used for tape backup.
+154. D. Parallel processing allows for systems to be tested without taking them offline. This 
+means that in the event of an issue with the backup systems or facility, the primary facility 
+can continue to operate. Parallel processing does allow for more throughput, but orga-
+nizations should not rely on this as parallel processing environments need to be able to 
+handle the full load for the organization if the primary or backup fails. Fail over does test 
+redundant systems and does not require organizations to create a significant issue. Instead, 
+manual fail over processes are used to conduct fail over tests.
+155. D. Placing the IPS inline at position D will reduce the amount of traffic it has to filter while 
+still allowing it to filter traffic bound for the datacenter. Points A, B, and C will all have 
+more traffic, although point A will have the most, with reductions likely at points C and D.
+156. B. Increased complexity can include jurisdictional challenges, increased cost, and regulatory 
+challenges as well as visibility challenges, management overhead increases, and a wide 
+range of additional challenges from operating in multiple locations and models.Chapter 3: Domain 3.0: Security Architecture  275
+157. D. In general, fail over connections should be able to handle an organization’s full 
+throughput. Overprovisioning for 100 Gbps will typically create significantly more cost 
+not only for connectivity but also for network devices that can handle high speeds, and 
+underprovisioning at 5 Gbps will mean that traffic would need to be reduced in a fail over 
+scenario.
+158. A. A hot site is prepared to take over processing for on organization immediately, and 
+infrastructure is running in parallel with your production site. A warm site would have 
+some hardware ready to be used, but the hardware would not be configured or otherwise 
+ready for immediate resumption of service. Cold sites are spaces that are ready to be used 
+in a disaster but without equipment or other necessary items in place to quickly take over 
+production if needed. The term dispersion site is not commonly used, but the concept of 
+geographic dispersion describes placement of sites with sufficient distance between them to 
+make the likelihood of a single disaster impacting both quite low.
+159. C. Geographic dispersion is unlikely for a single building’s network core. Redundancy, 
+power backups, and multiple connectivity options are commonly part of designing a highly 
+available network.
+160. C. The General Data Protection Regulation (GDPR), Health Insurance Portability and 
+Accountability Act (HIPAA), Family Educational Rights and Privacy Act (FERPA), and the 
+Gramm–Leach–Bliley Act (GLBA) are all regulations, meaning that data they cover is regu-
+lated data. Intellectual property is the result of human creativity, classified data is a designa-
+tion used by governments, and trade secrets are proprietary data with limited access often 
+used by organizations for competitive advantage.
+161. A. Virtual machine (VM) escape attacks attempt to access or gain control of the underlying 
+hypervisor through virtual machines. While uncommon, if this occurred it could result in 
+serious issues due to the number of systems run on a single hypervisor host particularly in 
+cloud or shared environments. The other options were made up for the question.
+162. B. AH (Authentication Header), ESP (Encapsulating Security Payload), and IKE (Internet 
+Key Exchange) are all important IPSec (Internet Protocol Security) protocols. ISA is not an 
+IPSec protocol.
+163. D. Intrusion detection systems are considered passive systems because they cannot block 
+traffic. Active systems like firewalls, IPS, and proxies all have the ability to directly interact 
+with and stop or allow traffic. Air gapped devices do not have a physical connection to a 
+network, or they are on a separate network that is not connected to other networks. Fail- 
+closed devices stop traffic when they fail. Most IPS systems are not deployed inline since 
+they do not need to be interactive and having them inline only creates another potential 
+failure point.
+164. C. Hashing uses a one- way function and should not be able to be reversed. This means that 
+you can use hashing to securely store a password because you can hash the password, then 
+compare hashes without needing to know the password. If you hash a database field, how-
+ever, there’s no way to know what the original data was from the hash. Hashing should not 
+be reversible, and it does not use symmetric or asymmetric encryption.276 Appendix ■ Answers to Review Questions
+165. C. Tokenizing the data in a separate database will allow both the original unaltered data-
+base and a secured database to be used. This reduces risk while retaining data integrity 
+where required. Steganography hides data in images and does not fit this use case. Masking 
+only conceals data and does not protect it against attacks against the underlying application 
+or database in many cases. Hashing the original database will transform the data, and using 
+a single database remains risky.
+166. C. SCADA and ICS systems often suffer from a lack of patches and updates. Cost is typi-
+cally amortized over long periods of time, and SCADA and ICS systems are critical to orga-
+nizational functions. Scalability is rarely a concern for embedded devices, and SCADA and 
+ICS devices are designed for long life cycles and reliability.
+167. C. In a SDN environment, the SDN controller provides manages and controls all the net-
+work devices, including switches and routers. That means that a compromise of the SDN 
+controller would result in compromise of the entire network. No mention is made of  
+SD- WAN in the question, so we don’t know the connectivity or relative importance of  
+SD- WAN in the scenario.
+168. B. Third- party support availability is an example of risk transference where the support 
+contract moves the risk to the contractor. Availability and responsiveness may be consid-
+erations for the contractor, but the ability to obtain support doesn’t imply either of these. 
+Compute is most commonly a concern where embedded devices or hardware solutions may 
+not have sufficient computational power to meet new needs.
+169. A. Network access control (NAC) tools that can allow for authentication and authoriza-
+tion based on user groups or roles and VLANs that separate groups based on those roles 
+once they’re on the network exactly fit the needs Yarif has. 802.1X can also be helpful 
+with this, but containerization is used to allow applications to be deployed without wor -
+rying about the application environment. SDN and MAC address filtering doesn’t account 
+for user authentication and identities, just machine hardware addresses. SD- WAN is for 
+external connectivity, not internal networks.
+170. A. A simulation is the closest you can get to a real- world event without having one.  
+A tabletop exercise has personnel discussing scenarios, whereas a walk- through goes 
+through checklists and procedures. A wargame is not a common exercise type.
+171. B. Serverless deployments remove the need to patch underlying infrastructure. They may 
+still have vulnerable functions and should be logged. Cost savings is not a direct security 
+advantage.
+172. D. In a large- scale disaster scenario, personnel may be unwilling or unable to report to 
+work. Organizations planning for disaster in an area where their personnel live and work 
+often need to identify ways to ensure staffing in a scenario that impacts their staff. Lack of 
+facility power is not a personnel issue. Authentication should be part of the hot- site capa-
+bility. Insider threats are not a common concern during disasters.
+173. D. ACLs, VLANs, and firewalls are all commonly used to implement network 
+segmentation. Due to the operational challenges that air gaps create, they are far less com-
+monly implemented and are only used when absolutely necessary.Chapter 3: Domain 3.0: Security Architecture  277
+174. C. Binary files like executable programs are examples of non- human- readable data. That’s 
+one of the reasons encoding schemes like XML were created for data files that can allow 
+both machines and humans to read and interact with data. Restricted and confidential are 
+both classification schemes that businesses may use to describe their organizational data.
+175. D. Journaling tracks transactions as they occur. Unless the journal itself was lost, Melissa 
+should be able to restore the backup, then replay the journal to ensure the organization 
+loses very little data.
+176. B. SCADA systems are often used to manage industrial control systems (ICSs). SDN and 
+SD- WAN are used to manage networks and connectivity respectively, whereas Active 
+Directory is used to manage Windows servers and workstations in a domain environment.
+177. B. Encrypted backups require the encryption key, so Maria’s organization will need to pre-
+serve and protect the recovery key in a secure manner that does not rely on the backups. 
+This is often done via multiple physical copies of the key stored in secured locations with 
+geographic diversity or using both physical and cloud secure storage like a key management 
+system (KMS).
+178. D. Replication is a continuous process and because of this it does not require restoration 
+processes like restoring differential backups or journals to allow data to be used. Backups 
+are periodic, and they typically require additional restoration work in order to be used.
+179. D. Erin will need to restore the full backup, then apply the differential backups from each 
+of the remaining three days for a total of four backups.
+180. A. IPSec VPNs operate at the network layer instead of the transport layer. That means less 
+information is visible to potential attackers. Both support strong encryption, IPSec VPNs do 
+support tunneling, and not relying on tunneling is not an advantage in most use cases.
+181. D. Vera can use a SD- WAN, or software- defined wide area network, to manage multiple 
+connections dynamically, ensuring connectivity and performance for her organization. SASE 
+is used to secure networks and device connectivity in modern organizations with complex 
+and mobile boundaries. SDN is software- defined networking and manages networks as 
+code. IPSec is a suite of protocols used to secure network traffic.
+182. A. Embedded devices typically have minimal CPUs, memory, and storage. They prioritize 
+responsiveness for their core functions, and thus availability and responsiveness are typi-
+cally met with the device. Cost for embedded devices is typically associated with the larger 
+device they’re part of rather than the embedded device itself as they are there to monitor or 
+operate the system.
+183. C. Intellectual property is intangible creations by the human mind. Patents, copyrights, 
+trademarks, and trade secrets are all examples of intellectual property. Intellectual property 
+is not necessarily sensitive data, but it could be.
+184. C. Storage capacity should be part of Jaime’s infrastructure planning to ensure that large 
+volumes of logs do not overwhelm her infrastructure. Compute is typically not an issue 
+with logs, but it could be with log analysis later in her design process. People and power are 
+not directly impacted by logging, but people might be needed for log analysis later as well.278 Appendix ■ Answers to Review Questions
+185. B. This organization is using a decentralized model where there is no datacenter or primary 
+hosting or operational facility. With remote workers making up much of the company, 
+as well as flexible working locations, this design makes sense for the company but intro-
+duces additional complexity because endpoints will need to be secured wherever they are, 
+regardless of what network they are on. A centralized design can somewhat simplify that, 
+but modern application stacks and working conditions often make that less likely. This is 
+not an on- premises design since workers and cloud tools are remote. There is no description 
+of segmentation in the question.
+186. B. Mobile device management (MDM) tools are often used to enforce geographic restric-
+tions on devices by using GPS and Wi- Fi to determine where they are and to limit their 
+access to sensitive systems or data if they are not in an allowed geographic boundary. This 
+often matches being in a specific office building with known Wi- Fi for highly sensitive 
+access or work hour requirements. Endpoint detection and response (EDR) is used to 
+counter ransomware and other malicious software, 802.1X is used to control access to net-
+works, and VPNs are used to provide site- to- site connectivity through untrusted networks 
+as well as to location shift devices.
+187. B. Round- robin load balancer algorithms spread load by assigning incoming connec-
+tions to servers or services on a list. This helps to spread the load evenly even without 
+awareness of the relative load each connection creates or that the server is under simply 
+by relying on connections evening out over time. Load- based and capacity- based models 
+use more knowledge of the state of the servers or services. User pinning is not a load 
+balancing model.
+188. C. Encryption is the most effective way to protect data at rest. Classification is use-
+ful to ensure data is handled in appropriate ways, but does not directly protect the data. 
+Segmentation can help keep data in the right locations with appropriate controls around it, 
+but again does not directly protect the data if the server or data store is accessible. Hashing 
+is a one- way function and does not leave data in a usable state for most purposes that rely 
+on the data being intact and in its original form.
+189. C. Environmental sensor appliances are frequently deployed to datacenters and network 
+closets to monitor for potential issues like high temperatures. Heating, ventilation, and 
+air- conditioning (HVAC) systems monitor and control temperatures, but datacenters com-
+monly add additional monitoring tools in case the HVAC system fails or other issues arise. 
+UPS systems are not used for environmental monitoring, and load balancers are used to 
+distribute load to servers and services.
+190. B. Organizations typically deploy both a UPS and a generator (or generators!). Long 
+power outages will drain the batteries that a UPS relies on. Since UPS systems are typically 
+intended to run for minutes, rather than hours, for datacenters this should be Danielle’s first 
+concern. No generator was mentioned, and in fact the UPS is her only power resilience con-
+trol. While a UPS may experience issues with surges when power resumes, temporary drops 
+in voltage, and power outages are not uncommon even on well- maintained power grids, 
+and UPS systems are designed to handle them under normal circumstances while protecting 
+the systems they provide emergency power to.Chapter 3: Domain 3.0: Security Architecture  279
+191. C. An IPSec VPN is a common option for organizations that need to create a secure VPN 
+tunnel between two locations. A VPN connection is established by network devices at both 
+locations and traffic is able to travel securely over commodity Internet connections. TLS 
+VPNs are more commonly used for individuals to connect to an organization’s network. 
+Web proxies are used to filter and control web traffic, not for this purpose. 802.1X is used 
+to authenticate to networks and protect them from unauthorized connections, not to create 
+secure, multisite tunnels.
+192. C. Port security associates a list of allowed hardware (MAC) addresses with a port and 
+only allows systems with permitted MAC addresses to connect to and send traffic through 
+the network port. 802.1X uses authentication, which can include userIDs and multifactor. 
+IP addresses are not a way that port security filters systems.
+193. C. TLS VPNs provide an easier user experience from the browser without installing addi-
+tional software or additional configuration like an IPSec VPN typically requires. A jump 
+server is used for access to secure zones but isn’t ideal for traveling and remote employees— 
+often a VPN is used to access a jump server in scenarios like that. SD- WAN is useful to 
+manage connectivity options, not for individual users.
+194. A. The virtual machine’s power state, memory state, and disk are all captured as part of a 
+snapshot. The underlying hypervisor’s configuration is not captured by a snapshot.
+195. B. Data sovereignty concerns are driven by where the data resides, and geolocation can 
+help understand the applicable law or regulations. Data can be at rest, in use, or in transit 
+in any given location. Data criticality is determined by an organization, not by its location.
+196. D. SCADA manages complex systems by combining central and local control systems with 
+communication systems to manage large- scale industrial processes. The endpoint devices 
+described may be embedded systems, Internet of Things (IoT), or real- time operating sys-
+tems (RTOSs), but together they are a SCADA system.
+197. D. Penetration tests will typically include vulnerability scanning as well as other activities 
+that can provide a more complete view of an organization’s Internet- facing attack surface. 
+OSINT alone will not provide technical testing. Threat feeds do not provide information 
+about a specific organization’s attack surface, and vulnerability scanning may not reveal 
+other issues like application issues.
+198. A. IoT devices are typically deployed for long periods of time, meaning that over time the 
+complexity of managing a multiple device and vendor environment is the largest concern. 
+Initial concerns about ease of deployment would exist but could be overcome. Availability 
+and resilience are both typically helped by platform diversity as outages or issues found 
+with one device or vendor should not impact others.
+199. B. A secure enclave is one way of protecting data in use. This relies on secured hardware 
+that stores data that is in use and that only allows processes that run in the enclave from 
+accessing data. Hashing, containerization, and using tunneling do not provide security for 
+data in use.280 Appendix ■ Answers to Review Questions
+200. B. There is no connection between the two network security zones in Model 2. This is an 
+air gapped model with physical isolation. Logical segmentation would show VLANs or 
+other logical segmentation options. Servers are shown, easily dismissing serverless as an 
+option, and there is no indication of whether this is an on- premises or an off-site design.
+201. C. Masking, encryption, and tokenization are all examples of data obfuscation methods 
+that protect against data exposure. None of these are encryption or classification methods, 
+and none of them are tagging methods, although classification often involves tagging data if 
+it will be managed or monitored using automated methods.
+202. B. IP hash relies on a hash of the client and server’s IP addresses to associate them with a 
+server. Even if you’re not familiar with load- balancing techniques, you can rule out round- 
+robin, which simply distributes sessions through a list in order; weighted least connection, 
+which looks at which servers have the least traffic and a weight assigned to the server; and 
+resource- based, which looks at how heavily loaded a server is.
+203. A. 802.1X allows for authentication via EAP, then assignment to a VLAN based on a role 
+or other attributes. EAP alone does not perform this function, port security leverages MAC 
+addresses to determine if a system is allowed to connect, and VLAN tagging is part of how 
+traffic is labeled for a specific VLAN but does not support authentication or role- based 
+labels directly.
+204. B. Logical segmentation uses software to define and create segmentation. VLANs are 
+defined at the network layer using VLAN tags. Air gapping would remove network connec-
+tivity between a system or systems and other networks to prevent access via the network. 
+Physical segmentation would require separate network infrastructure. Physical isolation 
+typically means removing a system from a network.
+205. A. Wi- Fi and other on premises network solutions are not typically part of an SD- WAN 
+implementation. SD- WAN focuses on wide area networks, which are outside the on- 
+premises network borders of organizations, and thus technologies like MPLS, broadband, 
+and LTE are used with SD- WAN controllers.
+206. A. Information that is available without restriction or authentication and that is available 
+on an Internet- facing website should be considered public information. Internal, confiden-
+tial, and restricted information all require additional controls and handling practices.
+207. C. Identifying single points of failure is a common first step in network high availability 
+designs. This allows network designers to plan for failures and how to avoid them. Con-
+figuring a hot site, implementing clustering, and purchasing redundant hardware all occur 
+much further into the design process when needs are identified and prioritized.
+208. A. Having artifacts signed after they have made it through the build and validation process 
+helps ensure that they haven’t been modified and that the artifact has had the organization’s 
+checks done. Container image scanning helps to find issues like malware and dependency 
+issues. Dependency checks can validate things like open source tool risks or issues. Static 
+analysis requires manual review of code.Chapter 3: Domain 3.0: Security Architecture  281
+209. C. A primary concern for organizations that encrypt their backups is whether the keys are 
+available in a disaster. Ensuring that the keys are stored in a manner that ensures that they 
+are recoverable if the backups are recoverable is critical. Modern backup encryption typ-
+ically does not add a meaningful amount of time to backups, nor does it increase cost or 
+space to such a significant degree that it is a primary concern.
+210. C. Ransomware concerns are typically found with desktops, laptops, mobile devices, and 
+servers instead of IoT devices. IoT devices often don’t have patches or aren’t patched, send 
+data to third parties that may not be desired, and may not use secure communications.
+211. C. In circumstances where a single vendor’s outages are a major concern, multi-cloud 
+deployments may be appropriate. This is more common when the application is contain-
+erized or otherwise easily portable. The more customized to the current cloud vendor 
+the application or service is, the more difficult it is to move to other cloud vendors and 
+the more costly the move will be. In addition, multi-cloud can drive additional costs for 
+overhead services, making multi-cloud a choice organizations undertake cautiously. Deploy-
+ing in multiple AZs or regions will not avoid an outage if the IaaS vendor has a cloud- wide 
+issue, and contractual obligations won’t stop outages— they will typically just provide pen-
+alties if there is an outage longer than the contract allows.
+212. C. Meeting both resilience and performance requirements can be best addressed in this 
+scenario by contracting with two separate network service providers. This allows for 
+both resilience and the possibility of sending traffic through both connections for greater 
+performance. Both a generator and a UPS can help with power resilience, but the focus of 
+this question is network connectivity.
+213. A. Segmentation of data separates data based on factors like use cases, sensitivity, roles, 
+and types or classifications of information. Obfuscation attempts to conceal or hide 
+information. Masking replaces information with other data like asterisks or X’s when dis-
+played, allowing partial data to be displayed for business purposes. Tokenization replaces 
+data with an alternate value, often based on a hashing algorithm that allows the alternate 
+value to be used as an index or reference without the actual data visible.
+214. C. Mandatory access control (MAC) is used in scenarios where users should not have the 
+ability to grant access to files. Role- based access control and rule- based access control both 
+provide more flexibility, and they are more commonly used than mandatory access con-
+trol in cases where that is desired. Discretionary access control (DAC) allows users to grant 
+access to other users and does not fit the requirements either.
+215. B. A proxy server is likely to be used in an environment where the ability to filter searches 
+may be required, such as a library with public workstations. A jump server is used to access 
+more secure zones, a load balancer is typically used to allow multiple systems to provide a 
+service, and a DLP system is used to prevent unauthorized data exfiltration.
+216. A. In platform- as- a- service (PaaS) environments, customers and providers typically share 
+responsibility for identity and directory infrastructure, applications, and network controls. 
+Customers are responsible for data, devices, and accounts, and the provider is responsible 
+for the underlying systems, including operating systems and physical infrastructure.282 Appendix ■ Answers to Review Questions
+217. C. A microservices design will allow for each component or service to be separate and 
+lightweight, allowing them to be developed independently and thus easier to fix without 
+complex dependencies. Containerization would allow for easy deployment of applications 
+to different service environments, but the focus for containerization is on portability, not 
+on the design requirements listed. Virtualization requires even more resources because 
+operating systems are virtualized, but it suffers from the same lack of a direct means of 
+addressing the needs explained in the question. SCADA stands for supervisory control and 
+data acquisition and is used to manage complex industrial or controls’ environments, not 
+service environments like the question describes.
+218. D. The biggest advantage of a monitoring port over an inline network tap is that if the 
+monitoring port fails, it will not impact the network traffic flow. If an inline device fails, 
+it may impact the network traffic even if it is designed to avoid that scenario. Inline taps 
+don’t have to rely on the performance of the switch, meaning that they are often higher 
+performance; they can be passive, meaning that they cannot be attacked like a switch’s 
+operating system can be; and since inline passive devices simply copy traffic, they are often 
+easier to configure since you merely plug them in.
+219. A. Embedded systems are often used for long periods of time, use relatively low- power 
+CPUs and have limited memory and storage, and are typically not user configurable or 
+manageable in meaningful ways. They typically don’t have the ability to install additional 
+software as they are purpose-built to serve a specific need.
+220. A. Containerization technologies bundle the needed libraries and other components for an 
+application together in a lightweight package format that can easily be deployed to a pro-
+vider’s containerization service. Snapshots are used to capture a virtual machine’s state and 
+data at a given point in time. Embedded systems are computers that are built into a device 
+or system. Segmentation is the concept of dividing a network or system into separate parts, 
+often with security and other boundaries between them.
+221. D. Data sovereignty is the right of nations to pass laws that control the use of data within 
+their borders. This means that organizations must follow each country’s laws when they 
+store, process, or otherwise handle data in the country they operate in. Data classification 
+is a process of classifying data to set handling or other processes and practices around it. 
+Treaties are not covered by the Security+ exam.
+222. B. This is an example of air gapped design where there is no network connectivity. This 
+prevents network- based attacks from being possible against the high- value certificate 
+authority server. Port security is used to enable or disable network ports. Defense- in- depth 
+is a design concept that relies on layers of defenses to ensure security. Zero trust requires 
+continuous authentication and rights verification to provide ongoing security for a network 
+or system architecture.
+223. B. A large- scale denial- of- service attack that is using resources can be costly. Microsoft’s 
+cloud will be able to scale to meet the demand, but Jayne’s organization may spend large 
+amounts of money without benefiting any legitimate customers. Loss of data is unlikely 
+because the application is being heavily used without any underlying issue for the applica-
+tion’s data. Log files will still be created, but the size and scale of the logs may drive cost. 
+There is nothing in the scenario that demonstrates a vulnerability, and resource exhaustion 
+attacks do not require a vulnerability to be successful.Chapter 4: Domain 4.0: Security Operations  283
+224. B. EAP (Extensible Authentication Protocol) is used for 802.1X authentication before the 
+port is enabled for other traffic. EAP does not permit vulnerability or port scanning, nor 
+does it provide system security status validation.
+225. B. The functions shown are typical of a proxy server. The proxy can be used to apply 
+content controls and to conceal the IP addresses of internal users. A web application fire-
+wall filters web traffic but is specifically targeting attacks and malicious behavior. A jump 
+server is used between a low- trust and a higher- trust area to provide access, and this is not 
+shown or described in the image or question. A load balancer is used to distribute traffic 
+load between servers, and this is not shown in the image or reflected in the question.
+226. B. While blocking single quotes won’t stop all SQL injection, it will stop many basic injec-
+tion attacks. Preventing the use of SQL or AND and OR statements may break some applica-
+tions, although secure web applications should be using stored queries.

@@ -1,0 +1,1461 @@
+1. John wants to harden his organization’s routers. If there are no currently known vulnerabil-
+ities or issues with the device, which of the following hardening options will provide the big-
+gest benefit?
+A. Moving their administrative interfaces to a protected VLAN
+B. Disabling unnecessary services
+C. Installing the most current patch level for the OS
+D. Enabling SNMP- based logging
+2. Jackson is reviewing his organization’s logs and discovers multiple new user accounts cre-
+ated after business hours using administrative credentials. What term describes searching for 
+potential issues like this?
+A. IoC creation
+B. Threat hunting
+C. Root cause analysis
+D. Eradication
+3. Cynthia is concerned about attacks against an application programming interface (API) that 
+her company provides for its customers. What should she recommend to ensure that the API 
+is only used by customers who have paid for the service?
+A. Require authentication.
+B. Install and configure a firewall.
+C. Filter by IP address.
+D. Install and use an IPS.
+4. Greg wants to gain admission to a network which is protected by a network access control 
+(NAC) system that recognized the hardware address of systems. How can he bypass this 
+protection?
+A. Spoof a legitimate IP address.
+B. Conduct a denial- of- service attack against the NAC system.
+C. Use MAC cloning to clone a legitimate MAC address.
+D. None of the above.
+5. Melissa’s organization has deployed a firewall that uses three interfaces to provide services. 
+The first interface connects to the Internet, the second to a network where the organization’s 
+web servers reside, and the third to a secured network where the organization’s workstations 
+are connected. What type of firewall architecture has Melissa’s organization deployed?
+A. An ACL
+B. A screened subnet126 Chapter 4 ■ Domain 4.0: Security Operations
+C. A binary firewall
+D. A multihomed, multiroute NGFW
+6. CVE is an example of what type of feed?
+A. A threat intelligence feed
+B. A vulnerability feed
+C. A critical infrastructure listing feed
+D. A critical virtualization exploits feed
+7. Amanda scans a Red Hat Linux server that she believes is fully patched and discovers that 
+the Apache version on the server is reported as vulnerable to an exploit from a few months 
+ago. When she checks to see if she is missing patches, Apache is fully patched. What has 
+occurred?
+A. A false positive
+B. An automatic update failure
+C. A false negative
+D. An Apache version mismatch
+8. Telnet, RSH, and FTP are all examples of what?
+A. File transfer protocols
+B. Unsecure protocols
+C. Core protocols
+D. Open ports
+9. What term describes data that is collected from publicly available sources that can be used in 
+an intelligence context?
+A. OPSEC
+B. OSINT
+C. STIX
+D. IntCon
+10. Patrick has subscribed to a commercial threat intelligence feed that is only provided to sub-
+scribers who have been vetted and who pay a monthly fee. What industry term is used to 
+refer to this type of threat intelligence?
+A. Proprietary threat intelligence
+B. OSINTChapter 4 ■ Domain 4.0: Security Operations  127
+C. ELINT
+D. Corporate threat intelligence
+11. Susan receives $10,000 for reporting a vulnerability to a vendor who participates in a 
+program to identify issues. What term is commonly used to describe this type of payment?
+A. A ransom
+B. A zero- day disclosure
+C. A bug bounty
+D. A payday
+12. Ben runs a vulnerability scan using up- to- date definitions for a system that he knows has a 
+vulnerability in the version the web server is running. The vulnerability scan does not show 
+that issue when he reviews the report. What has Ben encountered?
+A. A silent patch
+B. A missing vulnerability update
+C. A false negative
+D. A false positive
+13. Angela reviews bulletins and advisories to determine what threats her organization is likely 
+to face. What type of activity is this associated with?
+A. Incident response
+B. Threat hunting
+C. Penetration testing
+D. Vulnerability scanning
+14. Frank is using the cloud hosting service’s web publishing service rather than running his own 
+web servers. Where will Frank need to look to review his logs to see what types of traffic his 
+application is creating?
+A. Syslog
+B. Apache logs
+C. The cloud service’s web logs
+D. None of the above
+15. The following graphic shows a report from an OpenVAS vulnerability scan. What should 
+Charles do first to determine the best fix for the vulnerability shown?128 Chapter 4 ■ Domain 4.0: Security Operations
+A. Disable PHP- CGI.
+B. Upgrade PHP to version 5.4.
+C. Review the vulnerability descriptions in the CVEs listed.
+D. Disable the web server.
+16. Ian runs a vulnerability scan, which notes that a service is running on TCP port 8080. What 
+type of service is most likely running on that port?
+A. SSH
+B. RDP
+C. MySQL
+D. HTTPChapter 4 ■ Domain 4.0: Security Operations  129
+1 7. Carolyn runs a vulnerability scan of a network device and discovers that the device is 
+running services on TCP ports 22 and 443. What services has she most likely discovered?
+A. Telnet and a web server
+B. FTP and a Windows file share
+C. SSH and a web server
+D. SSH and a Windows file share
+18. Susan is responsible for application development in her company. She wants to have all web 
+applications tested before they are deployed live. She wants to use a test system that is iden-
+tical to the live server. What is this called?
+A. A production server
+B. A development server
+C. A test server
+D. A predeployment server
+19. Alexandra is preparing to run automated security tests against the code that developers in her 
+organization have completed. Which environment is she most likely to run them in if the next 
+step is to deploy the code to production?
+A. Development
+B. Test
+C. Staging
+D. Production
+20. Chris wants to limit who can use an API that his company provides and be able to log usage 
+of the API uniquely to each organization that they provide access to. What solution is most 
+often used to do this?
+A. Firewalls with rules for each company’s public IP address
+B. User credentials for each company
+C. API keys
+D. API passwords
+21. Angela wants to ensure that IoT devices in her organization have a secure configuration 
+when they are deployed and that they are ready for further configuration for their specific 
+purposes. What term is used to describe these standard configurations used as part of her 
+configuration management program?
+A. A baseline configuration
+B. An essential settings list
+C. A preinstall checklist
+D. A setup guide130 Chapter 4 ■ Domain 4.0: Security Operations
+22. Chris is following the CIS Windows Server 2022 benchmark and notices that it recommends 
+that Computer Configuration\Policies\Administrative Templates\Windows Components\
+Search\Allow indexing of encrypted files is set to disabled. What potential issue would this 
+help to prevent?
+A. Data leakage
+B. Denial of service
+C. Insecure service
+D. Dark web access
+23. Elizabeth wants to implement a cloud- based authorization system. Which of the following 
+protocols is she most likely to use for that purpose?
+A. OpenID
+B. Kerberos
+C. SAML
+D. OAuth
+24. Tony wants to implement a biometric system for entry access in his organization. Which of 
+the following systems is likely to be most accepted by members of his organization’s staff?
+A. Fingerprint
+B. Retina
+C. Iris
+D. Voice
+25. What is the primary threat model against static codes used for multifactor authentication?
+A. Brute force
+B. Collisions
+C. Theft
+D. Clock mismatch
+26. Nadine’s organization stores and uses sensitive information, including Social Security num-
+bers. After a recent compromise, she has been asked to implement technology that can help 
+prevent this sensitive data from leaving the company’s systems and networks. What type of 
+technology should Nadine implement?
+A. Stateful firewalls
+B. OEM
+C. DLP
+D. SIEM
+2 7. Social login, the ability to use an existing identity from a site like Google, Facebook, or a 
+Microsoft account, is an example of which of the following concepts?
+A. Federation
+B. AAA
+C. Privilege creep
+D. Identity and access managementChapter 4 ■ Domain 4.0: Security Operations  131
+28. Charles has configured his multifactor system to require both a PIN and a password. How 
+many effective factors does he have in place once he presents both of these and his username?
+A. One
+B. Two
+C. Three
+D. Four
+29. Naomi is designing her organization’s wireless network and wants to ensure that the design 
+places access points in areas where they will provide optimum coverage. She also wants to 
+plan for any sources of RF interference as part of her design. What should Naomi do first?
+A. Contact the FCC for a wireless map.
+B. Conduct a site survey.
+C. Disable all existing access points.
+D. Conduct a port scan to find all existing access points.
+30. Charlene wants to provision her organization’s standard set of marketing information to mo-
+bile devices throughout her organization. What MDM feature is best suited to this task?
+A. Application management
+B. Remote wipe
+C. Content management
+D. Push notifications
+31. Denny wants to deploy antivirus for his organization and wants to ensure that it will stop the 
+most malware. What deployment model should Denny select?
+A. Install antivirus from the same vendor on individual PCs and servers to best balance visi-
+bility, support, and security.
+B. Install antivirus from more than one vendor on all PCs and servers to maximize 
+coverage.
+C. Install antivirus from one vendor on PCs and from another vendor on the server to pro-
+vide a greater chance of catching malware.
+D. Install antivirus only on workstations to avoid potential issues with server performance.
+32. Madhuri’s web application converts numbers that are input into fields by specifically typing 
+them and then applies strict exception handling. It also sets a minimum and maximum length 
+for the inputs that it allows and uses predefined arrays of allowed values for inputs like 
+months or dates. What term describes the actions that Madhuri’s application is performing?
+A. Buffer overflow prevention
+B. String injection
+C. Input validation
+D. Schema validation132 Chapter 4 ■ Domain 4.0: Security Operations
+33. You’re outlining your plans for implementing a wireless network to upper management. 
+What wireless security standard should you adopt if you don’t want to use enterprise authen-
+tication but want to provide secure authentication for users that doesn’t require a shared 
+password or passphrase?
+A. WPA3
+B. WPA
+C. WPA2
+D. WEP
+34. You are the chief security officer (CSO) for a large company. You have discovered mal-
+ware on one of the workstations. You are concerned that the malware might have multiple 
+functions and might have caused more security issues with the computer than you can cur -
+rently detect. What is the best way to test this malware?
+A. Leave the malware on that workstation until it is tested.
+B. Place the malware in a sandbox environment for testing.
+C. It is not important to analyze or test it; just remove it from the machine.
+D. Place the malware on a honeypot for testing.
+35. Isaac is reviewing his organization’s secure coding practices document for customer- facing 
+web applications and wants to ensure that their input validation recommendations are 
+appropriate. Which of the following is not a common best practice for input validation?
+A. Ensure validation occurs on a trusted server.
+B. Validate all client- supplied data before it is processed.
+C. Validate expected data types and ranges.
+D. Ensure validation occurs on a trusted client.
+36. Isaac wants to prevent corporate mobile devices from being used outside of his company’s 
+buildings and corporate campus. What mobile device management (MDM) capability should 
+he use to allow this?
+A. Patch management
+B. IP filtering
+C. Geofencing
+D. Network restrictions
+3 7. Sophia wants to test her company’s web application to see if it is handling business logic 
+properly. Which testing method would be most effective for this?
+A. Static code analysis
+B. Fuzzing
+C. Baselining
+D. Version controlChapter 4 ■ Domain 4.0: Security Operations  133
+38. Endpoint detection and response has three major components that make up its ability to  
+provide visibility into endpoints. Which of the following is not one of those three parts?
+A. Data search
+B. Malware analysis
+C. Data exploration
+D. Suspicious activity detection
+39. Carl has been asked to set up access control for a server. The requirements state that users 
+at a lower privilege level should not be able to see or access files or data at a higher privilege 
+level. What access control model would best fit these requirements?
+A. MAC
+B. DAC
+C. RBAC
+D. SAML
+40. Jack wants to deploy a network access control (NAC) system that will stop systems that are 
+not fully patched from connecting to his network. If he wants to have full details of system 
+configuration, antivirus version, and patch level, what type of NAC deployment is most likely 
+to meet his needs?
+A. Agentless, preadmission
+B. Agent- based, preadmission
+C. Agentless, postadmission
+D. Agent- based, postadmission
+41. Eric wants to provide company- purchased devices, but his organization prefers to provide 
+end users with choices among devices that can be managed and maintained centrally. What 
+mobile device deployment model best fits this need?
+A. BYOD
+B. COPE
+C. CYOD
+D. VDI
+42. Claire is concerned about an attacker getting information regarding network devices and 
+their configuration in her company. Which protocol should she implement that would be 
+most helpful in mitigating this risk while providing management and reporting about  
+network devices?
+A. RADIUS
+B. TLS
+C. SNMPv3
+D. SFTP134 Chapter 4 ■ Domain 4.0: Security Operations
+43. Eric is responsible for his organization’s mobile device security. They use a modern mobile 
+device management (MDM) tool to manage a BYOD mobile device environment. Eric needs 
+to ensure that the applications and data that his organization provides to users of those  
+mobile devices remain as secure as possible. Which of the following technologies will provide 
+him with the best security?
+A. Storage segmentation
+B. Containerization
+C. Full- device encryption
+D. Remote wipe
+44. Tara is concerned about staff in her organization sending email with sensitive information 
+like customer Social Security numbers (SSNs) included in it. What type of solution can she 
+implement to help prevent inadvertent exposures of this type of sensitive data?
+A. FDE
+B. DLP
+C. S/MIME
+D. POP3S
+45. Mason is responsible for security at a company that has traveling salespeople. The company 
+has been using ABAC for access control to the network. Which of the following is an issue 
+that is specific to ABAC and might cause it to incorrectly reject logins?
+A. Geographic location.
+B. Wrong password.
+C. Remote access is not allowed by ABAC.
+D. Firewalls usually block ABAC.
+46. Darrell is concerned that users on his network have too many passwords to remember and 
+might write down their passwords, thus creating a significant security risk. Which of the fol-
+lowing would be most helpful in mitigating this issue?
+A. Multifactor authentication
+B. SSO
+C. SAML
+D. LDAP
+4 7. Frank is a security administrator for a large company. Occasionally, a user needs to access 
+a specific resource that they don’t have permission to access. Which access control method-
+ology would be most helpful in this situation?
+A. Mandatory access control (MAC)
+B. Discretionary access control (DAC)
+C. Role- based access control
+D. Rule- based access controlChapter 4 ■ Domain 4.0: Security Operations  135
+48. Oliver needs to explain the access control scheme used by both the Windows and Linux file-
+systems. What access control scheme do they implement by default?
+A. Role- based access control
+B. Mandatory access control
+C. Rule- based access control
+D. Discretionary access control
+49. Stefan just became the new security officer for a university. He is concerned that student 
+workers who work late on campus could try to log in with faculty credentials. Which of the 
+following would be most effective in preventing this?
+A. Time- of- day restrictions
+B. Usage auditing
+C. Password length
+D. Credential management
+50. Chloe has noticed that users on her company’s network frequently have simple passwords 
+made up of common words. Thus, they have weak passwords. How could Chloe best miti-
+gate this issue?
+A. Increase minimum password length.
+B. Have users change passwords more frequently.
+C. Require password complexity.
+D. Implement single sign- on (SSO).
+51. A companywide policy is being created to define various security levels. Which of the follow-
+ing systems of access control would use documented security levels like Confidential or Secret 
+for information?
+A. RBAC
+B. MAC
+C. DAC
+D. BAC
+52. Users in your network are able to assign permissions to their own shared resources. Which of 
+the following access control models is used in your network?
+A. DAC
+B. RBAC
+C. MAC
+D. ABAC136 Chapter 4 ■ Domain 4.0: Security Operations
+53. Cynthia is preparing a new server for deployment, and her process includes turning off 
+unnecessary services, setting security settings to match her organization’s baseline configura-
+tions, and installing patches and updates. What is this process known as?
+A. OS hardening
+B. Security uplift
+C. Configuration management
+D. Endpoint lockdown
+54. John is performing a port scan of a network as part of a security audit. He notices that the 
+domain controller is using secure LDAP. Which of the following ports would lead him to that 
+conclusion?
+A. 53
+B. 389
+C. 443
+D. 636
+55. Which of the following access control methods grants permissions based on the user’s posi-
+tion in the organization?
+A. MAC
+B. RBAC
+C. DAC
+D. ABAC
+56. Gary is designing his cloud infrastructure and needs to provide a firewall- like capability for 
+the virtual systems he is running. Which of the following cloud capabilities acts like a virtual 
+firewall?
+A. Security groups
+B. Dynamic resource allocation
+C. VPC endpoints
+D. Instance awareness
+5 7. Henry is an employee at Acme Company. The company requires him to change his password 
+every three months. He has trouble remembering new passwords, so he keeps switching  
+between just two passwords. Which policy would be most effective in preventing this?
+A. Password complexity
+B. Password history
+C. Password length
+D. Multifactor authentication
+58. Tracy wants to limit when users can log in to a stand- alone Windows workstation. What 
+should Tracy do to meet this requirement?
+A. Set login time restrictions.
+B. Turn the system off automatically during hours it should not be used.Chapter 4 ■ Domain 4.0: Security Operations  137
+C. Hire security guards to monitor the space.
+D. Disable remote login during the hours the system should not be used.
+59. Lucas is looking for an XML- based open standard for exchanging authentication 
+information. Which of the following would best meet his needs?
+A. SAML
+B. OAuth
+C. RADIUS
+D. NTLM
+60. Murali is preparing to acquire data from various devices and systems that are targets in a 
+forensic investigation. Which of the following devices is the least volatile according to the 
+order of volatility?
+A. Backups
+B. CPU cache
+C. Local disk
+D. RAM
+61. What phase of the incident response process should be placed at point A in the follow-
+ing image?
+APreparation
+Detection
+Analysis ContainmentEradication Incident Response Process
+A. Simulations
+B. Review
+C. Recovery
+D. Patching138 Chapter 4 ■ Domain 4.0: Security Operations
+62. Brent wants to use a tool to help him analyze malware and attacks and wants to cover a 
+broad range of tactics and tools that are used by adversaries. Which of the following is 
+broadly implemented in technical tools and covers techniques and tactics without requiring a 
+specific order of operations?
+A. The CIS Benchmark
+B. The Dark Web Analysis Project
+C. The MITRE ATT&CK framework
+D. The CVSS standard
+63. Ted needs to preserve a server for forensic purposes. Which of the following should 
+he not do?
+A. Turn the system off to ensure that data does not change.
+B. Remove the drive while the system is running to ensure that data does not change.
+C. Leave the machine connected to the network so that users can continue to use it.
+D. All of the above.
+64. Jessica wants to review the network traffic that her Windows system has sent to determine if 
+a file containing sensitive data was uploaded from the system. What Windows log file can she 
+use to find this information?
+A. The application log
+B. The network log
+C. The security log
+D. None of the above
+65. What term is used to describe the documentation trail for control, analysis, transfer, and final 
+disposition of evidence for digital forensic work?
+A. Evidence log
+B. Paper trail
+C. Chain of custody
+D. Digital footprint
+66. Nathan needs to know how many times an event occurred and wants to check a log file for 
+that event. Which of the following grep commands will tell him how many times the event 
+happened if each occurrence is logged independently in the logfile.txt log file, and uses 
+a unique event ID, event101?
+A. grep logfile.txt - n 'event101'
+B. grep - c 'event101' logfile.txt
+C. grep logfile.txt - c 'event101'
+D. grep - c event101 - i logfile.txtChapter 4 ■ Domain 4.0: Security Operations  139
+6 7. Eric wants to determine how much bandwidth was used during a compromise and where the 
+traffic was directed to. What technology can he implement before the event to help him see 
+this detail and allow him to have an effective bandwidth monitoring solution?
+A. A firewall
+B. NetFlow
+C. Packetflow
+D. A DLP
+68. Naomi has acquired an image of a drive as part of a forensic process. She wants to ensure 
+that the drive image matches the original. What should she create and record to validate this?
+A. A third image to compare to the original and new image
+B. A directory listing to show that the directories match
+C. A photographic image of the two drives to show that they match
+D. A hash of the drives to show that their hashes match
+69. Ryan has been asked to run Nessus on his network. What type of tool has he been 
+asked to run?
+A. A fuzzer
+B. A vulnerability scanner
+C. A WAF
+D. A protocol analyzer
+70. Michelle wants to check for authentication failures on a RedHat Linux–based system. Where 
+should she look for these event logs?
+A. /var/log/auth.log
+B. /var/log/fail
+C. /var/log/events
+D. /var/log/secure
+71. Nelson has discovered malware on one of the systems he is responsible for and wants to test 
+it in a safe environment. Which of the following tools is best suited to that testing?
+A. strings
+B. scanless
+C. Cuckoo
+D. Sn1per
+72. Lucca wants to review metadata related to a JPEG file. What will he need to do to review it?
+A. Change the JPEG to a GIF to see the metadata.
+B. Download the metadata file from the original author.
+C. Use a metadata viewer.
+D. Analyze the hash of the file.140 Chapter 4 ■ Domain 4.0: Security Operations
+73. Jason is conducting a forensic investigation and has retrieved artifacts in addition to drives 
+and files. What should he do to document the artifacts he has acquired?
+A. Image them using dd and ensure that a valid MD5sum is generated.
+B. Take a picture of them, label them, and add them to the chain- of- custody 
+documentation.
+C. Contact law enforcement to properly handle the artifacts.
+D. Engage legal counsel to advise him how to handle artifacts in an investigation.
+74. Joseph is writing a forensic report and wants to be sure he includes appropriate detail. Which 
+of the following would not typically be included while discussing analysis of a system?
+A. Validation of the system clock’s time settings
+B. The operating system in use
+C. The methods used to create the image
+D. A picture of the person from whom the system was taken
+75. Elaine wants to determine what websites a user has recently visited using the contents of a 
+forensically acquired hard drive. Which of the following locations would not be useful for 
+her investigation?
+A. The browser cache
+B. The browser history
+C. The browser’s bookmarks
+D. Session data
+76. Susan has discovered evidence of a compromise that occurred approximately five months 
+ago. She wants to conduct an incident investigation but is concerned about whether the data 
+will exist. What policy guides how long logs and other data are kept in most organizations?
+A. The organization’s data classification policy
+B. The organization’s backup policy
+C. The organization’s retention policy
+D. The organization’s legal hold policy
+7 7. Alaina sets her antimalware solution to move infected files to a safe storage location without 
+removing them from the system. What type of setting has she enabled?
+A. Purge
+B. Deep- freeze
+C. Quarantine
+D. Retention
+78. A senior vice president in the organization that Chuck works in recently lost a phone that 
+contained sensitive business plans and information about suppliers, designs, and other impor -
+tant materials. After interviewing the vice president, Chuck finds out that the phone did  
+not have a passcode set and was not encrypted, and that it could not be remotely wiped. Chapter 4 ■ Domain 4.0: Security Operations  141
+What type of control should Chuck recommend for his company to help prevent future issues 
+like this?
+A. Use containment techniques on the impacted phones.
+B. Deploy a DLP system.
+C. Deploy an MDM system.
+D. Isolate the impacted phones.
+79. Charles wants to ensure that the forensic work that he is doing cannot be repudiated. How 
+can he validate his attestations and documentation to ensure nonrepudiation?
+A. Encrypt all forensic output.
+B. Digitally sign the records.
+C. Create a MD5 checksum of all images.
+D. All of the above.
+80. Megan needs to conduct a forensic investigation of a virtual machine (VM) hosted in a 
+VMware environment as part of an incident response effort. What is the best way for her to 
+collect the VM?
+A. As a snapshot using the VMware built- in tools
+B. By using dd to copy the VM to an external drive
+C. By using dd to copy the VM to an internal drive
+D. By using a forensic imaging device after removing the server’s drives
+81. Which of the following groups is not typically part of an incident response team?
+A. Law enforcement
+B. Security analysts
+C. Management
+D. Communications staff
+82. Bob needs to block Secure Shell (SSH) traffic between two security zones. Which of the fol-
+lowing Linux iptables firewall rules will block that traffic from the 10.0.10.0/24 network 
+to the system the rule is running on?
+A. iptables - A INPUT - p tcp - - dport 22 - i eth0 - s 10.0.10.0/ 
+24 - j DROP
+B. iptables - D OUTPUT - p udp - dport 21 - i eth0 - s 10.0.10 
+.255 - j DROP
+C. iptables - A OUTPUT - p udp - - dport 22 - i eth0 - s 10.0.10 
+.255 - j BLOCK
+D. iptables - D INPUT - p udp - - dport 21 - I eth0 - s 10.0.10.0/ 
+24 - j DROP142 Chapter 4 ■ Domain 4.0: Security Operations
+83. A Windows system that Maria is responsible for has been experiencing service outages. The 
+outages correspond to processes run on another system in the datacenter, and Maria believes 
+that unexpected traffic may be sent to the Windows system. Which of the following data 
+sources should Maria use to best understand what is happening?
+A. Perform a packet capture.
+B. Enable a network firewall.
+C. Use SIEM logs.
+D. Perform a forensic drive copy.
+84. Amanda’s organization does not currently have an incident response plan. Which of the fol-
+lowing reasons is not one she should present to management in support of creating one?
+A. It will prevent incidents from occurring.
+B. It will help responders react appropriately under stress.
+C. It will prepare the organization for incidents.
+D. It may be required for legal or compliance reasons.
+85. Which of the following scenarios is least likely to result in data recovery being possible?
+A. A file is deleted from a disk.
+B. A file is overwritten by a smaller file.
+C. A hard drive is quick- formatted.
+D. A disk is degaussed.
+86. Henry records a video of the removal of a drive from a system as he is preparing for a 
+forensic investigation. What is the most likely reason for Henry to record the video?
+A. To meet the order of volatility
+B. To establish guilt beyond a reasonable doubt
+C. To ensure data preservation
+D. To document the chain of custody and provenance of the drive
+8 7. Charlene wants to set up a tool that can allow her to see all the systems a given IP address 
+connects to and how much data is sent to that IP by port and protocol. Which of the follow-
+ing tools is not suited to meet that need?
+A. IPFIX
+B. IPSec
+C. sFlow
+D. NetFlow
+88. Tools like PRTG and Cacti that monitor SNMP information are used to provide what type of 
+information for an incident investigation?
+A. Authentication logs
+B. Bandwidth monitoring
+C. System log information
+D. Email metadataChapter 4 ■ Domain 4.0: Security Operations  143
+89. The company Charles works for has recently had a stolen company cell phone result in a 
+data breach. Charles wants to prevent future incidents of a similar nature. Which of the fol-
+lowing mitigation techniques would be the most effective?
+A. Enable FDE via MDM.
+B. A firewall change.
+C. A DLP rule.
+D. A new URL filter rule.
+90. What incident response step is missing from point X in the following image?
+Preparation
+Detection
+Analysis
+XRecoveryLessons
+Learned
+EradicationIncident Response Process
+A. Business continuity
+B. Containment
+C. Response
+D. Discovery
+91. Jill has been asked to perform data recovery due to her forensic skills. What should she tell 
+the person asking to perform data recovery to give her the best chance of restoring lost files 
+that were accidentally deleted?
+A. Immediately reboot using the reset switch to create a lost file memory dump.
+B. Turn off Secure Delete so that the files can be more easily recovered.
+C. Do not save any files or make any changes to the system.
+D. All of the above.144 Chapter 4 ■ Domain 4.0: Security Operations
+92. Veronica has completed the recovery phase of her organization’s incident response plan. 
+What phase should she move into next?
+A. Preparation
+B. Lessons learned
+C. Recovery
+D. Documentation
+93. Michelle has been asked to sanitize a number of drives to ensure that sensitive data is not 
+exposed when systems are removed from service. Which of the following is not a valid means 
+of sanitizing hard drives?
+A. Physical destruction
+B. Degaussing
+C. Quick- formatting the drives
+D. Zero- wiping the drives
+94. Bart is investigating an incident, and needs to identify the creator of a Microsoft Office docu-
+ment. Where would he find that type of information?
+A. In the filename
+B. In the Microsoft Office log files
+C. In the Windows application log
+D. In the file metadata
+95. Nathaniel wants to allow Chrome through the Windows Defender firewall. What type of 
+firewall rule change will he need to permit this?
+A. Allow TCP 80 and 443 traffic from the system to the Internet.
+B. Add Chrome to the Windows Defender Firewall allowed applications.
+C. Allow TCP 80 and 443 traffic from the Internet to the system.
+D. All of the above.
+96. What key forensic tool used to generate reports about what happened relies on correctly set 
+system clocks to work properly?
+A. Disk hashing
+B. Timelining
+C. Forensic disk acquisition
+D. File metadata analysis
+9 7. Valerie is writing her organization’s forensic playbooks and knows that the state that she 
+operates in has a data breach notification law. Which of the following key items is most likely 
+to be influenced by that law?
+A. Whether Valerie calls the police for forensic investigation help
+B. The maximum amount of time until she has to notify customers of sensitive data 
+breaches
+C. The certification types and levels that her staff have to maintain
+D. The maximum number of residents that she can notify about a breachChapter 4 ■ Domain 4.0: Security Operations  145
+98. As part of a breach response, Naomi discovers that Social Security numbers (SSNs) were 
+sent in a spreadsheet via email by an attacker who gained control of a workstation at her 
+company’s headquarters. Naomi wants to ensure that more SSNs are not sent from her 
+environment. What type of mitigation technique is most likely to prevent this while allow-
+ing operations to continue in as normal a manner as possible?
+A. Antimalware installed at the email gateway
+B. A firewall that blocks all outbound email
+C. A DLP rule blocking SSNs in email
+D. An IDS rule blocking SSNs in email
+99. Troy wants to review metadata about an email he has received to determine what system or 
+server the email was sent from. Where can he find this information?
+A. In the email message’s footer
+B. In the to: field
+C. In the email message’s headers
+D. In the from: field
+100. Isabelle wants to gather information about what systems a host is connecting to, how much 
+traffic is sent, and similar details. Which of the following options would not allow her to 
+perform that task?
+A. IPFIX
+B. NetFlow
+C. NXLog
+D. sFlow
+101. Valerie wants to check to see if a SQL injection attack occurred against her web application 
+on a Linux system. Which log file should she check for this type of information?
+A. The security log
+B. The DNS log
+C. The auth log
+D. The web server log
+102. Jean’s company is preparing for litigation with another company that they believe has 
+caused harm to Jean’s organization. What type of legal action should Jean’s lawyer take to 
+ensure that the company preserves files and information related to the legal case?
+A. A chain- of- custody demand letter
+B. An e- discovery notice
+C. A legal hold notice
+D. An order of volatility146 Chapter 4 ■ Domain 4.0: Security Operations
+103. What type of mitigation places a malicious file or application in a safe location for future 
+review or study?
+A. Containment
+B. Quarantine
+C. Isolation
+D. Deletion
+104. What phase of the incident response process often involves adding firewall rules and patch-
+ing systems to address the incident?
+A. Preparation
+B. Detection
+C. Recovery
+D. Analysis
+105. Tim wants to check the status of malware infections in his organization using the orga-
+nization’s security information and event management (SIEM) device. What SIEM dash-
+board will tell him about whether there are more malware infections in the past few days 
+than normal?
+A. The alerts dashboard
+B. The sensors dashboard
+C. The trends dashboard
+D. The bandwidth dashboard
+106. Michelle has been asked to use the CIS benchmark for Windows as part of her system secu-
+rity process. What information will she be using?
+A. Information on how secure Windows is in its default state
+B. A set of recommended security configurations to secure Windows
+C. Performance benchmark tools for Windows systems, including network speed and fire-
+wall throughput
+D. Vulnerability scan data for Windows systems provided by various manufacturers
+10 7. All of your organization’s traffic flows through a single connection to the Internet. Which 
+of the following terms best describes this scenario?
+A. Cloud computing
+B. Load balancing
+C. Single point of failure
+D. Virtualization
+108. Nina is tasked with putting radio frequency identification (RFID) tags on every new piece 
+of equipment that enters her datacenter that costs more than $500. What type of organiza-
+tional policy is most likely to include this type of requirement?
+A. A change management policy
+B. An incident response policyChapter 4 ■ Domain 4.0: Security Operations  147
+C. An asset management policy
+D. An acceptable use policy
+109. Megan is reviewing her organization’s datacenter network diagram as shown in the follow-
+ing image. What should she note for point A on the diagram?
+Internet
+Service
+ProviderInternet
+Point A
+Point BF irewalls
+Routers
+Core
+Switches
+Edge
+SwitchesPoint DPoint C
+A. A wireless link
+B. A redundant connection
+C. A wired link
+D. A single point of failure
+110. Juan’s team is in charge of responding to potential phishing attacks and advertises an  
+infosec@example.com email address to his organization to send examples of potential 
+phishing attacks to. Which of the following is not a benefit Juan’s team would get from 
+automating the creation of tickets in their support tool based on these emails?
+A. The ability to track whether they’ve been resolved
+B. Automated phishing prevention
+C. The ability to correlate multiple emails into a single event
+D. The ability to trigger additional actions148 Chapter 4 ■ Domain 4.0: Security Operations
+111. Valerie wants to implement an email security framework that will help to ensure that only 
+authorized systems send email on behalf of her domains. Which of the following should she 
+implement?
+A. DKIM
+B. DMARC
+C. STP
+D. SPF
+112. Jake is investigating a service outage and notices the following traffic using a Wireshark 
+packet capture. Which of the following issues is most likely occurring?
+A. An email phishing campaign
+B. A SQL injection attack
+C. A dropped network connection
+D. A denial- of- service attackChapter 4 ■ Domain 4.0: Security Operations  149
+113. Gary wants to deploy a tool that will allow him to identify and effectively respond to ran-
+somware that might target systems that his company owns. He knows that he is likely to 
+need to identify threats based on behavior rather than just using signatures, and he wants 
+to have a dashboard- style view of his data. What tool should Gary select to meet this need?
+A. IPS
+B. NAC
+C. DLP
+D. EDR
+114. Carl wants to test his organization’s incident response process. He conducts a tabletop 
+exercise for his security team. Which of the following best describes this type of exercise?
+A. A scenario is introduced and each member of the team takes actions that they would 
+use to respond to the scenario.
+B. Third- party penetration testers work with the security team to address issues they dis-
+covered during their penetration test.
+C. The security team meets to talk through what they would do in a given scenario and 
+takes notes on what works and what doesn’t.
+D. The organization’s datacenter is manually forced to fail over to an alternate site to test 
+the scenario’s objectives.
+115. Michelle wants to determine why attackers were able to take her organization’s web server 
+cluster offline after an incident occurred. What process should she and her team follow to 
+determine this?
+A. Threat hunting
+B. Root cause analysis
+C. A lessons learned analysis
+D. Recovery
+116. Randy wants to harden mobile devices used by his organization. Which of the following is 
+not a typical mobile device hardening step?
+A. Disable Bluetooth.
+B. Use strong screen lock passwords.
+C. Install software updates.
+D. Jailbreak the device.
+11 7. Lucca wants to ensure that his organization’s mobile device connections are secure. Which 
+of the following connectivity options is the most secure choice?
+A. WPA2 Personal
+B. WPA3 Personal
+C. WPA3 Enterprise
+D. WPA4 Enterprise150 Chapter 4 ■ Domain 4.0: Security Operations
+118. The percentage of the value of an asset that is lost due to an incident or loss event is known 
+as what?
+A. Asset depreciation
+B. Exposure factor
+C. Annual loss event
+D. Asset valuation adjustment
+119. Derek’s organization has recently set up a notification process that sends a text message 
+to system administrators when security exception log events occur on the systems they are 
+responsible for. Unfortunately, Derek and his team have received dozens of alerts at all 
+times of the day due to the log event happening for failed logins when users type their pass-
+words incorrectly. What should Derek and his team do next to help with this?
+A. Set alert thresholds.
+B. Engage in alert tuning.
+C. Disable the alerts.
+D. Move the alerts to email.
+120. Jill wants to configure her IPS to detect a SQL injection attack that has become increas-
+ingly common against an open source web application that her organization runs. What 
+information would she need to create a signature for the attack?
+A. The source IP address
+B. The SQL code
+C. The hash of the attack
+D. The source port
+121. Ben’s organization has hired a new HR supervisor, Jack. When Jack was hired, Ben was 
+asked to provide Jack with the same rights and permissions as the other HR supervisor, 
+Erin. What is the most important issue Ben should identify with this process if the organiza-
+tion wants to follow identity and access management best practices?
+A. Jack’s account should be provisioned based on his role, not on Erin’s rights.
+B. Jack may not be senior enough to have access to the same systems as Erin does.
+C. Erin may work with a different staff than Jack does.
+D. Jack should not have access to Erin’s files.
+122. Ian wants to deploy multifactor tokens to his organization. Which of the following provides 
+the greatest security?
+A. Hardware tokens
+B. Application- based tokens
+C. SMS multifactor
+D. Extended password lengthChapter 4 ■ Domain 4.0: Security Operations  151
+123. Gurvinder wants to explain the advantages of investing in automating security workflows 
+to his organization’s leadership. Recent audit findings have shown that systems are not all 
+fully patched and that settings may vary between systems using the same operating system. 
+Which common benefit of automation should he emphasize with leadership?
+A. Enforcing baselines
+B. Scaling in a secure manner
+C. Improving reaction time
+D. Automation’s role as a workforce multiplier
+124. Jake wants to understand the root cause of a security incident. He knows a number of the 
+events that occurred, but he wants to engage other staff members to define the root cause. 
+What common root cause analysis (RCA) technique should he use?
+A. The Five W’s
+B. A fishbone diagram
+C. The Five Why’s
+D. A recursion analysis
+125. Amanda is testing her company’s incident response process and has her staff perform actual 
+recovery actions without impacting production to validate how long it would take to 
+accomplish them. What type of event has she conducted?
+A. A fail over test
+B. A simulation
+C. A plan review
+D. A tabletop exercise
+126. Liam’s company has been notified of impending legal action and has been told to place a 
+legal hold on related items. What must Liam’s company do?
+A. Continue their normal operations, including data life-cycle–related activities.
+B. Identify data covered by the hold and preserve it, regardless of normal data life cycles 
+or activities.
+C. Engage a law firm to preserve the data required by the legal hold.
+D. Contact law enforcement to allow them to gather the data required by the legal hold.
+127 . Paul wants to integrate his organization’s web application with common cloud identity 
+providers like Google and Microsoft. What authentication standard should he select if he 
+wants to maximize interoperability?
+A. OAuth
+B. Kerberos
+C. LDAP
+D. Active Directory152 Chapter 4 ■ Domain 4.0: Security Operations
+128. Jim wants to ensure that users who are located in his organization’s London office have 
+access to the building. What type of access control scheme should he select to best fit this 
+specific need?
+A. Rule BAC
+B. ABAC
+C. Role BAC
+D. MAC
+129. Dane wants to implement passwordless authentication for his organization. What type of 
+device should he issue to his users to support this type of authentication?
+A. A password manager
+B. An RFID card
+C. A security key
+D. A biometric token
+130. Ensuring that inetd services like echo, time, rsh, and telnet are not enabled are all examples 
+of what type of action?
+A. Preventing SQL injection
+B. Hardening a Linux system
+C. Hardening a Windows system
+D. Patching insecure services
+131. What mobile device deployment model provides the least control for the organization and 
+leaves the end user with the greatest choice?
+A. BYOD
+B. COPE
+C. CYOD
+D. COBO
+132. Akio has set the Secure Cookie attribute as part of her web application’s process for 
+sending new cookies to users. What does this attribute do?
+A. It encrypts the cookie’s content when it is stored.
+B. It stores the cookie on the server instead of on the remove device.
+C. It removes the cookie after it has been used.
+D. It requires that the cookie be sent only via HTTPS.
+133. Helen wants to sign her code. What will the output of code signing be?
+A. An encrypted copy of the code using her private key
+B. A signed hash of the software using her private key
+C. A signed hash of the software using her public key
+D. An encrypted copy of the code using her public keyChapter 4 ■ Domain 4.0: Security Operations  153
+134. Naomi’s organization has recently acquired another company. Naomi is concerned about 
+asset tracking and inventory because the acquired company does not have an inventory of 
+their systems and devices. What major security concern should she express about this from 
+a hardware asset management perspective?
+A. There may not be an appropriate hardware life-cycle process.
+B. Manufacturer support may not be possible without an inventory.
+C. There is no way to know if systems are missing.
+D. Vulnerability scans may not be accurate without an inventory.
+135. As part of his CI/CD pipeline process, Felix reviews source code manually to identify any 
+flaws or security concerns. What type of process is Felix following?
+A. Dynamic analysis
+B. Agile code development
+C. Static analysis
+D. Internal review
+136. As part of his research, Pedro uses a TOR browser to access threat actors’ sites. He is able 
+to see information about recent breaches and can download data dumps provided by the 
+threat actors. What information source is Pedro using?
+A. The dark web
+B. An information- sharing organization
+C. Proprietary information
+D. A threat feed
+137 . Alaina has completed the eradication and recovery steps of the incident response process. 
+What step commonly comes after these two phases?
+A. A lessons learned session
+B. Detection
+C. Training
+D. A tabletop exercise
+138. Lucca knows that the CVSS environmental score is made up of three components, including 
+an impact metric. What three components does he need to consider as part of the impact 
+metric score?
+A. Confidentiality, integrity, and availability
+B. Network, disk, and memory
+C. Severity, likelihood, and impact
+D. Probability, impact, and cost154 Chapter 4 ■ Domain 4.0: Security Operations
+139. What tool is commonly used to allow for measurement and monitoring of security settings 
+to align with NIST 800- 53 controls?
+A. SAML
+B. CVE
+C. CVSS
+D. SCAP
+140. Adam has implemented a WPA3 Enterprise network. What type of encryption will be used 
+to protect data sent across the Wi- Fi connection?
+A. AES
+B. 3DES
+C. SHA- 1
+D. SHA- 256
+141. Tom wants to set up an authentication service for network devices. Which of the following 
+is commonly used for authentication to enterprise network devices?
+A. Kerberos
+B. SAML
+C. TKIP
+D. OpenID
+142. Ian wants to test embedded device web servers for potential security issues with the version 
+of the web server software. What tool should he select to do this most effectively across his 
+large organization’s network of IoT devices?
+A. A WAF
+B. Pentesting
+C. A vulnerability scanner
+D. A port scanner
+143. Tom wants his email servers to reject email that is not authenticated in a way to prevent 
+spoofing. Which of the following should he implement?
+A. SPF
+B. DMARC
+C. DKIM
+D. TLS
+144. Wayne has identified a vulnerable server that is part of his organization’s critical infrastruc-
+ture but that is no longer supported by the vendor and for which no additional patches 
+exist. Every time Wayne scans the server using his vulnerability scanner, the services on the 
+device crash. What should Wayne do?
+A. Report the server as vulnerable and suggest that it be replaced immediately.
+B. Disable the network connection on the device and isolate the server to protect it.Chapter 4 ■ Domain 4.0: Security Operations  155
+C. Identify a third- party insurance provider who will insure the organization against 
+potential issues with the server.
+D. Document an exemption, remove the server from automated scans, and implement 
+compensating controls.
+145. Valentine’s organization wants to ensure that users who sign up for their web services are 
+who they claim to be. As part of the process they ask for information like birth date, Social 
+Security number, and previous addresses. What type of activity is Valentine’s organization 
+engaging in?
+A. Provisioning user accounts
+B. Identity proofing
+C. Deprovisioning user accounts
+D. Social identity
+146. Sam has completed patching of a critical vulnerability. What step is often performed next to 
+ensure that the patching occurred properly?
+A. Noting false positives
+B. Rebooting the system
+C. Rescanning the system
+D. Performing an audit
+147 . Joan’s organization has recently remediated issues in their credit card processing environ-
+ment. If Joan wants to be able to attest to the security of the environment, what action 
+might she need to take to prove the security of the environment to customers?
+A. Have third- party auditors validate the remediation.
+B. Rescan the systems and document the differences between the scans.
+C. Rescan the systems and provide updated reports to customers.
+D. Allow customers to scan the systems to validate the changes.
+148. Alan wants to configure his firewall to allow Microsoft SQL traffic through to the database 
+server from web application servers in a screened subnet design. What is the minimum set 
+of ports that he should port to allow this?
+A. TCP 3389 and 1433
+B. TCP 1433
+C. TCP 8080
+D. TCP 139 and 445
+149. Which of the following terms refers to the process of establishing a standard for security?
+A. Baselining
+B. Security evaluation
+C. Hardening
+D. Normalization156 Chapter 4 ■ Domain 4.0: Security Operations
+150. Zhen’s new organization has informed him that they used a COPE model for their mobile 
+devices. What does this tell Zhen about what he can do with the device?
+A. He can choose what device he uses, but the organization will own it.
+B. He will be provided with a device but can use it for reasonable personal use.
+C. He will be provided with a device and can only use it for business purposes.
+D. He will have to bring his own device but can use it for personal and business use.
+151. The Windows Task Manager can be used to identify malware through what technique?
+A. Dynamic analysis
+B. Process auditing
+C. CVSS matching
+D. Vulnerability scanning
+152. Ujama wants to deploy a network device that will allow him to use policy- based controls 
+for email as well as active defenses against phishing attacks before email is delivered to his 
+users. Which of the following devices is best suited to this purpose?
+A. A web application firewall
+B. An email security gateway
+C. A DKIM appliance
+D. A DMARC appliance
+153. Allison wants to aggregate her logs and have them automatically correlated and reported 
+on. What sort of tool should she acquire for her organization?
+A. MDM
+B. A jump server
+C. SDN
+D. SIEM
+154. Natasha’s staff have been complaining about repetitive tasks that must be manually accom-
+plished to secure endpoint devices, then they are deployed. What could Natasha ask her 
+team to do to address this?
+A. Leverage automation and scripting.
+B. Deploy fewer devices.
+C. Leverage baselines.
+D. Move devices to the cloud.
+155. Which of the following methods typically provides the greatest insight into vulnerabilities 
+that exist on systems owned by a company?
+A. Penetration tests
+B. Authenticated scans
+C. Unauthenticated scans
+D. Port scansChapter 4 ■ Domain 4.0: Security Operations  157
+156. Quarantine and isolation are both common options in what phase of the incident response 
+process?
+A. Detection
+B. Analysis
+C. Containment
+D. Eradication
+157 . Rick is reviewing Linux system permissions and finds a directory that is set to:
+-rwxr--r--
+  Who will have access to the directory to read the file?
+A. The user
+B. The user and their group
+C. All users
+D. No users except root
+158. Beena is granted access to her organization’s customer information because she is a data 
+steward; her access occurs between 8 a.m. and 5 p.m., and it is occurring from a known 
+workstation that has passed security checks. What type of access control scheme is in use?
+A. Rule- based access control
+B. Role- based access control
+C. Mandatory access control
+D. Attribute- based access control
+159. Juan wants to use his IDS to detect anomalous behavior. What type of detection technique 
+would most effectively help him identify unknown new attacks?
+A. Trend analysis
+B. Signature- based detection
+C. IP- based detection
+D. Port- based detection
+160. Geenah wants to identify where Wi- Fi signals are weakest in her building. What should she 
+create to visually display signal coverage and strength throughout her building?
+A. A war walk
+B. A spectrum analysis
+C. An SSID plot
+D. A heatmap
+161. What term describes the concept that individuals should be given the minimum permissions 
+necessary to accomplish their role or tasks?
+A. Zero trust
+B. Provisioning
+C. Least privilege
+D. Deprovisioning158 Chapter 4 ■ Domain 4.0: Security Operations
+162. Joanna wants to explain the advantages of automation for user and resource provisioning. 
+Which of the following is not an advantage of automation over manual processes for 
+provisioning?
+A. Automation ensures consistency in the provisioning process.
+B. Automation provides faster provisioning.
+C. Automation decreases mistakes in provisioning.
+D. Automation provides auditability of provisioning.
+163. Bug bounty programs are an example of what type of program?
+A. Contracted penetration testing
+B. Responsible disclosure
+C. Third- party bounty
+D. Trusted threat
+164. Jack is hardening a Cisco switch based on the CIS IOS benchmark. As part of the configu-
+ration process, he configures settings including ntp authenticate and  
+ntp trusted- key. Why would Jack configure this on his network switches?
+A. To ensure that the switch has Network Terminal Protocol enabled
+B. To prevent attackers from modifying logs
+C. To prevent attackers from capturing network time traffic
+D. To ensure that network time is from a trusted source
+165. Tony wants to use a cellular connection to transfer data to his organization. What should 
+he do to ensure that his data is as secure as possible?
+A. Make sure he is connected to his cellular provider’s towers.
+B. Fully patch the phone.
+C. Use a VPN.
+D. Deploy a security baseline to the phone.
+166. The hospital that Isabella works for leverages threat information from the Health- ISAC 
+as part of their security team’s work. What type of threat information provider is the 
+Health- ISAC?
+A. An OSINT provider
+B. A dark web source
+C. An information- sharing organization
+D. A proprietary threat data source
+167 . Mark presents his driver’s license as part of the creation of his user account for a secure 
+online service. What process requires this type of information to validate ownership of an 
+identity?
+A. Attestation
+B. Provisioning
+C. SSO
+D. De- provisioningChapter 4 ■ Domain 4.0: Security Operations  159
+168. Hector is concerned about Bluetooth security. Which of the following is a legitimate secu-
+rity concern about Bluetooth?
+A. It is not encrypted.
+B. Bluetooth is only useful at short range.
+C. Bluejacking may occur.
+D. Bluetooth devices can be fingerprinted.
+169. Privileged access management (PAM) tools provide functions for enterprise access 
+management. Which of the following is not a common PAM component?
+A. Just- in- time permissions
+B. Password vaulting
+C. Ephemeral credentials
+D. Password persistence
+170. What role do port scans play in asset tracking?
+A. Enumeration of assets.
+B. They provide OSINT.
+C. Version tracking for assets.
+D. They do not play a role in asset tracking.
+171. A fingerprint is an example of what type of authentication factor?
+A. Something you know
+B. Something you have
+C. Something you are
+D. Somewhere you are
+172. Dana wants to ensure that her software acquisition process for open source software is as 
+secure as possible. What should she to do validate the security of the open source software?
+A. Ensure that the software source code is escrowed.
+B. Review the source code for the software.
+C. Check dependencies for known vulnerabilities.
+D. Purchase the software from a software vendor.
+173. Sharon wants to implement WPA3 Enterprise. What technology will she need to use for 
+authorization after wireless devices associate with access points?
+A. LDAP
+B. 802.1X
+C. Kerberos
+D. SAML160 Chapter 4 ■ Domain 4.0: Security Operations
+174. What purpose do the password history and password minimum age settings have in 
+Windows?
+A. To prevent attackers from resetting passwords
+B. To prevent brute- force attacks
+C. To prevent password reuse
+D. To ensure proper password expiration
+175. A CVSS score is based on what three metric groups of data?
+A. Scope, Impact, Environmental
+B. Base, Temporal, and Environmental
+C. Risk, Threat, Impact
+D. Time, Risk, Scope
+176. Quentin wants to decommission solid- state drives (SSDs). What process should he follow if 
+he wants to be absolutely certain that the data cannot be recovered?
+A. Zero wiping
+B. Destruction
+C. Sanitation
+D. Reformatting
+1 7 7. What challenge is commonly encountered when organizations want to harden IoT devices?
+A. The devices have limited security options.
+B. The devices cannot run current operating systems.
+C. Industry benchmarks for security are not up- to- date.
+D. Central management tools only support new devices.
+178. Guillermo wants to establish his organization’s security baseline for Linux systems. After 
+selecting the CIS benchmark that best matches his organization’s commonly used Linux dis-
+tribution, what should he do next?
+A. Deploy the benchmark to a test system to see how it performs in normal use.
+B. Install SELinux to allow for the baseline to be implemented fully.
+C. Review the baseline to determine any settings that are not a good fit for the  
+organization’s usage.
+D. Identify the deployment method for the baseline to the Linux systems.
+179. Renee has implemented WPA3 Enterprise, and she wants to use an EAP protocol for secure 
+authentication. What EAP version should she implement?
+A. LEAP
+B. EAP- TLS
+C. EAP- PSK
+D. EAP- PWD
+180. The organization that Chris works for has recently acquired another company. As part of 
+the acquisition, Chris is preparing to address the data that the newly acquired company Chapter 4 ■ Domain 4.0: Security Operations  161
+used, including setting up rules to handle it in his data loss prevention (DLP) system. What 
+step is commonly required prior to data being protected by a DLP system?
+A. Hashing the data and creating signatures
+B. Encrypting the data
+C. Classifying and tagging the data
+D. Applying a mandatory access control scheme to the data
+181. Mark wants to have a way to determine if attackers have modified files on a critical web 
+application server. What type of tool should he deploy if he wants to be able to check for 
+changes of this nature?
+A. Drive encryption
+B. File availability monitoring
+C. File encryption
+D. File integrity monitoring
+182. Katie’s organization uses an IoC feed that helps her to identify new threats. A recent feed 
+update includes the following hash for Emotet malware:
+cecc5bba6193d744837e689e68bc25c43eda7235
+  Where is Katie most likely going to be able to use this hash to identify potential attacks?
+A. Via her EDR tools
+B. Via her firewall
+C. Via her system logs
+D. All of the above
+183. Which of the following tools is best suited to deploying and maintaining a secure baseline 
+for Windows systems for an entire enterprise?
+A. PowerShell
+B. Group Policy
+C. Manual configuration
+D. Script- based deployments
+184. Perry wants to ensure that an unsecure protocol is secured when in transit through his local 
+network. What solution could he adopt to ensure that this traffic is protected?
+A. Use SD- WAN.
+B. Wrap the protocol using TLS.
+C. Encrypt all files that are sent using AES.
+D. Encrypt all files that are sent using SHA- 1.
+185. Annie wants to implement a passwordless authentication system. Which of the following 
+would not meet her needs?
+A. Windows Hello
+B. A PIN- based factor
+C. A cell- phone authenticator application
+D. A FIDO2 security key162 Chapter 4 ■ Domain 4.0: Security Operations
+186. Laura wants to harden an ICS and SCADA devices her organization uses to manage critical 
+infrastructure. The devices are old and unsupported, without recent updates. What hard-
+ening techniques are most likely to be available to her to help deal with these devices?
+A. Isolation
+B. Segmentation
+C. Adding host- based firewalls
+D. Configuring host- based IPS
+1 8 7. Bob uses an IoC feed to allow his SIEM to identify and correlate common malicious 
+activity. What phase of the incident response process best describes this?
+A. Preparation
+B. Detection
+C. Containment
+D. Eradication
+188. Yael’s organization has received a very convincing phishing email that has resulted in staff 
+clicking on a malicious link. If Yael can’t remove the email from inboxes, which of the fol-
+lowing options will allow her to quickly prevent users from being compromised?
+A. Set up DNS filtering using the URL from the email.
+B. Disable the organization’s Internet connection.
+C. Block inbound traffic from the phishing email’s source IP.
+D. Enable reputation services for the email.
+189. Nick is reviewing his system configurations and notes that logon event auditing settings on 
+the system are set as shown in the example figure. What concern should he express about 
+the setting?
+Chapter 4 ■ Domain 4.0: Security Operations  163
+A. Log files may fill up quickly.
+B. Successful authentication will not be logged.
+C. Failed authentication will not be logged.
+D. Policy may not be enforced properly.
+190. Brian is reviewing vulnerabilities discovered as part of a vulnerability scan. He sees a score 
+for a vulnerability of 3.0. What does he know about this vulnerability based on its score?
+A. It is a high- severity vulnerability and should be addressed quickly.
+B. It is a low- severity vulnerability and may not need to be addressed.
+C. It is a medium- severity vulnerability and should be reviewed before being addressed.
+D. It is a critical vulnerability and should be addressed immediately.
+191. Nick wants to allow email servers to validate that email from his servers is actually from 
+them. What email security framework should he adopt to allow this?
+A. DKIM
+B. DMARC
+C. SPF
+D. SMTP
+192. Jack wants to configure a Linux system to use mandatory access controls. What tool should 
+he select that is commonly used to provide this functionality?
+A. Group Policy
+B. CIS benchmarks
+C. SELinux
+D. Containerization
+193. What process is commonly used with open source tools to ensure that dependencies 
+are secure?
+A. Static analysis
+B. Package monitoring
+C. Fagan testing
+D. Port scanning
+194. Yarif wants to harden his SaaS cloud infrastructure. Which of the following hardening tech-
+niques is he most likely to be able to implement in an SaaS environment?
+A. Host- based firewalls
+B. Least privilege
+C. Operating system security configuration
+D. Physical security for systems164 Chapter 4 ■ Domain 4.0: Security Operations
+195. Which of the following is not a technical control used to address a vulnerability?
+A. Insurance
+B. Patching
+C. Segmentation
+D. Firewalling
+196. Kelsey’s organization has established an asset and inventory management process for 
+servers. Which of the following is not a common part of asset tracking?
+A. Data classification
+B. Identifying owners
+C. Documenting acquisition dates
+D. Sanitization
+1 9 7. Kirk needs to allow system administrators to access root passwords in emergencies. What 
+type of solution could he implement to allow them to check out passwords when needed 
+while also tracking those checkouts and requiring the passwords to be changed after use?
+A. EAP
+B. Multifactor authentication
+C. An enterprise password manager
+D. Passwordless
+198. Selah wants to prevent staff in her organization from visiting malicious websites while 
+they’re in the office. If she wants to use the most up- to- date threat data, what web filter 
+capability should she take advantage of?
+A. Agent- based web filtering
+B. Reputation tools
+C. A centralized web filtering proxy
+D. URL scanning
+199. Joe has configured ACLs on a Cisco network device. The ACL he has configured is as 
+follows:
+interface ethernet0
+ ip access- group 111 in
+!
+access- list 111 deny tcp any any eq http
+access- list 111 permit ip any any
+access- list 111 deny tcp any any eq https
+  What does this ACL do?
+A. Blocks HTTP traffic
+B. Blocks both HTTP and HTTPS traffic
+C. Prevents web application attacks
+D. Allows for inspection of web trafficChapter 4 ■ Domain 4.0: Security Operations  165
+200. The use of machine learning and algorithms to analyze user behavior in order to identify 
+anomalous behavior is a feature of what specialized type of tool?
+A. UEBA
+B. SIEM
+C. EDR
+D. DMARC
+201. What password best practice is supported by the ability to set password history in 
+Windows?
+A. Password length
+B. Password complexity
+C. Password reuse
+D. Password age
+202. Donna is reviewing a script that was found on a Windows system. What does the following 
+script do?
+$ip = "10.1.1.101"
+$svc_name = "WinDefend"
+get- service - ComputerName $ip | Where- Object {$_.Name - eq $svc_name} | 
+Stop- Service | Set- Service - StartupType Disabled
+A. Stops the Windows Defender service
+B. Starts the Windows Defender service
+C. Stops and disables the Windows Defender service
+D. Enables the Windows Defender service
+203. Batu has been asked to build scripts that will allow automated ticket creation through a 
+new help desk tool for his organization. As he considers the lifespan of the scripts, which of 
+the following concerns should he address to ensure that the scripts do not become an issue 
+over time?
+A. Their initial creation cost
+B. Their ongoing supportability
+C. Existing technical debt
+D. Whether they’re a single point of failure
+204. Alex is responsible for his organization’s vulnerability management program. A recent vul-
+nerability scan shows that IoT devices that are used for building automation are vulnerable 
+to a known issue with their built- in web server. After reviewing the manufacturer’s website, 
+Alex is unable to find an updated operating system or software update. He chooses to move 
+the IoT devices to a protected VLAN and require a jump server to access them. What vul-
+nerability remediation option has he used?
+A. A compensating control
+B. Patching
+C. Insurance
+D. An exemption166 Chapter 4 ■ Domain 4.0: Security Operations
+205. Wiping a drive and reinstalling from known good media is an example of what incident 
+response option?
+A. Recovery
+B. Containment
+C. Eradication
+D. Root cause elimination
+206. Melissa’s company wants to contract with a third- party organization to oversee their 
+hardware decommissioning and disposal process. What should she ask the company to do 
+to prove that the disposal process was done properly?
+A. Certification.
+B. Follow a data retention policy.
+C. Provide photographic evidence.
+D. Keep a log of devices.
+207 . Sally wants to identify a way to prioritize vulnerabilities discovered by her vulnerability 
+scanner. Which of the following options will allow her to prioritize vulnerabilities effec-
+tively while taking her own organization’s needs into account?
+A. Use CVSS base and temporal metrics.
+B. Use a qualitative risk assessment process.
+C. Use CVSS scores that include environmental metrics.
+D. Use a quantitative risk assessment process.
+208. Henry wants to prevent password reuse outside of his organization from impacting the 
+accounts his staff use. Which of the following password settings can have the largest impact 
+if passwords are reused outside of his organization and they are breached due to a security 
+issue at the third- party site or service?
+A. Password expiration policies
+B. Password length policies
+C. Password complexity policies
+D. Password minimum age policies
+209. Fuzzing is an example of what type of code analysis?
+A. Static analysis
+B. Code review
+C. Pentesting
+D. Dynamic analysis
+210. Steve’s organization is concerned about the potential for devices they are purchasing to be 
+modified before they reach the organization. Which of the following solutions will help the 
+most in preventing this potential issue?
+A. Buying from a value- added reseller
+B. Buying directly from the OEMChapter 4 ■ Domain 4.0: Security Operations  167
+C. Buying from a gray market seller
+D. Buying from a local reseller
+211. What password setting has the greatest impact when attempting to prevent brute- force 
+password cracking?
+A. Password history settings
+B. Password length increases
+C. Password expiration settings
+D. Password length decreases
+212. Jill wants to identify a potential network- based distributed denial- of- service (DDoS) attack. 
+Which of the following log sources is most likely to provide information that will allow her 
+to identify the attack?
+A. OS- specific security logs
+B. Endpoint logs
+C. IDS/IPS logs
+D. Authentication logs
+213. Jake has configured WPA3 Personal for his network. What feature makes WPA3 more 
+secure than WPA2’s PSK mode?
+A. SAE
+B. PKI
+C. TLS
+D. EAP
+214. Molly wants to harden embedded systems in her environment. Which of the following 
+options is most likely to be available?
+A. Hardening benchmarks.
+B. Central management tools.
+C. Add- on security software.
+D. None; embedded systems have very limited hardening options.
+215. Jean wants to use an identity proofing process as part of her user account creation process. 
+Which of the following is most likely to be useful for identity proofing?
+A. A Google email account
+B. A state or nationally issued ID
+C. A Facebook account
+D. A credit card

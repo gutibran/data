@@ -1,0 +1,1052 @@
+1. A. While all of these are best practices, moving the device’s administrative interface to a 
+protected VLAN will provide the most significant improvement in security since there are no 
+known issues or vulnerabilities at the moment. If there were, patching or disabling services 
+would quickly move up the list.
+2. B. Threat hunting is the process of searching for threats, often using IoCs, threat intelligence, 
+technological tools, and expertise to identify threats that might impact an organization. IoC 
+creation involves documenting and defining an indicator of compromise. Root cause analysis 
+looks for the underlying cause of an issue or event, and eradication is the complete removal 
+of a threat or artifacts of malicious activity.
+3. A. The simplest way to ensure that APIs are only used by legitimate users is to require the 
+use of authentication. API keys are one of the most frequently used methods for this. If an 
+API key is lost or stolen, the key can be invalidated and reissued, and since API keys can be 
+matched to usage, Cynthia’s company can also bill customers based on their usage patterns 
+if they want to. A firewall or IP restrictions may be able to help, but they can be fragile; 
+customer IP addresses may change. An intrusion prevention system (IPS) can detect and pre-
+vent attacks, but legitimate usage would be hard to tell from those who are not customers 
+using an IPS.
+4. C. Greg can clone a legitimate Media Access Control (MAC) address if he can identify one 
+on the network. Greg can do this by checking for a MAC label on some devices or by cap-
+turing traffic on the network if he can physically access it.
+5. B. Screened subnet designs use a firewall with three interfaces, one for the Internet or an 
+untrusted network, one for a protected but front- facing network, and one for a shielded 
+or protected network. ACLs (access control lists) use rules to control access. This design 
+may use ACLs, but an ACL alone does not describe it. Binary firewalls were made up for 
+this question, and while an NGFW may be multihomed, “multiroute” is not a term used to 
+describe this design.284 Appendix ■ Answers to Review Questions
+6. B. The Common Vulnerabilities and Exposures (CVE) list has entries that describe and pro-
+vide references to publicly known cybersecurity vulnerabilities. A CVE feed will provide 
+updated information about new vulnerabilities and a useful index number to cross reference 
+with other services.
+7. A. This is an example of a false positive. A false positive can cause a vulnerability to show 
+that was not actually there. This sometimes happens when a patch or fix is installed but the 
+application does not change in a way that shows the change, and it has been an issue with 
+updates where the version number is the primary check for a vulnerability. When a vulnera-
+bility scanner sees a vulnerable version number but a patch has been installed that does not 
+update it, a false positive report can occur. A false negative would report a patch or fix where 
+there was actually a vulnerability. Automatic updates were not mentioned, nor was a specific 
+Apache version.
+8. B. All of these protocols are unsecure. FTP has been replaced by secure versions in some uses 
+(SFTP/FTPS), whereas Telnet has been superseded by SSH in modern applications. RSH is 
+outmoded and should be seen only on truly ancient systems. If you find a system or device 
+exposing these protocols, you will need to dig in further to determine why they are exposed 
+and how they can be protected if they must remain open for a legitimate reason.
+9. B. OSINT, or open source intelligence, is intelligence information obtained from public 
+sources like search engines, websites, domain name registrars, and a host of other loca-
+tions. OPSEC, or operational security, refers to habits such as not disclosing unnecessary 
+information. STIX is the Structured Threat Intelligence Exchange protocol, and IntCon was 
+made up for this question.
+10. A. Proprietary, or closed threat, intelligence is threat intelligence that is not openly avail-
+able. OSINT, or open source threat intelligence, is freely available. ELINT is a military term 
+for electronic and signals intelligence. Corporate threat intelligence was made up for this 
+question.
+11. C. Bug bounties are increasingly common and can be quite lucrative. Bug bounty websites 
+match vulnerability researchers with organizations that are willing to pay for information 
+about issues with their software or services. Ransoms are sometimes demanded by attackers, 
+but this is not a ransom since it was voluntarily paid as part of a reward system. A zero- day 
+disclosure happens when a vulnerability is disclosed and the organization has not been previ-
+ously informed and allowed to fix the issue. Finally, you might feel like $10,000 is a payday, 
+but the term is not used as a technical term and doesn’t appear on the exam.
+12. C. A false negative occurs with a vulnerability scanning system when a scan is run and an 
+issue that exists is not identified. This can be because of a configuration option, a firewall, or 
+other security setting or because the vulnerability scanner is otherwise unable to detect the 
+issue. A missing vulnerability update might be a concern if the problem did not specifically 
+state that the definitions are fully up- to- date. Unless the vulnerability is so new that there 
+is no definition, a missing update shouldn’t be the issue. Silent patching refers to a patching 
+technique that does not show messages to users that a patch is occurring. A false positive 
+would have caused a vulnerability to show that was not actually there. This sometimes hap-
+pens when a patch or fix is installed but the application does not change in a way that shows 
+the change.Chapter 4: Domain 4.0: Security Operations  285
+13. B. Threat hunting can involve a variety of activities such as intelligence fusion, combining 
+multiple data sources and threat feeds, and reviewing advisories and bulletins to remain 
+aware of the threat environment for your organization or industry. Incident response hap-
+pens once an incident has occurred, penetration testing tests security from an attacker’s per -
+spective, and vulnerability scanning seeks to identify vulnerabilities using testing through 
+technical means like connecting to services or checking local version information.
+14. C. Since Frank is using the cloud service provider’s web services, he will need to review the 
+logs that they capture. If he has not configured them, he will need to do so, and he will then 
+need a service or capability to analyze them for the types of traffic he is concerned about. 
+Syslog and Apache logs are both found on a traditional web host, and they would be appro-
+priate if Frank was running his own web servers in the infrastructure- as- a- service (IaaS) 
+environment.
+15. C. Although it may be tempting to immediately upgrade, reading and understanding the 
+CVEs for a vulnerability is a good best practice. Once Charles understands the issue, he can 
+then remediate it based on the recommendations for that specific problem. Disabling PHP 
+or the web server would break the service, and in this case, only newer versions of PHP than 
+5.4 have the patch Charles needs.
+16. D. Although 80 and 443 are the most common HTTP ports, it is common practice to run 
+additional web servers on port 8080 when a nonstandard port is needed. SSH would be 
+expected to be on port 22, RDP on 3389, and MySQL on 3306.
+17. C. A network device running SSH on port 22 and a web server on TCP port 443 is a very 
+typical discovery when running a vulnerability scan. Without any demonstrated issues, Caro-
+lyn should simply note that she saw those services. Telnet runs on port 21, an unencrypted 
+web server will run on TCP 80 in most cases, and Windows file shares use a variety of ports, 
+including TCP ports 135–139 and 445.
+18. C. A test server should be identical to the production server. This can be used for functional 
+testing as well as security testing, before deploying the application. The production server is 
+the live server. A development server would be one the programmers use during development 
+of a web application, and predeployment server is not a term typically used in the industry.
+19. C. Staging environments, sometimes called preproduction environments, are typically used 
+for final quality assurance (QA) and validation before code enters the production environ-
+ment as part of a deployment pipeline. Staging environments closely mirror production, 
+allowing realistic testing and validation to be done. Development and test environments are 
+used to create the code and for testing while it is being developed.
+20. C. Application programming interface (API) keys are frequently used to meet this need. 
+An API key can be issued to an individual or organization, and then use of the API can be 
+tracked to each API key. If the API key is compromised or abused, it can be revoked and a 
+new API key can be issued. Firewall rules written to use public IP addresses can be fragile, 
+since IP addresses may change or organizations may have a broad range of addresses that 
+may be in use, making it hard to validate which systems or users are using the API. Creden-
+tials, including passwords, are not as frequently used as API keys.286 Appendix ■ Answers to Review Questions
+21. A. Baseline configurations, per NIST 800- 53: “Baseline configurations serve as a basis 
+for future builds, releases, and/or changes to information systems. Baseline configurations 
+include information about information system components (e.g., standard software pack-
+ages installed on workstations, notebook computers, servers, network components, or mobile 
+devices; current version numbers and patch information on operating systems and applica-
+tions; and configuration settings/parameters), network topology, and the logical placement 
+of those components within the system architecture. Maintaining baseline configurations 
+requires creating new baselines as organizational information systems change over time. 
+Baseline configurations of information systems reflect the current enterprise architecture.”
+22. A. Indexing encrypted files will mean that an unencrypted index is stored, potentially 
+exposing the content of encrypted files. Disabling the indexing service for encrypted files 
+helps to protect them. There is no denial- of- service scenario for this unless a vulnerability in 
+the indexing service is discovered and none is mentioned. The service is not exposed via the 
+network, and dark web access is not accomplished via indexing services.
+23. D. OAuth is a common authorization service used for cloud services. It allows users to decide 
+which websites or applications to entrust their information to without requiring them to 
+give them the user’s password. OpenID is frequently paired with OAuth as the authentica-
+tion layer. Kerberos is more frequently used for on- site authentication, and SAML is Security 
+Assertion Markup Language.
+24. A. Fingerprint reader systems are the most widely accepted biometric systems in common 
+use for entry access and other purposes today. Facial recognition systems are increasingly in 
+use and are also likely to be more accepted by user populations based on their broad deploy-
+ment in phones, but they are not listed as an option. Both retina and iris scans are less likely 
+to be accepted, whereas voice systems are both relatively uncommon and more disruptive for 
+frequent usage.
+25. C. Static codes are typically recorded in a secure location, but if they are not properly 
+secured, or are otherwise exposed, they can be stolen. Brute- force attempts should be 
+detected and prevented by backoff algorithms and other techniques that prevent attacks 
+against multifactor authentication systems. Collisions exist with hashing algorithms, not with 
+static multifactor codes, and clock mismatch issues occur for time- based one- time password 
+(TOTP) codes.
+26. C. The best answer from this list is DLP, or data loss prevention technology. DLP is designed 
+to protect data from being exposed or leaking from a network using a variety of techniques 
+and technology. Stateful firewalls are used to control which traffic is sent to or from a system, 
+but will not detect sensitive data. OEM is an original equipment manufacturer, and security 
+information and event management (SIEM) can help track events and incidents but will not 
+directly protect data itself.
+27. A. Social login is an example of a federated approach to using identities. The combination of 
+identity providers and service providers, along with authorization management, is a key part 
+of federation. AAA (authentication, authorization, and accounting) is typically associated 
+with protocols like RADIUS. Privilege creep occurs as staff members change jobs and their 
+privileges are not adjusted to only match their current role. IAM is a broader set of identity 
+and access management practices. Although IAM may be involved in federated identity, this 
+question does not directly describe IAM.Chapter 4: Domain 4.0: Security Operations  287
+28. A. Although it may seem like Charles has presented two factors, in fact he has only presented 
+two types of things he knows along with his identity. To truly implement a multifactor envi-
+ronment, he should use more than one of something you have, something you know, and 
+something you are.
+29. B. A site survey is the process of identifying where access points should be located for best 
+coverage and identifying existing sources of RF interference, including preexisting wireless 
+networks and other devices that may use the same radio frequency spectrum. By conducting 
+a site survey, Naomi can guide the placement of her access points as well as create a channel 
+design that will work best for her organization.
+30. C. Mobile device management (MDM) suites often provide the ability to manage content 
+on devices as well as applications. Using content management tools can allow Charlene to 
+provision files, documents, and media to the devices that staff members in her organization 
+are issued. Application management would be useful for apps. Remote wipe can remove data 
+and applications from the device if it is lost or stolen, or an employee leaves the organization. 
+Push notifications are useful when information needs to be provided to the device user.
+31. C. In this scenario, Denny specifically needs to ensure that he stops the most malware. In 
+situations like this, vendor diversity is the best way to detect more malware, and installing 
+a different vendor’s antivirus (AV) package on servers like email servers and then installing 
+a managed package for PCs will result in the most detections in almost all cases. Installing 
+more than one AV package on the same system is rarely recommended, since this often 
+causes performance issues and conflicts between the packages— in fact, at times AV packages 
+have been known to detect other AV packages because of the deep hooks they place into the 
+operating system to detect malicious activity!
+32. C. The application includes input validation techniques that are used to ensure that unex-
+pected or malicious input does not cause problems with the application. Input validation 
+techniques will strip out control characters, validate data, and perform a variety of other 
+actions to clean input before it is processed by the application or stored for future use. This 
+validation may help prevent buffer overflows, but other techniques described here are not 
+used for buffer overflow prevention. String injection is actually something this helps to pre-
+vent, and schema validation looks at data to ensure that requests match a schema, but again 
+this is a narrower description than the broad range of input validation occurring in the 
+description.
+33. A. WPA3 supports SAE, or simultaneous authentication of equals, providing a more secure 
+way to authenticate that limits the potential for brute- force attacks and allows individuals 
+to use different passwords. WPA is not as secure as WPA2, and WEP is the oldest, and least 
+secure, wireless security protocol. WPA2 is not as secure as WPA3 but remains in use due to 
+broad deployment.
+34. B. The correct answer is to use a sandboxed environment to test the malware and determine 
+its complete functionality. A sandboxed system could be an isolated virtual machine (VM) or 
+an actual physical machine that is entirely isolated from the network. Leaving the malware 
+on a production system is never the correct approach. You should test or analyze the mal-
+ware to determine exactly what malware it is, allowing you to respond to the threat properly. 
+A honeypot is used for luring and trapping attackers, not for testing malware.288 Appendix ■ Answers to Review Questions
+35. D. Isaac knows that trusting client systems to be secure is not a good idea, and thus ensuring 
+that validation occurs on a trusted client is not an appropriate recommendation. Ensuring 
+that validation occurs on a trusted server, that client data is validated, and that data types 
+and ranges are reasonable are all good best practices for him to recommend.
+36. C. Isaac can configure a geofence that defines his corporate buildings and campus. He can 
+then set up a geofence policy that will only allow devices to work while they are inside that 
+geofenced area. Patch management, IP filtering, and network restrictions are not suitable 
+solutions for this.
+37. A. Static code analysis can help identify business logic issues by leveraging expert knowledge 
+and understanding of the business process and logic involved. Fuzzing is a technique whereby 
+the tester intentionally enters incorrect values into input fields to see how the application 
+will handle it but doesn’t directly test business logic. Baselining is the process of establishing 
+security standards, and version control simply tracks changes in the code— it does not test 
+the code.
+38. B. Endpoint detection and response (EDR) focuses on identifying anomalies and issues, but it 
+is not designed to be a malware analysis tool. Instead, the ability to search and explore data, 
+identify suspicious activities, and coordinate responses is what makes up an EDR tool.
+39. A. Mandatory access control (MAC) is the correct solution. It will not allow lower privileged 
+users to even see the data at a higher privilege level. Discretionary access control (DAC) has 
+each data owner configure their own security. Role- based access control (RBAC) could be 
+configured to meet the needs, but it’s not the best solution for these requirements. Security 
+Assertion Markup Language (SAML) is not an access control model.
+40. B. An agent- based, preadmission system will provide greater insight into the configuration of 
+the system using the agent, and using a preadmission model will allow the system configura-
+tion to be tested before the system is allowed to connect to the network. Agentless NAC uses 
+scanning and/or network inventory techniques and will typically not have as deep a level of 
+insight into the configuration and software versions running on a system. Postadmission sys-
+tems make enforcement decisions based on what users do after they gain admission to a net-
+work, rather than prior to gaining admission, allowing you to quickly rule out two of these 
+options.
+41. C. CYOD, or choose your own device, allows users to choose a device that is corporate 
+owned and paid for. Choices may be limited to set of devices, or users may be allowed to 
+choose essentially any device depending on the organization’s deployment decisions. BYOD 
+allows users to bring their own device, whereas COPE, or corporate- owned, personally 
+enabled, provides devices to users that they can then use for personal use. VDI uses a virtual 
+desktop infrastructure as an access layer for any security model where specialized needs or 
+security requirements may require access to remote desktop or application services.
+42. C. If Claire is using Simple Network Management Protocol (SNMP) to manage and monitor 
+her network devices, she should make sure she is using SNMPv3 and that it is properly con-
+figured. SNMPv3 can provide information about the status and configuration of her network 
+devices. Remote Authentication Dial- In User Service (RADIUS) might be used to authenticate 
+to the network, but Transport Layer Security (TLS) and SSH File Transfer Protocol (SFTP) 
+are not specifically used for the purposes described.Chapter 4: Domain 4.0: Security Operations  289
+43. B. Containerization will allow Eric’s company’s tools and data to be run inside of an 
+application- based container, isolating the data and programs from the self- controlled bring 
+your own device (BYOD) devices. Storage segmentation can be helpful, but the operating 
+system itself as well as the applications would remain a concern. Eric should recommend 
+full- device encryption (FDE) as a security best practice, but encrypting the container and the 
+data it contains can provide a reasonable security layer even if the device itself is not fully 
+encrypted. Remote wipe is helpful if devices are lost or stolen, but the end user may not be 
+okay with having the entire device wiped, and there are ways to work around remote wipes, 
+including blocking cellular and Wi- Fi signals.
+44. B. Data loss prevention (DLP) tools allow sensitive data to be tagged and monitored so that 
+if a user attempts to send it, they will be notified, administrators will be informed, and if 
+necessary, the data can be protected using encryption or other protection methods before it is 
+sent. Full- disk encryption (FDE) would protect data at rest, and S/MIME and POP3S would 
+protect mail being retrieved from a server but would not prevent the SSNs from being sent.
+45. A. Attribute- based access control (ABAC) looks at a group of attributes, in addition to the 
+login username and password, to make decisions about whether or not to grant access. One 
+of the attributes examined is the location of the person. Since the users in this company travel 
+frequently, they will often be at new locations, and that might cause ABAC to reject their log-
+ins. Wrong passwords can certainly prevent login, but are not specific to ABAC. ABAC does 
+not prevent remote access, and a firewall can be configured to allow, or prohibit, any traffic 
+you wish.
+46. B. Single sign- on (SSO) is designed specifically to address this risk and would be the most 
+helpful. Users have only a single logon to remember; thus, they have no need to write down 
+the password. OAuth (Open Authorization) is an open standard for token- based authenti-
+cation and authorization on the Internet. It does not eliminate the use or need for multiple 
+passwords. Multifactor authentication helps prevent risks due to lost passwords, but does 
+not remove the need for multiple passwords by itself. Security Assertion Markup Language 
+(SAML) and Lightweight Directory Access Protocol (LDAP) do not stop users from needing 
+to remember multiple passwords.
+47. D. Rule- based access control applies a set of rules to an access request. Based on the applica-
+tion of the rules, the user may be given access to a specific resource that they were not explic-
+itly granted permission to. MAC, DAC, and role- based access control wouldn’t give a user 
+access unless that user has already been explicitly given that access.
+48. D. Both the Windows and Linux filesystems work based on a discretionary access control 
+scheme where file and directory owners can determine who can access, change, or other -
+wise work with files under their control. Role- based access controls systems determine rights 
+based on roles that are assigned to users. Rule- based access control systems use a series of 
+rules to determine which actions can occur, and mandatory access control systems enforce 
+control at the operating system level.
+49. A. Restricting each faculty account so that it is only usable when that particular faculty 
+member is typically on campus will prevent someone from logging in with that account after 
+hours, even if they have the password. Usage auditing may detect misuse of accounts but will 
+not prevent it. Longer passwords are effective security, but a longer password can still be 
+stolen. Credential management is always a good idea, but it won’t address this specific issue.290 Appendix ■ Answers to Review Questions
+50. C. Password complexity requires that passwords have a mixture of uppercase letters, 
+lowercase letters, numbers, and special characters. This would be the best approach to correct 
+the problem described in the question. Longer passwords are a good security measure but 
+will not correct the issue presented here. Changing passwords won’t make those passwords 
+any stronger, and SSO will have no effect on the strength of passwords.
+51. B. Mandatory access control (MAC) is based on documented security levels associated with 
+the information being accessed. Role- based access control (RBAC) is based on the role the 
+user is placed in. Discretionary access control (DAC) lets the data owner set access control. 
+BAC is not an access control model.
+52. A. Discretionary access control (DAC) allows data owners to assign permissions. Role- based 
+access control (RBAC) assigns access based on the role the user is in. Mandatory access con-
+trol (MAC) is stricter and enforces control at the OS level. Attribute- cased access control 
+(ABAC) considers various attributes such as location, time, and computer in addition to user -
+name and password.
+53. A. OS hardening is the process of securing an operating system by patching, updating, and 
+configuring the operating system to be secure. Configuration management is the ongoing 
+process of managing configurations for systems, rather than this initial security step. Both 
+security uplift and endpoint lockdown were made up for this question.
+54. D. Secure Lightweight Directory Access Protocol (LDAPS) uses port 636 by default. DNS 
+uses port 53, LDAP uses 389, and secure HTTP uses port 443.
+55. B. Role- based access control (RBAC) grants permissions based on the user’s position within 
+the organization. Mandatory access control (MAC) uses security classifications to grant 
+permissions. Discretionary access control (DAC) allows data owners to set permissions. 
+Attribute- based access control (ABAC) considers various attributes such as location, time, 
+and computer, in addition to username and password.
+56. A. Security groups are a virtual firewall for instances, allowing rules to be applied to traffic 
+between instances. Dynamic resource allocation is a concept that allows resources to be 
+applied as they are needed, including scaling up and down infrastructure and systems on the 
+fly. Virtual private cloud (VPC) endpoints are a way to connect to services inside of a cloud 
+provider without an Internet gateway. Finally, instance awareness is a concept that means 
+that tools know about the differences between instances, rather than treating each instance 
+in a scaling group as the same. This can be important during incident response processes and 
+security monitoring for scaled groups, where resources may all appear identical without in-
+stance awareness.
+57. B. If the system maintains a password history, that will prevent any user from reusing an old 
+password. Password complexity and length are common security settings but would not pre-
+vent the behavior described. Multifactor authentication helps prevent brute- force attacks and 
+reduces the potential impact of stolen passwords but would not help with this scenario.
+58. A. Setting login time restrictions is a common method to control when a system can be used. 
+Turning off a system does not prevent it from being turned back on. Guards are expensive 
+compared to a simple technical control limiting logins, and disabling remote login does not 
+prevent local login.Chapter 4: Domain 4.0: Security Operations  291
+59. A. Security Assertion Markup Language (SAML) is an XML- based, open standard format 
+for exchanging authentication and authorization data between parties. OAuth allows an end 
+user’s account information to be used by third- party services, without exposing the user’s 
+password. RADIUS is a remote access protocol. New Technology LAN Manager (NTLM) is 
+not XML- based.
+60. A. Backups are considered to be the least volatile type of storage since they change at a 
+much slower pace and, in fact, may be intentionally retained for long periods of time without 
+changing. In this list, CPU cache will change the most frequently, then RAM, then local disk 
+contents.
+61. C. After eradication of the issue has been completed, recovery can begin. Recovery can 
+include restoration of services and a return to normal operations.
+62. C. The MITRE ATT&CK framework focuses on techniques and tactics. CIS Benchmarks 
+are security configuration baselines, the Dark Web Analysis Project was made up for this 
+question, and the CVSS standard is a vulnerability scoring system and is not a useful frame-
+work for analyzing malware and attacks.
+63. D. To properly preserve the system, Ted needs to ensure that it does not change. Turning 
+off the system will cause anything in memory to be lost, which may be needed for the inves-
+tigation. Removing the drive while a system is running can cause data to be lost. Instead, 
+live- imaging the machine and its memory may be required. Allowing users to continue to use 
+a machine will result in changes, which can also damage Ted’s ability to perform a forensic 
+investigation.
+64. D. Windows does not log network traffic at a level of granularity that will show if a file has 
+been uploaded. Basic traffic statistics can be captured, but without additional sensors and 
+information- gathering capabilities, Jessica will not be able to determine if files are sent from 
+a Windows system.
+65. C. The chain of custody in forensic activities tracks who has a device, data, or other forensic 
+artifact at any time, when transfers occur, who performed analysis, and where the item, 
+system, or device goes when the forensic process is done. Evidence logs may be maintained by 
+law enforcement to track evidence that is gathered. Paper trail and digital footprint are not 
+technical terms used for digital forensics.
+66. B. The - c flag for grep counts the number of occurrences for a given string in a file. The 
+- n flag shows the matched lines and line numbers. Even if you’re not sure about which flag 
+is which, the syntax should help on a question like this. When using grep, the pattern comes 
+before the filename, allowing you to rule out two of the options right away.
+67. B. Network flows using NetFlow or sFlow would provide the information that Eric wants, 
+with details of how much traffic was used, when, and where traffic was directed. A firewall 
+or data loss prevention (DLP) would not show the bandwidth detail, although a firewall may 
+show the connection information for events. Packetflow was made up for this question and is 
+not a technology used for this purpose.292 Appendix ■ Answers to Review Questions
+68. D. Hashing using MD5 or SHA1 is commonly used to validate that a forensic image matches 
+the original drive. Many forensic duplicators automatically generate a hash of both drives 
+when they complete the imaging process to ensure that there is a documentation chain for the 
+forensic artifacts. A third image may be useful but does not validate this. Directory listings 
+do not prove that drives match, and photos, though useful to document the drives and serial 
+numbers, do not validate the contents of the drives.
+69. B. Nessus is a popular vulnerability scanning tool. It is not a fuzzer, web application firewall 
+(WAF), or protocol analyzer.
+70. D. Red Hat stores authentication log information in /var/log/secure instead of /var/ 
+log/auth.log used by Debian and Ubuntu systems. Knowing the differences between the 
+major distributions can help speed up your forensic and incident investigations, and consis-
+tency is one of the reasons that organizations often select a single Linux distribution for their 
+infrastructure whenever it is possible to do so.
+71. C. Cuckoo, or Cuckoo Sandbox, is a malware analysis sandbox that will safely run malware 
+and then analyze and report on its behavior. strings is a command- line tool that retrieves 
+strings from binary data. scanless is a tool described as a port scraper, which retrieves port 
+information without running a port scan by using websites and services to run the scan for 
+you. Sn1per is a pen test framework.
+72. C. Metadata viewing tools will allow Lucca to view the metadata that is embedded in the file 
+itself. Metadata is not downloaded separately or available via the hash for a JPEG file.
+73. B. When artifacts are acquired as part of an investigation, they should be logged and docu-
+mented as part of the evidence related to the investigation. Artifacts could include a piece of 
+paper with passwords on it, tools or technology related to an exploit or attack, smartcards, 
+or any other element of an investigation.
+74. D. Forensic reports should include appropriate technical detail. Analysis of a system does not 
+include a picture of the person from whom the system was acquired.
+75. C. The browser cache, history, and session information will all contain information from 
+recently visited sites. Bookmarks may indicate sites that a user has visited at some point, but 
+a bookmark can be added without visiting a site at all.
+76. C. Organizations define retention policies for different data types and systems. Many organi-
+zations use 30- , 45- , 90- , 180- , or 365- day retention policies, with some information required 
+to be kept longer due to law or compliance reasons. Susan’s organization may keep logs for 
+as little as 30 days depending on storage limitations and business needs. Data classification 
+policies typically impact how data is secured and handled. Backup policies determine how 
+long backups are retained and rotated and may have an impact on data if the logs are backed 
+up, but backing up logs are a less common practice due to the space they take up versus the 
+value of having logs backed up. Legal hold practices are common, but policies are less typi-
+cally defined for legal holds since requirements are set by law.Chapter 4: Domain 4.0: Security Operations  293
+77. C. A quarantine process or setting will preserve malicious or dangerous files and programs 
+without allowing them to run. This allows defenders to retrieve them for further analysis as 
+well as to return them to use if they are determined not to be malicious, or if the malicious 
+components can be removed from needed files. Purging, deep- freezing, and retention are not 
+terms used to describe this behavior or setting.
+78. C. Chuck should recommend a mobile device management (MDM) system to ensure that 
+organizational devices can be managed and protected in the future. Data loss prevention 
+(DLP) will not stop a lost phone from being a potential leak of data, isolating the phones is 
+not a realistic scenario for devices that will actually be used, nor is containment because the 
+phone is out of the organization’s control once lost.
+79. B. The most important action Charles can take while working with his forensic artifacts to 
+provide nonrepudiation is to digitally sign the artifacts and information that he is creating in 
+his evidence records. Encrypting the output will ensure its confidentiality but will not provide 
+nonrepudiation by itself. MD5 checksums for images are commonly gathered but must then 
+be signed so that they can be validated to ensure they have not been modified.
+80. A. The best way to capture a virtual machine from a running hypervisor is usually to use the 
+built- in tools to obtain a snapshot of the system. Imaging tools are not typically capable of 
+capturing machine state, and dd is not designed to capture VMs. Removing a server’s drives 
+can be challenging due to possible RAID and other specific server configuration items, and 
+doing so might impact all other running VMs and services on the system.
+81. A. Law enforcement is not typically part of organizational incident response teams, but 
+incident response teams often maintain a relationship with local law enforcement officers. 
+Security analysts, management, and communication staff as well as technical experts are all 
+commonly part of a core incident response team.
+82. A. Even if you’re not familiar with iptables, you can read through these rules and guess 
+which rule includes the right details. DROP makes sense for a block, and you should know 
+that SSH will be a TCP service on port 22.
+83. A. A packet capture will show attempts to connect to the service and will help Maria deter -
+mine if there is unexpected traffic to the system. A network firewall could stop the traffic, 
+but analyzing the actual traffic itself is best done with a packet capture. Logs may be useful 
+as part of the analysis, but again, packet captures will provide more information. A forensic 
+disk image is not useful for reviewing network traffic.
+84. A. Incident response plans don’t stop incidents from occurring, but they do help responders 
+react appropriately and prepare the organization for incidents, and may be required for legal 
+or compliance reasons.
+85. D. Degaussing a drive uses strong magnetic fields to wipe it and is the least likely to result in 
+recoverable data. Deleted files can often be recovered because only the file index information 
+will be removed until that space is needed and is overwritten. Quick formats work in a sim-
+ilar way and will leave remnant data, and files that are overwritten by smaller files will also 
+leave fragments of data that can be recovered and analyzed.294 Appendix ■ Answers to Review Questions
+86. D. Henry’s most likely use for the video is to document the forensic process, part of the chain 
+of custody and provenance of the forensic data he acquires. The order of volatility helps 
+determine what devices or drives he would image first. There is no crime being committed, 
+so establishing guilt is not relevant to this scenario, and the video will not ensure data is pre-
+served on a drive during a forensic process.
+87. B. IPSec is not a tool used to capture network flows. sFlow, NetFlow, and IPFIX are all used 
+to capture network flow information, which will provide the information Charlene needs.
+88. B. PRTG and Cacti are both network monitoring tools that can provide bandwidth moni-
+toring information. Bandwidth monitors can help identify exfiltration, heavy and abnormal 
+bandwidth usage, and other information that can be helpful for both incident identification 
+and incident investigations. If you encounter a question like this on the exam, even if 
+you’re not familiar with either tool, you can use your knowledge of what Simple Network 
+Management Protocol (SNMP) is used for to identify which of the categories is most likely 
+correct.
+89. A. A variety of configuration changes could be pushed to mobile devices to help: setting 
+passcodes, enabling full- disk encryption (FDE) on mobile devices via organizationally 
+deployed mobile device management (MDM), or even preventing some sensitive files from 
+being downloaded or kept on those devices could all help. Firewall rules, data loss preven-
+tion (DLP) rules, and URL filters will not prevent a stolen device from being accessed and the 
+data being exposed.
+90. B. The Security+ exam outline talks about seven incident response process steps: Preparation, 
+Detection, Analysis, Containment, Eradication, Recovery, and Lessons Learned.
+91. C. Jill wants the least possible changes to occur on the system, so she should instruct the user 
+to not save any files or make any changes. Rebooting the system will not create a memory 
+dump, and may cause new files to be written or changed if patches were waiting to install 
+or other changes are set to occur during a reboot. Turning off Secure Delete or making other 
+changes will not impact the files that were deleted prior to that setting change.
+92. B. The IR process used for the Security+ exam outline is Preparation, Detection, Analysis, 
+Containment, Eradication, Recovery, and Lessons Learned. Veronica should move into the 
+lessons learned phase.
+93. C. Quick formatting merely deletes file indexes rather than removing and overwriting files, 
+making it inappropriate for sanitization. Physical destruction will ensure that the data is not 
+readable, as will degaussing and zero wiping.
+94. D. Microsoft Office places information like the name of the creator of the file, editors, 
+creation and change dates, and other useful information in the file metadata that is stored in 
+each Office document. Bart can simply open the Office document to review this information, 
+or he can use a forensic or file metadata tool to review it. Filenames may contain the creator’s 
+name, but this would only be if the creator included it. Microsoft Office does not create or 
+maintain a log, and the application log for Windows does not contain this information.Chapter 4: Domain 4.0: Security Operations  295
+95. B. Windows Defender Firewall operates on a per- application model and can filter traffic 
+based on whether the system is on a trusted private network or a public network. Nathaniel 
+should allow Chrome by name in the firewall, which will allow it to send traffic without 
+needing to specify ports or protocols.
+96. B. Building a timeline, particularly from multiple systems, relies on accurately set system 
+clocks or adding a manually configured offset. Disk hashing and acquisition does not need 
+an accurate system clock, and file metadata can be reviewed even without an accurate 
+clock, although accurate clock information or knowing the offset can be useful for analysis.
+97. B. Data breach notification laws often build in a maximum length of time that can pass 
+before notification is required. They also often include a threshold for notification, with a 
+maximum number of exposed individuals before the state or other authorities must be noti-
+fied. They do not include a maximum number of individuals who can be notified, nor do 
+they typically have specific requirements about police involvement in forensic investigations 
+or certification types or levels.
+98. C. A data loss prevention (DLP) tool that can scan and review emails for SSN style data is 
+the most effective tool listed here. Naomi may want to set the tool to block all emails with 
+potential SSNs, and then review those emails manually to ensure that no further emails 
+leave while allowing legitimate emails to pass through. An intrusion detection system (IDS) 
+might look tempting as an answer, but an IDS can only detect, not stop, the traffic, which 
+would allow the SSNs to exit the organization. Antimalware and firewalls will not stop this 
+type of event.
+99. C. Email headers contain a significant amount of metadata, including where the email was 
+sent from. The from: field lists a sender but does not indicate where the email was actually 
+sent from. The to: field lists who the email was sent to, and footers are not used to store this 
+information for email.
+100. C. NXLog is a log collection and centralization tool. IPFIX, NetFlow, and sFlow all gather 
+data about network traffic, including source, destination, port, protocol, and amount of 
+data sent to be collected.
+101. D. SQL injection (SQLi) attempts are sent as HTTP or HTTPS requests to a web server, 
+meaning that Valerie will be able to see the attacks in the web server log. Domain Name 
+System (DNS) logs, if available, will not show these. Auth logs show logins, not web or 
+SQL Server queries or requests. Unlike Windows, there is no security log file for Linux, 
+although there is a secure log for some systems.
+102. C. A legal hold notice will inform the company that they must preserve and protect 
+information related to the case. None of the other items are terms used in this process.
+103. B. A quarantine setting will place a malicious or suspect file in a safe location and will 
+keep it there until a set timeframe has passed or until an administrator takes action to deal 
+with it. This can allow you to further analyze the file or to restore it if it was an incorrect 
+identification or if the file is needed for another purpose. Containment is used to limit the 
+extent of an incident or attack, isolation keeps a system or device from connecting to or 
+accessing others, and deleting a file wouldn’t keep it around.296 Appendix ■ Answers to Review Questions
+104. C. The recovery phase often involves adding firewall rules and patching systems in addition 
+to rebuilding systems. Although preparation may involve configuring firewall rules or reg-
+ular patching, it does not do so in response to an incident. Detection attempts to identify 
+events and issues, and analysis involves investigating the events.
+105. C. Tim should look at the trend information for malware detections to check to see if 
+there are more infections being detected than during recent weeks. This can be a useful 
+indicator of a change, due to a new malware technique or package; a successful attack that 
+has resulted in staff members clicking malicious links or opening malicious emails; or other 
+paths into the organization. Tim could then check with users whose systems reported the 
+malware to see what had occurred. Alerts might show the infections but would not show 
+the data over time as easily as trends. Sensors will show individual places data is gathered, 
+and bandwidth dashboards can show useful information about which systems are using 
+more or less bandwidth, but the trends dashboard remains the right place for Tim to look 
+in this situation.
+106. B. The Center for Internet Security (CIS) benchmarks provide recommendations for how 
+to secure an operating system, application, or other covered technology. Michelle will find 
+Windows- specific security configuration guidelines and techniques.
+107. C. A single point of failure (SPOF) is a single weakness that can bring down an entire 
+system and prevent it from working. Cloud computing allows the delivery of hosted service 
+over the Internet. Load balancing spreads traffic or other load between multiple systems 
+or servers. Virtualization uses a system to host virtual machines that share the underlying 
+resources such as RAM, hard drive, and CPU.
+108. C. Asset management policies typically include all stages of an asset’s life cycle, and 
+asset tags like those described are used to track assets in many organizations. Change 
+management, incident response, and acceptable use policies do not require asset tagging.
+109. D. The diagram shows a fully redundant internal network with pairs of firewalls, routers, 
+and core switches, but with a single connection to the Internet. This means that Megan 
+should consider how her organization would connect to the outside world if that link was 
+severed or disrupted. There is no indication whether this is a wired or wireless link, and the 
+image does not show a redundant link.
+110. B. Support tools typically require additional steps or integrations to take action on a ticket 
+and a human is often involved to ensure that legitimate emails do not result in the creation 
+of unwanted rules or responses. Juan’s team could use the ticketing system to track whether 
+emails are dealt with, to correlate them, and potentially to trigger additional actions.
+111. D. The Sender Policy Framework (SPF) lists IP addresses of systems allowed to send email 
+in DNS TXT records for a domain. DKIM (DomainKeys Identified Mail) validates a 
+domain’s identity using a public key pair, validating the authenticity of the sender. DMARC 
+(domain- based message authentication, reporting, and conformance) controls how unau-
+thenticated messages are handled by mailbox providers, including quarantining, rejecting, 
+or rejecting messages. STP is not an email security framework.Chapter 4: Domain 4.0: Security Operations  297
+112. D. The packet capture shows a high volume of SYN packets, indicating a potential SYN 
+flood, a type of denial- of- service attack. There is no information to indicate SMTP traffic 
+for a phishing campaign, nor is there HTTP traffic for SQL injection against an application. 
+While SYN traffic is commonly seen when a connection is lost, this traffic is repeated at a 
+rapid pace rather than a typical reconnection attempt.
+113. D. Endpoint detection and response (EDR) tools combine behavior- based detection capa-
+bilities with centralized dashboards and advanced response capabilities. Intrusion preven-
+tion systems (IPSs) can detect network threats but aren’t well suited to detecting behaviors 
+on endpoint systems. NAC (network access control) is used to limit who can connect to a 
+network. Data loss prevention (DLP) systems monitor for data exfiltration as well as data 
+that is sent both inadvertently and on purpose outside the organization that shouldn’t be.
+114. C. Tabletop exercises involve teams sitting down to talk through an exercise. Teams don’t 
+perform actions or even simulate them, third- party penetration testers are not reviewing 
+their data, and no actual fail overs occur.
+115. B. Root cause analysis is a process used to determine the underlying cause of an issue such 
+as why attackers were able to successfully take down Michelle’s web server cluster. Threat 
+hunting is used to proactively look for threats using a variety of techniques, including 
+OSINT and leveraging indicators of compromise. Lessons learned processes look for take-
+aways from events and incidents to allow organizations to improve their processes and 
+procedures. Recovery is part of the incident response process but focuses on restoring the 
+organization to normal operation.
+116. D. Jailbreaking is not a typical hardening process and is instead used to bypass device secu-
+rity to allow additional control of the device. While individuals may jailbreak devices, orga-
+nizations rarely permit it. The NSA provides a guide to mobile device security practices at 
+https://media.defense.gov/2021/Sep/16/2002855921/- 1/- 1/0/MOBILE_ 
+DEVICE_BEST_PRACTICES_FINAL_V3%20- %20COPY.PDF, which includes many prac-
+tices such as disabling Bluetooth, using strong passwords, and keeping device software 
+up- to- date.
+117. C. WPA3 Enterprise is the most secure option. It provides for central authentication as well 
+as encryption. WPA4 has not yet been released. WPA2 and WPA3 Personal are not centrally 
+managed, giving Lucca’s organization less control over who connects.
+118. B. The EF (exposure factor) for an asset is the value of the asset that would be lost in the 
+event of a loss or damage scenario. Depreciation is a financial term that writes down the 
+cost of a capital item over a given lifespan; annualized loss expectancy is a risk- related 
+term, not annual loss event; and asset valuation adjustment was made up for this question.
+119. B. Derek’s team needs to carefully consider what alerts should be sent, why, and how often. 
+That will require alert tuning. Simply setting alert thresholds may miss critical events, dis-
+abling alerts will not achieve the goal of enabling this type of notification, and moving the 
+alerts to email will typically result in a less timely response.298 Appendix ■ Answers to Review Questions
+120. B. Jill can build a signature if she has an example of the SQL code. IPS signatures require 
+data to match against potential attack traffic. A source IP address would only match 
+specific potential attackers instead of the many different potential sources. A hash of the 
+attack would detect one specific version of the attack, but a SQL injection (SQLi) attack 
+may have multiple versions or configurations. The source port will vary with each request 
+and isn’t useful in most cases.
+121. A. While all of these are potential problems, Jack’s account should not be provisioned to 
+match Erin. Instead, provisioning based on role is an IAM best practice. Jack’s seniority, the 
+staff he works with, and file access should all be determined by his role.
+122. A. Hardware tokens provide the greatest security because they need to be physically  
+present to be used. Application- based tokens are more secure than SMS in many cases 
+because SMS can be redirected or accessed through SIM- swapping and other attacks. 
+Extending password length does not provide a second factor and is the least secure of these 
+options by far.
+123. A. The lack of consistency could be addressed by enforcing baselines across the organiza-
+tion. Gurvinder should emphasize this, then explain the other common benefits of security 
+automation, including scaling in a secure manner, improving reaction time, automation’s 
+impact as a workforce multiplier, efficiency, employee retention advantages, and the ability 
+to more easily standardize infrastructure configurations.
+124. C. The Five Why’s process is well suited to interviews because it asks “Why” each time an 
+answer is provided to get to a root cause. The Five W’s are a common reference in journal-
+ism to who, what, when, where, and why— not a root cause analysis tool. Fishbone dia-
+grams are commonly used for RCA, but are not as useful for an interview process. They’re 
+more likely to be used after the interview to see how answers and events fit together. Recur -
+sion analysis is not an RCA process.
+125. B. Amanda has conducted a simulation, or walk- through, where actual recovery actions 
+are simulated to ensure that recovery plans will work as expected. A fail over test moves 
+production to a backup environment like a hot site, and a plan review is just that— a review 
+of the response plan. A tabletop exercise involves discussions about the scenario and what 
+would be done without taking any actual action.
+126. B. Legal holds require organizations and individuals to preserve data related to pending or 
+active litigation, regardless of its normal data life cycle once the hold notice is received. This 
+means that Liam needs to identify and preserve the data and that normal processes like 
+wiping drives or reusing backup media may not be possible. It does not necessarily mean 
+that Liam’s company must engage a lawyer to preserve the data, and law enforcement is not 
+typically involved in legal holds.
+127. A. OAuth is an open standard widely supported by cloud identity providers. Kerberos is 
+used for internal use rather than for external integrations; LDAP is used for some services 
+but is no longer a common choice for this type of integration with cloud service providers 
+compared to options like OAuth, SAML, and OpenID- based integrations; and Active 
+Directory is used by Microsoft but is not as interoperable.Chapter 4: Domain 4.0: Security Operations  299
+128. B. Attribute- based access control (ABAC) provides access based on attributes like location, 
+age, rank, or other attributes of a user. Rule- based access control uses defined rules to make 
+access decisions. Role- based access control uses a user’s role in an organization to make 
+access control decisions, and mandatory access control (MAC) enforces access control using 
+centralized control.
+129. C. Security keys are commonly used for passwordless authentication since they can provide 
+both a physical token and cryptographic login credentials that are unlocked using a pass-
+word, fingerprint reader, or camera. A password manager does not provide this but does 
+securely store and manage passwords. RFID cards are simply something you have, and bio-
+metrics are typically not tokens— they’re data stored to match a user’s biometric signature.
+130. B. Older, insecure services like chargen, daytime, echo, time, rsh, and telnet are all managed 
+by inetd in Linux distributions. Disabling these services is a common item in security hard-
+ening benchmarks like the CIS benchmarks. These services are not Windows services, they 
+are not SQL- related, and disabling them is not a type of patching.
+131. A. Bring your own device (BYOD) leaves the choice of device in the hands of the end user. 
+Since the device is the end user’s device, it often means that the organization has less, if any, 
+control over the device. Corporate- owned, personally enabled (COPE) allows users to use 
+organizationally owned devices for their own use. Choose your own device (CYOD) lets 
+users choose a device that the organization owns. COBO, or company- owned, business- 
+only, is a model that only allows business use of business- provided devices.
+132. D. The Secure Cookie attribute is intended to keep cookies secure in transit. That 
+means that it requires secure cookies be sent only via HTTPS. It does not encrypt the cookie 
+at rest, store it on the server instead of the remote system, nor does it remove the cookie 
+after it has been used.
+133. B. Code signing uses the signing organization or individual’s private key to sign a hash of 
+the code. This allows the code to be verified using the organization’s or individual’s public 
+key. Signing code does not involve encrypting it.
+134. C. Without an inventory, organizations may misplace, lose, or even have devices stolen. 
+That may result in data breaches or simply loss of assets. A hardware life cycle process is 
+an operational concern; manufacturer support is typically tied to individual devices; and 
+vulnerability scans are possible without an inventory, but Naomi may not know what the 
+device itself is until she physically locates it.
+135. C. Static analysis processes for code involve reviewing the source code itself. Dynamic anal-
+ysis processes use running code. Agile is a project management framework, and internal 
+review is not a term used to describe this.
+136. A. Sites accessible using TOR are considered part of the dark web. Information- sharing 
+organizations like ISACs share information in an industry vertical or among other organi-
+zations that participate. Proprietary information is provided by vendors, typically as part of 
+a contract or service. Threat feeds may be public or private and provide information about 
+threats in a digestible format for use with security tools.300 Appendix ■ Answers to Review Questions
+137. A. A lessons learned session is commonly conducted at the end of an incident response 
+process. Once eradication and recovery are complete, incident response processes are typ-
+ically over and the response effort can be reviewed. The lessons learned are then leveraged 
+as part of the preparation process to be ready for the next incident. That may involve more 
+training, tabletop exercises, or additional detection methods.
+138. A. The CVSS environmental score’s impact metric takes into account confidentiality, integ-
+rity, and availability risks, with each rated between high, medium, and low levels. It is not a 
+direct rating of network, disk, memory, severity, likelihood, probability, or cost.
+139. D. The Security Content Automation Protocol (SCAP) is frequently used to allow for mon-
+itoring and measurement of NIST 800- 53-based controls. SAML is used for authorization 
+and authentication, and CVE and CVSS are used to identify and rank vulnerabilities.
+140. A. WPA3 Enterprise uses Advanced Encryption Standard (AES) and can use 128- , 192- , 
+and 256- bit keys. It does not support 3DES, and both SHA- 1 and SHA- 256 are hashing 
+algorithms.
+141. A. Kerberos is one of a small number of commonly used AAA protocols for network 
+devices. SAML and OpenID are more commonly used for federated services, and TKIP is an 
+encryption method.
+142. C. Vulnerability scanners are perfectly suited to this type of task and can be configured to 
+specifically test the web servers that are part of the IoT devices to increase the speed of the 
+scan. A WAF is used to protect web applications and servers, not to assess vulnerabilities 
+and security issues. Pentesting can identify these problems but is typically not fast or scal-
+able. Port scanners identify open ports and service but don’t identify vulnerabilities as effec-
+tively as a dedicated vulnerability scanning tool will.
+143. B. DMARC, or Domain- based Message Authentication, Reporting, and Conformance, 
+controls how unauthenticated messages are handled by mailbox providers, including 
+quarantining, rejecting, or rejecting messages. SPF (Sender Policy Framework) lists IP 
+addresses of systems allowed to send email in DNS TXT records for a domain. Domain-
+Keys Identified Mail (DKIM) validates a domain’s identity using a public key pair, vali-
+dating the authenticity of the sender. TLS (Transport Layer Security) is used to encrypt data 
+in motion.
+144. D. In most organization, Wayne’s next steps should be to document the exemption due to 
+the criticality of the server and its extenuating circumstances. Removing the server from 
+scans will prevent it from being effectively impacted by a denial- of- service attack each time 
+a scan occurs, but this also means that compensating controls should be implemented if 
+possible. Reporting the server as vulnerable and suggesting it be replaced does not reme-
+diate the server or protect it, and will continue to allow it to fail based on future scans. Dis-
+abling the device’s network connection will also cause a service outage. Insurance will not 
+prevent service outages or protect the device.
+145. B. Identity proofing is used to validate a user’s claim to an identity. Here, Valentine’s 
+company uses information that only a legitimate owner of that identity should have 
+easy access to. Provisioning is the process of creating an account and providing it with Chapter 4: Domain 4.0: Security Operations  301
+appropriate resources and rights. Deprovisioning removes accounts and rights. Social iden-
+tity is the process of using existing user accounts like those found through Facebook or 
+Google to create accounts for existing users at other organizations like Valentine’s.
+146. C. Organizations often immediately rescan a system after patching to ensure that the 
+patching worked. While this isn’t an absolutely certain means of validating the patch, it 
+helps to quickly ensure that patching was effective across many machines. Noting false pos-
+itives may occur if the patch was successful, but systems continue to show as vulnerable. 
+Rebooting may be done but doesn’t necessarily validate the patching installation’s success, 
+and performing an audit may be done but is a less common next step.
+147. A. Third- party audit documentation is a common practice for organizations that want 
+to attest to their customers that they have a secure environment. Rescanning systems and 
+providing vulnerability scans is not a common practice, nor is allowing customers to con-
+duct their own scans of production systems.
+148. B. TCP port 1433 is the minimum port requirement for a Microsoft SQL server con-
+nection. TCP 3389 is used for Remote Desktop Protocol (RDP). TCP 8080 is a common 
+alternate port for web servers, and TCP 139 and 445 are used for SMB connections.
+149. A. Baselining is the process of establishing a standard for security. A change from the 
+original baseline configuration is referred to as baseline deviation. Security evaluations or 
+audits check security but don’t establish security standards. Hardening is the process of 
+securing a given system, but it does not establish security standards. Normalization is the 
+process of removing redundant entries from a database.
+150. B. COPE, or company- owned, personally enabled, models allow staff to use organization-
+ally owned devices for reasonable personal use. CYOD, or choose your own device, allows 
+users to pick their company- owned device from a list of approved devices. COBO, or 
+company- owned, business- only, is just that— users can only use the devices for business pur -
+poses. BYOD asks users to bring their own device, often leaving organizations with limited 
+or no control of the device.
+151. B. Process auditing involves reviewing processes to identify unknown or unexpected 
+processes. During incident response scenarios, this is often initially done via the Task Man-
+ager. Dynamic analysis is a code review process that uses running code. CVSS matching 
+was made up for this question, and vulnerability scanning tests open services and doesn’t 
+involve the Task Manager.
+152. B. Email security gateways are appliances or software virtual appliances that provide anti- 
+spam, anti- phishing, and other email security–related services. They’re purpose- built to 
+deliver exactly the capabilities that Ujama is looking for. A WAF (web application firewall) 
+is used to protect web applications. DKIM and DMARC are both email security frame-
+works, but they’re not implemented as appliances themselves.
+153. D. A SIEM (security information and event management) tool is designed to aggregate, 
+analyze, correlate, alert on, and report on log entries. MDM (mobile device management) is 
+used to manage mobile devices, jump servers provide access from less secure zones to more 
+secure zones, and SDN is software- defined networking.302 Appendix ■ Answers to Review Questions
+154. A. Leveraging automation and scripting to increase employee happiness and retention as 
+well as improving efficiency and realizing time savings is a common strategy in situations 
+like this. Deploying fewer devices only works if the organization needs fewer devices, base-
+lines are most useful when paired with automation and scripting for deployment, and a 
+physical endpoint device typically can’t be moved to the cloud.
+155. B. Authenticated scans can identify vulnerabilities that are not visible to unauthenticated 
+scans. Penetration testers may not be able to obtain access equivalent to authenticated 
+scans, so an authenticated scan is more likely to provide detailed data. Port scans do not 
+provide deep vulnerability data.
+156. C. Quarantine and isolation are both commonly used in the containment phase of an 
+incident to ensure that impacted systems are unable to impact other systems or parts of 
+the organization. Files may also be quarantined to prevent further impact from malware. 
+Detection and analysis typically do not involve quarantine and isolation, but quarantine 
+and isolation may carry through into the eradication phase before systems are returned to 
+normal operation.
+157. C. Linux permissions are read left to right for user, group, and other. With r’s at each loca-
+tion, this means everyone can read the contents of the directory. Only the user can write 
+and execute files in the directory.
+158. A. A set of rules that defines who can access the data has determined if Beena is granted 
+access. Here, rules assess her role, the time of day, and the workstation’s status. This is not 
+accomplished using a classification or clearance system like MAC uses, and it does not rely 
+on just an attribute like Beena’s location or other information about her.
+159. A. Trend analysis is commonly used as part of behavior- based detections, which can help 
+identify new attacks. Signatures require knowledge of existing attacks to match signa-
+tures. IP-  and port- based detection is useful for known attacks but not typically useful for 
+unknown attacks.
+160. D. Heatmaps are used to show signal strength and coverage, allowing organizations to 
+identify areas where there may be poor coverage or where multiple signals may conflict. 
+War walking (and war driving) are techniques used to map wireless access points to geo-
+graphic locations. Spectrum analysis and SSID plots are not terms used for this type of 
+activity.
+161. C. The concept of least privilege is that only the minimum rights or privileges required to 
+accomplish a role or task are provided. Zero trust requires continuous authentication and 
+authorization, and least privilege is part of a zero trust environment, but zero trust goes 
+beyond least privilege. Provisioning and deprovisioning are part of the account life cycle, 
+and provisioning should respect the concept of least privilege.
+162. D. Automation provides many advantages for the provisioning process, including 
+improving consistency, decreasing the potential for mistakes, and providing faster provi-
+sioning. It does not specifically address auditability in ways that manual processes cannot. 
+Regardless of how provisioning is done, audit logs and trails should be created for all 
+events, not just automated ones.Chapter 4: Domain 4.0: Security Operations  303
+163. B. Bug bounty programs are frequently part of responsible disclosure programs intended 
+to provide a way for third parties to report security issues and to be incentivized to report 
+them in responsible ways. Bug bounties can help identify flaws, but they’re not typically 
+part of contracted penetration testing engagements. Third- party bounty is not a typical way 
+of describing them, and trusted threat programs were made up for this question.
+164. D. Even if you’re not familiar with specific Cisco IOS commands and configuration you 
+can quickly determine that this is a Network Time Protocol (NTP)- related setting. Authen-
+ticating NTP and ensuring a trusted key is enabled would help to ensure that network time 
+is trusted and secure. This prevents attackers from conducting attacks that rely on modi-
+fying network time or the switch recording incorrect time in its logs. There is no Network 
+Terminal Protocol, this does not impact logs, and network time traffic is not encrypted.
+165. C. Using a VPN is a best practice over any untrusted or potentially untrusted network 
+connection. Patching the phone and deploying a security baseline are good for the phone’s 
+security, but they won’t help directly with the security of data in transit.
+166. C. ISACs, or Information Sharing and Analysis Centers, are information- sharing organi-
+zations established to connect organizations in verticals like health care, government, util-
+ities, and higher education. While it may provide OSINT information, they go far beyond 
+that. They are not typically found via the dark web and don’t require TOR to access their 
+information, and they are not commercial or proprietary threat data sources.
+167. A. Attestation is the verification of ownership or that a person matches who they claim to 
+be. In this case, Mark presents his driver’s license to attest to his own identity. Provisioning 
+is the creation of accounts and the granting of rights, and deprovisioning is the removal of 
+accounts and rights for accounts. SSO is single sign- on.
+168. D. Bluetooth devices can be fingerprinted relatively easily, making it easy to identify 
+individual users who have Bluetooth turned on. Modern Bluetooth traffic is encrypted, 
+its relatively short range is not a security concern, and Bluejacking sends unwanted spam, 
+which isn’t a direct data security issue.
+169. D. PAM tools provide a variety of capabilities, including just- in- time permissions, password 
+vaulting, and ephemeral credentials. Password persistence was made up for this question 
+and is not a typical feature.
+170. A. Port scans can help with enumeration of assets when an inventory does not exist. They 
+do not provide OSINT; OSINT is a passive information- gathering process and a scan 
+is an active process. Version tracking via port scans is inaccurate and does not provide 
+full information. Identifying assets via port scans is a reasonably common part of asset 
+management, particularly for initial discovery.
+171. C. Fingerprints are biometric factors and are something you are. Something you know is a 
+knowledge factor like a password or PIN. Something you have is a hardware token, RFID 
+card, or other similar factor. Somewhere you are is a geographic factor based on location 
+such as GPS coordinates.304 Appendix ■ Answers to Review Questions
+172. C. Dependency checking for open source software is a common best practice to help ensure 
+that underlying components do not have known security vulnerabilities. There are depen-
+dency security checking applications and tools available that Dana could use to help with 
+this process. Software source code escrow is often used to ensure that organizations can 
+obtain the software code if a company goes out of business or other adverse events occur 
+that might endanger the company relying on the code. Reviewing the source code for an 
+entire application is outside of the scope and capability of the majority of organizations, 
+particularly when other dependencies are included. Purchasing software from a known 
+vendor can help, but does not necessarily ensure that the software is secure and depen-
+dencies don’t introduce or include known issues.
+173. B. Sharon knows that Enterprise mode authentication is typically done with 802.1X. LDAP 
+and Kerberos are not typically used for this, and SAML is more frequently part of federated 
+and cloud services.
+174. C. Windows supports both password history and a minimum password age to help pre-
+vent users from simply resetting their password over and over again until they can reuse 
+their preferred password. This does not prevent attackers from resetting passwords or using 
+brute- force attacks and doesn’t ensure password expiration.
+175. B. CVSS scores are based on base metrics like the attack vector; complexity; scope; user 
+interaction required and privileges required; the temporal group, which includes exploit 
+code maturity, remediation level, and report confidence; and the environmental group, 
+including confidentiality, availability, and integrity requirements. While scope, impact, risk, 
+and threat all play into these elements, CVSS calls the three metric groups Base, Temporal, 
+and Environmental.
+176. B. In scenarios where the data needs to be guaranteed to be unrecoverable, physical 
+destruction is a common choice. Zero wiping and reformatting both leave remnant data on 
+SSDs, and sanitization processes are reasonably secure but cannot always be guaranteed to 
+result in total data removal.
+177. A. IoT devices often have very limited security options, if any. That means that hardening 
+them using built- in tools and configurations is limited, if not impossible. IoT devices typi-
+cally use their own OS; benchmarks are rarely available, not just out- of- date; and central 
+management for many IoT devices is frequently not available.
+178. C. Reviewing any baseline to determine its fit for the organization and how the organiza-
+tion’s systems and services operate is an appropriate next step after selecting a benchmark. 
+Deploying SELinux may be necessary for some features depending on the distribution in 
+use, but nothing in the question indicates that this is required. Once the benchmark has 
+been modified to purpose and suitability, it can be tested, and further modifications can be 
+made if necessary. Finally, it can be deployed and managed.
+179. B. EAP- TLS provides TLS- based Transport Layer Security as part of a secure authentica-
+tion implementation. LEAP is the Lightweight Extensible Authentication Protocol, which 
+was in use before 802.11i but is now largely outdated. EAP- PSK uses a preshared key for 
+mutual authentication and does not rely on public key encryption, but it is not supported in 
+WPA3 deployments. EAP- PWD uses a shared password for authentication and, like EAP- 
+PSK, is not supported by WPA3.Chapter 4: Domain 4.0: Security Operations  305
+180. C. DLP systems often rely on classification, tagging, and metadata to help them identify 
+sensitive data that the organization handles and which could be exfiltrated or sent inadver -
+tently outside of the organization. Hashing and creating signatures is more commonly asso-
+ciated with filesystem- monitoring tools. Encrypting the data is not required by a DLP and 
+may actually make it harder for the DLP to identify the data. Applying a mandatory access 
+control scheme to the data is not a typical step in preparing for DLP- based protection.
+181. D. File integrity monitoring tools use hashes to validate that files match their original 
+content. If the files change, the hashes will not match, allowing the tool to alert adminis-
+trators that a change has occurred. Drive encryption and file encryption both protect the 
+confidentiality of data but don’t indicate changes without a signature. File availability mon-
+itoring is not a typical tool, although system or service availability monitoring is.
+182. A. Endpoint detection and response (EDR) tools are most likely to use hashing to match 
+known malicious files like this. Firewalls may provide the capability, but system logs do not, 
+ruling out the “all of the above” option.
+183. B. Group Policy is the most common way of deploying baselines throughout Windows 
+organizations. Group Policy Objects (GPOs) are set and managed across the entire Active 
+Directory organization, allowing them to be modified for groups or specific purposes while 
+inheriting most settings from the top of the organizational structure. PowerShell is a script-
+ing tool, and both PowerShell and Group Policy are commonly used for specific purposes, 
+but GPOs are typically preferred at scale. Manual configuration is not recommended for an 
+entire organization.
+184. B. A common technique to ensure that traffic sent via unsecure protocols remains secure 
+is to wrap it using TLS. SD- WAN is used to manage external connectivity, and there is no 
+mention of files, only of an unsecure protocol. Even if files were encrypted, the rest of the 
+traffic might leak information. Hashing does not leave data recoverable, making it unusable 
+for this type of use in almost all cases.
+185. B. Passwordless authentication avoids making users provide a password or PIN by using a 
+proof of identity from a device or token. Windows Hello, cell- based authenticator applica-
+tions, and FIDO2 security keys all support this, but entering a PIN does not.
+186. B. Since ICS and SCADA devices need connectivity as part of their design, Laura knows 
+that using segmentation to place the devices in a secure network is likely her best hardening 
+option. Isolating the devices would break the functionality of ICS/SCADA systems. Neither 
+ICS nor SCADA devices typically have support for host- based firewalls or host- based IPS.
+187. B. The detection and analysis phases of the incident response process both commonly 
+leverage IoCs to detect and then correlate information to identify incidents. Preparation 
+might involve setting up threat feeds and building automations to help notify security 
+administrators of issues. Containment and eradication may leverage threat data to help 
+understand common actions taken by threat actors, but the SIEM detecting and correlating 
+events is not typically part of containment or eradication.
+188. A. Enabling DNS filtering based on the URL from the email is the most effective option 
+listed. Disabling the organization’s Internet connection will result in additional disruption. 
+Blocking the email’s source IP for an already received email will not be effective, nor will 
+enabling reputation services for email after the email has already been received.306 Appendix ■ Answers to Review Questions
+189. B. Successful authentications will not be logged based on these settings. Having access 
+to both successes and failures can be useful when investigating incidents, particularly if 
+attackers have stolen credentials. Text- based log files take up minimal space on most work-
+stations and servers and should not be a significant concern. While the message notes that 
+the policy may be overridden, Nick’s primary concern should be missing log data.
+190. B. CVSS scores range from 0 to 10.0, with 10.0 being the most critical. A score of .1–3.9 is 
+considered a low rating, meaning that Brian can take his time to review and remediate the 
+risk. Scores of 4.0–6.9 are medium, 7.0–8.9 are high, and 9.0–10.0 are critical.
+191. A. DKIM (DomainKeys Identified Mail) validates a domain’s identity using a public key 
+pair, validating the authenticity of the sender. DMARC (Domain- based Message Authenti-
+cation, Reporting, and Conformance) controls how unauthenticated messages are handled 
+by mailbox providers, including quarantining, rejecting, or rejecting messages. The Sender 
+Policy Framework (SPF) lists IP addresses of systems allowed to send email in DNS TXT 
+records for a domain. STP is not an email security framework. The Simple Mail Transfer 
+Protocol (SMTP) is the default email protocol.
+192. C. SELinux is a Linux kernel module that provides a variety of security capabilities and 
+access control methods, including support for MAC (mandatory access control) for Linux 
+systems. Group Policy is a Windows tool, the CIS benchmarks provide security configura-
+tion recommendations for systems but do not directly provide mandatory access control, 
+and containerization is used to make application installations portable.
+193. B. Package monitoring tools review the dependencies and packages that make up open 
+source tools to identify vulnerable components. Static analysis is manual review of code. 
+Fagan testing is a formal code analysis process. Port scanning is not used to monitor for 
+dependency security.
+194. B. SaaS environments allow customers to manage information, data, devices, accounts, 
+and identities. That means that ensuring least privilege is used is possible through use of 
+accounts and identities. Host- based firewalls, OS configurations, and physical security are 
+all the responsibility of the SaaS provider.
+195. A. Unlike the other controls listed, insurance simply transfers the risk to another organi-
+zation at a cost. It does not take any action to prevent the risk from occurring. Patching, 
+segmentation, and firewalling are all technical controls.
+196. D. Sanitization is part of decommissioning and disposal processes, not asset management. 
+Tracking data classification used on systems, identifying owners, and documenting acquisi-
+tion dates for warranty and life- cycle tracking are all common parts of this process.
+197. C. Enterprise password managers provide functionality just like this, allowing passwords 
+to be stored securely and tracked on use. EAP is an authentication protocol; multifactor 
+authentication adds one or more factors, increasing security, but doesn’t provide the func-
+tionality described; and passwordless isn’t designed for a checkout and reset function.Chapter 4: Domain 4.0: Security Operations  307
+198. B. Using threat data from reputation tools will best fit Selah’s needs. Agent- based web fil-
+tering is used when systems will be mobile or connected to networks that are not controlled 
+centrally. Centralized web filtering proxies and URL scanning are useful general controls, 
+but reputation tools answer the specific need more directly.
+199. A. ACLs are interpreted in the order they are listed. This ACL is not properly written if it 
+is intended to block HTTPS because the ACL order includes a rule that allows any traffic 
+after the rule that blocks HTTP is processed. This means that traffic will first be checked 
+to see if it is HTTP traffic. If it is not, it will be allowed, and thus will bypass the HTTPS 
+block. It will not prevent web application attacks since HTTPS can pass the ACL, and no 
+specific configuration is set for inspection of web traffic.
+200. A. User and entity behavior analytics (UEBA) tools are specifically designed to use 
+behavior- based analytic tools leveraging machine learning and algorithmic analysis. SIEM 
+is used to correlate events and log data as part of ongoing monitoring. EDR focuses on 
+malicious behavior detection on endpoints. DMARC is used for email security.
+201. C. Password history is intended to prevent password reuse in Windows. It is commonly 
+paired with a minimum password age to prevent users from simply resetting their password 
+multiple times until they can reuse their password, and a longer history is used to make this 
+more difficult too. It does not influence password length or complexity.
+202. C. This script will stop and disable the Windows Defender service on a system with IP 
+address 10.1.1.101. You can identify both the Stop- Service and StartupType  
+Disabled values in the script to determine what it is likely to do. It does not start Win-
+dows Defender, nor does it enable the service.
+203. B. Since Batu has been asked to consider the lifespan of the scripts, ensuring that they’re 
+supportable in an ongoing manner is the biggest concern. Initial cost is typically small com-
+pared to the ongoing benefit of scripts like these. Existing technical debt is not a major 
+concern for automated ticket creation with a new tool, and while having a single point 
+of failure can be a concern, automated ticket outages are a point- in- time concern not a 
+lifetime- centered concern.
+204. A. Alex has used a compensating control because he cannot remediate the underlying vul-
+nerability. This reduces the risk by preventing the devices from being available on the net-
+work to untrusted devices and users. He cannot patch, no insurance was purchased, and no 
+exemption was granted or registered.
+205. C. Eradication efforts focus on completely removing all artifacts of a compromise or event. 
+Wiping drives to ensure that no remnant malware or other artifacts remain, then reinstall-
+ing using known good media are examples of eradication processes. Restoring the system to 
+service after it has been remediated occurs after eradication. Containment efforts attempt to 
+limit the potential spread or ongoing impact of an incident, and root cause analysis is used 
+to determine the underlying causes of an issue, incident, or event. Root cause elimination is 
+not a commonly used term for this.308 Appendix ■ Answers to Review Questions
+206. A. Certification of destruction can include photographic evidence, logs, and other data that 
+demonstrate the disposal contract was followed. Data retention policies are applied inter -
+nally, not to third- party companies that are contracted for disposal.
+207. C. CVSS environmental scores help organizations take their own requirements and risks 
+into account. That means that Sally can use numeric scores to prioritize risk while using her 
+organization’s needs and unique threat model. Qualitative and quantitative risk assessments 
+are useful, but they are not as well suited to leveraging data from a vulnerability scanner in 
+a timely manner.
+208. A. Password expiration polices help reduce the length of time a password could be exposed 
+for. Henry knows that if his staff change their password periodically that it can help avoid 
+issues with reuse on other sites. He also knows that multifactor is a more effective solu-
+tion and that he should focus his time there as well. Password length and complexity don’t 
+matter if the password was compromised elsewhere, and minimum age policies are used to 
+prevent reuse in the organization by resetting passwords over and over again to return to 
+an original desired password. Note that policies like this don’t stop reuse outside of a user’s 
+organization on 3rd party sites!
+209. D. Fuzzing, the process of feeding unexpected and random input to programs to see how 
+they behave, is an example of dynamic analysis where the code is actually run to test it. 
+Static analysis involves reviewing the code, as does code review. Fuzzing is typically done as 
+part of software testing rather than penetration testing, but it may be used by pentesters.
+210. B. Ensuring supply chain security can be challenging, but buying directly from a vendor 
+can remove opportunities for devices to be modified. Trusted value- added resellers are the 
+second best choice. Buying from the gray market or a reseller typically adds additional 
+opportunities for device modification.
+211. B. Increasing password length makes it harder to crack. Decreasing the password length 
+would make passwords easier to crack. History and expiration do not influence brute- force 
+attacks unless the expiration happens to land during the time the password cracking was 
+attempted.
+212. C. IDS and IPS devices are the only network security device in this list. Other common logs 
+used to identify potential DDoS attacks include network logs and firewall logs. Applica-
+tion and web server logs may be useful if the DDoS is associated with an application. OS- 
+specific security logs, endpoint logs, and authentication logs are not typical places to find 
+useful information for a network- based DDoS attack.
+213. A. SAE (Simultaneous Authentication of Equals) provides a secure authentication mode 
+that replaced WPA2’s preshared key session key negotiation process. PKI is public key 
+encryption and is not the solution in use. TLS is Transport Layer Security, used to encrypt 
+data in motion, and EAP is an authentication protocol.
+214. D. Embedded systems typically have few, if any hardening options because of their 
+purpose- built functionality. Benchmarks are rarely available for them, and most are not 
+designed for central management or adding on security software.Chapter 5: Domain 5.0: Security Program Management and Oversight  309
+215. B. Identity proofing uses information about a user to prove that they are who they claim 
+to be. A state or nationally issued ID is a better proof than a Facebook or Google account 
+which can be created under any name without validation. Credit cards are not a form of 
+identity.
