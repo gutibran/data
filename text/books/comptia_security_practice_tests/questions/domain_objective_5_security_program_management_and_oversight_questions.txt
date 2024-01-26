@@ -92,9 +92,9 @@ D. Data administrator
 A. A penetration testing agreement
 B. A risk assessment agreement
 C. A vulnerability scan clause
-D. A right- to- audit clause 1 
+D. A right- to- audit clause
 
-7. Isaac has been asked to be his organization’s data owner for customer data. Which of the fol- lowing is not a typical part of that role?
+17. Isaac has been asked to be his organization’s data owner for customer data. Which of the fol- lowing is not a typical part of that role?
 A. Processing the data
 B. Classifying data
 C. Protecting data
@@ -152,9 +152,9 @@ D. Mandatory reporting
 A. Intentional
 B. Neutral
 C. Expansionary
-D. Conservative 2 
+D. Conservative
 
-7. What does a data steward do?
+27. What does a data steward do?
 A. Create data.
 B. Carry out data use and security policies.
 C. Explain compliance requirements for data.
@@ -572,9 +572,9 @@ D. Contractual impacts
 A. A MOU
 B. A SOW
 C. A punch list
-D. A BPA 9 
+D. A BPA
 
-7. Jack’s organization recently received a shipment of SSDs and has begun to deploy them.  What information would best help Jack assess the useful life of the devices?
+97. Jack’s organization recently received a shipment of SSDs and has begun to deploy them.  What information would best help Jack assess the useful life of the devices?
 A. An RTO
 B. An MTTR
 C. An RPO
@@ -632,9 +632,9 @@ D. SLAs for third- party services should specify a 12 hour MTBF.
 A. Wait to see if the recovery can be done in less than 24 hours.
 B. Immediately begin a move to the warm site.
 C. Wait to see if the recovery can be done in less than12 hours.
-D. Wait for 12 hours, then begin the move to the warm site. 10 
+D. Wait for 12 hours, then begin the move to the warm site.
 
-7. Peter’s risk assessment process includes calculations of single loss expectancy, the annualized  rate of occurrence of risks, and the annualized loss expectancy. What type of risk assessment  is Peter conducting?
+107. Peter’s risk assessment process includes calculations of single loss expectancy, the annualized  rate of occurrence of risks, and the annualized loss expectancy. What type of risk assessment  is Peter conducting?
 A. Quantitative
 B. Calculated
 C. Qualitative
@@ -693,9 +693,9 @@ D. Contractual impacts
 A. $5,000
 B. $25,000
 C. $50,000
-D. $100,000 11 
+D. $100,000
 
-7. Tim’s organization knows that a major breach occurs once every four years, resulting in  a loss of $250,000 for his organization. What is the annual rate of occurrence that Tim  should use in his risk calculations?
+117. Tim’s organization knows that a major breach occurs once every four years, resulting in  a loss of $250,000 for his organization. What is the annual rate of occurrence that Tim  should use in his risk calculations?
 A. .25
 B. $75,000
 C. .75
@@ -755,7 +755,7 @@ B. A rented facility for a corporate headquarters
 C. A cloud server provider
 D. A datacenter co- location facility in the same country but not the same state
 
-127 . Ben writes down the checklist of steps that his organization will perform in the event of a  cryptographic malware infection. What type of response document has he created?
+127. Ben writes down the checklist of steps that his organization will perform in the event of a  cryptographic malware infection. What type of response document has he created?
 A. A playbook
 B. A DR plan
 C. A BC plan
@@ -815,7 +815,7 @@ B. Business continuity
 C. Incident response
 D. Parking policy
 
-137 . Your security manager wants to decide which risks to mitigate based on cost. What is this  an example of?
+137. Your security manager wants to decide which risks to mitigate based on cost. What is this  an example of?
 A. Quantitative risk assessment
 B. Qualitative risk assessment
 C. Business impact analysis
@@ -875,7 +875,7 @@ B. Risk acceptance
 C. Risk avoidance
 D. Risk transfer
 
-147 . You are the IT manager and one of your employees asks who assigns data labels. Which of  the following assigns data labels?
+147. You are the IT manager and one of your employees asks who assigns data labels. Which of  the following assigns data labels?
 A. Owner
 B. Custodian
 C. Privacy officer
@@ -935,8 +935,8 @@ A. IP theft
 B. Reputation damage
 C. Fines
 D. Identity theft
-157 . Isaac has been asked to write his organization’s access control standards. What policy is  commonly put in place for service accounts?
 
+157. Isaac has been asked to write his organization’s access control standards. What policy is  commonly put in place for service accounts?
 A. They must be issued only to system administrators.
 B. They must use multifactor authentication.
 C. They cannot use interactive logins.
@@ -996,7 +996,7 @@ B. The depreciated cost of the item
 C. The cost to replace the item
 D. Any of the above based on organizational preference
 
-167 . What process is used to help identify critical systems?
+167. What process is used to help identify critical systems?
 A. A BIA
 B. An MTBF
 C. An RTO
@@ -1237,7 +1237,7 @@ B. Use of secure Wi- Fi networks
 C. Ensuring physical security
 D. Deploying security cameras
 
-207 . Which of the following is not a common driver of external compliance reporting?
+207. Which of the following is not a common driver of external compliance reporting?
 A. Contracts
 B. Regulation
 C. Reputation

@@ -1,4 +1,3 @@
-
 1. John wants to harden his organization’s routers. If there are no currently known vulnerabil- ities or issues with the device, which of the following hardening options will provide the big- gest benefit?
 A. Moving their administrative interfaces to a protected VLAN
 B. Disabling unnecessary services
@@ -757,7 +756,7 @@ B. Identify data covered by the hold and preserve it, regardless of normal data 
 C. Engage a law firm to preserve the data required by the legal hold.
 D. Contact law enforcement to allow them to gather the data required by the legal hold.
 
-127 . Paul wants to integrate his organization’s web application with common cloud identity  providers like Google and Microsoft. What authentication standard should he select if he  wants to maximize interoperability?
+127. Paul wants to integrate his organization’s web application with common cloud identity  providers like Google and Microsoft. What authentication standard should he select if he  wants to maximize interoperability?
 A. OAuth
 B. Kerberos
 C. LDAP
@@ -816,8 +815,8 @@ A. The dark web
 B. An information- sharing organization
 C. Proprietary information
 D. A threat feed
-137 . Alaina has completed the eradication and recovery steps of the incident response process.  What step commonly comes after these two phases?
 
+137. Alaina has completed the eradication and recovery steps of the incident response process.  What step commonly comes after these two phases?
 A. A lessons learned session
 B. Detection
 C. Training
@@ -876,8 +875,8 @@ A. Noting false positives
 B. Rebooting the system
 C. Rescanning the system
 D. Performing an audit
-147 . Joan’s organization has recently remediated issues in their credit card processing environ- ment. If Joan wants to be able to attest to the security of the environment, what action  might she need to take to prove the security of the environment to customers?
 
+147. Joan’s organization has recently remediated issues in their credit card processing environ- ment. If Joan wants to be able to attest to the security of the environment, what action  might she need to take to prove the security of the environment to customers?
 A. Have third- party auditors validate the remediation.
 B. Rescan the systems and document the differences between the scans.
 C. Rescan the systems and provide updated reports to customers.
@@ -937,7 +936,7 @@ B. Analysis
 C. Containment
 D. Eradication
 
-157 . Rick is reviewing Linux system permissions and finds a directory that is set to: -rwxr--r--   Who will have access to the directory to read the file?
+157. Rick is reviewing Linux system permissions and finds a directory that is set to: -rwxr--r--   Who will have access to the directory to read the file?
 A. The user
 B. The user and their group
 C. All users
@@ -997,7 +996,7 @@ B. A dark web source
 C. An information- sharing organization
 D. A proprietary threat data source
 
-167 . Mark presents his driver’s license as part of the creation of his user account for a secure  online service. What process requires this type of information to validate ownership of an  identity?
+167. Mark presents his driver’s license as part of the creation of his user account for a secure  online service. What process requires this type of information to validate ownership of an  identity?
 A. Attestation
 B. Provisioning
 C. SSO
@@ -1057,7 +1056,7 @@ B. Destruction
 C. Sanitation
 D. Reformatting
 
-117. What challenge is commonly encountered when organizations want to harden IoT devices?
+177. What challenge is commonly encountered when organizations want to harden IoT devices?
 A. The devices have limited security options.
 B. The devices cannot run current operating systems.
 C. Industry benchmarks for security are not up- to- date.
@@ -1237,8 +1236,8 @@ A. Certification.
 B. Follow a data retention policy.
 C. Provide photographic evidence.
 D. Keep a log of devices.
-207 . Sally wants to identify a way to prioritize vulnerabilities discovered by her vulnerability  scanner. Which of the following options will allow her to prioritize vulnerabilities effec- tively while taking her own organization’s needs into account?
 
+207. Sally wants to identify a way to prioritize vulnerabilities discovered by her vulnerability  scanner. Which of the following options will allow her to prioritize vulnerabilities effec- tively while taking her own organization’s needs into account?
 A. Use CVSS base and temporal metrics.
 B. Use a qualitative risk assessment process.
 C. Use CVSS scores that include environmental metrics.

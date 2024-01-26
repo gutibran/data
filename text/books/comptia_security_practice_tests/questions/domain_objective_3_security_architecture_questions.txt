@@ -92,9 +92,9 @@ D. A differential
 A. Vertical scalability
 B. Elasticity
 C. Horizontal scalability
-D. Normalization 1 
+D. Normalization
 
-7. Nathaniel wants to improve the fault tolerance of a server in his datacenter. If he wants to  ensure that a power outage does not cause the server to lose power, what is the first control  he should deploy from the following list?
+17. Nathaniel wants to improve the fault tolerance of a server in his datacenter. If he wants to  ensure that a power outage does not cause the server to lose power, what is the first control  he should deploy from the following list?
 A. A UPS
 B. A generator
 C. Dual power supplies
@@ -152,9 +152,9 @@ D. A hot aisle
 A. EAP- MD5
 B. PEAP
 C. LEAP
-D. EAP- TLS 2 
+D. EAP- TLS 
 
-7. Olivia is implementing a load- balanced web application cluster. Her organization already  has a redundant pair of load balancers, but each unit is not rated to handle the maximum  designed throughput of the cluster by itself. Olivia has recommended that the load balancers  be implemented in an active/active design. What concern should she raise as part of this  recommendation?
+27. Olivia is implementing a load- balanced web application cluster. Her organization already  has a redundant pair of load balancers, but each unit is not rated to handle the maximum  designed throughput of the cluster by itself. Olivia has recommended that the load balancers  be implemented in an active/active design. What concern should she raise as part of this  recommendation?
 A. The load balancer cluster cannot be patched without a service outage.
 B. The load balancer cluster is vulnerable to a denial- of- service attack.
 C. If one of the load balancers fails, it could lead to service degradation.
@@ -216,9 +216,9 @@ D. A virtual IP address
 A. Filters by MAC address
 B. Prevents routing protocol updates from being sent from protected ports
 C. Establishes private VLANs
-D. Prevents duplicate MAC addresses from connecting to the network 3 
+D. Prevents duplicate MAC addresses from connecting to the network
 
-7. Tom is responsible for VPN connections in his company. His company uses IPSec for VPNs.  What is the primary purpose of AH in IPSec?
+37. Tom is responsible for VPN connections in his company. His company uses IPSec for VPNs.  What is the primary purpose of AH in IPSec?
 A. Encrypt the entire packet.
 B. Encrypt just the header.
 C. Authenticate the entire packet.
@@ -276,9 +276,9 @@ D. SQL injection
 A. IDS and or IPS
 B. Antivirus/antimalware
 C. MDM
-D. DLP 4 
+D. DLP
 
-7. Theresa implements a network- based IDS. What can she do to traffic that passes through  the IDS?
+47. Theresa implements a network- based IDS. What can she do to traffic that passes through  the IDS?
 A. Review the traffic based on rules and detect and alert about unwanted or undesirable  traffic.
 B. Review the traffic based on rules and detect and stop traffic based on those rules.
 C. Detect sensitive data being sent to the outside world and encrypt it as it passes through  the IDS.
@@ -338,12 +338,13 @@ B. Tokenization
 C. Steganography
 D. Hashing 5 
 
-7. Mateo wants to conduct a fail over test for his datacenter. What will he need to do to accom- plish this?
+57. Mateo wants to conduct a fail over test for his datacenter. What will he need to do to accom- plish this?
 A. Turn off all systems in his datacenter.
 B. Simulate what would occur during a datacenter outage.
 C. Force a fail over using his network or other systems.
-D. Cause an outage of a critical system. 58 Casey’s organization has proprietary information models that they use to analyze the market  that they operate in. What data type best describes this information?
+D. Cause an outage of a critical system. 
 
+58. Casey’s organization has proprietary information models that they use to analyze the market  that they operate in. What data type best describes this information?
 A. Trade secret
 B. Regulated
 C. Financial information
@@ -377,8 +378,9 @@ D. Classified data
 A. A UTM
 B. An FWSM
 C. A WAF
-D. An ELB 64 Ramon wants to conduct an exercise for his organization with the least potential to cause  disruption. Which of the following testing methodologies is least likely to cause potential  issues with service delivery?
+D. An ELB 
 
+64. Ramon wants to conduct an exercise for his organization with the least potential to cause  disruption. Which of the following testing methodologies is least likely to cause potential  issues with service delivery?
 A. Tabletop exercises
 B. Fail over exercises
 C. Simulation exercises
@@ -394,9 +396,9 @@ D. Power resilience
 A. TLS
 B. VPN
 C. File encryption
-D. Disk encryption 6 
+D. Disk encryption
 
-7. Dani wants to protect HTTP traffic that is sent from SCADA devices on her network to a  cloud- hosted controller. The devices don’t natively support an HTTPS connection. What  could she do to transparently protect the data?
+67. Dani wants to protect HTTP traffic that is sent from SCADA devices on her network to a  cloud- hosted controller. The devices don’t natively support an HTTPS connection. What  could she do to transparently protect the data?
 A. Set up a VPN connection from each SCADA device to the remote server.
 B. Set up a TLS- enabled proxy between the devices and the server.
 C. Set up SD- WAN.
@@ -454,9 +456,9 @@ D. Artifact signing
 A. Network security
 B. Endpoint security
 C. User account security
-D. Application security 7 
+D. Application security
 
-7. Nick’s organization houses tape- based backups for their critical data in their primary data- center. What resilience issue could result in the event of a major disaster?
+77. Nick’s organization houses tape- based backups for their critical data in their primary data- center. What resilience issue could result in the event of a major disaster?
 A. The tapes may not have been validated and might not be able to be restored.
 B. A single disaster could destroy both the facility and the tapes.
 C. The tapes may not last for the expected lifetime of the backups.
@@ -514,9 +516,9 @@ D. Unplug the device from power and the network.
 A. Service provider path diversity
 B. Ensuring both fiber and copper connectivity are used
 C. Implementing SD- WAN
-D. Geographic dispersion 8 
+D. Geographic dispersion
 
-7. Carlos uses a remote desktop tool to connect to a server through a firewall that protects his  organization’s database servers. He then uses software on the server to manage the database  servers. What type of solution is Carlos using?
+87. Carlos uses a remote desktop tool to connect to a server through a firewall that protects his  organization’s database servers. He then uses software on the server to manage the database  servers. What type of solution is Carlos using?
 A. A network tap
 B. SASE
 C. SD- WAN
@@ -574,9 +576,9 @@ D. Using a warm site on a separate power grid
 A. Masking
 B. Tokenization
 C. Encryption
-D. Hashing 9 
+D. Hashing
 
-7. Which of the following is not a commonly used business data classification?
+97. Which of the following is not a commonly used business data classification?
 A. Sensitive
 B. Confidential
 C. Top Secret
@@ -634,9 +636,9 @@ D. SDN
 A. Their IP address
 B. The network card’s manufacturer
 C. The user’s password
-D. Their MAC address 10 
+D. Their MAC address
 
-7. Which of the following is not a common concern for extended power outages where gener - ators are providing power to a datacenter they were designed to support during outages?
+107. Which of the following is not a common concern for extended power outages where gener - ators are providing power to a datacenter they were designed to support during outages?
 A. Fuel availability
 B. Generator maintenance
 C. Generator capacity
@@ -694,9 +696,9 @@ D. High throughput
 A. Confidentiality
 B. Authentication
 C. Availability
-D. Integrity 11 
+D. Integrity
 
-7. What technologies are most frequently used to help enforce geographic restrictions?
+117. What technologies are most frequently used to help enforce geographic restrictions?
 A. Wi- Fi and Bluetooth
 B. GPS and Wi- Fi
 C. GPS and encryption
@@ -755,8 +757,8 @@ A. Loss of personnel, loss of systems, loss of availability
 B. Natural disasters, human- made disasters, mistakes or errors
 C. Loss of access to a facility, damage to a facility, natural disasters
 D. Loss of access to a facility, loss of personnel, and loss of services
-127 . Which of the following properly describes a SPAN port configured on a switch or router  for monitoring?
 
+127. Which of the following properly describes a SPAN port configured on a switch or router  for monitoring?
 A. Active and inline
 B. Passive and inline
 C. Active and a monitor
@@ -780,6 +782,7 @@ A. Fail- closed networks
 B. Security zones
 C. Data classification
 D. Fail- open networks
+
 131. Kendra is designing a web application infrastructure and wants to use a load balanced  cluster. Which of the following considerations is not directly addressed by using a load  balancer?
 A. Availability
 B. Responsiveness
@@ -815,8 +818,8 @@ A. Manually patch each web server.
 B. Update the underlying base image for the servers and redeploy the web servers.
 C. Add the patch to the code repository for the servers, transfer the load to other servers,  and replace unpatched servers with patched versions by reinstantiating them.
 D. Update the underlying base image, drain the load from working servers, and replace  with new instances.
-137 . Jason’s organization wants to classify data that the organization regularly uses. The data is  customer data, and could cause harm to the company if it was released. Which of the fol- lowing data classifications best fits this type of data?
 
+137. Jason’s organization wants to classify data that the organization regularly uses. The data is  customer data, and could cause harm to the company if it was released. Which of the fol- lowing data classifications best fits this type of data?
 A. Confidential
 B. Restricted
 C. Critical
@@ -875,8 +878,8 @@ A. Platform agnostic
 B. Platform diversity
 C. Multi-cloud
 D. Parallel processing
-147 . Kaito has deployed a system that accepts traffic from web browsers and distributes it to  systems based on the number of connections that each server has. He has assigned each  server a rating based on how powerful it is. Each time a new request comes in, requests are sent to the system with the lowest number of connections after taking into account the  relative rating of each server. What type of load balancing is Kaito using?
 
+147. Kaito has deployed a system that accepts traffic from web browsers and distributes it to  systems based on the number of connections that each server has. He has assigned each  server a rating based on how powerful it is. Each time a new request comes in, requests are sent to the system with the lowest number of connections after taking into account the  relative rating of each server. What type of load balancing is Kaito using?
 A. Source IP hashing
 B. Resource-based
 C. Weighted least connection
@@ -935,8 +938,8 @@ A. Jurisdictional challenges
 B. Increased complexity
 C. Increased cost
 D. Regulatory challenges
-157 . Julia is designing her organization’s external connectivity as part of infrastructure capacity  planning. She knows that the organization typically uses approximately 7 gigabits per sec- ond of connectivity from their primary site. Julia has the following connectivity options,  what should she select?
 
+157. Julia is designing her organization’s external connectivity as part of infrastructure capacity  planning. She knows that the organization typically uses approximately 7 gigabits per sec- ond of connectivity from their primary site. Julia has the following connectivity options,  what should she select?
 A. A 10 Gbps primary and a 5 Gbps secondary connection
 B. A 5 Gbps primary and a 5 Gbps secondary connection
 C. A 100 Gbps primary and a 10 Gbps secondary connection
@@ -995,8 +998,8 @@ A. Cost
 B. Scalability
 C. Inability to patch
 D. Availability
-167 . Susan has deployed a network using software- defined networking. What part of her net- work is most critical to secure as part of this architecture?
 
+167. Susan has deployed a network using software- defined networking. What part of her net- work is most critical to secure as part of this architecture?
 A. The routers
 B. The switches
 C. The SDN controller
@@ -1054,9 +1057,9 @@ D. Little or no data
 A. SDN
 B. SCADA
 C. Active Directory
-D. SD- WAN 1 7 
+D. SD- WAN
 
-7. Maria’s organization uses a cloud backup provider and performs encrypted backups  for their IaaS infrastructure and data. If the data needs to be restored, what will Maria  need to do?
+177. Maria’s organization uses a cloud backup provider and performs encrypted backups  for their IaaS infrastructure and data. If the data needs to be restored, what will Maria  need to do?
 A. Ask the vendor for the recovery key.
 B. Provide the recovery key.
 C. Restore the recovery key from backup and use it.
@@ -1174,9 +1177,9 @@ D. It determines the data’s criticality.
 A. RTOS
 B. Embedded systems
 C. IoT
-D. SCADA 1 9 
+D. SCADA
 
-7. Jorge wants to assess his organization’s Internet- accessible attack surface. Which of the fol- lowing methods is most likely to provide a complete understanding?
+197. Jorge wants to assess his organization’s Internet- accessible attack surface. Which of the fol- lowing methods is most likely to provide a complete understanding?
 A. Open source intelligence (OSINT) review
 B. Threat feeds
 C. Vulnerability scanning

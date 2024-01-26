@@ -212,9 +212,9 @@ D. Bollards
 A. A tarpit
 B. A honeypot
 C. A beehive
-D. An intrusion detection system 3 
+D. An intrusion detection system
 
-7. Renee wants to ensure that her logs support nonrepudiation. What should she do to  ensure this?
+37. Renee wants to ensure that her logs support nonrepudiation. What should she do to  ensure this?
 A. Encrypt, then hash the logs.
 B. Hash the logs and then digitally sign them.
 C. Digitally sign the log file, then encrypt it.
@@ -272,9 +272,9 @@ D. Updated the OCSP record for a certificate
 A. Allocated downtime
 B. A maintenance window
 C. An unscheduled outage
-D. An allowed outage 4 
+D. An allowed outage
 
-7. Megan wants to assess the impact of a change as part of her change management process.  Which of the following is most likely to help her assess impact?
+47. Megan wants to assess the impact of a change as part of her change management process.  Which of the following is most likely to help her assess impact?
 A. A backout plan
 B. An estimate of the downtime expected
 C. A list of stakeholders
@@ -754,7 +754,7 @@ B. Steganography
 C. Salting
 D. Key stretching
 
-127 . Which of the following is not a step taken when a transaction is entered in a blockchain?
+127. Which of the following is not a step taken when a transaction is entered in a blockchain?
 A. The value of the block is determined.
 B. The transaction is sent to a peer- to- peer network of computers.
 C. The transaction is validated using equations.
@@ -814,7 +814,7 @@ B. Immediately add his key to a CRL and reissue the key.
 C. Create a new keypair and notify others that he has replaced his keypair.
 D. Continue to operate as normal as long as the private key was not used maliciously.
 
-137 . What happens if a mistake is made and an incorrect transaction is entered into the open  public ledger in a blockchain?
+137. What happens if a mistake is made and an incorrect transaction is entered into the open  public ledger in a blockchain?
 A. The transaction is reversed once it is discovered, and the original transaction is  removed from the record.
 B. A new transaction must be processed, and both transactions remain in the record.
 C. The original transaction is updated and becomes the new record.
