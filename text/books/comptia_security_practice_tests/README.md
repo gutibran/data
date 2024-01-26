@@ -116,6 +116,22 @@ with open(json_output_file, "w") as json_file:
     json.dump(result, json_file)
 ```
 
+Used this to set each question_id to a uuid. Had to do this because each question within their respective objective domain started its question id naming from 1 to N. I am keeping track of which questions were tweeted by their original id. I noticed that this would not work because it overwrite questions and the it would be all fucked up.
+```python
+import uuid
+import json
+
+# rename all questions to have uuid;s
+questions = download_data()
+domain_objectives = questions.keys()
+for domain_objective in questions:
+    for question in questions[domain_objective]:
+        question["question_id"] = str(uuid.uuid4())
+
+with open("./data.json", "w") as json_file:
+    json.dump(questions, json_file)
+```
+
 After getting all the questions and answers into single JSON file I merged them together under one object and under one file. The final result is in data.json Everything is organized properly, just need to get rid of hypens within the question and answer test and add base64 encoded binary strings of the images. After that the data is ready to be used in the Twitter bot.
 
 
